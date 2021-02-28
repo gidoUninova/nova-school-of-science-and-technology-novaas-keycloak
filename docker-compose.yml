@@ -1,5 +1,15 @@
 version: '2.4'
 services:
+    keycloak:
+        image: "jboss/keycloak:latest"
+        environment:
+            - "KEYCLOAK_USER=${KEYCLOAK_USER}"
+            - "KEYCLOAK_PASSWORD=${KEYCLOAK_PASSWORD}"
+            - "KEYCLOAK_IMPORT=${KEYCLOAK_IMPORT}"
+        ports:
+            - "8080:8080"
+        volumes:
+            - "/Users/admin/keycloak/realm.json:/tmp/realm.json"
     novaas:
         build: .
         image: "novaas_festo_dpdm/dockerbase:1.0.0"
