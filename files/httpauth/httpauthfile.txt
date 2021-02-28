@@ -1,2 +1,0 @@
-gido:myRealm:admin
-dev:myRealm:dev
