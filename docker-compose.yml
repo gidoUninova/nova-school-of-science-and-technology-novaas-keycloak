@@ -1,5 +1,10 @@
 version: '2.4'
 services:
+    start_dependencies:
+        image: "dadarek/wait-for-dependencies"
+        depends_on:
+            - "keycloak"
+        command: keycloak:8080
     keycloak:
         image: "jboss/keycloak:latest"
         environment:
@@ -12,9 +17,15 @@ services:
             - "/Users/admin/keycloak/realm.json:/tmp/realm.json"
     novaas:
         build: .
-        image: "novaas_festo_dpdm/dockerbase:1.0.0"
+        image: "novaas_festo_dpdm/keycloak/dockerbase:1.0.0"
         environment:
             - "PORT_FORWARDING=${PORT_FORWARDING}" 
             - "HOST=${HOST}"
+            - "KEYCLOAK_REALM=${KEYCLOAK_REALM}"
+            - "KEYCLOAK_URL=${KEYCLOAK_URL}"
+            - "KEYCLOAK_CLIENT_ID=${KEYCLOAK_CLIENT_ID}"
+            - "KEYCLOAK_CLIENT_ID_UI=${KEYCLOAK_CLIENT_ID_UI}"
+            - "KEYCLOAK_CLIENT_SECRET=${KEYCLOAK_CLIENT_SECRET}"
+            - "KEYCLOAK_CLIENT_SECRET_UI=${KEYCLOAK_CLIENT_SECRET_UI}"
         ports:
             - "${PORT_FORWARDING}:1880"

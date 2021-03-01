@@ -7,6 +7,13 @@
         "info": ""
     },
     {
+        "id": "ccaa25a0.ca2c08",
+        "type": "tab",
+        "label": "AAS - Auth/Auth",
+        "disabled": false,
+        "info": ""
+    },
+    {
         "id": "fd31082e.5487d8",
         "type": "tab",
         "label": "AAS - Component Manager",
@@ -260,22 +267,23 @@
             "95f03815.65dc6",
             "13d4d469.7c5ce4",
             "ea8c3f55.76edc",
-            "21d37d43.e015d2",
             "5c1e943b.b9583c",
             "cfca74c7.b132b",
             "f11d55de.e58868",
             "ffb2df3a.e5c088",
             "7491ffc6.6eaab",
             "162cffd2.97aa9",
-            "1fb31ae6.7f5b2d",
             "8a618a8d.e62888",
             "6365223b.355cac",
-            "b0031a23.c559e8",
             "8dcac56f.b39e18",
             "317b8add.0a862e",
             "54769c52.3de82c",
             "7126ac75.9556b4",
-            "2dba3d5f.852e62"
+            "2dba3d5f.852e62",
+            "6d6f774e.1d1068",
+            "cda0a2cf.2c6db8",
+            "2c9561dd.a90ef6",
+            "b183872d.207a68"
         ],
         "x": 94,
         "y": 3239,
@@ -299,12 +307,12 @@
             "ed77ca84.755278",
             "b4eb437c.b5efd",
             "96152098.0138c8",
-            "e375ae46.b98b1",
             "6ffc0833.6e4048",
             "b9979eb0.b0cfc8",
             "82276397.01c0e",
             "b0571cbd.67c6a",
-            "44085d86.310a54"
+            "44085d86.310a54",
+            "cb6903b4.dfcfb"
         ],
         "x": 94,
         "y": 3879,
@@ -356,9 +364,7 @@
             "1f1ce2c5.9cb5cd"
         ],
         "x": 194,
-        "y": 4242,
-        "w": 2272,
-        "h": 322
+        "y": 4242
     },
     {
         "id": "d366c10f.cbf158",
@@ -409,9 +415,7 @@
             "b88a92c6.fb547"
         ],
         "x": 194,
-        "y": 3374.22216796875,
-        "w": 2962,
-        "h": 686.77783203125
+        "y": 3374.22216796875
     },
     {
         "id": "8ba0dee2.7f7be8",
@@ -710,16 +714,16 @@
             "28ed3c82.06228c",
             "2daca573.fd2b62",
             "48dea209.875afc",
-            "6c92f3bb.4dd584",
             "221315aa.55d912",
             "becf9f3.769e4e",
             "e56e4e4f.0073d",
             "d34576d7.3935d8",
             "27f219a6.f4617e",
             "f1f808f7.b92858",
-            "70ee2f95.a0b538"
+            "70ee2f95.a0b538",
+            "c20f65ad.c98de8"
         ],
-        "x": 74,
+        "x": 94,
         "y": 2956,
         "w": 2092,
         "h": 431.00001335144043
@@ -1028,7 +1032,6 @@
             "1a319556.d2c653",
             "81ab9e51.5c03b",
             "bbb6509c.913df8",
-            "650a471f.71d9a",
             "a0836dff.f2858",
             "4dc39fd1.c8f7c8",
             "4bdb43ab.883d8c",
@@ -1047,7 +1050,6 @@
             "a1236aec.ff3a7",
             "636cba04.314864",
             "ac0847a4.fe5c1",
-            "60e26ed3.ad176",
             "f841ff35.b800c",
             "39e95fc6.a1f0d",
             "92fbb9d5.ce7ce",
@@ -1056,7 +1058,9 @@
             "b6b487a5.93e0b",
             "ede7821.687b6",
             "25b28035.68b498",
-            "bb1e7103.624268"
+            "bb1e7103.624268",
+            "77ceb383.fcdfec",
+            "b7694ef4.60df38"
         ],
         "x": 74,
         "y": 99,
@@ -1090,7 +1094,6 @@
             "59776b4d.36b314",
             "437c7c89.d0b51c",
             "6e1fa46d.2719e4",
-            "3979965f.f66b72",
             "d5aae024.460208",
             "b5e0617c.dae08",
             "366f54c4.ff9614",
@@ -1103,21 +1106,18 @@
             "1ba0d77.6417ba9",
             "2dbf8ad0.726e5e",
             "f2d59542.56fda",
-            "9110fef5.2823d",
             "52d7e674.d4fa4",
             "a459271f.f3979",
             "dfbb29ed.486b38",
             "28a0f7b.c53a608",
             "bc91a45b.ea963",
             "f9901c42.d0c808",
-            "eccb2a06.eff56",
             "9b78a20.335f76",
             "fa65e66f.b92a",
             "12a7495a.d95eef",
             "c556d067.6fa62",
             "a3911acd.fe266",
             "58da8c41.b4c39c",
-            "dfe51939.147f2",
             "dae739c1.4c586",
             "9b1e551e.874b58",
             "a750bb3b.e7537",
@@ -1125,7 +1125,6 @@
             "f7ea5270.5b57e",
             "4f7412ad.7e1b64",
             "24535731.1df27",
-            "4791c0b.be5fc4",
             "f7b3bd79.a6fae8",
             "12fd9b54.b8130d",
             "37f2cb34.bbc564",
@@ -1137,7 +1136,12 @@
             "231ffe47.64b5b2",
             "70d642f8.93d024",
             "5357901a.ebafe8",
-            "a94a1e3a.e04fc8"
+            "a94a1e3a.e04fc8",
+            "93b5b954.163d38",
+            "553961f1.b10cc",
+            "68cf4b62.9e1104",
+            "724b85f1.002e1c",
+            "7baeaa90.e6439c"
         ],
         "x": 121,
         "y": 1079,
@@ -1174,7 +1178,6 @@
             "228c3050.5c01b8",
             "4599d634.2aa528",
             "143b6801.91912",
-            "f1c1c49d.c188e8",
             "360b9a7b.0d5576",
             "df45ad83.beb45",
             "dfab21d7.5cff3",
@@ -1183,13 +1186,11 @@
             "700a3d1b.785ba4",
             "8b0ca178.67fdf8",
             "47978f85.8891b",
-            "1a291e5.27d66e2",
             "8c710513.6043a8",
             "fe5f7f4c.e7e97",
             "6505fba.c56cd84",
             "fa4974dc.1fa648",
             "382b8aa3.3d21ce",
-            "bc84f8fb.3e2948",
             "2cfbd2d.53f5fae",
             "3de094e.8246d6c",
             "a17709b9.3e472",
@@ -1201,20 +1202,23 @@
             "99e58f39.e920b8",
             "2205d4d4.72806c",
             "7634d591.ced0a4",
-            "9057f27f.533fd8",
             "80ddd535.92f168",
             "712f2a7f.2f2cc4",
             "1fc37ddb.fa796a",
             "2ba34b7e.d39f0c",
             "2c47d82f.55029",
             "a165d74f.1c5bb",
-            "19235791.135188",
             "4d1c9a11.497c04",
             "f2597aa.1d7ae88",
             "467e3fbc.8a937",
             "de785470.82c5b",
             "2609bf7f.762e48",
-            "3fe41c39.bcab0c"
+            "3fe41c39.bcab0c",
+            "be1ec9f4.95fec",
+            "55a44386.79e72c",
+            "79a43607.7856b",
+            "b3642b03.fadc6",
+            "f6975c46.312d5"
         ],
         "x": 147,
         "y": 1996,
@@ -1251,18 +1255,19 @@
             "b3ea9713.385ab8",
             "bed21072.cb9528",
             "d0dcfd84.fa36a",
-            "191dd7c8.5a011",
             "73b0d61c.3c5ca8",
             "539e5110.1ef598",
             "4f9fa0b6.c5837",
             "876d418.03db2c",
-            "eac00ddc.c49c",
             "98bc07c7.2b47c",
             "e1532702.4731d",
             "50d0172.06bf0e8",
             "cd71006d.5e021",
             "543a453b.5bc774",
-            "9cbf611c.48b76"
+            "9cbf611c.48b76",
+            "7ccf0bd2.29ca94",
+            "2f6cde5f.290bea",
+            "4286da1.088b724"
         ],
         "x": 154,
         "y": 2719,
@@ -12467,7 +12472,7 @@
         "y": 800,
         "wires": [
             [
-                "60e26ed3.ad176"
+                "b7694ef4.60df38"
             ]
         ]
     },
@@ -13944,7 +13949,7 @@
         "submit": "submit",
         "cancel": "cancel",
         "topic": "",
-        "x": 200,
+        "x": 220,
         "y": 3060,
         "wires": [
             [
@@ -13964,7 +13969,7 @@
         "console": false,
         "tostatus": false,
         "complete": "payload",
-        "x": 580,
+        "x": 600,
         "y": 3020,
         "wires": []
     },
@@ -13975,7 +13980,7 @@
         "g": "d7076418.bb51d8",
         "name": "Sign-In Section",
         "info": "",
-        "x": 192,
+        "x": 212,
         "y": 2997,
         "wires": []
     },
@@ -13990,7 +13995,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 390,
+        "x": 410,
         "y": 3020,
         "wires": [
             [
@@ -14004,12 +14009,12 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Prepare Login",
-        "func": "var accounts =  flow.get(\"accounts\") || [ { username : \"admin\", password : \"admin\"},{ username : \"guest\", password : \"guest\"}] ; \n\nvar username = msg.payload.username ;\nvar password = msg.payload.password ; \n\nvar newMsg = {}; newMsg.payload = 1;\n\n/*accounts.forEach(function ( account ){\n    \n    var accountArray = account.split(\":\");\n    if ( accountArray[0] == username ) {\n       newMsg.payload = 2;\n       if ( accountArray[2] == password ) {\n           newMsg.payload = 0;\n       } \n    }\n});*/\n\nvar outMsg = {};\noutMsg.url = context.global.get(\"namespace\") + \"/aasServer/auth/login\";\noutMsg.headers = {};\noutMsg.headers[\"content-type\"] = \"application/x-www-form-urlencoded\";\noutMsg.payload = {};\noutMsg.payload.grant_type = \"password\";\noutMsg.payload.username = username;\noutMsg.payload.password = password;\noutMsg.payload.client_id = \"authServer\";\noutMsg.payload.client_secret = \"aafeedcf-fdc5-4f14-91fc-c70f916f1a3c\";\noutMsg.payload.scope = \"openid\";\n\nreturn outMsg;",
+        "func": "var accounts =  flow.get(\"accounts\") || [ { username : \"admin\", password : \"admin\"},{ username : \"guest\", password : \"guest\"}] ; \n\nvar username = msg.payload.username ;\nvar password = msg.payload.password ; \n\nvar newMsg = {}; newMsg.payload = 1;\n\n/*accounts.forEach(function ( account ){\n    \n    var accountArray = account.split(\":\");\n    if ( accountArray[0] == username ) {\n       newMsg.payload = 2;\n       if ( accountArray[2] == password ) {\n           newMsg.payload = 0;\n       } \n    }\n});*/\n\nvar outMsg = {};\noutMsg.url = context.global.get(\"namespace\") + \"/aasServer/auth/login\";\noutMsg.headers = {};\noutMsg.headers[\"content-type\"] = \"application/x-www-form-urlencoded\";\noutMsg.payload = {};\noutMsg.payload.grant_type = \"password\";\noutMsg.payload.username = username;\noutMsg.payload.password = password;\noutMsg.payload.client_id = context.global.get(\"client_id\");\noutMsg.payload.client_secret = context.global.get(\"client_secret_id\");\noutMsg.payload.scope = \"openid\";\n\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 400,
+        "x": 420,
         "y": 3080,
         "wires": [
             [
@@ -14050,7 +14055,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 4,
-        "x": 1530,
+        "x": 1550,
         "y": 3080,
         "wires": [
             [
@@ -14078,7 +14083,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1720,
+        "x": 1740,
         "y": 3020,
         "wires": [
             [
@@ -14097,7 +14102,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1740,
+        "x": 1760,
         "y": 3060,
         "wires": [
             [
@@ -14116,7 +14121,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1740,
+        "x": 1760,
         "y": 3100,
         "wires": [
             [
@@ -14130,7 +14135,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Go to Manifest Group",
-        "x": 2000,
+        "x": 2020,
         "y": 3020,
         "wires": [
             []
@@ -14149,7 +14154,7 @@
         "cancel": "",
         "topic": "Authentication Failed",
         "name": "Authentication Failure Dialog",
-        "x": 2020,
+        "x": 2040,
         "y": 3120,
         "wires": [
             []
@@ -14162,7 +14167,7 @@
         "g": "d7076418.bb51d8",
         "name": "Session Management - 15 secs for this demo",
         "info": "",
-        "x": 281.5,
+        "x": 301.5,
         "y": 3180.00000667572,
         "wires": []
     },
@@ -14188,7 +14193,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 181.99999618530273,
+        "x": 201.99999618530273,
         "y": 3283.000005722046,
         "wires": [
             [
@@ -14208,7 +14213,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 366,
+        "x": 386,
         "y": 3244.9999980926514,
         "wires": [
             [
@@ -14244,7 +14249,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1421.5471839904785,
+        "x": 1441.5471839904785,
         "y": 3241.0949382781982,
         "wires": [
             [
@@ -14269,7 +14274,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1561.5471801757812,
+        "x": 1581.5471801757812,
         "y": 3201.094940185547,
         "wires": [
             [
@@ -14293,7 +14298,7 @@
         "raw": false,
         "topic": "Session Timeout",
         "name": "Time-Out Dialog",
-        "x": 1751.0472259521484,
+        "x": 1771.0472259521484,
         "y": 3178.09494972229,
         "wires": [
             []
@@ -14305,7 +14310,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Switch Groups",
-        "x": 2010,
+        "x": 2030,
         "y": 3220,
         "wires": [
             []
@@ -14322,7 +14327,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1761.5472259521484,
+        "x": 1781.5472259521484,
         "y": 3219.09494304657,
         "wires": [
             [
@@ -14346,7 +14351,7 @@
         "cancel": "",
         "topic": "Timer",
         "name": "Display Remaining Time",
-        "x": 1578.0471725463867,
+        "x": 1598.0471725463867,
         "y": 3343.0949382781982,
         "wires": []
     },
@@ -14361,7 +14366,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 414,
+        "x": 434,
         "y": 3346.0000133514404,
         "wires": [
             [
@@ -14375,7 +14380,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Stay in Sensor Group",
-        "x": 1948.0471496582031,
+        "x": 1968.0471496582031,
         "y": 3257.0949325561523,
         "wires": [
             []
@@ -14392,7 +14397,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1636.0471801757812,
+        "x": 1656.0471801757812,
         "y": 3262.094934463501,
         "wires": [
             [
@@ -14411,7 +14416,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1613.0472030639648,
+        "x": 1633.0472030639648,
         "y": 3302.094962120056,
         "wires": [
             [
@@ -14425,7 +14430,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Go to Signin Group",
-        "x": 1953.0472564697266,
+        "x": 1973.0472564697266,
         "y": 3298.0949745178223,
         "wires": [
             []
@@ -16423,7 +16428,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Go to Signin Tab",
-        "x": 2010,
+        "x": 2030,
         "y": 3180,
         "wires": [
             []
@@ -17424,22 +17429,6 @@
         "wires": []
     },
     {
-        "id": "650a471f.71d9a",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "6c18a80c.ec30a",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 730,
-        "y": 580,
-        "wires": [
-            [
-                "4dc39fd1.c8f7c8",
-                "25b28035.68b498"
-            ]
-        ]
-    },
-    {
         "id": "a0836dff.f2858",
         "type": "http response",
         "z": "c7caf96e.a31f98",
@@ -17740,7 +17729,7 @@
         "y": 580,
         "wires": [
             [
-                "650a471f.71d9a"
+                "77ceb383.fcdfec"
             ]
         ]
     },
@@ -17774,22 +17763,6 @@
         "x": 1555,
         "y": 640,
         "wires": []
-    },
-    {
-        "id": "60e26ed3.ad176",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "6c18a80c.ec30a",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 730,
-        "y": 800,
-        "wires": [
-            [
-                "39e95fc6.a1f0d",
-                "ede7821.687b6"
-            ]
-        ]
     },
     {
         "id": "f841ff35.b800c",
@@ -18173,22 +18146,7 @@
         "y": 1160,
         "wires": [
             [
-                "3979965f.f66b72"
-            ]
-        ]
-    },
-    {
-        "id": "3979965f.f66b72",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "daa90db5.798ca",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 730,
-        "y": 1160,
-        "wires": [
-            [
-                "b0306546.0474c"
+                "93b5b954.163d38"
             ]
         ]
     },
@@ -18400,22 +18358,6 @@
         ]
     },
     {
-        "id": "9110fef5.2823d",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "daa90db5.798ca",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 730,
-        "y": 1320,
-        "wires": [
-            [
-                "f2d59542.56fda",
-                "fdba694e.cf01d"
-            ]
-        ]
-    },
-    {
         "id": "52d7e674.d4fa4",
         "type": "set-defaults",
         "z": "c7caf96e.a31f98",
@@ -18443,7 +18385,7 @@
         "y": 1320,
         "wires": [
             [
-                "9110fef5.2823d"
+                "553961f1.b10cc"
             ]
         ]
     },
@@ -18542,23 +18484,7 @@
         "y": 1460,
         "wires": [
             [
-                "eccb2a06.eff56"
-            ]
-        ]
-    },
-    {
-        "id": "eccb2a06.eff56",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "daa90db5.798ca",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 730,
-        "y": 1460,
-        "wires": [
-            [
-                "a459271f.f3979",
-                "c4394893.5e225"
+                "68cf4b62.9e1104"
             ]
         ]
     },
@@ -18669,23 +18595,7 @@
         "y": 1660,
         "wires": [
             [
-                "dfe51939.147f2"
-            ]
-        ]
-    },
-    {
-        "id": "dfe51939.147f2",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "daa90db5.798ca",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 710,
-        "y": 1660,
-        "wires": [
-            [
-                "70d642f8.93d024",
-                "231ffe47.64b5b2"
+                "724b85f1.002e1c"
             ]
         ]
     },
@@ -19282,22 +19192,7 @@
         "y": 1820,
         "wires": [
             [
-                "4791c0b.be5fc4"
-            ]
-        ]
-    },
-    {
-        "id": "4791c0b.be5fc4",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "daa90db5.798ca",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 710,
-        "y": 1820,
-        "wires": [
-            [
-                "5357901a.ebafe8"
+                "7baeaa90.e6439c"
             ]
         ]
     },
@@ -19630,22 +19525,7 @@
         "y": 2100,
         "wires": [
             [
-                "f1c1c49d.c188e8"
-            ]
-        ]
-    },
-    {
-        "id": "f1c1c49d.c188e8",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "37a4080e.40ed9",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 750,
-        "y": 2100,
-        "wires": [
-            [
-                "360b9a7b.0d5576"
+                "be1ec9f4.95fec"
             ]
         ]
     },
@@ -19810,22 +19690,7 @@
         "y": 2220,
         "wires": [
             [
-                "1a291e5.27d66e2"
-            ]
-        ]
-    },
-    {
-        "id": "1a291e5.27d66e2",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "37a4080e.40ed9",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 790,
-        "y": 2220,
-        "wires": [
-            [
-                "fa4974dc.1fa648"
+                "55a44386.79e72c"
             ]
         ]
     },
@@ -19989,22 +19854,7 @@
         "y": 2320,
         "wires": [
             [
-                "bc84f8fb.3e2948"
-            ]
-        ]
-    },
-    {
-        "id": "bc84f8fb.3e2948",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "37a4080e.40ed9",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 830,
-        "y": 2320,
-        "wires": [
-            [
-                "3de094e.8246d6c"
+                "79a43607.7856b"
             ]
         ]
     },
@@ -20168,22 +20018,7 @@
         "y": 2440,
         "wires": [
             [
-                "9057f27f.533fd8"
-            ]
-        ]
-    },
-    {
-        "id": "9057f27f.533fd8",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "37a4080e.40ed9",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 830,
-        "y": 2440,
-        "wires": [
-            [
-                "80ddd535.92f168"
+                "b3642b03.fadc6"
             ]
         ]
     },
@@ -20334,22 +20169,7 @@
         "y": 2560,
         "wires": [
             [
-                "19235791.135188"
-            ]
-        ]
-    },
-    {
-        "id": "19235791.135188",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "37a4080e.40ed9",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 850,
-        "y": 2560,
-        "wires": [
-            [
-                "4d1c9a11.497c04"
+                "f6975c46.312d5"
             ]
         ]
     },
@@ -20500,22 +20320,7 @@
         "y": 2840,
         "wires": [
             [
-                "191dd7c8.5a011"
-            ]
-        ]
-    },
-    {
-        "id": "191dd7c8.5a011",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "c358a7e7.e264e",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1110,
-        "y": 2840,
-        "wires": [
-            [
-                "d0dcfd84.fa36a"
+                "7ccf0bd2.29ca94"
             ]
         ]
     },
@@ -20648,22 +20453,7 @@
         "y": 2960,
         "wires": [
             [
-                "eac00ddc.c49c"
-            ]
-        ]
-    },
-    {
-        "id": "eac00ddc.c49c",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "c358a7e7.e264e",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1110,
-        "y": 2960,
-        "wires": [
-            [
-                "98bc07c7.2b47c"
+                "2f6cde5f.290bea"
             ]
         ]
     },
@@ -20792,25 +20582,11 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 950,
+        "x": 934,
         "y": 3080,
         "wires": [
             [
-                "5cf66dd4.b47cec"
-            ]
-        ]
-    },
-    {
-        "id": "5cf66dd4.b47cec",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1110,
-        "y": 3080,
-        "wires": [
-            [
-                "98e3a79d.ae8a58"
+                "4286da1.088b724"
             ]
         ]
     },
@@ -20949,22 +20725,7 @@
         "y": 3380,
         "wires": [
             [
-                "21d37d43.e015d2"
-            ]
-        ]
-    },
-    {
-        "id": "21d37d43.e015d2",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "66d3f26a.c296b4",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1170,
-        "y": 3380,
-        "wires": [
-            [
-                "ea8c3f55.76edc"
+                "6d6f774e.1d1068"
             ]
         ]
     },
@@ -21097,22 +20858,7 @@
         "y": 3500,
         "wires": [
             [
-                "1fb31ae6.7f5b2d"
-            ]
-        ]
-    },
-    {
-        "id": "1fb31ae6.7f5b2d",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "66d3f26a.c296b4",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1170,
-        "y": 3500,
-        "wires": [
-            [
-                "162cffd2.97aa9"
+                "cda0a2cf.2c6db8"
             ]
         ]
     },
@@ -21245,22 +20991,7 @@
         "y": 3620,
         "wires": [
             [
-                "b0031a23.c559e8"
-            ]
-        ]
-    },
-    {
-        "id": "b0031a23.c559e8",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "66d3f26a.c296b4",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1170,
-        "y": 3620,
-        "wires": [
-            [
-                "8dcac56f.b39e18"
+                "2c9561dd.a90ef6"
             ]
         ]
     },
@@ -21392,21 +21123,7 @@
         "y": 3740,
         "wires": [
             [
-                "c46f41ad.c3e11"
-            ]
-        ]
-    },
-    {
-        "id": "c46f41ad.c3e11",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 1170,
-        "y": 3740,
-        "wires": [
-            [
-                "8c6633ec.aa98"
+                "b183872d.207a68"
             ]
         ]
     },
@@ -21534,22 +21251,7 @@
         "y": 4020,
         "wires": [
             [
-                "e375ae46.b98b1"
-            ]
-        ]
-    },
-    {
-        "id": "e375ae46.b98b1",
-        "type": "auth-oidc",
-        "z": "c7caf96e.a31f98",
-        "g": "fd25b313.221798",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 810,
-        "y": 4020,
-        "wires": [
-            [
-                "6ffc0833.6e4048"
+                "cb6903b4.dfcfb"
             ]
         ]
     },
@@ -21660,7 +21362,7 @@
         "z": "2164c119.f88826",
         "g": "1d9f40e2.66e59f",
         "name": "",
-        "func": "if(msg.statusCode == 401 || msg.statusCode == 403){\n    var outMsg = {};\n    outMsg.payload = {};\n    outMsg.headers = {};\n    outMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\n    outMsg.payload.client_id = \"uiAuthServer\";\n    outMsg.payload.client_secret = \"a9f233ae-d2be-4846-b10f-55d275bd8fe7\";\n    outMsg.payload.grant_type = \"client_credentials\";\n    var realm = env.get(\"KEYCLOAK_REALM\");\n    outMsg.url = \"http://keycloak:8080/auth/realms/\" + realm + \"/protocol/openid-connect/token\";\n    return [outMsg, null];\n}\nreturn [null, msg];",
+        "func": "if(msg.statusCode == 401 || msg.statusCode == 403){\n    var outMsg = {};\n    outMsg.payload = {};\n    outMsg.headers = {};\n    outMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\n    outMsg.payload.client_id = context.global.get(\"client_id_ui\");\n    outMsg.payload.client_secret = context.global.get(\"client_secret_ui\");\n    outMsg.payload.grant_type = \"client_credentials\";\n    var realm = context.global.get(\"realm\");\n    outMsg.url = context.global.get(\"keycloak_auth\") + \"/realms/\" + realm + \"/protocol/openid-connect/token\";\n    return [outMsg, null];\n}\nreturn [null, msg];",
         "outputs": 2,
         "noerr": 0,
         "x": 1740,
@@ -21703,7 +21405,7 @@
         "z": "2164c119.f88826",
         "g": "1d9f40e2.66e59f",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -21773,7 +21475,7 @@
         "z": "2164c119.f88826",
         "g": "1d9f40e2.66e59f",
         "name": "get Bearer Token",
-        "func": "var outMsg = {};\noutMsg.payload = {};\noutMsg.headers = {};\noutMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\noutMsg.payload.client_id = \"uiAuthServer\";\noutMsg.payload.client_secret = \"a9f233ae-d2be-4846-b10f-55d275bd8fe7\";\noutMsg.payload.grant_type = \"client_credentials\";\nreturn outMsg;",
+        "func": "var outMsg = {};\noutMsg.payload = {};\noutMsg.headers = {};\noutMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\noutMsg.payload.client_id = context.global.get(\"client_id_ui\");\noutMsg.payload.client_secret = context.global.get(\"client_secret_ui\");\noutMsg.payload.grant_type = \"client_credentials\";\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
         "x": 750,
@@ -21844,7 +21546,7 @@
         "z": "2164c119.f88826",
         "g": "1d9f40e2.66e59f",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -21867,7 +21569,7 @@
         "persist": false,
         "proxy": "",
         "authType": "",
-        "x": 590,
+        "x": 610,
         "y": 3080,
         "wires": [
             [
@@ -21884,7 +21586,7 @@
         "func": "var outMsg = {};\nif(typeof msg.payload.error == \"undefined\"){\n    outMsg.req = {};\n    outMsg.req.headers = {};\n    outMsg.req.headers[\"authorization\"] = \"Bearer \" + msg.payload;\n    return [null, outMsg];\n    \n} else {\n    outMsg.payload = 1;\n}\nreturn [outMsg, null];",
         "outputs": 2,
         "noerr": 0,
-        "x": 780,
+        "x": 800,
         "y": 3080,
         "wires": [
             [
@@ -21892,24 +21594,8 @@
                 "bd6df944.5006d8"
             ],
             [
-                "6c92f3bb.4dd584",
-                "221315aa.55d912"
-            ]
-        ]
-    },
-    {
-        "id": "6c92f3bb.4dd584",
-        "type": "auth-oidc",
-        "z": "2164c119.f88826",
-        "g": "d7076418.bb51d8",
-        "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
-        "x": 970,
-        "y": 3120,
-        "wires": [
-            [
-                "becf9f3.769e4e",
-                "27f219a6.f4617e"
+                "221315aa.55d912",
+                "c20f65ad.c98de8"
             ]
         ]
     },
@@ -21927,7 +21613,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 930,
         "y": 3180,
         "wires": []
     },
@@ -21945,7 +21631,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1130,
+        "x": 1150,
         "y": 3180,
         "wires": []
     },
@@ -21958,7 +21644,7 @@
         "func": "var newMsg = {}; newMsg.payload = 3;\nvar roles = msg.access_token.body.realm_access.roles;\nfor(var role in roles){\n    if(roles[role] == \"administrator\"){\n        newMsg.payload = 0;\n        context.flow.set(\"userToken\", msg.req.headers.authorization);\n        return newMsg;\n    }\n}\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1320,
+        "x": 1340,
         "y": 3140,
         "wires": [
             [
@@ -21977,7 +21663,7 @@
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 1730,
+        "x": 1750,
         "y": 3140,
         "wires": [
             [
@@ -22011,7 +21697,7 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1130,
+        "x": 1150,
         "y": 3120,
         "wires": [
             [
@@ -22034,7 +21720,7 @@
         "func": "var newMsg = {}; newMsg.payload = 3;\nreturn newMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1320,
+        "x": 1340,
         "y": 3100,
         "wires": [
             [
@@ -22056,8 +21742,597 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 930,
+        "x": 950,
         "y": 3020,
         "wires": []
+    },
+    {
+        "id": "2c7f7d18.81ea22",
+        "type": "actionflows_in",
+        "z": "ccaa25a0.ca2c08",
+        "name": "validateToken in",
+        "priority": "50",
+        "links": [],
+        "scope": "global",
+        "x": 330,
+        "y": 300,
+        "wires": [
+            [
+                "5b958811.0e8c98"
+            ]
+        ]
+    },
+    {
+        "id": "5b958811.0e8c98",
+        "type": "auth-oidc",
+        "z": "ccaa25a0.ca2c08",
+        "name": "",
+        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
+        "x": 550,
+        "y": 300,
+        "wires": [
+            [
+                "b09ae3a2.07adf"
+            ]
+        ]
+    },
+    {
+        "id": "b09ae3a2.07adf",
+        "type": "actionflows_out",
+        "z": "ccaa25a0.ca2c08",
+        "name": "validateToken out",
+        "links": [],
+        "x": 830,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "672bcc28.6c2aac",
+        "type": "inject",
+        "z": "ccaa25a0.ca2c08",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 160,
+        "wires": [
+            [
+                "6915e664.587dd8"
+            ]
+        ]
+    },
+    {
+        "id": "6915e664.587dd8",
+        "type": "unsafe-function",
+        "z": "ccaa25a0.ca2c08",
+        "name": "",
+        "func": "context.global.set(\"keycloack_auth\", env.get(\"KEYCLOAK_URL\"));\ncontext.global.set(\"client_id\", env.get(\"KEYCLOAK_CLIENT_ID\"));\ncontext.global.set(\"client_secret\", env.get(\"KEYCLOAK_CLIENT_SECRET\"));\ncontext.global.set(\"realm\", env.get(\"KEYCLOAK_REALM\"));\ncontext.global.set(\"client_id_ui\", env.get(\"KEYCLOAK_CLIENT_ID_UI\"));\ncontext.global.set(\"client_secret_ui\", env.get(\"KEYCLOAK_CLIENT_SECRET_UI\"));\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 560,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c20f65ad.c98de8",
+        "type": "actionflows",
+        "z": "2164c119.f88826",
+        "g": "d7076418.bb51d8",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1000,
+        "y": 3120,
+        "wires": [
+            [
+                "27f219a6.f4617e"
+            ]
+        ]
+    },
+    {
+        "id": "77ceb383.fcdfec",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "6c18a80c.ec30a",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 740,
+        "y": 580,
+        "wires": [
+            [
+                "4dc39fd1.c8f7c8",
+                "25b28035.68b498"
+            ]
+        ]
+    },
+    {
+        "id": "b7694ef4.60df38",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "6c18a80c.ec30a",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 740,
+        "y": 800,
+        "wires": [
+            [
+                "ede7821.687b6"
+            ]
+        ]
+    },
+    {
+        "id": "93b5b954.163d38",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "daa90db5.798ca",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 740,
+        "y": 1160,
+        "wires": [
+            [
+                "b0306546.0474c"
+            ]
+        ]
+    },
+    {
+        "id": "553961f1.b10cc",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "daa90db5.798ca",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 740,
+        "y": 1320,
+        "wires": [
+            [
+                "f2d59542.56fda",
+                "fdba694e.cf01d"
+            ]
+        ]
+    },
+    {
+        "id": "68cf4b62.9e1104",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "daa90db5.798ca",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 720,
+        "y": 1460,
+        "wires": [
+            [
+                "c4394893.5e225"
+            ]
+        ]
+    },
+    {
+        "id": "724b85f1.002e1c",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "daa90db5.798ca",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 720,
+        "y": 1660,
+        "wires": [
+            [
+                "231ffe47.64b5b2"
+            ]
+        ]
+    },
+    {
+        "id": "7baeaa90.e6439c",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "daa90db5.798ca",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 720,
+        "y": 1820,
+        "wires": [
+            [
+                "5357901a.ebafe8"
+            ]
+        ]
+    },
+    {
+        "id": "be1ec9f4.95fec",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 760,
+        "y": 2100,
+        "wires": [
+            [
+                "360b9a7b.0d5576"
+            ]
+        ]
+    },
+    {
+        "id": "55a44386.79e72c",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 780,
+        "y": 2220,
+        "wires": [
+            [
+                "fa4974dc.1fa648"
+            ]
+        ]
+    },
+    {
+        "id": "79a43607.7856b",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 840,
+        "y": 2320,
+        "wires": [
+            [
+                "3de094e.8246d6c"
+            ]
+        ]
+    },
+    {
+        "id": "b3642b03.fadc6",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 840,
+        "y": 2440,
+        "wires": [
+            [
+                "80ddd535.92f168"
+            ]
+        ]
+    },
+    {
+        "id": "f6975c46.312d5",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 860,
+        "y": 2560,
+        "wires": [
+            [
+                "4d1c9a11.497c04"
+            ]
+        ]
+    },
+    {
+        "id": "7ccf0bd2.29ca94",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "c358a7e7.e264e",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1100,
+        "y": 2840,
+        "wires": [
+            [
+                "d0dcfd84.fa36a"
+            ]
+        ]
+    },
+    {
+        "id": "2f6cde5f.290bea",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "c358a7e7.e264e",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1100,
+        "y": 2960,
+        "wires": [
+            [
+                "98bc07c7.2b47c"
+            ]
+        ]
+    },
+    {
+        "id": "4286da1.088b724",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "c358a7e7.e264e",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1100,
+        "y": 3080,
+        "wires": [
+            [
+                "98e3a79d.ae8a58"
+            ]
+        ]
+    },
+    {
+        "id": "6d6f774e.1d1068",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1180,
+        "y": 3380,
+        "wires": [
+            [
+                "ea8c3f55.76edc"
+            ]
+        ]
+    },
+    {
+        "id": "cda0a2cf.2c6db8",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1180,
+        "y": 3500,
+        "wires": [
+            [
+                "162cffd2.97aa9"
+            ]
+        ]
+    },
+    {
+        "id": "2c9561dd.a90ef6",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1160,
+        "y": 3620,
+        "wires": [
+            [
+                "8dcac56f.b39e18"
+            ]
+        ]
+    },
+    {
+        "id": "b183872d.207a68",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "66d3f26a.c296b4",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1160,
+        "y": 3740,
+        "wires": [
+            [
+                "8c6633ec.aa98"
+            ]
+        ]
+    },
+    {
+        "id": "cb6903b4.dfcfb",
+        "type": "actionflows",
+        "z": "c7caf96e.a31f98",
+        "g": "fd25b313.221798",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "validateToken",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 780,
+        "y": 4020,
+        "wires": [
+            [
+                "6ffc0833.6e4048"
+            ]
+        ]
     }
 ]
