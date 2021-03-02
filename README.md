@@ -50,8 +50,8 @@ These two environmenta variables are needed to properly configure the internal i
     - KEYCLOAK_CLIENT_SECRET_UI=3e140df7-dd6c-4487-8047-cb4973de1c0d: is the secret that the inernal NOVAAS User Interface uses to retrieve an access token
 
 #### Keycloak
-    - KEYCLOAK_USER=admin
-    - KEYCLOAK_PASSWORD=admin
+    - KEYCLOAK_USER=admin: to create an initial admin user with username `admin`;
+    - KEYCLOAK_PASSWORD=admin: to create an initial user with password `admin`;
     - KEYCLOAK_IMPORT=/tmp/realm.json
 
 
