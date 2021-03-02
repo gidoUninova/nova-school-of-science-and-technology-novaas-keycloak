@@ -1,29 +1,59 @@
-# NOVA Asset Administration Shell
+# NOVA Asset Administration Shell and Keycloak
 
 The NOVA Asset Administration Shell (NOVAAS) is an open source reference implementation and execution environment - developed by NOVA School of Science and Technology - for the Asset Administration Shell (AAS) concept proposed by the Reference Architectural Model for Industrie 4.0 (RAMI4.0). 
-The AAS implements the concept of the Digital Twin of a physical object turning it into an Industrie 4.0 component that facilitates interoperability in industrial applications.
+The AAS implements the concept of the Digital Twin of a physical object turning it into an Industrie 4.0 component that facilitates interoperability in industrial applications. An identity and access management server has been included within the stack.
 
-This repository contains file that are needed to build a docker image for NOVAAS.
-In order to install and run it, dowload/clone the repository and build and run the dockerfile and/or the docker-compose file.
-The NOVAAS repository is preloaded with a set of files (documentation, asset, manifest) that are used to show the component. For creating a new specific NOVAAS these files need to be substituted with the proper ones.
+This repository contains all files that are actually needed to build a docker image for NOVAAS supported by Keycloak for Identity and Access Management.
+In order to install and run it, dowload/clone the repository and build and use the docker-compose file.
+The NOVAAS-Keycloak repository is preloaded with a set of files (documentation, asset, manifest) that are used to show the component. For creating a new specific NOVAAS these files need to be substituted with the proper ones.
 
-## Using dockerfile
-The docker command to create the NOVAAS image is the following:
 
-`docker build -t name_of_the_image:ver .`
+## Using Docker-compose
 
-Once the image has been created the followig docker command can be used to start a new container that runs the NOVAAS image:
+To run the stack docker-compose is the best option. to start the stack the following docker-compose commands need to be executed:
 
-`docker run --env PORT_FORWARDING=1870 --env HOST=localhost -p 1870:1880 name_of_the_image:ver -d`
+`docker-compose run --rm start_dependencies`
 
-After executing the above commands, the NOVAAS will be accessible at the following link:
+This command allows the synchronization between the NOVAAS and the keycloak server. In particular it guarantees that keycloak server is ready before starting NOVAAS. Once the keycloak server is started, the following command can be executed:
 
-http://localhost:1870/ui 
+`docker-compose up -d novvas`
 
-![Semantic description of image](/source/images/Screenshot_2020-12-15_at_22.20.37.png)"NOVAAS Main Screen"
+To run the image. 
+
+Furthermore, the command:
+
+`docker-compose build`
+
+can be used to build a new image. 
+
+The provided stack will run two docker containers, namely:
+
+
+1. NOVAAS: will run on port 1870,however it is possible to change this behaviour by setting the environmental variables PORT_FORWARDING and HOST in the .env file; and
+1. Keycloak: will run on port 8080. The identity and access mangement service will be pre-loaded with an already existing realm. 
 
 ### Notes
-The two environmental variables are needed to properly configure the internal iFrame node that is used to expose in the ui the dashboards for each one of the internal data sources. Specifically, the $HOST environmental variable should be the ip address of the host machine where NOVAAS is deployed. Setting this variable to localhost will only expose the dash tab within the ui in the host.
+There are a set of environmental variables you need to set to allow some costumization of the application.
+
+##### NOVAAS
+
+    - PORT_FORWARDING=1870: is the host port used to map the container port 1880.  
+    - HOST=localhost: is the ip address of the host machine where NOVAAS is deployed.
+
+These two environmenta variables are needed to properly configure the internal iFrame node that is used to expose in the ui the dashboards for each one of the internal data sources. Setting this variable to localhost will only expose the dash tab within the ui in the host. The next set of evironmental variables are used for configuring the keycloak clients within NOVAAS.
+
+    - KEYCLOAK_URL=http://localhost:8080/auth: is the url of the authentication service;
+    - KEYCLOAK_REALM=industry40_edge: is the name of the realm NOVAAS is using; this realm is preloaded in keycloak. The _realm.json_ within the repository is the realm in json format;
+    - KEYCLOAK_CLIENT_ID=authServer: is the id of the authServer used by the NOVAAS to allow external application to use the API; 
+    - KEYCLOAK_CLIENT_ID_UI=uiAuthServer: is the id of the authServer used by the internal NOVAAS User Interface;
+    - KEYCLOAK_CLIENT_SECRET=9f274121-8e01-49f6-a57a-2e733942e0a1: is the secret that external users need to use to retrieve an access token;
+    - KEYCLOAK_CLIENT_SECRET_UI=3e140df7-dd6c-4487-8047-cb4973de1c0d: is the secret that the inernal NOVAAS User Interface uses to retrieve an access token
+
+#### Keycloak
+    - KEYCLOAK_USER=admin
+    - KEYCLOAK_PASSWORD=admin
+    - KEYCLOAK_IMPORT=/tmp/realm.json
+
 
 The NOVAAS embeds an MQTT client for pushing out data. This client needs to be configured. To do that it is possible to access the NOVAAS backend by using the following link:
 
@@ -35,18 +65,6 @@ To access the backend the user needs to insert username and password. These are 
 
 - username: admin
 - password: password
-
-## Using Docker-compose
-
-The docker-compose command is the following:
-
-`docker-compose up -d`
-
-To build and run the image. Furthermore, the command:
-
-`docker-compose build`
-
-can be used to build a new image. The started docker container will run on port 1870,however it is possible to change this behaviour by setting the environmental variables PORT_FORWARDING and HOST in the .env file.
 
 ## Run another version of NOVAAS from this base folder
 
