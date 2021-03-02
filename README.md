@@ -79,7 +79,7 @@ graph TD;
   Create_User-->Credentials_set_Password;
   Credentials_set_Password-->Assign_Role;
 ```
-Currently, NOVAAS only support three roles {+ `administrator` +}, {+ `user` +} and {+ `novaasUi` +}. It is necessary to create an {+ `administrator` +} role to allow to get and subscribe data, i.e. to allow NOVAAS to extract data and push this data to the MQTT client. The {+ `novaasUi` +} role is used by the NOVAAS User Interface and works only with the authentication server created only for the ui.
+Currently, NOVAAS only support three roles `administrator`, `user` and `novaasUi`. It is necessary to create an `administrator` role to allow to get and subscribe data, i.e. to allow NOVAAS to extract data and push this data to the MQTT client. The `novaasUi` role is used by the NOVAAS User Interface and works only with the authentication server created only for the ui.
 
 ## Run another version of NOVAAS from this base folder
 
