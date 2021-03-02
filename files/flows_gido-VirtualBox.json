@@ -21820,7 +21820,7 @@
         "type": "unsafe-function",
         "z": "ccaa25a0.ca2c08",
         "name": "",
-        "func": "context.global.set(\"keycloack_auth\", env.get(\"KEYCLOAK_URL\"));\ncontext.global.set(\"client_id\", env.get(\"KEYCLOAK_CLIENT_ID\"));\ncontext.global.set(\"client_secret\", env.get(\"KEYCLOAK_CLIENT_SECRET\"));\ncontext.global.set(\"realm\", env.get(\"KEYCLOAK_REALM\"));\ncontext.global.set(\"client_id_ui\", env.get(\"KEYCLOAK_CLIENT_ID_UI\"));\ncontext.global.set(\"client_secret_ui\", env.get(\"KEYCLOAK_CLIENT_SECRET_UI\"));\n\nreturn msg;",
+        "func": "context.global.set(\"keycloak_auth\", env.get(\"KEYCLOAK_URL\"));\ncontext.global.set(\"client_id\", env.get(\"KEYCLOAK_CLIENT_ID\"));\ncontext.global.set(\"client_secret\", env.get(\"KEYCLOAK_CLIENT_SECRET\"));\ncontext.global.set(\"realm\", env.get(\"KEYCLOAK_REALM\"));\ncontext.global.set(\"client_id_ui\", env.get(\"KEYCLOAK_CLIENT_ID_UI\"));\ncontext.global.set(\"client_secret_ui\", env.get(\"KEYCLOAK_CLIENT_SECRET_UI\"));\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 560,
