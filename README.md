@@ -36,7 +36,7 @@ http://localhost:1870
 
 1. Keycloak: will run on port 8080. The identity and access mangement service will be pre-loaded with an already existing realm. 
 
-![Semantic description of image](/source/images/Screenshot_2020-03-02.png)"Keycloak log-in page (localhost:8080)"
+![Semantic description of image](/source/images/Screenshot_2021-03-02.png)"Keycloak log-in page (localhost:8080)"
 
 ### Notes
 There are a set of environmental variables you need to set to allow some costumization of the application.
