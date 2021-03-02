@@ -99,6 +99,16 @@ graph TB
   SubGraph1[Verification] --> SendResult[Send result]
 end
 ```
+1. Access NOVAAS API
+
+```mermaid
+graph TD;
+  Node1[Request any operation exposed by NOVAAS] --> Node2[Validate the Token];
+  Node2[Validate the Token]-- Token is valid -->Node3[Verify the requester identiy and authorization];
+  Node2[Validate the Token]-- Token not valid -->Node4[Error 401/403];
+  Node3[Verify the requester identiy and authorization] -- allowed -->Node5[Exucute the requested operation]
+  Node3[Verify the requester identiy and authorization] -- not allowed -->Node6[Error 403]
+```
 
 ## Run another version of NOVAAS from this base folder
 
