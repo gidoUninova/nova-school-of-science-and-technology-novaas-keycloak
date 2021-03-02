@@ -34,6 +34,11 @@ http://localhost:1870
 
 ![Semantic description of image](/source/images/Screenshot_2020-12-15_at_22.40.31.png)"NOVAAS Backend once user is logged in"
 
+To access the backend the user needs to insert username and password. These are the default username and password from the node-red settings file, namely:
+
+- username: admin
+- password: password
+
 1. Keycloak: will run on port 8080. The identity and access mangement service will be pre-loaded with an already existing realm. 
 
 ![Semantic description of image](/source/images/Screenshot_2021-03-02.png)"Keycloak log-in page (localhost:8080)"
@@ -61,10 +66,19 @@ These two environmenta variables are needed to properly configure the internal i
     - KEYCLOAK_IMPORT=/tmp/realm.json:  import a previously exported realm.
 
 
-To access the backend the user needs to insert username and password. These are the default username and password from the node-red settings file, namely:
 
-- username: admin
-- password: password
+## Running the Stack
+
+Once the stack is running (by using docker-compose commands), some steps need to be performed:
+
+1. Create users in keycloak.
+
+```mermaid
+graph TD;
+  Login_in_keycloak_admin_console-->Create_User;
+  Create_User-->Credentials_set_Password;
+  Credentials_set_Password-->Assign_Role;
+```
 
 ## Run another version of NOVAAS from this base folder
 
@@ -74,8 +88,3 @@ NOVAAS has been designed in order to be as generic as possible, if you want to r
 1. Add the Manifest file within the folder "files/manifest". Note that the name of the file **must** be kept -> AmI_as_manifest.json. In particular this file follows the data model provided in https://www.plattform-i40.de/PI40/Redaktion/EN/Downloads/Publikation/Details_of_the_Asset_Administration_Shell_Part1_V3.html and can be created by using the aasx-package-explorer tool (https://github.com/admin-shell-io/aasx-package-explorer) ;
 1. Change the httpauth file in the folder "files/httpauth" properly;
 1. Run the docker and/0r docker-compose commands. 
-
-## NOVAAS in action (Click on the Image to Show the Video)
-
-[![Watch the video](/source/images/Screenshot_2020-12-15_at_22.20.37.png)](https://gitlab.com/gidouninova/novaas/-/blob/master/source/videos/NOVAAS_myMovie.mp4)
-
