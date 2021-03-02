@@ -32,6 +32,8 @@ The provided stack will run two docker containers, namely:
 
 http://localhost:1870
 
+![Semantic description of image](/source/images/Screenshot_2020-12-15_at_22.40.31.png)"NOVAAS Backend once user is logged in"
+
 1. Keycloak: will run on port 8080. The identity and access mangement service will be pre-loaded with an already existing realm. 
 
 ### Notes
@@ -56,10 +58,6 @@ These two environmenta variables are needed to properly configure the internal i
     - KEYCLOAK_PASSWORD=admin: to create an initial user with password `admin`;
     - KEYCLOAK_IMPORT=/tmp/realm.json:  import a previously exported realm.
 
-
-
-
-![Semantic description of image](/source/images/Screenshot_2020-12-15_at_22.40.31.png)"NOVAAS Backend once user is logged in"
 
 To access the backend the user needs to insert username and password. These are the default username and password from the node-red settings file, namely:
 
