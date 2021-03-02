@@ -28,8 +28,10 @@ can be used to build a new image.
 
 The provided stack will run two docker containers, namely:
 
+1. NOVAAS: will run on port 1870, however it is possible to change this behaviour by setting the environmental variables PORT_FORWARDING and HOST in the .env file. The NOVAAS embeds an MQTT client for pushing out data. This client needs to be configured. To do that it is possible to access the NOVAAS backend by using the following link:
 
-1. NOVAAS: will run on port 1870,however it is possible to change this behaviour by setting the environmental variables PORT_FORWARDING and HOST in the .env file; and
+http://localhost:1870
+
 1. Keycloak: will run on port 8080. The identity and access mangement service will be pre-loaded with an already existing realm. 
 
 ### Notes
@@ -55,9 +57,7 @@ These two environmenta variables are needed to properly configure the internal i
     - KEYCLOAK_IMPORT=/tmp/realm.json:  import a previously exported realm.
 
 
-The NOVAAS embeds an MQTT client for pushing out data. This client needs to be configured. To do that it is possible to access the NOVAAS backend by using the following link:
 
-http://localhost:1870
 
 ![Semantic description of image](/source/images/Screenshot_2020-12-15_at_22.40.31.png)"NOVAAS Backend once user is logged in"
 
