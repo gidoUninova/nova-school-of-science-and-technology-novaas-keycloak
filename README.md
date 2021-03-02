@@ -75,11 +75,30 @@ Once the stack is running (by using docker-compose commands), some steps need to
 
 ```mermaid
 graph TD;
-  Login_in_keycloak_admin_console-->Create_User;
-  Create_User-->Credentials_set_Password;
-  Credentials_set_Password-->Assign_Role;
+  Node1[Login in keycloak admin console] -->Node2[Create User];
+  Node2[Create User]-->Node3[Credentials set Password];
+  Node3[Credentials set Password]-->Node4[Assign Role];
 ```
 Currently, NOVAAS only support three roles `administrator`, `user` and `novaasUi`. It is necessary to create an `administrator` role to allow to get and subscribe data, i.e. to allow NOVAAS to extract data and push this data to the MQTT client. The `novaasUi` role is used by the NOVAAS User Interface and works only with the authentication server created only for the ui.
+
+1. Information flow (getting an Access Token)
+
+```mermaid
+graph TB
+
+  SubGraph1 --> SubGraph1Flow
+  subgraph "Keycloak internal flow"
+  SubGraph1Flow(Verify the login)
+  SubGraph1Flow -- User found --> GenerateToken[200 Return access token]
+  SubGraph1Flow -- no User found --> Error[401 Unauthorized client]
+  end
+
+  subgraph "Main Graph"
+  Node1[Login in http://localhost:1870/aasServer/auth/login] --> Node2[Invoke keycloak authorization server]
+  Node2[Invoke keycloak authorization server] --> SubGraph1[Verification]
+  SubGraph1[Verification] --> SendResult[Send result]
+end
+```
 
 ## Run another version of NOVAAS from this base folder
 
