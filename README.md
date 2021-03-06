@@ -18,7 +18,9 @@ This command allows the synchronization between the NOVAAS and the keycloak serv
 
 `docker-compose up -d novvas`
 
-To run the image. 
+To run the image. After executing the above commands, the NOVAAS will be accessible at the following link:
+
+http://localhost:1870/ui
 
 Furthermore, the command:
 
