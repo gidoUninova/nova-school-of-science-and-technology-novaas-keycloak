@@ -22,6 +22,8 @@ To run the image. After executing the above commands, the NOVAAS will be accessi
 
 http://localhost:1870/ui
 
+![Semantic description of image](/source/images/Screenshot_2020-12-15_at_22.20.37.png)"NOVAAS Main Screen"
+
 Furthermore, the command:
 
 `docker-compose build`
