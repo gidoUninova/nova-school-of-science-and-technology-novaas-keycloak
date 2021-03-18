@@ -17,15 +17,18 @@ services:
             - "/Users/admin/keycloak/realm.json:/tmp/realm.json"
     novaas:
         build: .
-        image: "novaas_festo_dpdm/keycloak/dockerbase:1.0.0"
+        image: "novaas/keycloak/dockerbase:1.0.0"
         environment:
             - "PORT_FORWARDING=${PORT_FORWARDING}" 
             - "HOST=${HOST}"
+            - "BROKER_SERVICE_HOST=${BROKER_SERVICE_HOST}"
+            - "BROKER_SERVICE_PORT=${BROKER_SERVICE_PORT}"
             - "KEYCLOAK_REALM=${KEYCLOAK_REALM}"
             - "KEYCLOAK_URL=${KEYCLOAK_URL}"
             - "KEYCLOAK_CLIENT_ID=${KEYCLOAK_CLIENT_ID}"
             - "KEYCLOAK_CLIENT_ID_UI=${KEYCLOAK_CLIENT_ID_UI}"
             - "KEYCLOAK_CLIENT_SECRET=${KEYCLOAK_CLIENT_SECRET}"
             - "KEYCLOAK_CLIENT_SECRET_UI=${KEYCLOAK_CLIENT_SECRET_UI}"
+            - "KEYCLOAK_OPEN_ID=${KEYCLOAK_OPEN_ID}"
         ports:
             - "${PORT_FORWARDING}:1880"

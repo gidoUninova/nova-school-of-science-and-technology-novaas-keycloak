@@ -370,9 +370,7 @@
             "1f1ce2c5.9cb5cd"
         ],
         "x": 194,
-        "y": 4242,
-        "w": 2272,
-        "h": 322
+        "y": 4242
     },
     {
         "id": "d366c10f.cbf158",
@@ -423,9 +421,7 @@
             "b88a92c6.fb547"
         ],
         "x": 194,
-        "y": 3374.22216796875,
-        "w": 2962,
-        "h": 686.77783203125
+        "y": 3374.22216796875
     },
     {
         "id": "8ba0dee2.7f7be8",
@@ -469,9 +465,7 @@
             "234d668e.b04b9a"
         ],
         "x": 34,
-        "y": 4199,
-        "w": 2872,
-        "h": 516
+        "y": 4199
     },
     {
         "id": "e764eb53.6268c",
@@ -655,9 +649,7 @@
             "f0c0f9f6.9fd9e8"
         ],
         "x": 14,
-        "y": 379,
-        "w": 2892,
-        "h": 3642
+        "y": 379
     },
     {
         "id": "a5ca466b.4777d8",
@@ -684,9 +676,7 @@
             "cec7e1d0.707e4"
         ],
         "x": 64,
-        "y": 19,
-        "w": 1602,
-        "h": 322
+        "y": 19
     },
     {
         "id": "d7076418.bb51d8",
@@ -14447,7 +14437,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "Login Group",
-        "func": "var msg = {};\n\n//msg.payload = {tab: \"Login\"};\n/*msg.payload = { group: {\n    hide : [\"Login_SensorData\", \"Login_History\"],\n    show : [\"Login_Signin\"]\n}\n};*/\n\nmsg.payload = { group: {\n    hide : [\"Login_Commands\", \"Login_Body\"],\n    show : [\"Login_Login\"]\n}\n};\n\nreturn msg;",
+        "func": "var msg = {};\n\n//msg.payload = {tab: \"Login\"};\n/*msg.payload = { group: {\n    hide : [\"Login_SensorData\", \"Login_History\"],\n    show : [\"Login_Signin\"]\n}\n};*/\n\nmsg.payload = { group: {\n    hide : [\"Login_Commands\", \"Login_Body\", \"Login_Health\"],\n    show : [\"Login_Login\"]\n}\n};\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -21783,7 +21773,7 @@
         "z": "2164c119.f88826",
         "g": "d7076418.bb51d8",
         "name": "",
-        "active": false,
+        "active": true,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -21817,7 +21807,7 @@
         "type": "auth-oidc",
         "z": "ccaa25a0.ca2c08",
         "name": "",
-        "discovery": "http://keycloak:8080/auth/realms/industry40_edge/.well-known/uma2-configuration",
+        "discovery": "$(KEYCLOAK_OPEN_ID)",
         "x": 570,
         "y": 300,
         "wires": [
