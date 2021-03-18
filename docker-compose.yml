@@ -17,7 +17,7 @@ services:
             - "/Users/admin/keycloak/realm.json:/tmp/realm.json"
     novaas:
         build: .
-        image: "novaas/keycloak/dockerbase:1.0.0"
+        image: "registry.gitlab.com/novaas/catalog/nova-school-of-science-and-technology/novaas-keycloak:latest"
         environment:
             - "PORT_FORWARDING=${PORT_FORWARDING}" 
             - "HOST=${HOST}"
