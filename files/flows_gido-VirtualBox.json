@@ -769,89 +769,6 @@
         "h": 82
     },
     {
-        "id": "1d9f40e2.66e59f",
-        "type": "group",
-        "z": "2164c119.f88826",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "2706d3c7.5d9a2c",
-            "b0b325ea.8aff3",
-            "2691cd1a.69d14a",
-            "649d6c1f.031b2c",
-            "8adcfea2.e5f07",
-            "b3c4ed70.6e96f8",
-            "ba5c9d0b.9853a",
-            "c18d191f.026578",
-            "7e763d50.949554",
-            "2cf012d1.4a7f5e",
-            "648a464.2a92838",
-            "43780ceb.0f273c",
-            "5e2d4012.8c261",
-            "3b691b47.1422f4",
-            "e829d4f5.0e483",
-            "5a1e731e.6fd0ec",
-            "f3b7793f.d22a9",
-            "29a16be9.865c5c",
-            "d8a4f595.617738",
-            "a8614b5f.c2fa5",
-            "a218c1c9.bf3c",
-            "a5d497d.a955b68",
-            "8b178b4f.b48a5",
-            "dbc07abd.87dac8",
-            "b1d7bd45.436bf8",
-            "40ba0174.feea08",
-            "ed973683.3fdac8",
-            "13eaa4a6.391393",
-            "655852a0.36bea4",
-            "7a918d3a.b1ea34",
-            "c37add0d.9710f",
-            "aa9b9e00.d9a198",
-            "eb868983.45c2e8",
-            "57cc2b70.afb41c",
-            "2fa38586.c0acea",
-            "6c326c.a8726d94",
-            "c378d360.44ac8",
-            "b36514b5.7418a8",
-            "ad9570df.a95b4",
-            "6f0e3cf4.b41acc",
-            "db56541d.47959",
-            "9c556d25.7ae77",
-            "92c90877.1d55b",
-            "a1214c4.b254b3",
-            "a7284d99.4768e",
-            "f9c3ce72.f51ec",
-            "48a00f83.68f3f8",
-            "c088facd.601f98",
-            "9f049ae7.5b8448",
-            "df670002.5eaf4",
-            "585218a0.c4569",
-            "decce0a.5623ea",
-            "3a8df59d.b261fa",
-            "4277ccb7.a13f94",
-            "25185bed.02905c",
-            "4f70aa4.50d53d4",
-            "d9ac191f.2ed418",
-            "83f54403.763838",
-            "1883da0b.b158f6",
-            "a0e27916.231d4",
-            "d3060bb8.b1786",
-            "7e3dad70.c8221c",
-            "cf9eba71.c9cd7"
-        ],
-        "x": 214,
-        "y": 179,
-        "w": 3372,
-        "h": 962
-    },
-    {
         "id": "48a4f908.86ced8",
         "type": "group",
         "z": "2164c119.f88826",
@@ -1305,6 +1222,89 @@
         "y": 2787,
         "w": 2212,
         "h": 482
+    },
+    {
+        "id": "1d9f40e2.66e59f",
+        "type": "group",
+        "z": "2164c119.f88826",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2706d3c7.5d9a2c",
+            "b0b325ea.8aff3",
+            "2691cd1a.69d14a",
+            "649d6c1f.031b2c",
+            "8adcfea2.e5f07",
+            "b3c4ed70.6e96f8",
+            "ba5c9d0b.9853a",
+            "c18d191f.026578",
+            "7e763d50.949554",
+            "2cf012d1.4a7f5e",
+            "648a464.2a92838",
+            "43780ceb.0f273c",
+            "5e2d4012.8c261",
+            "3b691b47.1422f4",
+            "e829d4f5.0e483",
+            "5a1e731e.6fd0ec",
+            "f3b7793f.d22a9",
+            "29a16be9.865c5c",
+            "d8a4f595.617738",
+            "a8614b5f.c2fa5",
+            "a218c1c9.bf3c",
+            "a5d497d.a955b68",
+            "8b178b4f.b48a5",
+            "dbc07abd.87dac8",
+            "b1d7bd45.436bf8",
+            "40ba0174.feea08",
+            "ed973683.3fdac8",
+            "13eaa4a6.391393",
+            "655852a0.36bea4",
+            "7a918d3a.b1ea34",
+            "c37add0d.9710f",
+            "aa9b9e00.d9a198",
+            "eb868983.45c2e8",
+            "57cc2b70.afb41c",
+            "2fa38586.c0acea",
+            "6c326c.a8726d94",
+            "c378d360.44ac8",
+            "b36514b5.7418a8",
+            "ad9570df.a95b4",
+            "6f0e3cf4.b41acc",
+            "db56541d.47959",
+            "9c556d25.7ae77",
+            "92c90877.1d55b",
+            "a1214c4.b254b3",
+            "a7284d99.4768e",
+            "f9c3ce72.f51ec",
+            "48a00f83.68f3f8",
+            "c088facd.601f98",
+            "9f049ae7.5b8448",
+            "df670002.5eaf4",
+            "585218a0.c4569",
+            "decce0a.5623ea",
+            "3a8df59d.b261fa",
+            "4277ccb7.a13f94",
+            "25185bed.02905c",
+            "4f70aa4.50d53d4",
+            "d9ac191f.2ed418",
+            "83f54403.763838",
+            "1883da0b.b158f6",
+            "a0e27916.231d4",
+            "d3060bb8.b1786",
+            "7e3dad70.c8221c",
+            "cf9eba71.c9cd7"
+        ],
+        "x": 214,
+        "y": 179,
+        "w": 3372,
+        "h": 962
     },
     {
         "id": "de00f046.a69e6",
@@ -8004,7 +8004,7 @@
         "y": 4183,
         "wires": [
             [
-                "cac1840b.273ab8"
+                "33dfaad2.2f66be"
             ]
         ]
     },
@@ -8019,67 +8019,6 @@
         "x": 3115,
         "y": 4183,
         "wires": []
-    },
-    {
-        "id": "cac1840b.273ab8",
-        "type": "unsafe-function",
-        "z": "fd31082e.5487d8",
-        "name": "PrepareOutput",
-        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nvar fn = msg.req.params.fn;\nmsg.filename = context.global.get('staticDocs') + \"aasx/Document/\" + fn;\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1200,
-        "y": 4183,
-        "wires": [
-            [
-                "35a31ce7.ca5fd4"
-            ]
-        ]
-    },
-    {
-        "id": "8ce2baa0.e83948",
-        "type": "file in",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "filename": "",
-        "format": "",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "x": 1630,
-        "y": 4183,
-        "wires": [
-            [
-                "1619def7.8eb651"
-            ]
-        ]
-    },
-    {
-        "id": "35a31ce7.ca5fd4",
-        "type": "change",
-        "z": "fd31082e.5487d8",
-        "name": "Set Headers",
-        "rules": [
-            {
-                "t": "set",
-                "p": "headers",
-                "pt": "msg",
-                "to": "{}",
-                "tot": "json"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 1450,
-        "y": 4183,
-        "wires": [
-            [
-                "8ce2baa0.e83948"
-            ]
-        ]
     },
     {
         "id": "a8c2018c.8e88",
@@ -14840,605 +14779,6 @@
         ]
     },
     {
-        "id": "2706d3c7.5d9a2c",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "parameterizedHttpRequest",
-        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\n\nmsg1.method = 'GET';\nmsg1.url = context.global.get('namespace') + \"/aasServer/env\";\nmsg1.headers = {\n        authorization: \"Bearer \"+ context.flow.get(\"token\")\n    }\n\n//msg2.descriptionId = \"b5595a4a-40a5-46e6-a9c6-f493f99a72a1\"; \n\n//msg3.method = 'GET';\n//msg3.url = context.global.get('namespace') + \"/aasServer/submodels\";\n\nreturn [msg1, msg2, msg];",
-        "outputs": 3,
-        "noerr": 0,
-        "x": 1040,
-        "y": 320,
-        "wires": [
-            [
-                "8adcfea2.e5f07"
-            ],
-            [
-                "b3c4ed70.6e96f8"
-            ],
-            [
-                "ba5c9d0b.9853a",
-                "655852a0.36bea4"
-            ]
-        ]
-    },
-    {
-        "id": "b0b325ea.8aff3",
-        "type": "ui_button",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "Refresh button",
-        "group": "28ba0356.ef188c",
-        "order": 1,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "label": "Refresh",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "#14524e",
-        "icon": "cached",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "x": 520,
-        "y": 380,
-        "wires": [
-            [
-                "2706d3c7.5d9a2c"
-            ]
-        ]
-    },
-    {
-        "id": "2691cd1a.69d14a",
-        "type": "actionflows_in",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "informAASUI_ManifestChange in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 820,
-        "y": 660,
-        "wires": [
-            [
-                "2706d3c7.5d9a2c",
-                "2cf012d1.4a7f5e",
-                "648a464.2a92838"
-            ]
-        ]
-    },
-    {
-        "id": "649d6c1f.031b2c",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "flowVariables",
-        "func": "context.flow.set('selectedElements', []);\ncontext.flow.set('logs', []);\ncontext.flow.set('sessionTimeout', 10000);\n\n//var fs = context.global.get('fs');\n//var path = context.global.get('path');\n/*context.flow.set('accounts', []);\n\nvar fileName = \"httpauthfile.txt\";\nvar basePath = context.global.get('staticDocs');\nvar filePath = path.join(basePath, \"httpauth\", fileName);\n\nfs.readFile(filePath, \"utf8\", function read(err, data) {\n    if (err) {\n        throw err;\n    }\n    content = data;\n    var contentArray = content.split(\"\\n\");\n    //var account = {username: contentArray[0], password: contentArray[2]};\n    var accounts = context.flow.get('accounts');\n    for(var account in contentArray){\n        accounts.push(contentArray[account]);    \n    }\n    \n    // Invoke the next step here however you like\n    //console.log(content);   // Put all of the code here (not the best solution)\n    exit();          // Or put the next step in a function and invoke it\n    \n    });\n    \nfunction exit() {\n    //msg.payload = content;\n    node.send(msg);\n    \n}\n    \n    //return msg;\n    //context.flow.set('Body', \\\"\\\");\n*/\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 570,
-        "y": 280,
-        "wires": [
-            [
-                "2706d3c7.5d9a2c",
-                "48a00f83.68f3f8"
-            ]
-        ]
-    },
-    {
-        "id": "8adcfea2.e5f07",
-        "type": "http request",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "method": "use",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 1370,
-        "y": 320,
-        "wires": [
-            [
-                "aa9b9e00.d9a198",
-                "9c556d25.7ae77"
-            ]
-        ]
-    },
-    {
-        "id": "b3c4ed70.6e96f8",
-        "type": "actionflows",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "OSsysDscr",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "global",
-        "perf": false,
-        "seq": false,
-        "x": 1350,
-        "y": 380,
-        "wires": [
-            [
-                "3b691b47.1422f4",
-                "e829d4f5.0e483"
-            ]
-        ]
-    },
-    {
-        "id": "ba5c9d0b.9853a",
-        "type": "actionflows_out",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "informAASUI_ManifestChange out",
-        "links": [],
-        "x": 1449.9996337890625,
-        "y": 546.25,
-        "wires": []
-    },
-    {
-        "id": "c18d191f.026578",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "detectBrowserReload",
-        "func": "var payload = msg.payload;\nif(payload === \"connect\"){\n    return msg;\n}\n\nreturn null;\n//context.flow.set('Body', \"\");",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 540,
-        "y": 320,
-        "wires": [
-            [
-                "2706d3c7.5d9a2c"
-            ]
-        ]
-    },
-    {
-        "id": "7e763d50.949554",
-        "type": "ui_ui_control",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "x": 300,
-        "y": 380,
-        "wires": [
-            [
-                "b0b325ea.8aff3"
-            ]
-        ]
-    },
-    {
-        "id": "2cf012d1.4a7f5e",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "NotificationMessage",
-        "func": "//Retreiving Libraries from the Settings.json file\nmsg.payload = \"Manifest has been (re)loaded\"\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1160,
-        "y": 660,
-        "wires": [
-            [
-                "f3b7793f.d22a9",
-                "29a16be9.865c5c"
-            ]
-        ]
-    },
-    {
-        "id": "648a464.2a92838",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1177.5,
-        "y": 698.75,
-        "wires": []
-    },
-    {
-        "id": "43780ceb.0f273c",
-        "type": "inject",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 310,
-        "y": 280,
-        "wires": [
-            [
-                "649d6c1f.031b2c"
-            ]
-        ]
-    },
-    {
-        "id": "5e2d4012.8c261",
-        "type": "join",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "mode": "custom",
-        "build": "array",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "2",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 2030,
-        "y": 320,
-        "wires": [
-            [
-                "d8a4f595.617738",
-                "a8614b5f.c2fa5"
-            ]
-        ]
-    },
-    {
-        "id": "3b691b47.1422f4",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1530,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "e829d4f5.0e483",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "SubmodelsProcessing",
-        "func": "var msg1 = {};\nvar payload = {};\n//var splitted = msg.payload[0].value[0].value.split(\" \");\n//var splitted = msg.payload.value[0].value.split(\" \");\n//var splitted = msg.payload[0].value.split(\" \");\npayload.type = msg.payload.type;\npayload.hostname = msg.payload.hostname;;\npayload.release = msg.payload.release;;\npayload.platform = msg.payload.platform;\npayload.arch =msg.payload.arch;\npayload.namespace = context.global.get('namespace');\nmsg1.payload = payload;\nreturn msg1;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1740,
-        "y": 380,
-        "wires": [
-            [
-                "5e2d4012.8c261"
-            ]
-        ]
-    },
-    {
-        "id": "5a1e731e.6fd0ec",
-        "type": "ui_ui_control",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "x": 300,
-        "y": 320,
-        "wires": [
-            [
-                "c18d191f.026578"
-            ]
-        ]
-    },
-    {
-        "id": "f3b7793f.d22a9",
-        "type": "ui_toast",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "position": "bottom right",
-        "displayTime": "1",
-        "highlight": "",
-        "sendall": true,
-        "outputs": 0,
-        "ok": "OK",
-        "cancel": "",
-        "raw": false,
-        "topic": "Manifest",
-        "name": "Notify Manifest Changes",
-        "x": 1550,
-        "y": 660,
-        "wires": []
-    },
-    {
-        "id": "29a16be9.865c5c",
-        "type": "actionflows",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "info": "Describe your action API here.",
-        "untilproptype": "num",
-        "proptype": "msg",
-        "name": "informAASUI_NewLog",
-        "prop": "loop",
-        "untilprop": 0,
-        "until": "gt",
-        "loop": "none",
-        "scope": "private",
-        "perf": false,
-        "seq": false,
-        "x": 1540,
-        "y": 700,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d8a4f595.617738",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2170,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "a8614b5f.c2fa5",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "SubmodelsProcessing",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outMsg = {};\nvar payload = [];\noutMsg.identifier = context.global.get(\"AASIdentifier\");\noutMsg.payload = payload;\nfor(var element in msg.payload){\n    if(typeof(msg.payload[element].assetAdministrationShells) !== 'undefined' && msg.payload[element] !== null){\n         outMsg.payload[1] = msg.payload[element];\n    } else {\n        outMsg.payload[0] = msg.payload[element];\n    }\n}\n\nreturn outMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 2220,
-        "y": 320,
-        "wires": [
-            [
-                "a218c1c9.bf3c",
-                "b36514b5.7418a8"
-            ]
-        ]
-    },
-    {
-        "id": "a218c1c9.bf3c",
-        "type": "msg-router",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "routerType": "broadcast",
-        "topicDependent": false,
-        "counterReset": false,
-        "msgKeyField": "payload",
-        "undefinedHash": false,
-        "outputsInfo": [
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            },
-            {
-                "active": true,
-                "clone": false,
-                "delay": "0",
-                "weight": "0"
-            }
-        ],
-        "name": "",
-        "delaying": "unrelated",
-        "msgControl": false,
-        "outputs": 6,
-        "x": 2450,
-        "y": 320,
-        "wires": [
-            [
-                "8b178b4f.b48a5"
-            ],
-            [
-                "dbc07abd.87dac8"
-            ],
-            [
-                "b1d7bd45.436bf8"
-            ],
-            [
-                "a5d497d.a955b68"
-            ],
-            [
-                "eb868983.45c2e8"
-            ],
-            [
-                "7a918d3a.b1ea34"
-            ]
-        ]
-    },
-    {
-        "id": "a5d497d.a955b68",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "b9ac7006.de90a",
-        "name": "Counters",
-        "order": 1,
-        "width": 10,
-        "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 2780,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8b178b4f.b48a5",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2757.08349609375,
-        "y": 248.58338928222656,
-        "wires": []
-    },
-    {
-        "id": "dbc07abd.87dac8",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "8fc17f5a.38023",
-        "name": "Header Submodel",
-        "order": 1,
-        "width": 15,
-        "height": 30,
-        "format": "<div id=\"deck11\" class=\"card-group\">\n            <div class=\"card-body\">\n            <div class=\"card text-white bg-light mb-3\" style=\"max-width: 45rem;\">\n                <ul class=\"list-group list-group-flush\">\n                 <li class=\"list-group-item\">\n                    <button class=\"btn btn-link text-dark\" data-toggle=\"collapse\" data-target=\"#collapse11\" aria-expanded=\"true\" aria-controls=\"#collapse11\">\n                            {{msg.identifier}} Overview\n                    </button>\n                     <!--<a class=\"text-dark\" data-toggle=\"collapse\" href=\"#collapse11\">{{msg.identifier}} Overview</a>!-->\n                     <ul id=\"collapse11\" class=\"list-group list-group-flush panel-collapse collapse\">\n                        <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload[1].assetAdministrationShells\" ng-init=\"shellIndex=$index\">\n                        <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse21\" aria-expanded=\"true\" aria-controls=\"#collapse21\">\n                            Administration Shell: {{shellIndex}}\n                        </button>\n                        <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse21\" aria-expanded=\"true\" >Administration Shell: {{shellIndex}} </a>!-->\n                            <ul id=\"collapse21\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                <li class=\"list-group-item\">\n                                    <a class=\"text-black-50\">Identififcation : <strong>{{shell.identification.id}}</strong></a>\n                                </li>\n                                <li class=\"list-group-item \">\n                                    <a class=\"text-black-50\">Asset Identification : <strong>{{shell.asset.keys[0].value}}</strong></a>\n                                </li>\n                                <li class=\"list-group-item\">\n                                    <a class=\"text-black-50\">Derived From : <strong>{{shell.derivedFrom.keys[0].value}}</strong></a>\n                                </li>\n                                <!--<li class=\"list-group-item list-group-item-info\">!--><li class=\"list-group-item\">\n                                    <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse31\" aria-expanded=\"true\" aria-controls=\"#collapse31\">\n                                        Administration\n                                    </button>\n                                <!--<a class=\"text-black-50\"  data-toggle=\"collapse\" href=\"#collapse31\">Administration</a>!-->\n                                    <ul id=\"collapse31\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                        <li class=\"list-group-item list-group-item-info\">\n                                            <a class=\"text-info\" >version: {{shell.administration.version}}</a>\n                                        </li>\n                                         <li class=\"list-group-item list-group-item-info\">\n                                            <a class=\"text-info\" >version: {{shell.administration.revision}}</a>\n                                        </li>\n                                    </ul>\n                                </li>\n                            </ul>\n                        </li>\n                    </ul>\n                 </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n",
-        "storeOutMessages": false,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 2800.08349609375,
-        "y": 302.08338928222656,
-        "wires": [
-            [
-                "ed973683.3fdac8"
-            ]
-        ]
-    },
-    {
-        "id": "b1d7bd45.436bf8",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "7a30c02.5d2894",
-        "name": "Header Overview",
-        "order": 1,
-        "width": 15,
-        "height": "20",
-        "format": "    <script>\n        this.scope.sendRequest = function(element){\n            this.send({payload:{virtualLocation:element.Attribute[1].Value[0]}});\n        }\n        this.scope.isVisible = function(element){\n            if(element.Attribute[0].Attribute[0].Value[0] == \"\" && element.Attribute[0].Attribute[0].Value[1] == \"\")\n                return false;\n            else return true;\n        }\n    </script>\n\n    <div id=\"deck\" class=\"card-group\">\n            <div class=\"card-body\">\n            <div class=\"card text-white bg-light mb-3\" style=\"max-width: 45rem;\">\n                <ul class=\"list-group list-group-flush\">\n                 <li class=\"list-group-item\">\n                     <a class=\"text-dark\">{{msg.identifier}} Running Platform</a>\n                     <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Hostname : <strong>{{msg.payload[0].hostname}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Type : <strong>{{msg.payload[0].type}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Platform : <strong>{{msg.payload[0].platform}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Architecture : <strong>{{msg.payload[0].arch}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Release : <strong>{{msg.payload[0].release}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Namespace : <strong>{{msg.payload[0].namespace}}</strong></a>\n                        </li>\n                    </ul>\n                 </li>\n                </ul>\n            </div>\n            </div>\n    </div>\n    <div id=\"deck\" class=\"card-group\">\n            <div class=\"card-body\">\n            <div class=\"card text-white bg-light mb-3\" style=\"max-width: 45rem;\">\n                <ul class=\"list-group list-group-flush\">\n                 <li class=\"list-group-item\">\n                     <a class=\"text-dark\">{{msg.identifier}} Overview</a>\n                     <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload[1].assetAdministrationShells\" ng-init=\"shellIndex=$index\">\n                        <a class=\"text-info\" aria-expanded=\"true\" >Administration Shell: {{shellIndex}} </a>\n                        <ul class=\"list-group list-group-flush\">\n                            <li class=\"list-group-item\">\n                                <a class=\"text-black-50\">Identififcation : <strong>{{shell.identification.id}}</strong></a>\n                            </li>\n                            <li class=\"list-group-item \">\n                                <a class=\"text-black-50\">Asset Identification : <strong>{{shell.asset.keys[0].value}}</strong></a>\n                            </li>\n                            <li class=\"list-group-item\">\n                                <a class=\"text-black-50\">Derived From : <strong>{{shell.derivedFrom.keys[0].value}}</strong></a>\n                            </li>\n                        </ul>\n                        </li>\n                    </ul>\n                 </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n\n",
-        "storeOutMessages": false,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 2801.3334045410156,
-        "y": 341.6667022705078,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "40ba0174.feea08",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "LiveDataSelectedElements",
-        "func": "//Retreiving Libraries from the Settings.json file\nif(msg.payload != \"init\"){\n    var selectedElements = context.flow.get('selectedElements');\n    var selectedElement = msg.payload;\n    \n    if(selectedElements.lenght == 0){\n        //selectedElements.push(selectedElement._Attribs.ID);\n        selectedElements.push(selectedElement);\n    } else {\n        var found = false;\n        for(var element in selectedElements){\n            //if(selectedElement._Attribs.ID == selectedElements[element]){\n            if(selectedElement.selectedElement.idShort == selectedElements[element].selectedElement.idShort && selectedElement.submodelId == selectedElements[element].submodelId && selectedElement.shellId == selectedElements[element].shellId){\n                selectedElements.splice(element, 1);\n                found = true;\n                break;\n            }\n        }\n        if(!found){\n            //selectedElements.push(selectedElement._Attribs.ID);\n            selectedElements.push(selectedElement);\n        }\n    }\n    context.flow.set('selectedElements', selectedElements);\n    msg.payload = selectedElements;\n    return msg;\n} else {\n    context.flow.set('selectedElements', []);\n    return msg;\n}",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 3260,
-        "y": 580,
-        "wires": [
-            [
-                "13eaa4a6.391393"
-            ]
-        ]
-    },
-    {
-        "id": "ed973683.3fdac8",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 3001.58349609375,
-        "y": 302.08338928222656,
-        "wires": []
-    },
-    {
-        "id": "13eaa4a6.391393",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 3490,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "655852a0.36bea4",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1330,
-        "y": 580,
-        "wires": []
-    },
-    {
         "id": "a11a2eee.a46c8",
         "type": "debug",
         "z": "2164c119.f88826",
@@ -15605,63 +14945,6 @@
         ]
     },
     {
-        "id": "7a918d3a.b1ea34",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "retrievingSubmodels",
-        "func": "var outMsg = {};\nvar administrationShells = msg.payload[1].assetAdministrationShells;\nvar submodels = msg.payload[1].submodels;\nvar shells = [];\nfor(var shellIndex in administrationShells){\n    var element = {};\n    var shell = administrationShells[shellIndex];\n    element.shellIdShort = shell.idShort;\n    element.shellIdentifier = shell.identification.id;\n    element.submodels = [];\n    var shellSubmodels = shell.submodels;\n    for(var submodelIndex in submodels){\n        for(var shellSubmodelIndex in shellSubmodels){\n            if(submodels[submodelIndex].identification.id === shellSubmodels[shellSubmodelIndex].keys[0].value){\n                element.submodels.push(submodels[submodelIndex]);\n            }\n        }\n    }\n    shells.push(element);\n}\n//outMsg.payload = msg.payload[1].submodels;\noutMsg.payload = shells;\nreturn outMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 2660,
-        "y": 580,
-        "wires": [
-            [
-                "6c326c.a8726d94",
-                "ad9570df.a95b4",
-                "6f0e3cf4.b41acc"
-            ]
-        ]
-    },
-    {
-        "id": "c37add0d.9710f",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "c56f01cc.380dd",
-        "name": "ConceptDescriptions",
-        "order": 1,
-        "width": "30",
-        "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.conceptDescriptions = [];\n                        var descriptions = msg.payload; \n                        for(var description in descriptions){\n                            var conceptDescription = {};\n                            conceptDescription.id = descriptions[description].identification.id;\n                            conceptDescription.modelType = descriptions[description].modelType.name;\n                            var dataSpecification = descriptions[description].embeddedDataSpecifications[0].dataSpecificationContent;\n                            var langs = dataSpecification.preferredName;\n                            for(var lang in langs){\n                                if(langs[lang].language == \"en\"){\n                                    conceptDescription.preferredName = langs[lang].text;\n                                }\n                            }\n                            conceptDescription.shortName = dataSpecification.shortName;\n                            conceptDescription.unit = dataSpecification.unit;\n                            conceptDescription.dataType = dataSpecification.dataType;\n                            var defLangs = dataSpecification.definition;\n                            for(var defLang in defLangs){\n                                if(defLangs[defLang].language == \"en\"){\n                                    conceptDescription.definition = defLangs[defLang].text;\n                                }\n                            }\n                                    //scope.send({payload:dataInterfaceElement});\n                                    scope.conceptDescriptions.push(conceptDescription);\n                        }\n                        scope.send({payload:scope.conceptDescriptions});\n                    }\n                        \n                }\n            });\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n        })(scope)\n    </script>\n    <div id=\"deck\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">Id</th>\n                    <th scope=\"col\">modelType</th>\n                    <th scope=\"col\">preferredName</th>\n                    <th scope=\"col\">shortName</th>\n                    <th scope=\"col\">unit</th>\n                    <th scope=\"col\">dataType</th>\n                    <th scope=\"col\">definition</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr ng-repeat=\"cd in conceptDescriptions\">\n                <td><a class=\"text-dark\">{{cd.id}}</a></td>\n                <td><a class=\"text-dark\">{{cd.modelType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.preferredName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.shortName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.unit}}</a></td>\n                <td><a class=\"text-dark\">{{cd.dataType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.definition}}</a></td>\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 3040,
-        "y": 500,
-        "wires": [
-            [
-                "57cc2b70.afb41c"
-            ]
-        ]
-    },
-    {
-        "id": "aa9b9e00.d9a198",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1570,
-        "y": 300,
-        "wires": []
-    },
-    {
         "id": "90530db5.87162",
         "type": "debug",
         "z": "2164c119.f88826",
@@ -15787,54 +15070,6 @@
         "wires": []
     },
     {
-        "id": "eb868983.45c2e8",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "retrievingConceptDescriptions",
-        "func": "var outMsg = {};\noutMsg.payload = msg.payload[1].conceptDescriptions;\nreturn outMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 2690,
-        "y": 500,
-        "wires": [
-            [
-                "c37add0d.9710f",
-                "2fa38586.c0acea"
-            ]
-        ]
-    },
-    {
-        "id": "57cc2b70.afb41c",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 3290,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "2fa38586.c0acea",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2922.857177734375,
-        "y": 538.5714416503906,
-        "wires": []
-    },
-    {
         "id": "130f03a8.a2c444",
         "type": "function",
         "z": "2164c119.f88826",
@@ -15849,30 +15084,6 @@
         "y": 2040,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "6c326c.a8726d94",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "edb38227.3726a",
-        "name": "Submodels_Login",
-        "order": 1,
-        "width": 20,
-        "height": "30",
-        "format": "        <script>\n             (function(scope) {\n                 //scope.root = \"\";\n                 scope.depth = \"\";\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n            scope.sendRequest = function(op){\n                var reqType = (op.type == \"operation\")?\"invoke\":(op.type == \"event\")?\"subscribe\":\"error, unkown type!!\";\n                this.send({payload:{action:op.action,to:op.to,requestType:reqType}});\n            }\n            scope.extractingElement = function(element, submodelId, shellId){\n                this.send({payload:{selectedElement: element, submodelId: submodelId, aasid: shellId}});\n            }\n            scope.extractingElementColl = function(element, submodelId, shellId){\n                //scope.root = submodelId;\n                this.send({payload:{selectedElement: element, submodelId: submodelId, aasid: shellId}});\n            }\n            scope.init = function(){\n                this.send({payload:\"init\"});\n            }\n            scope.path = function(root, element){\n                //this.send({payload:root + \"/\" + element});\n                return root + \"/\" + element;\n                //return scope.depth =  scope.depth + \"/\" + submodelElementId;\n                \n            }\n        })(scope)\n        \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view\">\n        \n        \n                                                                <li class=\"list-group-item list-group-item-info\">\n                                                                    <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                    </button>\n                                                                    <ul id='collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}' class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li class=\"custom-control custom-checkbox list-group-item list-group-item-light\" ng-repeat=\"submodelElement in submodelElement.value\" ng-init=\"submodelCollElementIndex=$index\">\n                                                                    <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\" class=\"custom-control custom-checkbox\">\n                                                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" ng-click=\"extractingElementColl(submodelElement, root, shell.shellIdentifier)\">\n                                                                    <label class=\"custom-control-label\" for=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                        <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                            idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                        </button>\n                                                                        <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                                    </label>\n                                                                        <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                            <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                            </li>\n                                                                            <li class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.valueType\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelCollElement.category === 'PARAMETER'\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                            </li>\n                                                                        </ul>\n                                                                        </div>\n                                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                            <div ng-include=\"'tree_view2'\" ng-if=\"true\" onload=\"root = path(root, submodelElement.idShort)\"></div>\n                                                                        </div>\n                                                                        <!--<div><ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view2'\"></ul></div>!-->\n                                                                        </li>\n                                                                        </ul>\n                                                                        </li>\n                                                        \n        \n            \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view2\">\n        \n        \n                                                                <li class=\"list-group-item\">\n                                                                    <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                    </button>\n                                                                    <ul id='collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}' class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li class=\"custom-control custom-checkbox list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodelElement.value\" ng-init=\"submodelCollElementIndex=$index\">\n                                                                    <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\" class=\"custom-control custom-checkbox\">\n                                                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" ng-click=\"extractingElementColl(submodelElement, root, shell.shellIdentifier)\">\n                                                                    <label class=\"custom-control-label\" for=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                        <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                            idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                        </button>\n                                                                        <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                                    </label>\n                                                                        <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                            <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                            </li>\n                                                                            <li class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelCollElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                            </li>\n                                                                        </ul>\n                                                                        </div>\n                                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                            <div ng-include=\"'tree_view'\" ng-if=\"true\" onload=\"root = path(root, submodelElement.idShort)\"></div>\n                                                                        </div>\n                                                                        <!--<div><ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\" ></ul></div>!-->\n                                                                        </li>\n                                                                        </ul>\n                                                                        </li>\n                                                        \n        \n            \n        </script>\n        <div id=\"deck_2\" class=\"card-group\" ng-init=\"init()\">\n            <div class=\"card-body\">\n                <div class=\"input-group input-group-sm mb-3\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"global search...\" aria-label=\"Sizing example input\" aria-describedby=\"inputGroup-sizing-sm\" ng-model=\"search\">\n                </div>\n                <div class=\"card text-white bg-light mb-3\">\n                     <ul class=\"list-group list-group-flush\" >\n                        <li id=\"loginList\" class=\"list-group-item\">\n                            <button class=\"btn btn-link text-dark\" data-toggle=\"collapse\" data-target=\"#collapse03\" aria-expanded=\"true\" aria-controls=\"#collapse03\">\n                            Administration Shells and Submodels\n                            </button>\n                            <!--<a class=\"text-dark\" data-toggle=\"collapse\" href=\"#collapse03\">Administration Shells and Submodels</a>!-->\n                            <ul id=\"collapse03\" class=\"list-group list-group-flush panel-collapse collapse\" >\n                                <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload | filter:search\">\n                                    <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse13_{{shell.shellIdShort}}\" aria-expanded=\"true\" aria-controls=\"collapse13_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">\n                                        idShort: <strong>{{shell.shellIdShort}}</strong>\n                                    </button>\n                                    <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse13_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">idShort: <strong>{{shell.shellIdShort}}</strong></a>!-->\n                                    <ul id=\"collapse13_{{shell.shellIdShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                        <li class=\"list-group-item\" ng-repeat=\"submodel in shell.submodels | filter:search\">\n                                            <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse23_{{submodel.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse23_{{submodel.idShort}}\" ng-if=\"submodel != ''\">\n                                                idShort: <strong>{{submodel.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse23_{{submodel.idShort}}\" ng-if=\"submodel != ''\">idShort: <strong>{{submodel.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse23_{{submodel.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodel.submodelElements | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\" class=\"custom-control custom-checkbox\">\n                                                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\" ng-click=\"extractingElement(submodelElement, submodel.idShort, shell.shellIdentifier)\">\n                                                            <label class=\"custom-control-label\" for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                            </div>\n                                                            <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                            <div ng-include=\"'tree_view'\" ng-if=\"true\" onload=\"root = path(submodel.idShort, submodelElement.idShort)\"></div>\n                                                                        </div>\n                                                                <!--<ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                        </li>\n                                                    \n                                                </ul>\n                                            \n                                        </li>\n                                    </ul>\n                                </li>\n                                </ul>\n                            </li>\n                        </ul>\n                </div>\n            </div>\n        </div>\n\n",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 2950,
-        "y": 640,
-        "wires": [
-            [
-                "40ba0174.feea08",
-                "db56541d.47959"
-            ]
         ]
     },
     {
@@ -15958,33 +15169,6 @@
         ]
     },
     {
-        "id": "c378d360.44ac8",
-        "type": "ui_button",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "Refresh button",
-        "group": "5b380ea4.54d28",
-        "order": 5,
-        "width": 3,
-        "height": 1,
-        "passthru": true,
-        "label": "Refresh",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "#14524e",
-        "icon": "cached",
-        "payload": "",
-        "payloadType": "str",
-        "topic": "",
-        "x": 520,
-        "y": 440,
-        "wires": [
-            [
-                "2706d3c7.5d9a2c"
-            ]
-        ]
-    },
-    {
         "id": "f826e42f.85708",
         "type": "ui_button",
         "z": "2164c119.f88826",
@@ -16061,21 +15245,6 @@
         "complete": "true",
         "x": 1870,
         "y": 1900,
-        "wires": []
-    },
-    {
-        "id": "b36514b5.7418a8",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2370,
-        "y": 220,
         "wires": []
     },
     {
@@ -16968,23 +16137,6 @@
         ]
     },
     {
-        "id": "ad9570df.a95b4",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2850,
-        "y": 700,
-        "wires": []
-    },
-    {
         "id": "90855920.b8ec9",
         "type": "ui_template",
         "z": "2164c119.f88826",
@@ -17062,42 +16214,6 @@
         "statusType": "auto",
         "x": 340,
         "y": 2040,
-        "wires": []
-    },
-    {
-        "id": "6f0e3cf4.b41acc",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "c68d835e.db3b2",
-        "name": "Submodels",
-        "order": 1,
-        "width": 20,
-        "height": 30,
-        "format": "        <script>\n            this.scope.sendRequest = function(op){\n                var reqType = (op.type == \"operation\")?\"invoke\":(op.type == \"event\")?\"subscribe\":\"error, unkown type!!\";\n                this.send({payload:{action:op.action,to:op.to,requestType:reqType}});\n            }\n            this.scope.extractingElement = function(element, submodelId){\n                this.send({payload:{selectedElement: element, submodelId: submodelId}});\n            }\n            this.scope.extractingElementColl = function(element, submodelId, submodelElementId){\n                this.send({payload:{selectedElement: element, submodelId: submodelId + \"/\" + submodelElementId}});\n            }\n            this.scope.init = function(){\n                this.send({payload:\"init\"});\n            }\n        \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view\">\n    <li class=\"list-group-item list-group-item-info\" >\n                                            <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse22_{{submodelElement.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse22_{{submodelElement.idShort}}\">\n                                                idShort: <strong>{{submodelElement.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse22_{{submodelElement.idShort}}\" >idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse22_{{submodelElement.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item\" ng-repeat=\"submodelElement in submodelElement.value | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\">\n                                                            <label for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                        </div>\n                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view2'\">\n                                                                <!--<ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view2'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                    </li>\n                                                </ul>\n                                            \n                                        </li>\n        \n       \n           \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view2\">\n    <li class=\"list-group-item \" >\n                                            <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse22_{{submodelElement.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse22_{{submodelElement.idShort}}\">\n                                                idShort: <strong>{{submodelElement.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse22_{{submodelElement.idShort}}\" >idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse22_{{submodelElement.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodelElement.value | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\">\n                                                            <label for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                        </div>\n                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                <!--<ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                    </li>\n                                                </ul>\n                                            \n                                        </li>\n        \n       \n           \n        </script>\n        <div id=\"deck12\" class=\"card-group\">\n            <div class=\"card-body\">\n                <div class=\"input-group input-group-sm mb-3\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"global search...\" aria-label=\"Sizing example input\" aria-describedby=\"inputGroup-sizing-sm\" ng-model=\"search\">\n                </div>\n                <div id=\"accordion\" class=\"card text-white bg-light mb-3\">\n                    <ul class=\"list-group list-group-flush\" >\n                        <li class=\"list-group-item\">\n                            <button class=\"btn btn-link text-dark\" data-toggle=\"collapse\" data-target=\"#collapse02\" aria-expanded=\"true\" aria-controls=\"#collapse02\">\n                            Administration Shells and Submodels\n                            </button>\n                                <ul id=\"collapse02\" class=\"list-group list-group-flush panel-collapse collapse\" >\n                                <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload | filter:search\">\n                                    <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse12_{{shell.shellIdShort}}\" aria-expanded=\"true\" aria-controls=\"collapse12_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">\n                                        idShort: <strong>{{shell.shellIdShort}}</strong>\n                                    </button>\n                                    <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse12_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">idShort: <strong>{{shell.shellIdShort}}</strong></a>!-->\n                                    <ul id=\"collapse12_{{shell.shellIdShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                        <li class=\"list-group-item\" ng-repeat=\"submodel in shell.submodels | filter:search\">\n                                            <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse22_{{submodel.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse22_{{submodel.idShort}}\" ng-if=\"submodel != ''\">\n                                                idShort: <strong>{{submodel.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse22_{{submodel.idShort}}\" ng-if=\"submodel != ''\">idShort: <strong>{{submodel.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse22_{{submodel.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodel.submodelElements | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\">\n                                                            <label for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                        </div>\n                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                               <!-- <ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                    </li>\n                                                </ul>\n                                            \n                                        </li>\n                                    </ul>\n                                </li>\n                            </ul>\n                            <!--<a class=\"text-dark\" data-toggle=\"collapse\" href=\"#collapse02\">Administration Shells and Submodels</a>!-->\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n",
-        "storeOutMessages": false,
-        "fwdInMessages": false,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 2930,
-        "y": 600,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "db56541d.47959",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 3270,
-        "y": 640,
         "wires": []
     },
     {
@@ -21041,83 +20157,6 @@
         "wires": []
     },
     {
-        "id": "9c556d25.7ae77",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "func": "if(msg.statusCode == 401 || msg.statusCode == 403){\n    var outMsg = {};\n    outMsg.payload = {};\n    outMsg.headers = {};\n    outMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\n    outMsg.payload.client_id = context.global.get(\"client_id_ui\");\n    outMsg.payload.client_secret = context.global.get(\"client_secret_ui\");\n    outMsg.payload.grant_type = \"client_credentials\";\n    var realm = context.global.get(\"realm\");\n    outMsg.url = context.global.get(\"keycloak_auth\") + \"/realms/\" + realm + \"/protocol/openid-connect/token\";\n    return [outMsg, null];\n}\nreturn [null, msg];",
-        "outputs": 2,
-        "noerr": 0,
-        "x": 1740,
-        "y": 320,
-        "wires": [
-            [
-                "92c90877.1d55b",
-                "9f049ae7.5b8448"
-            ],
-            [
-                "5e2d4012.8c261"
-            ]
-        ]
-    },
-    {
-        "id": "92c90877.1d55b",
-        "type": "http request",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": true,
-        "proxy": "",
-        "authType": "",
-        "x": 1370,
-        "y": 220,
-        "wires": [
-            [
-                "a7284d99.4768e"
-            ]
-        ]
-    },
-    {
-        "id": "a1214c4.b254b3",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1950,
-        "y": 220,
-        "wires": []
-    },
-    {
-        "id": "a7284d99.4768e",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "func": "if(msg.statusCode == 200){\n    context.flow.set(\"token\", msg.payload.access_token);\n    var outMsg = {};\n    outMsg.method = 'GET';\n    outMsg.url = context.global.get('namespace') + \"/aasServer/env\";\n    outMsg.headers = {\n        authorization: \"Bearer \"+ msg.payload.access_token\n    }\n    return [outMsg, null];\n}\nreturn [null, msg];",
-        "outputs": 2,
-        "noerr": 0,
-        "x": 1740,
-        "y": 220,
-        "wires": [
-            [
-                "a1214c4.b254b3",
-                "8adcfea2.e5f07"
-            ],
-            []
-        ]
-    },
-    {
         "id": "a94a1e3a.e04fc8",
         "type": "debug",
         "z": "c7caf96e.a31f98",
@@ -21154,60 +20193,6 @@
         ]
     },
     {
-        "id": "48a00f83.68f3f8",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "get Bearer Token",
-        "func": "var outMsg = {};\noutMsg.payload = {};\noutMsg.headers = {};\noutMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\noutMsg.payload.client_id = context.global.get(\"client_id_ui\");\noutMsg.payload.client_secret = context.global.get(\"client_secret_ui\");\noutMsg.payload.grant_type = \"client_credentials\";\nreturn outMsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 750,
-        "y": 240,
-        "wires": [
-            [
-                "f9c3ce72.f51ec"
-            ]
-        ]
-    },
-    {
-        "id": "f9c3ce72.f51ec",
-        "type": "http request",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "http://keycloak:8080/auth/realms/industry40_edge/protocol/openid-connect/token",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "authType": "",
-        "x": 950,
-        "y": 240,
-        "wires": [
-            [
-                "c088facd.601f98"
-            ]
-        ]
-    },
-    {
-        "id": "c088facd.601f98",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "save Bearer Token",
-        "func": "context.flow.set(\"token\", msg.payload.access_token);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1130,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "d1229e16.7c61f",
         "type": "debug",
         "z": "c7caf96e.a31f98",
@@ -21223,21 +20208,6 @@
         "statusType": "auto",
         "x": 450,
         "y": 200,
-        "wires": []
-    },
-    {
-        "id": "9f049ae7.5b8448",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 1930,
-        "y": 280,
         "wires": []
     },
     {
@@ -22518,6 +21488,975 @@
         "wires": []
     },
     {
+        "id": "2706d3c7.5d9a2c",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "parameterizedHttpRequest",
+        "func": "var msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\n\nmsg1.method = 'GET';\nmsg1.url = context.global.get('namespace') + \"/aasServer/env\";\nmsg1.headers = {\n        authorization: \"Bearer \"+ context.flow.get(\"token\")\n    }\n\n//msg2.descriptionId = \"b5595a4a-40a5-46e6-a9c6-f493f99a72a1\"; \n\n//msg3.method = 'GET';\n//msg3.url = context.global.get('namespace') + \"/aasServer/submodels\";\n\nreturn [msg1, msg2, msg];",
+        "outputs": 3,
+        "noerr": 0,
+        "x": 1040,
+        "y": 320,
+        "wires": [
+            [
+                "8adcfea2.e5f07"
+            ],
+            [
+                "b3c4ed70.6e96f8"
+            ],
+            [
+                "ba5c9d0b.9853a",
+                "655852a0.36bea4"
+            ]
+        ]
+    },
+    {
+        "id": "b0b325ea.8aff3",
+        "type": "ui_button",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "Refresh button",
+        "group": "28ba0356.ef188c",
+        "order": 1,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#14524e",
+        "icon": "cached",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 520,
+        "y": 380,
+        "wires": [
+            [
+                "2706d3c7.5d9a2c"
+            ]
+        ]
+    },
+    {
+        "id": "2691cd1a.69d14a",
+        "type": "actionflows_in",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "informAASUI_ManifestChange in",
+        "priority": "50",
+        "links": [],
+        "scope": "global",
+        "x": 820,
+        "y": 660,
+        "wires": [
+            [
+                "2706d3c7.5d9a2c",
+                "2cf012d1.4a7f5e",
+                "648a464.2a92838"
+            ]
+        ]
+    },
+    {
+        "id": "649d6c1f.031b2c",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "flowVariables",
+        "func": "context.flow.set('selectedElements', []);\ncontext.flow.set('logs', []);\ncontext.flow.set('sessionTimeout', 10000);\n\n//var fs = context.global.get('fs');\n//var path = context.global.get('path');\n/*context.flow.set('accounts', []);\n\nvar fileName = \"httpauthfile.txt\";\nvar basePath = context.global.get('staticDocs');\nvar filePath = path.join(basePath, \"httpauth\", fileName);\n\nfs.readFile(filePath, \"utf8\", function read(err, data) {\n    if (err) {\n        throw err;\n    }\n    content = data;\n    var contentArray = content.split(\"\\n\");\n    //var account = {username: contentArray[0], password: contentArray[2]};\n    var accounts = context.flow.get('accounts');\n    for(var account in contentArray){\n        accounts.push(contentArray[account]);    \n    }\n    \n    // Invoke the next step here however you like\n    //console.log(content);   // Put all of the code here (not the best solution)\n    exit();          // Or put the next step in a function and invoke it\n    \n    });\n    \nfunction exit() {\n    //msg.payload = content;\n    node.send(msg);\n    \n}\n    \n    //return msg;\n    //context.flow.set('Body', \\\"\\\");\n*/\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "2706d3c7.5d9a2c",
+                "48a00f83.68f3f8"
+            ]
+        ]
+    },
+    {
+        "id": "8adcfea2.e5f07",
+        "type": "http request",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 1370,
+        "y": 320,
+        "wires": [
+            [
+                "aa9b9e00.d9a198",
+                "9c556d25.7ae77"
+            ]
+        ]
+    },
+    {
+        "id": "b3c4ed70.6e96f8",
+        "type": "actionflows",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "OSsysDscr",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "global",
+        "perf": false,
+        "seq": false,
+        "x": 1350,
+        "y": 380,
+        "wires": [
+            [
+                "3b691b47.1422f4",
+                "e829d4f5.0e483"
+            ]
+        ]
+    },
+    {
+        "id": "ba5c9d0b.9853a",
+        "type": "actionflows_out",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "informAASUI_ManifestChange out",
+        "links": [],
+        "x": 1449.9996337890625,
+        "y": 546.25,
+        "wires": []
+    },
+    {
+        "id": "c18d191f.026578",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "detectBrowserReload",
+        "func": "var payload = msg.payload;\nif(payload === \"connect\"){\n    return msg;\n}\n\nreturn null;\n//context.flow.set('Body', \"\");",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 540,
+        "y": 320,
+        "wires": [
+            [
+                "2706d3c7.5d9a2c"
+            ]
+        ]
+    },
+    {
+        "id": "7e763d50.949554",
+        "type": "ui_ui_control",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "x": 300,
+        "y": 380,
+        "wires": [
+            [
+                "b0b325ea.8aff3"
+            ]
+        ]
+    },
+    {
+        "id": "2cf012d1.4a7f5e",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "NotificationMessage",
+        "func": "//Retreiving Libraries from the Settings.json file\nmsg.payload = \"Manifest has been (re)loaded\"\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1160,
+        "y": 660,
+        "wires": [
+            [
+                "f3b7793f.d22a9",
+                "29a16be9.865c5c"
+            ]
+        ]
+    },
+    {
+        "id": "648a464.2a92838",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1177.5,
+        "y": 698.75,
+        "wires": []
+    },
+    {
+        "id": "43780ceb.0f273c",
+        "type": "inject",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "str",
+        "x": 310,
+        "y": 280,
+        "wires": [
+            [
+                "649d6c1f.031b2c"
+            ]
+        ]
+    },
+    {
+        "id": "5e2d4012.8c261",
+        "type": "join",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 2030,
+        "y": 320,
+        "wires": [
+            [
+                "d8a4f595.617738",
+                "a8614b5f.c2fa5"
+            ]
+        ]
+    },
+    {
+        "id": "3b691b47.1422f4",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1530,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e829d4f5.0e483",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "SubmodelsProcessing",
+        "func": "var msg1 = {};\nvar payload = {};\n//var splitted = msg.payload[0].value[0].value.split(\" \");\n//var splitted = msg.payload.value[0].value.split(\" \");\n//var splitted = msg.payload[0].value.split(\" \");\npayload.type = msg.payload.type;\npayload.hostname = msg.payload.hostname;;\npayload.release = msg.payload.release;;\npayload.platform = msg.payload.platform;\npayload.arch =msg.payload.arch;\npayload.namespace = context.global.get('namespace');\nmsg1.payload = payload;\nreturn msg1;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1740,
+        "y": 380,
+        "wires": [
+            [
+                "5e2d4012.8c261"
+            ]
+        ]
+    },
+    {
+        "id": "5a1e731e.6fd0ec",
+        "type": "ui_ui_control",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "x": 300,
+        "y": 320,
+        "wires": [
+            [
+                "c18d191f.026578"
+            ]
+        ]
+    },
+    {
+        "id": "f3b7793f.d22a9",
+        "type": "ui_toast",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "position": "bottom right",
+        "displayTime": "1",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "topic": "Manifest",
+        "name": "Notify Manifest Changes",
+        "x": 1550,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "29a16be9.865c5c",
+        "type": "actionflows",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "info": "Describe your action API here.",
+        "untilproptype": "num",
+        "proptype": "msg",
+        "name": "informAASUI_NewLog",
+        "prop": "loop",
+        "untilprop": 0,
+        "until": "gt",
+        "loop": "none",
+        "scope": "private",
+        "perf": false,
+        "seq": false,
+        "x": 1540,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d8a4f595.617738",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 2170,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "a8614b5f.c2fa5",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "SubmodelsProcessing",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outMsg = {};\nvar payload = [];\noutMsg.identifier = context.global.get(\"AASIdentifier\");\noutMsg.payload = payload;\nfor(var element in msg.payload){\n    if(typeof(msg.payload[element].assetAdministrationShells) !== 'undefined' && msg.payload[element] !== null){\n         outMsg.payload[1] = msg.payload[element];\n    } else {\n        outMsg.payload[0] = msg.payload[element];\n    }\n}\n\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2220,
+        "y": 320,
+        "wires": [
+            [
+                "a218c1c9.bf3c",
+                "b36514b5.7418a8"
+            ]
+        ]
+    },
+    {
+        "id": "a218c1c9.bf3c",
+        "type": "msg-router",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 6,
+        "x": 2450,
+        "y": 320,
+        "wires": [
+            [
+                "8b178b4f.b48a5"
+            ],
+            [
+                "dbc07abd.87dac8"
+            ],
+            [
+                "b1d7bd45.436bf8"
+            ],
+            [
+                "a5d497d.a955b68"
+            ],
+            [
+                "eb868983.45c2e8"
+            ],
+            [
+                "7a918d3a.b1ea34"
+            ]
+        ]
+    },
+    {
+        "id": "a5d497d.a955b68",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "b9ac7006.de90a",
+        "name": "Counters",
+        "order": 1,
+        "width": 10,
+        "height": "20",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 2780,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b178b4f.b48a5",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 2757.08349609375,
+        "y": 248.58338928222656,
+        "wires": []
+    },
+    {
+        "id": "dbc07abd.87dac8",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "8fc17f5a.38023",
+        "name": "Header Submodel",
+        "order": 1,
+        "width": 15,
+        "height": 30,
+        "format": "<div id=\"deck11\" class=\"card-group\">\n            <div class=\"card-body\">\n            <div class=\"card text-white bg-light mb-3\" style=\"max-width: 45rem;\">\n                <ul class=\"list-group list-group-flush\">\n                 <li class=\"list-group-item\">\n                    <button class=\"btn btn-link text-dark\" data-toggle=\"collapse\" data-target=\"#collapse11\" aria-expanded=\"true\" aria-controls=\"#collapse11\">\n                            {{msg.identifier}} Overview\n                    </button>\n                     <!--<a class=\"text-dark\" data-toggle=\"collapse\" href=\"#collapse11\">{{msg.identifier}} Overview</a>!-->\n                     <ul id=\"collapse11\" class=\"list-group list-group-flush panel-collapse collapse\">\n                        <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload[1].assetAdministrationShells\" ng-init=\"shellIndex=$index\">\n                        <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse21\" aria-expanded=\"true\" aria-controls=\"#collapse21\">\n                            Administration Shell: {{shellIndex}}\n                        </button>\n                        <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse21\" aria-expanded=\"true\" >Administration Shell: {{shellIndex}} </a>!-->\n                            <ul id=\"collapse21\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                <li class=\"list-group-item\">\n                                    <a class=\"text-black-50\">Identififcation : <strong>{{shell.identification.id}}</strong></a>\n                                </li>\n                                <li class=\"list-group-item \">\n                                    <a class=\"text-black-50\">Asset Identification : <strong>{{shell.asset.keys[0].value}}</strong></a>\n                                </li>\n                                <li class=\"list-group-item\">\n                                    <a class=\"text-black-50\">Derived From : <strong>{{shell.derivedFrom.keys[0].value}}</strong></a>\n                                </li>\n                                <!--<li class=\"list-group-item list-group-item-info\">!--><li class=\"list-group-item\">\n                                    <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse31\" aria-expanded=\"true\" aria-controls=\"#collapse31\">\n                                        Administration\n                                    </button>\n                                <!--<a class=\"text-black-50\"  data-toggle=\"collapse\" href=\"#collapse31\">Administration</a>!-->\n                                    <ul id=\"collapse31\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                        <li class=\"list-group-item list-group-item-info\">\n                                            <a class=\"text-info\" >version: {{shell.administration.version}}</a>\n                                        </li>\n                                         <li class=\"list-group-item list-group-item-info\">\n                                            <a class=\"text-info\" >version: {{shell.administration.revision}}</a>\n                                        </li>\n                                    </ul>\n                                </li>\n                            </ul>\n                        </li>\n                    </ul>\n                 </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 2800.08349609375,
+        "y": 302.08338928222656,
+        "wires": [
+            [
+                "ed973683.3fdac8"
+            ]
+        ]
+    },
+    {
+        "id": "b1d7bd45.436bf8",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "7a30c02.5d2894",
+        "name": "Header Overview",
+        "order": 1,
+        "width": 15,
+        "height": "20",
+        "format": "    <script>\n        this.scope.sendRequest = function(element){\n            this.send({payload:{virtualLocation:element.Attribute[1].Value[0]}});\n        }\n        this.scope.isVisible = function(element){\n            if(element.Attribute[0].Attribute[0].Value[0] == \"\" && element.Attribute[0].Attribute[0].Value[1] == \"\")\n                return false;\n            else return true;\n        }\n    </script>\n\n    <div id=\"deck\" class=\"card-group\">\n            <div class=\"card-body\">\n            <div class=\"card text-white bg-light mb-3\" style=\"max-width: 45rem;\">\n                <ul class=\"list-group list-group-flush\">\n                 <li class=\"list-group-item\">\n                     <a class=\"text-dark\">{{msg.identifier}} Running Platform</a>\n                     <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Hostname : <strong>{{msg.payload[0].hostname}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Type : <strong>{{msg.payload[0].type}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Platform : <strong>{{msg.payload[0].platform}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Architecture : <strong>{{msg.payload[0].arch}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Release : <strong>{{msg.payload[0].release}}</strong></a>\n                        </li>\n                        <li class=\"list-group-item list-group-item-info\">\n                            <a class=\"text-info\">Namespace : <strong>{{msg.payload[0].namespace}}</strong></a>\n                        </li>\n                    </ul>\n                 </li>\n                </ul>\n            </div>\n            </div>\n    </div>\n    <div id=\"deck\" class=\"card-group\">\n            <div class=\"card-body\">\n            <div class=\"card text-white bg-light mb-3\" style=\"max-width: 45rem;\">\n                <ul class=\"list-group list-group-flush\">\n                 <li class=\"list-group-item\">\n                     <a class=\"text-dark\">{{msg.identifier}} Overview</a>\n                     <ul class=\"list-group list-group-flush\">\n                        <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload[1].assetAdministrationShells\" ng-init=\"shellIndex=$index\">\n                        <a class=\"text-info\" aria-expanded=\"true\" >Administration Shell: {{shellIndex}} </a>\n                        <ul class=\"list-group list-group-flush\">\n                            <li class=\"list-group-item\">\n                                <a class=\"text-black-50\">Identififcation : <strong>{{shell.identification.id}}</strong></a>\n                            </li>\n                            <li class=\"list-group-item \">\n                                <a class=\"text-black-50\">Asset Identification : <strong>{{shell.asset.keys[0].value}}</strong></a>\n                            </li>\n                            <li class=\"list-group-item\">\n                                <a class=\"text-black-50\">Derived From : <strong>{{shell.derivedFrom.keys[0].value}}</strong></a>\n                            </li>\n                        </ul>\n                        </li>\n                    </ul>\n                 </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n\n\n",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 2801.3334045410156,
+        "y": 341.6667022705078,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "40ba0174.feea08",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "LiveDataSelectedElements",
+        "func": "//Retreiving Libraries from the Settings.json file\nif(msg.payload != \"init\"){\n    var selectedElements = context.flow.get('selectedElements');\n    var selectedElement = msg.payload;\n    \n    if(selectedElements.lenght == 0){\n        //selectedElements.push(selectedElement._Attribs.ID);\n        selectedElements.push(selectedElement);\n    } else {\n        var found = false;\n        for(var element in selectedElements){\n            //if(selectedElement._Attribs.ID == selectedElements[element]){\n            if(selectedElement.selectedElement.idShort == selectedElements[element].selectedElement.idShort && selectedElement.submodelId == selectedElements[element].submodelId && selectedElement.shellId == selectedElements[element].shellId){\n                selectedElements.splice(element, 1);\n                found = true;\n                break;\n            }\n        }\n        if(!found){\n            //selectedElements.push(selectedElement._Attribs.ID);\n            selectedElements.push(selectedElement);\n        }\n    }\n    context.flow.set('selectedElements', selectedElements);\n    msg.payload = selectedElements;\n    return msg;\n} else {\n    context.flow.set('selectedElements', []);\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3260,
+        "y": 580,
+        "wires": [
+            [
+                "13eaa4a6.391393"
+            ]
+        ]
+    },
+    {
+        "id": "ed973683.3fdac8",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 3001.58349609375,
+        "y": 302.08338928222656,
+        "wires": []
+    },
+    {
+        "id": "13eaa4a6.391393",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 3490,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "655852a0.36bea4",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1330,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "7a918d3a.b1ea34",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "retrievingSubmodels",
+        "func": "var outMsg = {};\nvar administrationShells = msg.payload[1].assetAdministrationShells;\nvar submodels = msg.payload[1].submodels;\nvar shells = [];\nfor(var shellIndex in administrationShells){\n    var element = {};\n    var shell = administrationShells[shellIndex];\n    element.shellIdShort = shell.idShort;\n    element.shellIdentifier = shell.identification.id;\n    element.submodels = [];\n    var shellSubmodels = shell.submodels;\n    for(var submodelIndex in submodels){\n        for(var shellSubmodelIndex in shellSubmodels){\n            if(submodels[submodelIndex].identification.id === shellSubmodels[shellSubmodelIndex].keys[0].value){\n                element.submodels.push(submodels[submodelIndex]);\n            }\n        }\n    }\n    shells.push(element);\n}\n//outMsg.payload = msg.payload[1].submodels;\noutMsg.payload = shells;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2660,
+        "y": 580,
+        "wires": [
+            [
+                "6c326c.a8726d94",
+                "ad9570df.a95b4",
+                "6f0e3cf4.b41acc"
+            ]
+        ]
+    },
+    {
+        "id": "c37add0d.9710f",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "c56f01cc.380dd",
+        "name": "ConceptDescriptions",
+        "order": 1,
+        "width": "30",
+        "height": "20",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    if (msg.payload) {\n                        scope.conceptDescriptions = [];\n                        var descriptions = msg.payload; \n                        for(var description in descriptions){\n                            var conceptDescription = {};\n                            conceptDescription.id = descriptions[description].identification.id;\n                            conceptDescription.modelType = descriptions[description].modelType.name;\n                            var dataSpecification = descriptions[description].embeddedDataSpecifications[0].dataSpecificationContent;\n                            var langs = dataSpecification.preferredName;\n                            for(var lang in langs){\n                                if(langs[lang].language == \"en\"){\n                                    conceptDescription.preferredName = langs[lang].text;\n                                }\n                            }\n                            conceptDescription.shortName = dataSpecification.shortName;\n                            conceptDescription.unit = dataSpecification.unit;\n                            conceptDescription.dataType = dataSpecification.dataType;\n                            var defLangs = dataSpecification.definition;\n                            for(var defLang in defLangs){\n                                if(defLangs[defLang].language == \"en\"){\n                                    conceptDescription.definition = defLangs[defLang].text;\n                                }\n                            }\n                                    //scope.send({payload:dataInterfaceElement});\n                                    scope.conceptDescriptions.push(conceptDescription);\n                        }\n                        scope.send({payload:scope.conceptDescriptions});\n                    }\n                        \n                }\n            });\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n        })(scope)\n    </script>\n    <div id=\"deck\">\n        <table class=\"table table-sm\">\n            <thead class=\"text-dark\">\n                <tr>\n                    <th scope=\"col\">Id</th>\n                    <th scope=\"col\">modelType</th>\n                    <th scope=\"col\">preferredName</th>\n                    <th scope=\"col\">shortName</th>\n                    <th scope=\"col\">unit</th>\n                    <th scope=\"col\">dataType</th>\n                    <th scope=\"col\">definition</th>\n                </tr>\n            </thead>\n            <tbody>\n            <tr ng-repeat=\"cd in conceptDescriptions\">\n                <td><a class=\"text-dark\">{{cd.id}}</a></td>\n                <td><a class=\"text-dark\">{{cd.modelType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.preferredName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.shortName}}</a></td>\n                <td><a class=\"text-dark\">{{cd.unit}}</a></td>\n                <td><a class=\"text-dark\">{{cd.dataType}}</a></td>\n                <td><a class=\"text-dark\">{{cd.definition}}</a></td>\n                <!--<td style=\"cursor:pointer;\" ng-click=\"remove(i)\" title=\"Remove\">&times;</td>!-->\n            </tr>\n            </tbody>\n            \n        </table>\n    </div>",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 3040,
+        "y": 500,
+        "wires": [
+            [
+                "57cc2b70.afb41c"
+            ]
+        ]
+    },
+    {
+        "id": "aa9b9e00.d9a198",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1570,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "eb868983.45c2e8",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "retrievingConceptDescriptions",
+        "func": "var outMsg = {};\noutMsg.payload = msg.payload[1].conceptDescriptions;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2690,
+        "y": 500,
+        "wires": [
+            [
+                "c37add0d.9710f",
+                "2fa38586.c0acea"
+            ]
+        ]
+    },
+    {
+        "id": "57cc2b70.afb41c",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 3290,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "2fa38586.c0acea",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 2922.857177734375,
+        "y": 538.5714416503906,
+        "wires": []
+    },
+    {
+        "id": "6c326c.a8726d94",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "edb38227.3726a",
+        "name": "Submodels_Login",
+        "order": 1,
+        "width": 20,
+        "height": "30",
+        "format": "        <script>\n             (function(scope) {\n                 //scope.root = \"\";\n                 scope.depth = \"\";\n/*            scope.init = function() {\n                //scope.observations = [];\n                scope.send({payload:scope.observations});\n            }*/\n            scope.sendRequest = function(op){\n                var reqType = (op.type == \"operation\")?\"invoke\":(op.type == \"event\")?\"subscribe\":\"error, unkown type!!\";\n                this.send({payload:{action:op.action,to:op.to,requestType:reqType}});\n            }\n            scope.extractingElement = function(element, submodelId, shellId){\n                this.send({payload:{selectedElement: element, submodelId: submodelId, aasid: shellId}});\n            }\n            scope.extractingElementColl = function(element, submodelId, shellId){\n                //scope.root = submodelId;\n                this.send({payload:{selectedElement: element, submodelId: submodelId, aasid: shellId}});\n            }\n            scope.init = function(){\n                this.send({payload:\"init\"});\n            }\n            scope.path = function(root, element){\n                //this.send({payload:root + \"/\" + element});\n                return root + \"/\" + element;\n                //return scope.depth =  scope.depth + \"/\" + submodelElementId;\n                \n            }\n        })(scope)\n        \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view\">\n        \n        \n                                                                <li class=\"list-group-item list-group-item-info\">\n                                                                    <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                    </button>\n                                                                    <ul id='collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}' class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li class=\"custom-control custom-checkbox list-group-item list-group-item-light\" ng-repeat=\"submodelElement in submodelElement.value\" ng-init=\"submodelCollElementIndex=$index\">\n                                                                    <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\" class=\"custom-control custom-checkbox\">\n                                                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" ng-click=\"extractingElementColl(submodelElement, root, shell.shellIdentifier)\">\n                                                                    <label class=\"custom-control-label\" for=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                        <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                            idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                        </button>\n                                                                        <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                                    </label>\n                                                                        <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                            <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                            </li>\n                                                                            <li class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.valueType\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelCollElement.category === 'PARAMETER'\" class=\"list-group-item list-group-item-info\">\n                                                                                <a class=\"text-info\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                            </li>\n                                                                        </ul>\n                                                                        </div>\n                                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                            <div ng-include=\"'tree_view2'\" ng-if=\"true\" onload=\"root = path(root, submodelElement.idShort)\"></div>\n                                                                        </div>\n                                                                        <!--<div><ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view2'\"></ul></div>!-->\n                                                                        </li>\n                                                                        </ul>\n                                                                        </li>\n                                                        \n        \n            \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view2\">\n        \n        \n                                                                <li class=\"list-group-item\">\n                                                                    <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                    </button>\n                                                                    <ul id='collapse42_{{submodelElement.idShort}}_{{submodelElementIndex}}' class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li class=\"custom-control custom-checkbox list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodelElement.value\" ng-init=\"submodelCollElementIndex=$index\">\n                                                                    <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\" class=\"custom-control custom-checkbox\">\n                                                                    <input type=\"checkbox\" class=\"custom-control-input\" id=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" ng-click=\"extractingElementColl(submodelElement, root, shell.shellIdentifier)\">\n                                                                    <label class=\"custom-control-label\" for=\"{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                        <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">\n                                                                            idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                        </button>\n                                                                        <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                                    </label>\n                                                                        <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelCollElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                            <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                            </li>\n                                                                            <li class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                            </li>\n                                                                            <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelCollElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                                <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                            </li>\n                                                                        </ul>\n                                                                        </div>\n                                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                            <div ng-include=\"'tree_view'\" ng-if=\"true\" onload=\"root = path(root, submodelElement.idShort)\"></div>\n                                                                        </div>\n                                                                        <!--<div><ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\" ></ul></div>!-->\n                                                                        </li>\n                                                                        </ul>\n                                                                        </li>\n                                                        \n        \n            \n        </script>\n        <div id=\"deck_2\" class=\"card-group\" ng-init=\"init()\">\n            <div class=\"card-body\">\n                <div class=\"input-group input-group-sm mb-3\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"global search...\" aria-label=\"Sizing example input\" aria-describedby=\"inputGroup-sizing-sm\" ng-model=\"search\">\n                </div>\n                <div class=\"card text-white bg-light mb-3\">\n                     <ul class=\"list-group list-group-flush\" >\n                        <li id=\"loginList\" class=\"list-group-item\">\n                            <button class=\"btn btn-link text-dark\" data-toggle=\"collapse\" data-target=\"#collapse03\" aria-expanded=\"true\" aria-controls=\"#collapse03\">\n                            Administration Shells and Submodels\n                            </button>\n                            <!--<a class=\"text-dark\" data-toggle=\"collapse\" href=\"#collapse03\">Administration Shells and Submodels</a>!-->\n                            <ul id=\"collapse03\" class=\"list-group list-group-flush panel-collapse collapse\" >\n                                <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload | filter:search\">\n                                    <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse13_{{shell.shellIdShort}}\" aria-expanded=\"true\" aria-controls=\"collapse13_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">\n                                        idShort: <strong>{{shell.shellIdShort}}</strong>\n                                    </button>\n                                    <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse13_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">idShort: <strong>{{shell.shellIdShort}}</strong></a>!-->\n                                    <ul id=\"collapse13_{{shell.shellIdShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                        <li class=\"list-group-item\" ng-repeat=\"submodel in shell.submodels | filter:search\">\n                                            <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse23_{{submodel.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse23_{{submodel.idShort}}\" ng-if=\"submodel != ''\">\n                                                idShort: <strong>{{submodel.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse23_{{submodel.idShort}}\" ng-if=\"submodel != ''\">idShort: <strong>{{submodel.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse23_{{submodel.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodel.submodelElements | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\" class=\"custom-control custom-checkbox\">\n                                                            <input type=\"checkbox\" class=\"custom-control-input\" id=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\" ng-click=\"extractingElement(submodelElement, submodel.idShort, shell.shellIdentifier)\">\n                                                            <label class=\"custom-control-label\" for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse33_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                            </div>\n                                                            <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\">\n                                                                            <div ng-include=\"'tree_view'\" ng-if=\"true\" onload=\"root = path(submodel.idShort, submodelElement.idShort)\"></div>\n                                                                        </div>\n                                                                <!--<ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                        </li>\n                                                    \n                                                </ul>\n                                            \n                                        </li>\n                                    </ul>\n                                </li>\n                                </ul>\n                            </li>\n                        </ul>\n                </div>\n            </div>\n        </div>\n\n",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 2950,
+        "y": 640,
+        "wires": [
+            [
+                "40ba0174.feea08",
+                "db56541d.47959"
+            ]
+        ]
+    },
+    {
+        "id": "c378d360.44ac8",
+        "type": "ui_button",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "Refresh button",
+        "group": "5b380ea4.54d28",
+        "order": 5,
+        "width": 3,
+        "height": 1,
+        "passthru": true,
+        "label": "Refresh",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#14524e",
+        "icon": "cached",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "",
+        "x": 520,
+        "y": 440,
+        "wires": [
+            [
+                "2706d3c7.5d9a2c"
+            ]
+        ]
+    },
+    {
+        "id": "b36514b5.7418a8",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 2370,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "ad9570df.a95b4",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2850,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "6f0e3cf4.b41acc",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "c68d835e.db3b2",
+        "name": "Submodels",
+        "order": 1,
+        "width": 20,
+        "height": 30,
+        "format": "        <script>\n            this.scope.sendRequest = function(op){\n                var reqType = (op.type == \"operation\")?\"invoke\":(op.type == \"event\")?\"subscribe\":\"error, unkown type!!\";\n                this.send({payload:{action:op.action,to:op.to,requestType:reqType}});\n            }\n            this.scope.extractingElement = function(element, submodelId){\n                this.send({payload:{selectedElement: element, submodelId: submodelId}});\n            }\n            this.scope.extractingElementColl = function(element, submodelId, submodelElementId){\n                this.send({payload:{selectedElement: element, submodelId: submodelId + \"/\" + submodelElementId}});\n            }\n            this.scope.init = function(){\n                this.send({payload:\"init\"});\n            }\n        \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view\">\n    <li class=\"list-group-item list-group-item-info\" >\n                                            <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse22_{{submodelElement.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse22_{{submodelElement.idShort}}\">\n                                                idShort: <strong>{{submodelElement.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse22_{{submodelElement.idShort}}\" >idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse22_{{submodelElement.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item\" ng-repeat=\"submodelElement in submodelElement.value | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\">\n                                                            <label for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item list-group-item-info\">\n                                                                        <a class=\"text-info\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                        </div>\n                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view2'\">\n                                                                <!--<ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view2'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                    </li>\n                                                </ul>\n                                            \n                                        </li>\n        \n       \n           \n        </script>\n        <script type=\"text/ng-template\" id=\"tree_view2\">\n    <li class=\"list-group-item \" >\n                                            <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse22_{{submodelElement.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse22_{{submodelElement.idShort}}\">\n                                                idShort: <strong>{{submodelElement.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse22_{{submodelElement.idShort}}\" >idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse22_{{submodelElement.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodelElement.value | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\">\n                                                            <label for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                        </div>\n                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                <!--<ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                    </li>\n                                                </ul>\n                                            \n                                        </li>\n        \n       \n           \n        </script>\n        <div id=\"deck12\" class=\"card-group\">\n            <div class=\"card-body\">\n                <div class=\"input-group input-group-sm mb-3\">\n                    <input type=\"text\" class=\"form-control\" placeholder=\"global search...\" aria-label=\"Sizing example input\" aria-describedby=\"inputGroup-sizing-sm\" ng-model=\"search\">\n                </div>\n                <div id=\"accordion\" class=\"card text-white bg-light mb-3\">\n                    <ul class=\"list-group list-group-flush\" >\n                        <li class=\"list-group-item\">\n                            <button class=\"btn btn-link text-dark\" data-toggle=\"collapse\" data-target=\"#collapse02\" aria-expanded=\"true\" aria-controls=\"#collapse02\">\n                            Administration Shells and Submodels\n                            </button>\n                                <ul id=\"collapse02\" class=\"list-group list-group-flush panel-collapse collapse\" >\n                                <li class=\"list-group-item list-group-item-info\" ng-repeat=\"shell in msg.payload | filter:search\">\n                                    <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse12_{{shell.shellIdShort}}\" aria-expanded=\"true\" aria-controls=\"collapse12_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">\n                                        idShort: <strong>{{shell.shellIdShort}}</strong>\n                                    </button>\n                                    <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse12_{{shell.shellIdShort}}\" ng-if=\"shell != ''\">idShort: <strong>{{shell.shellIdShort}}</strong></a>!-->\n                                    <ul id=\"collapse12_{{shell.shellIdShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                        <li class=\"list-group-item\" ng-repeat=\"submodel in shell.submodels | filter:search\">\n                                            <button class=\"btn btn-link text-black-50\" data-toggle=\"collapse\" data-target=\"#collapse22_{{submodel.idShort}}\" aria-expanded=\"true\" aria-controls=\"collapse22_{{submodel.idShort}}\" ng-if=\"submodel != ''\">\n                                                idShort: <strong>{{submodel.idShort}}</strong>\n                                            </button>\n                                            <!--<a class=\"text-black-50\" data-toggle=\"collapse\" href=\"#collapse22_{{submodel.idShort}}\" ng-if=\"submodel != ''\">idShort: <strong>{{submodel.idShort}}</strong></a>!-->\n                                                <ul id=\"collapse22_{{submodel.idShort}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                    <li class=\"list-group-item list-group-item-info\" ng-repeat=\"submodelElement in submodel.submodelElements | filter:search\" ng-init=\"submodelElementIndex=$index\">\n                                                        <div ng-if=\"submodelElement.modelType.name !== 'SubmodelElementCollection'\">\n                                                            <label for=\"{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                <button class=\"btn btn-link text-info\" data-toggle=\"collapse\" data-target=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" aria-expanded=\"true\" aria-controls=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">\n                                                                    idShort: <strong>{{submodelElement.idShort}}</strong>\n                                                                </button>\n                                                                <!--<a class=\"text-info\" data-toggle=\"collapse\" href=\"#collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\">idShort: <strong>{{submodelElement.idShort}}</strong></a>!-->\n                                                            </label>\n                                                             <ul id=\"collapse32_{{submodelElement.idShort}}_{{submodelElementIndex}}\" class=\"list-group list-group-flush panel-collapse collapse\">\n                                                                    <li ng-if=\"submodelElement.semanticId.keys[0]\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Semantic Id: <strong>{{submodelElement.semanticId.keys[0].value}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Category: <strong>{{submodelElement.category}}</strong></a>\n                                                                    </li>\n                                                                    <li class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Model Type: <strong>{{submodelElement.modelType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.mimeType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">mime Type: <strong>{{submodelElement.mimeType}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.valueType\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value Type: <strong>{{submodelElement.valueType.dataObjectType.name}}</strong></a>\n                                                                    </li>\n                                                                    <li ng-if=\"submodelElement.category === 'CONSTANT' || submodelElement.category === 'PARAMETER'\" class=\"list-group-item\">\n                                                                        <a class=\"text-black-50\" data-toggle=\"collapse\">Value: <strong>{{submodelElement.value}}</strong></a>\n                                                                    </li>\n                                                            </ul>\n                                                        </div>\n                                                        <div ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                               <!-- <ul class=\"list-group list-group-flush\" ng-if=\"submodelElement.modelType.name === 'SubmodelElementCollection'\" ng-include=\"'tree_view'\">\n                                                                </ul>!-->\n                                                            </div>\n                                                    </li>\n                                                </ul>\n                                            \n                                        </li>\n                                    </ul>\n                                </li>\n                            </ul>\n                            <!--<a class=\"text-dark\" data-toggle=\"collapse\" href=\"#collapse02\">Administration Shells and Submodels</a>!-->\n                        </li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n\n",
+        "storeOutMessages": false,
+        "fwdInMessages": false,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 2930,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "db56541d.47959",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 3270,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "9c556d25.7ae77",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "func": "if(msg.statusCode == 401 || msg.statusCode == 403){\n    var outMsg = {};\n    outMsg.payload = {};\n    outMsg.headers = {};\n    outMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\n    outMsg.payload.client_id = context.global.get(\"client_id_ui\");\n    outMsg.payload.client_secret = context.global.get(\"client_secret_ui\");\n    outMsg.payload.grant_type = \"client_credentials\";\n    var realm = context.global.get(\"realm\");\n    outMsg.url = context.global.get(\"keycloak_auth\") + \"/realms/\" + realm + \"/protocol/openid-connect/token\";\n    return [outMsg, null];\n}\nreturn [null, msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1740,
+        "y": 320,
+        "wires": [
+            [
+                "92c90877.1d55b",
+                "9f049ae7.5b8448"
+            ],
+            [
+                "5e2d4012.8c261"
+            ]
+        ]
+    },
+    {
+        "id": "92c90877.1d55b",
+        "type": "http request",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": true,
+        "proxy": "",
+        "authType": "",
+        "x": 1370,
+        "y": 220,
+        "wires": [
+            [
+                "a7284d99.4768e"
+            ]
+        ]
+    },
+    {
+        "id": "a1214c4.b254b3",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1950,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "a7284d99.4768e",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "func": "if(msg.statusCode == 200){\n    context.flow.set(\"token\", msg.payload.access_token);\n    var outMsg = {};\n    outMsg.method = 'GET';\n    outMsg.url = context.global.get('namespace') + \"/aasServer/env\";\n    outMsg.headers = {\n        authorization: \"Bearer \"+ msg.payload.access_token\n    }\n    return [outMsg, null];\n}\nreturn [null, msg];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1740,
+        "y": 220,
+        "wires": [
+            [
+                "8adcfea2.e5f07",
+                "a1214c4.b254b3"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f9c3ce72.f51ec",
+        "type": "http request",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "method": "POST",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://keycloak:8080/auth/realms/industry40_edge/protocol/openid-connect/token",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 950,
+        "y": 240,
+        "wires": [
+            [
+                "c088facd.601f98"
+            ]
+        ]
+    },
+    {
+        "id": "48a00f83.68f3f8",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "get Bearer Token",
+        "func": "var outMsg = {};\noutMsg.payload = {};\noutMsg.headers = {};\noutMsg.headers[\"Content-Type\"] = \"application/x-www-form-urlencoded\";\noutMsg.payload.client_id = context.global.get(\"client_id_ui\");\noutMsg.payload.client_secret = context.global.get(\"client_secret_ui\");\noutMsg.payload.grant_type = \"client_credentials\";\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 240,
+        "wires": [
+            [
+                "f9c3ce72.f51ec"
+            ]
+        ]
+    },
+    {
+        "id": "c088facd.601f98",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "save Bearer Token",
+        "func": "context.flow.set(\"token\", msg.payload.access_token);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1130,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9f049ae7.5b8448",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1930,
+        "y": 280,
+        "wires": []
+    },
+    {
         "id": "df670002.5eaf4",
         "type": "link in",
         "z": "2164c119.f88826",
@@ -22534,38 +22473,6 @@
                 "decce0a.5623ea"
             ]
         ]
-    },
-    {
-        "id": "3a8df59d.b261fa",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "76f4488e.b66968",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 820,
-        "wires": []
     },
     {
         "id": "585218a0.c4569",
@@ -22608,6 +22515,38 @@
                 "a0e27916.231d4"
             ]
         ]
+    },
+    {
+        "id": "3a8df59d.b261fa",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "76f4488e.b66968",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 820,
+        "wires": []
     },
     {
         "id": "4277ccb7.a13f94",
@@ -22855,6 +22794,23 @@
         ]
     },
     {
+        "id": "7e3dad70.c8221c",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "func": "msg.payload = context.global.get(\"ThumbnailFilePath\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2860,
+        "y": 440,
+        "wires": [
+            [
+                "d3060bb8.b1786"
+            ]
+        ]
+    },
+    {
         "id": "cf9eba71.c9cd7",
         "type": "inject",
         "z": "2164c119.f88826",
@@ -22885,19 +22841,121 @@
         ]
     },
     {
-        "id": "7e3dad70.c8221c",
+        "id": "33dfaad2.2f66be",
         "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "func": "msg.payload = context.global.get(\"ThumbnailFilePath\");\nreturn msg;",
+        "z": "fd31082e.5487d8",
+        "name": "PrepareOutput",
+        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nvar fn = msg.req.params.fn;\n//msg.filename = context.global.get('staticDocs') + \"aasx/Document/\" + fn;\nmsg.payload = \"-name\" + \" \" + fn;\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
-        "x": 2860,
-        "y": 440,
+        "x": 920,
+        "y": 4180,
         "wires": [
             [
-                "d3060bb8.b1786"
+                "2c5fff4c.088d18"
+            ]
+        ]
+    },
+    {
+        "id": "389ecac2.32281e",
+        "type": "file in",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "filename": "",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 1810,
+        "y": 4160,
+        "wires": [
+            [
+                "1619def7.8eb651"
+            ]
+        ]
+    },
+    {
+        "id": "9454af3.ef43f5",
+        "type": "change",
+        "z": "fd31082e.5487d8",
+        "name": "Set Headers",
+        "rules": [
+            {
+                "t": "set",
+                "p": "headers",
+                "pt": "msg",
+                "to": "{}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1630,
+        "y": 4160,
+        "wires": [
+            [
+                "389ecac2.32281e"
+            ]
+        ]
+    },
+    {
+        "id": "2c5fff4c.088d18",
+        "type": "exec",
+        "z": "fd31082e.5487d8",
+        "command": "find",
+        "addpay": true,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "",
+        "x": 1210,
+        "y": 4180,
+        "wires": [
+            [
+                "92440de2.fa50f8",
+                "3bc52742.f5a13"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "92440de2.fa50f8",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1430,
+        "y": 4140,
+        "wires": []
+    },
+    {
+        "id": "3bc52742.f5a13",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "PrepareOutput",
+        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nif(msg.payload != \"\"){\n    msg.filename = msg.payload;\n    //msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\n    return [msg, null];\n} else {\n    msg.payload = \"document Not found\"\n    return [null, msg];\n}\n\n\n\n\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1440,
+        "y": 4180,
+        "wires": [
+            [
+                "9454af3.ef43f5"
+            ],
+            [
+                "1619def7.8eb651"
             ]
         ]
     }
