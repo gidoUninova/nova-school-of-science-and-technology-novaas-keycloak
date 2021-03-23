@@ -370,7 +370,9 @@
             "1f1ce2c5.9cb5cd"
         ],
         "x": 194,
-        "y": 4242
+        "y": 4242,
+        "w": 2272,
+        "h": 322
     },
     {
         "id": "d366c10f.cbf158",
@@ -421,7 +423,9 @@
             "b88a92c6.fb547"
         ],
         "x": 194,
-        "y": 3374.22216796875
+        "y": 3374.22216796875,
+        "w": 2962,
+        "h": 686.77783203125
     },
     {
         "id": "8ba0dee2.7f7be8",
@@ -737,7 +741,9 @@
             "21dc8589.d16662"
         ],
         "x": 94,
-        "y": 2956
+        "y": 2956,
+        "w": 2334,
+        "h": 431.00001335144043
     },
     {
         "id": "9eaca16.128cb6",
@@ -758,7 +764,9 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179
+        "y": 2179,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -813,18 +821,6 @@
             "c378d360.44ac8",
             "b36514b5.7418a8",
             "ad9570df.a95b4",
-            "8de2ce5c.1783c8",
-            "ef469c86.b0f528",
-            "892804f2.0cd97",
-            "ef7f2c8f.e3fe2",
-            "4009c046.7294f8",
-            "6b9141e3.f962d",
-            "69eb4025.e87ec",
-            "cc5b685a.4274a",
-            "53a5e566.79cf24",
-            "c40418e1.c91488",
-            "c3b69ef7.26da48",
-            "14af5723.cd5839",
             "6f0e3cf4.b41acc",
             "db56541d.47959",
             "9c556d25.7ae77",
@@ -834,10 +830,26 @@
             "f9c3ce72.f51ec",
             "48a00f83.68f3f8",
             "c088facd.601f98",
-            "9f049ae7.5b8448"
+            "9f049ae7.5b8448",
+            "df670002.5eaf4",
+            "585218a0.c4569",
+            "decce0a.5623ea",
+            "3a8df59d.b261fa",
+            "4277ccb7.a13f94",
+            "25185bed.02905c",
+            "4f70aa4.50d53d4",
+            "d9ac191f.2ed418",
+            "83f54403.763838",
+            "1883da0b.b158f6",
+            "a0e27916.231d4",
+            "d3060bb8.b1786",
+            "7e3dad70.c8221c",
+            "cf9eba71.c9cd7"
         ],
         "x": 214,
-        "y": 179
+        "y": 179,
+        "w": 3372,
+        "h": 962
     },
     {
         "id": "48a4f908.86ced8",
@@ -863,7 +875,9 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359
+        "y": 2359,
+        "w": 1132,
+        "h": 304.3541259765625
     },
     {
         "id": "a4c26498.4d1758",
@@ -891,7 +905,9 @@
             "7c1b2520.ec5814"
         ],
         "x": 1574,
-        "y": 2679
+        "y": 2679,
+        "w": 912,
+        "h": 242
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -930,7 +946,9 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779
+        "y": 2779,
+        "w": 1642,
+        "h": 457
     },
     {
         "id": "7f3265a4.23ba94",
@@ -1000,7 +1018,9 @@
             "323548f1.1a0c1"
         ],
         "x": 1584,
-        "y": 1479
+        "y": 1479,
+        "w": 2222,
+        "h": 866.25
     },
     {
         "id": "6c18a80c.ec30a",
@@ -2225,7 +2245,7 @@
         "group": "f9f1bdc8.0e017",
         "order": 2,
         "width": "5",
-        "height": "25"
+        "height": "28"
     },
     {
         "id": "bbfbe12.a34272",
@@ -2234,7 +2254,7 @@
         "group": "76f4488e.b66968",
         "order": 2,
         "width": "5",
-        "height": "15"
+        "height": "18"
     },
     {
         "id": "4534a6d5.677c78",
@@ -2253,7 +2273,7 @@
         "group": "4534a6d5.677c78",
         "order": 2,
         "width": "5",
-        "height": "15"
+        "height": "18"
     },
     {
         "id": "4944a8dc.cb1658",
@@ -2272,7 +2292,7 @@
         "group": "4944a8dc.cb1658",
         "order": 2,
         "width": "5",
-        "height": "15"
+        "height": "18"
     },
     {
         "id": "a9cc6929.51b4",
@@ -2291,7 +2311,7 @@
         "group": "a9cc6929.51b4",
         "order": 4,
         "width": "5",
-        "height": "31"
+        "height": "34"
     },
     {
         "id": "1e8a2f3d.54af89",
@@ -2320,7 +2340,7 @@
         "group": "c8188165.80a358",
         "order": 2,
         "width": "6",
-        "height": "20"
+        "height": "23"
     },
     {
         "id": "1a940952.a8af7f",
@@ -2822,8 +2842,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1410,
-        "y": 100,
+        "x": 1570,
+        "y": 180,
         "wires": []
     },
     {
@@ -2836,8 +2856,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 2110,
-        "y": 120,
+        "x": 2130,
+        "y": 160,
         "wires": []
     },
     {
@@ -5060,8 +5080,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 670,
-        "y": 140,
+        "x": 550,
+        "y": 180,
         "wires": []
     },
     {
@@ -6506,8 +6526,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1181.1112060546875,
-        "y": 118.8888931274414,
+        "x": 1190,
+        "y": 180,
         "wires": []
     },
     {
@@ -8005,7 +8025,7 @@
         "type": "unsafe-function",
         "z": "fd31082e.5487d8",
         "name": "PrepareOutput",
-        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nvar fn = msg.req.params.fn;\nmsg.filename = context.global.get('staticDocs') + \"aasx/docu/\" + fn;\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
+        "func": "//msg.filename = msg.payload.value;\n//msg.staticDocs = \"/home/gido/.node-red-novaas/\";\nvar fn = msg.req.params.fn;\nmsg.filename = context.global.get('staticDocs') + \"aasx/Document/\" + fn;\n//msg.payload = \"aasx/4830902_DPDM-6-15-PA---_0_.pdf\";\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1200,
@@ -8686,65 +8706,6 @@
                 "9ae0cc41.4f38e"
             ]
         ]
-    },
-    {
-        "id": "ce89582d.5a4aa8",
-        "type": "inject",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 320,
-        "y": 40,
-        "wires": [
-            [
-                "adb4e3c0.abff4"
-            ]
-        ]
-    },
-    {
-        "id": "adb4e3c0.abff4",
-        "type": "unsafe-function",
-        "z": "fd31082e.5487d8",
-        "name": "Set Global Context",
-        "func": "\nvar os = context.global.get('os');\nvar path = context.global.get('path');\nvar fs = context.global.get('fs');\n\ncontext.global.set(\"Drivers\", []);\n\nvar interfaces = os.networkInterfaces();\nvar addresses = [];\n\nfor (var k in interfaces) {\n    for (var k2 in interfaces[k]) {\n        var address = interfaces[k][k2];\n        if (address.family === 'IPv4' && !address.internal) {\n            addresses.push(address.address);\n        }\n    }\n}\n\nvar host = addresses[0];\nvar port = context.global.get('uiPort');\n\n\ncontext.global.set('namespace',\"http://\" + host + \":\" + port);\n\n                   \n//Retrieving the home directory\nvar homedirectory = context.global.get('staticDocs');\nvar asmodelfolder = \"manifest\";\n\nvar modelDir = path.join(homedirectory, asmodelfolder);\ncontext.global.set(\"ModelDir\", modelDir); \n\n//Building up the path to find the models\nvar fileName = \"Aml_as_manifest.json\";\nvar filePath = path.join(modelDir, fileName);\ncontext.global.set(\"ModelFilePath\", filePath);\n\n//var driversfolder = \"drivers\";\n//var driversFilePath = path.join(homedirectory, driversfolder);\n//context.global.set(\"DriversFilePath\", driversFilePath);\n\n\nvar novaasIdentifier = context.global.get(\"AASIdentifier\") || \"\";\nif(novaasIdentifier === \"\"){\n    novaasIdentifier = \"http://novaas@\" + host + \":\" + port + \"/aas\";\n}\n\ncontext.global.set(\"AASIdentifier\", novaasIdentifier);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 630,
-        "y": 40,
-        "wires": [
-            [
-                "a26f2e9e.3d0a3"
-            ]
-        ]
-    },
-    {
-        "id": "a26f2e9e.3d0a3",
-        "type": "debug",
-        "z": "fd31082e.5487d8",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 870,
-        "y": 40,
-        "wires": []
     },
     {
         "id": "2b84e8d1.a48ae8",
@@ -13429,7 +13390,8 @@
         "name": "NOVAAS_status_UI_out",
         "links": [
             "b3d953ee.708f1",
-            "ef469c86.b0f528"
+            "ef469c86.b0f528",
+            "df670002.5eaf4"
         ],
         "x": 3115,
         "y": 4020,
@@ -17023,27 +16985,6 @@
         "wires": []
     },
     {
-        "id": "8de2ce5c.1783c8",
-        "type": "ui_template",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "group": "77c7337d.b33f54",
-        "name": "Asset",
-        "order": 1,
-        "width": 10,
-        "height": "20",
-        "format": "<img src=\"/images/novaas_concerned_asset.jpg\"/>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "x": 2770,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "90855920.b8ec9",
         "type": "ui_template",
         "z": "2164c119.f88826",
@@ -17062,308 +17003,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "ef469c86.b0f528",
-        "type": "link in",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "NOVAAS_Status_UI_In",
-        "links": [
-            "b88a92c6.fb547"
-        ],
-        "x": 475,
-        "y": 820,
-        "wires": [
-            [
-                "4009c046.7294f8",
-                "892804f2.0cd97"
-            ]
-        ]
-    },
-    {
-        "id": "ef7f2c8f.e3fe2",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "76f4488e.b66968",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1030,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "4009c046.7294f8",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 750,
-        "y": 760,
-        "wires": []
-    },
-    {
-        "id": "892804f2.0cd97",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "name": "retrieve NOVAAS Health",
-        "func": "if(msg.payload === \"ok\"){\n    msg.payload = true;\n} else if(msg.payload === \"not_ok\"){\n    msg.payload = false;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 750,
-        "y": 820,
-        "wires": [
-            [
-                "ef7f2c8f.e3fe2",
-                "6b9141e3.f962d",
-                "69eb4025.e87ec",
-                "cc5b685a.4274a",
-                "53a5e566.79cf24",
-                "c40418e1.c91488",
-                "c3b69ef7.26da48",
-                "14af5723.cd5839"
-            ]
-        ]
-    },
-    {
-        "id": "6b9141e3.f962d",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "f9f1bdc8.0e017",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "69eb4025.e87ec",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "4534a6d5.677c78",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "cc5b685a.4274a",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "4944a8dc.cb1658",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 937,
-        "wires": []
-    },
-    {
-        "id": "53a5e566.79cf24",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "a9cc6929.51b4",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 980,
-        "wires": []
-    },
-    {
-        "id": "c40418e1.c91488",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "1e8a2f3d.54af89",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 1020,
-        "wires": []
-    },
-    {
-        "id": "c3b69ef7.26da48",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "c8188165.80a358",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 1059,
-        "wires": []
-    },
-    {
-        "id": "14af5723.cd5839",
-        "type": "ui_led",
-        "z": "2164c119.f88826",
-        "g": "1d9f40e2.66e59f",
-        "order": 1,
-        "group": "1a940952.a8af7f",
-        "width": "5",
-        "height": "5",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "red",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "green",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "name": "",
-        "x": 1030,
-        "y": 1100,
-        "wires": []
     },
     {
         "id": "db200cd7.5bd32",
@@ -22700,6 +22339,566 @@
         "y": 3180,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "ff79d28b.7d2098",
+        "type": "inject",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 310,
+        "y": 60,
+        "wires": [
+            [
+                "2b7dc6c2.3cf072"
+            ]
+        ]
+    },
+    {
+        "id": "2b7dc6c2.3cf072",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "Set Global Context",
+        "func": "\nvar os = context.global.get('os');\nvar path = context.global.get('path');\nvar fs = context.global.get('fs');\n\ncontext.global.set(\"Drivers\", []);\n\nvar interfaces = os.networkInterfaces();\nvar addresses = [];\n\nfor (var k in interfaces) {\n    for (var k2 in interfaces[k]) {\n        var address = interfaces[k][k2];\n        if (address.family === 'IPv4' && !address.internal) {\n            addresses.push(address.address);\n        }\n    }\n}\n\nvar host = addresses[0];\nvar port = context.global.get('uiPort');\n\n\ncontext.global.set('namespace',\"http://\" + host + \":\" + port);\n\n                   \n//Retrieving the home directory\nvar homedirectory = context.global.get('staticDocs');\nvar asmodelfolderRef = \"aasx/_rels/aasx-origin.rels\";\n\nvar modelDirRef = path.join(homedirectory, asmodelfolderRef);\ncontext.global.set(\"ModelDirRef\", modelDirRef);\nmsg.filename = modelDirRef;\n\nvar msg2 = {};\nvar thumbnailRef = \"_rels/.rels\";\n\nvar thumbnailDirRef = path.join(homedirectory, thumbnailRef);\ncontext.global.set(\"AssetThumbnailRef\", thumbnailDirRef);\nmsg2.filename = thumbnailDirRef;\n\n\n\n\nvar novaasIdentifier = context.global.get(\"AASIdentifier\") || \"\";\nif(novaasIdentifier === \"\"){\n    novaasIdentifier = \"http://novaas@\" + host + \":\" + port + \"/aas\";\n}\n\ncontext.global.set(\"AASIdentifier\", novaasIdentifier);\n\nreturn [msg, msg2];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 620,
+        "y": 60,
+        "wires": [
+            [
+                "a9cc817c.a42ef"
+            ],
+            [
+                "39e41cdb.faa2fc"
+            ]
+        ]
+    },
+    {
+        "id": "e48def9c.a24bd",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1560,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "1c9c542f.e42604",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "set Model Filepath",
+        "func": "var modelFilePath = context.global.get(\"staticDocs\").slice(0, -1) + msg.payload.Relationships.Relationship[0].$.Target;\ncontext.global.set(\"ModelFilePath\", modelFilePath);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1400,
+        "y": 60,
+        "wires": [
+            [
+                "e48def9c.a24bd"
+            ]
+        ]
+    },
+    {
+        "id": "a9cc817c.a42ef",
+        "type": "file in",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 1060,
+        "y": 60,
+        "wires": [
+            [
+                "a503fa21.d254c"
+            ]
+        ]
+    },
+    {
+        "id": "a503fa21.d254c",
+        "type": "xml",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1200,
+        "y": 60,
+        "wires": [
+            [
+                "1c9c542f.e42604"
+            ]
+        ]
+    },
+    {
+        "id": "39e41cdb.faa2fc",
+        "type": "file in",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "filename": "",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "x": 1060,
+        "y": 120,
+        "wires": [
+            [
+                "5fc6d99.bdcc1a8"
+            ]
+        ]
+    },
+    {
+        "id": "5fc6d99.bdcc1a8",
+        "type": "xml",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "property": "payload",
+        "attr": "",
+        "chr": "",
+        "x": 1200,
+        "y": 120,
+        "wires": [
+            [
+                "3f4b9147.e324be"
+            ]
+        ]
+    },
+    {
+        "id": "3f4b9147.e324be",
+        "type": "unsafe-function",
+        "z": "fd31082e.5487d8",
+        "name": "set Thumbnail Filepath",
+        "func": "var thumbnailFilePath = msg.payload.Relationships.Relationship[1].$.Target;\ncontext.global.set(\"ThumbnailFilePath\", thumbnailFilePath);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1410,
+        "y": 120,
+        "wires": [
+            [
+                "eb6db4fb.e4cf38"
+            ]
+        ]
+    },
+    {
+        "id": "eb6db4fb.e4cf38",
+        "type": "debug",
+        "z": "fd31082e.5487d8",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "x": 1620,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "df670002.5eaf4",
+        "type": "link in",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "NOVAAS_Status_UI_In",
+        "links": [
+            "b88a92c6.fb547"
+        ],
+        "x": 555,
+        "y": 820,
+        "wires": [
+            [
+                "585218a0.c4569",
+                "decce0a.5623ea"
+            ]
+        ]
+    },
+    {
+        "id": "3a8df59d.b261fa",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "76f4488e.b66968",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "585218a0.c4569",
+        "type": "debug",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 770,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "decce0a.5623ea",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "retrieve NOVAAS Health",
+        "func": "if(msg.payload === \"ok\"){\n    msg.payload = true;\n} else if(msg.payload === \"not_ok\"){\n    msg.payload = false;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 830,
+        "y": 820,
+        "wires": [
+            [
+                "3a8df59d.b261fa",
+                "4277ccb7.a13f94",
+                "25185bed.02905c",
+                "4f70aa4.50d53d4",
+                "d9ac191f.2ed418",
+                "83f54403.763838",
+                "1883da0b.b158f6",
+                "a0e27916.231d4"
+            ]
+        ]
+    },
+    {
+        "id": "4277ccb7.a13f94",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "f9f1bdc8.0e017",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "25185bed.02905c",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "4534a6d5.677c78",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "4f70aa4.50d53d4",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "4944a8dc.cb1658",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "d9ac191f.2ed418",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "a9cc6929.51b4",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "83f54403.763838",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "1e8a2f3d.54af89",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "1883da0b.b158f6",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "c8188165.80a358",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "a0e27916.231d4",
+        "type": "ui_led",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "order": 1,
+        "group": "1a940952.a8af7f",
+        "width": "5",
+        "height": "2",
+        "label": "",
+        "labelPlacement": "right",
+        "labelAlignment": "right",
+        "colorForValue": [
+            {
+                "color": "#ff0000",
+                "value": "false",
+                "valueType": "bool"
+            },
+            {
+                "color": "#008000",
+                "value": "true",
+                "valueType": "bool"
+            }
+        ],
+        "allowColorForValueInMessage": false,
+        "shape": "circle",
+        "showGlow": true,
+        "name": "",
+        "x": 1130,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "d3060bb8.b1786",
+        "type": "ui_template",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "group": "77c7337d.b33f54",
+        "name": "Asset",
+        "order": 1,
+        "width": 10,
+        "height": "20",
+        "format": "<img src=\"{{msg.payload}}\">",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "x": 3050,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf9eba71.c9cd7",
+        "type": "inject",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "2",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2650,
+        "y": 440,
+        "wires": [
+            [
+                "7e3dad70.c8221c"
+            ]
+        ]
+    },
+    {
+        "id": "7e3dad70.c8221c",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "func": "msg.payload = context.global.get(\"ThumbnailFilePath\");\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2860,
+        "y": 440,
+        "wires": [
+            [
+                "d3060bb8.b1786"
+            ]
         ]
     }
 ]
