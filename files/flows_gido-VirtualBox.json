@@ -687,7 +687,6 @@
             "21db2b14.d6f9f4",
             "31a80cba.e64364",
             "d548adc1.abff8",
-            "d9564ca2.79e4c",
             "3a568a54.3c63e6",
             "b102af28.a0df28",
             "c0822d7.a2222d",
@@ -737,7 +736,8 @@
             "41cdd4d9.fde994",
             "ceabdccc.dcc448",
             "82db2401.4b2e08",
-            "8c6a4250.9b69c"
+            "8c6a4250.9b69c",
+            "ba514096.0b1438"
         ],
         "x": 74,
         "y": 159,
@@ -8163,37 +8163,6 @@
         "y": 548,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
-    },
-    {
-        "id": "d9564ca2.79e4c",
-        "type": "inject",
-        "z": "c7caf96e.a31f98",
-        "g": "6c18a80c.ec30a",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": "2",
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 200,
-        "y": 508,
-        "wires": [
-            [
-                "f110f3ac.6b72e",
-                "3a6700df.867d18"
-            ]
-        ]
     },
     {
         "id": "3a568a54.3c63e6",
@@ -17093,8 +17062,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1560,
-        "y": 60,
+        "x": 1570,
+        "y": 20,
         "wires": []
     },
     {
@@ -17109,7 +17078,8 @@
         "y": 60,
         "wires": [
             [
-                "e48def9c.a24bd"
+                "e48def9c.a24bd",
+                "a07a1981.3c9568"
             ]
         ]
     },
@@ -23203,5 +23173,35 @@
         "x": 450,
         "y": 3640,
         "wires": []
+    },
+    {
+        "id": "a07a1981.3c9568",
+        "type": "link out",
+        "z": "fd31082e.5487d8",
+        "name": "init_model_path_out",
+        "links": [
+            "ba514096.0b1438"
+        ],
+        "x": 1675,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "ba514096.0b1438",
+        "type": "link in",
+        "z": "c7caf96e.a31f98",
+        "g": "6c18a80c.ec30a",
+        "name": "init_model_path_in",
+        "links": [
+            "a07a1981.3c9568"
+        ],
+        "x": 155,
+        "y": 500,
+        "wires": [
+            [
+                "f110f3ac.6b72e",
+                "3a6700df.867d18"
+            ]
+        ]
     }
 ]
