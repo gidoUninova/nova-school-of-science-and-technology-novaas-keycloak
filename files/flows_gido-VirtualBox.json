@@ -239,6 +239,7 @@
         "type": "subflow",
         "name": "Subflow 1",
         "info": "",
+        "category": "",
         "in": [
             {
                 "x": 420,
@@ -289,7 +290,19 @@
                     }
                 ]
             }
-        ]
+        ],
+        "env": [
+            {
+                "name": "TEST",
+                "type": "str",
+                "value": "",
+                "ui": {
+                    "icon": "font-awesome/fa-angle-double-right"
+                }
+            }
+        ],
+        "meta": {},
+        "color": "#DDAA99"
     },
     {
         "id": "16640da3.5a20ca",
@@ -21722,7 +21735,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "1",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 520,
         "wires": [
             [
@@ -21746,7 +21759,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 490,
+        "x": 730,
         "y": 500,
         "wires": [
             [
@@ -21766,11 +21779,17 @@
         "alias": "",
         "aliasType": "str",
         "clone": false,
-        "x": 200,
-        "y": 560,
+        "x": 140,
+        "y": 520,
         "wires": [
             [
-                "5eb7b2c1.117e9c"
+                "5eb7b2c1.117e9c",
+                "cb876e8.ffc7a9",
+                "a47b250a.10fcc8",
+                "546c84f0.6d79bc",
+                "8d213bd3.3fa2a8",
+                "ab792b9d.5a0258",
+                "ce37b279.84b03"
             ],
             []
         ]
@@ -21783,7 +21802,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1690,
+        "x": 1750,
         "y": 580,
         "wires": [
             []
@@ -21797,7 +21816,7 @@
         "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"currentOperatingPressure\") || 4;\nOutmsg.payload = variable;\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 540,
         "wires": [
             [
@@ -21813,7 +21832,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure out",
         "links": [],
-        "x": 1960,
+        "x": 2020,
         "y": 460,
         "wires": []
     },
@@ -21826,7 +21845,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 520,
         "wires": []
     },
@@ -21839,7 +21858,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 620,
         "wires": []
     },
@@ -21873,7 +21892,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1190,
         "y": 460,
         "wires": []
     },
@@ -22151,7 +22170,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 580,
         "wires": []
     },
@@ -22856,7 +22875,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "2",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 840,
         "wires": [
             [
@@ -22873,34 +22892,14 @@
         ]
     },
     {
-        "id": "fed30b5f.5b181",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 200,
-        "y": 880,
-        "wires": [
-            [
-                "cb876e8.ffc7a9"
-            ],
-            []
-        ]
-    },
-    {
         "id": "cb876e8.ffc7a9",
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
         "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"responseTime\") || \"\";\nOutmsg.payload = variable;\nreturn Outmsg;",
+        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"responseTime\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 860,
         "wires": [
             [
@@ -22919,7 +22918,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 840,
         "wires": []
     },
@@ -22932,7 +22931,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 940,
         "wires": []
     },
@@ -22949,7 +22948,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1630,
+        "x": 1690,
         "y": 740,
         "wires": []
     },
@@ -22966,7 +22965,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1080,
         "y": 780,
         "wires": []
     },
@@ -22983,7 +22982,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 900,
         "wires": []
     },
@@ -22995,7 +22994,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 430,
+        "x": 690,
         "y": 820,
         "wires": [
             [
@@ -23010,7 +23009,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime out",
         "links": [],
-        "x": 1920,
+        "x": 1980,
         "y": 800,
         "wires": []
     },
@@ -23022,7 +23021,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1660,
+        "x": 1720,
         "y": 900,
         "wires": [
             []
@@ -23034,7 +23033,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "3",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 1100,
         "wires": [
             [
@@ -23052,34 +23051,14 @@
         ]
     },
     {
-        "id": "3ee9c372.47947c",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 200,
-        "y": 1140,
-        "wires": [
-            [
-                "a47b250a.10fcc8"
-            ],
-            []
-        ]
-    },
-    {
         "id": "a47b250a.10fcc8",
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
         "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"valvePosition\") || \"\";\nOutmsg.payload = variable;\nreturn Outmsg;",
+        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"valvePosition\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 1120,
         "wires": [
             [
@@ -23098,7 +23077,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 1100,
         "wires": []
     },
@@ -23111,7 +23090,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 1200,
         "wires": []
     },
@@ -23128,7 +23107,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1630,
+        "x": 1690,
         "y": 1000,
         "wires": []
     },
@@ -23145,7 +23124,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1080,
         "y": 1040,
         "wires": []
     },
@@ -23162,7 +23141,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 1160,
         "wires": []
     },
@@ -23174,7 +23153,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 430,
+        "x": 690,
         "y": 1080,
         "wires": [
             [
@@ -23189,7 +23168,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition out",
         "links": [],
-        "x": 1920,
+        "x": 1980,
         "y": 1060,
         "wires": []
     },
@@ -23201,7 +23180,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1650,
+        "x": 1710,
         "y": 1160,
         "wires": [
             []
@@ -23213,7 +23192,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "4",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 1380,
         "wires": [
             [
@@ -23230,34 +23209,14 @@
         ]
     },
     {
-        "id": "2761e067.2aab98",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 200,
-        "y": 1420,
-        "wires": [
-            [
-                "546c84f0.6d79bc"
-            ],
-            []
-        ]
-    },
-    {
         "id": "546c84f0.6d79bc",
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
         "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"elapsedTimeMovingAvg\") || \"\";\nOutmsg.payload = variable;\nreturn Outmsg;",
+        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"elapsedTimeMovingAvg\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 1400,
         "wires": [
             [
@@ -23276,7 +23235,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 1380,
         "wires": []
     },
@@ -23289,7 +23248,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 1480,
         "wires": []
     },
@@ -23306,7 +23265,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1630,
+        "x": 1690,
         "y": 1280,
         "wires": []
     },
@@ -23323,7 +23282,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1170,
         "y": 1320,
         "wires": []
     },
@@ -23340,7 +23299,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 1440,
         "wires": []
     },
@@ -23352,7 +23311,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 470,
+        "x": 730,
         "y": 1360,
         "wires": [
             [
@@ -23367,7 +23326,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg out",
         "links": [],
-        "x": 1960,
+        "x": 2020,
         "y": 1340,
         "wires": []
     },
@@ -23379,7 +23338,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1690,
+        "x": 1750,
         "y": 1440,
         "wires": [
             []
@@ -23391,7 +23350,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "5",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 1640,
         "wires": [
             [
@@ -23408,34 +23367,14 @@
         ]
     },
     {
-        "id": "5ae8665.8ff5098",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 200,
-        "y": 1680,
-        "wires": [
-            [
-                "8d213bd3.3fa2a8"
-            ],
-            []
-        ]
-    },
-    {
         "id": "8d213bd3.3fa2a8",
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
         "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"cylinderStatus\") || \"\";\nOutmsg.payload = variable;\nreturn Outmsg;",
+        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"cylinderStatus\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 1660,
         "wires": [
             [
@@ -23454,7 +23393,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 1640,
         "wires": []
     },
@@ -23467,7 +23406,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 1740,
         "wires": []
     },
@@ -23484,7 +23423,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1630,
+        "x": 1690,
         "y": 1540,
         "wires": []
     },
@@ -23501,7 +23440,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1080,
         "y": 1580,
         "wires": []
     },
@@ -23518,7 +23457,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 1700,
         "wires": []
     },
@@ -23530,7 +23469,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 450,
+        "x": 690,
         "y": 1620,
         "wires": [
             [
@@ -23545,7 +23484,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus out",
         "links": [],
-        "x": 1920,
+        "x": 1980,
         "y": 1600,
         "wires": []
     },
@@ -23557,7 +23496,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1660,
+        "x": 1720,
         "y": 1700,
         "wires": [
             []
@@ -23569,7 +23508,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "6",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 1880,
         "wires": [
             [
@@ -23586,34 +23525,14 @@
         ]
     },
     {
-        "id": "16a3754e.8fd7bb",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 200,
-        "y": 1920,
-        "wires": [
-            [
-                "ab792b9d.5a0258"
-            ],
-            []
-        ]
-    },
-    {
         "id": "ab792b9d.5a0258",
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
         "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"cycle\") || \"\";\nOutmsg.payload = variable;\nreturn Outmsg;",
+        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"cycle\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 1900,
         "wires": [
             [
@@ -23632,7 +23551,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 1880,
         "wires": []
     },
@@ -23645,7 +23564,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 1980,
         "wires": []
     },
@@ -23662,7 +23581,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1630,
+        "x": 1690,
         "y": 1800,
         "wires": []
     },
@@ -23679,7 +23598,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1080,
         "y": 1820,
         "wires": []
     },
@@ -23696,7 +23615,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 1940,
         "wires": []
     },
@@ -23708,7 +23627,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 430,
+        "x": 670,
         "y": 1860,
         "wires": [
             [
@@ -23723,7 +23642,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle out",
         "links": [],
-        "x": 1890,
+        "x": 1950,
         "y": 1840,
         "wires": []
     },
@@ -23735,7 +23654,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1630,
+        "x": 1690,
         "y": 1940,
         "wires": [
             []
@@ -23747,7 +23666,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "7",
         "env": [],
-        "x": 1290,
+        "x": 1350,
         "y": 2120,
         "wires": [
             [
@@ -23764,26 +23683,6 @@
         ]
     },
     {
-        "id": "12e61ed6.d2d049",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 200,
-        "y": 2160,
-        "wires": [
-            [
-                "ce37b279.84b03"
-            ],
-            []
-        ]
-    },
-    {
         "id": "ce37b279.84b03",
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
@@ -23791,7 +23690,7 @@
         "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"responseTimePred\") || [];\nvar size = variable.length;\nif(size > 0){\n    Outmsg.payload = variable[0];\n    \n} else {\n    \n    Outmsg.payload = 0;\n    \n}\n\nreturn Outmsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 655,
+        "x": 375,
         "y": 2140,
         "wires": [
             [
@@ -23810,7 +23709,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1630,
+        "x": 1690,
         "y": 2120,
         "wires": []
     },
@@ -23823,7 +23722,7 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1640,
+        "x": 1700,
         "y": 2220,
         "wires": []
     },
@@ -23840,7 +23739,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1630,
+        "x": 1690,
         "y": 2040,
         "wires": []
     },
@@ -23857,7 +23756,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1020,
+        "x": 1130,
         "y": 2060,
         "wires": []
     },
@@ -23874,7 +23773,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 910,
+        "x": 970,
         "y": 2180,
         "wires": []
     },
@@ -23886,7 +23785,7 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 470,
+        "x": 710,
         "y": 2100,
         "wires": [
             [
@@ -23901,7 +23800,7 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred out",
         "links": [],
-        "x": 1940,
+        "x": 2000,
         "y": 2080,
         "wires": []
     },
@@ -23913,7 +23812,7 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1670,
+        "x": 1730,
         "y": 2180,
         "wires": [
             []
@@ -23932,7 +23831,7 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1410,
+        "x": 1470,
         "y": 1220,
         "wires": []
     }
