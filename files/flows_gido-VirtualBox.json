@@ -237,7 +237,7 @@
     {
         "id": "c1dd96d4.47a088",
         "type": "subflow",
-        "name": "Subflow 1",
+        "name": "Property handler",
         "info": "",
         "category": "",
         "in": [
@@ -291,16 +291,7 @@
                 ]
             }
         ],
-        "env": [
-            {
-                "name": "TEST",
-                "type": "str",
-                "value": "",
-                "ui": {
-                    "icon": "font-awesome/fa-angle-double-right"
-                }
-            }
-        ],
+        "env": [],
         "meta": {},
         "color": "#DDAA99"
     },
@@ -21733,9 +21724,9 @@
         "id": "760d448.12effbc",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "1",
+        "name": "Property 1",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 520,
         "wires": [
             [
@@ -22873,9 +22864,9 @@
         "id": "c12fbad1.26a438",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "2",
+        "name": "Property 2",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 840,
         "wires": [
             [
@@ -23031,9 +23022,9 @@
         "id": "8be25527.3bece8",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "3",
+        "name": "Property 3",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 1100,
         "wires": [
             [
@@ -23190,9 +23181,9 @@
         "id": "b81c2dbd.1c3848",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "4",
+        "name": "Property 4",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 1380,
         "wires": [
             [
@@ -23348,9 +23339,9 @@
         "id": "202b668d.68d56a",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "5",
+        "name": "Property 5",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 1640,
         "wires": [
             [
@@ -23506,9 +23497,9 @@
         "id": "3d19f624.55954a",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "6",
+        "name": "Property 6",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 1880,
         "wires": [
             [
@@ -23664,9 +23655,9 @@
         "id": "2f78fbd6.731644",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
-        "name": "7",
+        "name": "Property 7",
         "env": [],
-        "x": 1350,
+        "x": 1370,
         "y": 2120,
         "wires": [
             [
