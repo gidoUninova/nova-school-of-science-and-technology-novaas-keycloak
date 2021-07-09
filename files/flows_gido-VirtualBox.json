@@ -291,7 +291,13 @@
                 ]
             }
         ],
-        "env": [],
+        "env": [
+            {
+                "name": "PropertyName",
+                "type": "str",
+                "value": ""
+            }
+        ],
         "meta": {},
         "color": "#DDAA99"
     },
@@ -606,9 +612,7 @@
             "9d155fa1.55784",
             "856b84d2.58bc58",
             "f73c7559.2f4508",
-            "fa265388.1cefa",
             "50f38532.36990c",
-            "12258b7f.86a915",
             "4a2fa6da.9b03d8",
             "f8778a83.ae97b",
             "41bb2566.3acfdc",
@@ -1058,83 +1062,6 @@
         "h": 642
     },
     {
-        "id": "27a2d798.8a5c5",
-        "type": "group",
-        "z": "4ff5da13.cce2c4",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "6bc32d33.45f9e4",
-            "9266e562.28c37",
-            "ac0dba18.7aeda",
-            "4ad64dd8.6760f4",
-            "ac9eaa0c.0f4b68",
-            "4c16c76c.27ef18",
-            "b7a108ca.6d2c28",
-            "a2de3fd8.abb698",
-            "7fc430c5.095dc8",
-            "f097e303.e44418",
-            "4d16996f.c9d578",
-            "df583c8d.cdd8e8",
-            "5ae4975e.471678",
-            "bf993581.65f898"
-        ],
-        "x": 124,
-        "y": 59,
-        "w": 1522,
-        "h": 322
-    },
-    {
-        "id": "b3fca1f0.1e5ef8",
-        "type": "group",
-        "z": "4ff5da13.cce2c4",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "50caec1c.6ad584",
-            "a526eb90.5eb89",
-            "468a613a.658ae8",
-            "66121d53.f7a264",
-            "be9595d8.2df6a8",
-            "2dd76a11.baee1e",
-            "98dd4417.bb6a8",
-            "5543cf66.c72ba8",
-            "aa852a4a.3a9728",
-            "3f2701d6.f73216",
-            "f23c2e8f.c112f",
-            "9d3857b4.a3a72",
-            "a2d0442e.c3b158",
-            "67e92151.ed84b8",
-            "deaca8d7.b5846",
-            "4f700a47.b1503c",
-            "e3a6732e.ca9c5",
-            "b84f2e00.9385c8",
-            "6d18c370.e424fc",
-            "b6935d1d.70c508",
-            "9233e59a.9662b",
-            "6b5bce5c.8f7818",
-            "151fde71.ad247a",
-            "ce77388f.a7693",
-            "5fe0925e.2b993c",
-            "48dd5be3.c049ac",
-            "18abfa8d.7a70a5",
-            "cc4c0f0b.0473a8",
-            "fbec0d31.b2b898",
-            "95c62ca4.9097f8"
-        ],
-        "x": 114,
-        "y": 2639,
-        "w": 2872,
-        "h": 516
-    },
-    {
         "id": "37a4080e.40ed9",
         "type": "group",
         "z": "c7caf96e.a31f98",
@@ -1263,6 +1190,83 @@
         "y": 3099,
         "w": 2212,
         "h": 482
+    },
+    {
+        "id": "27a2d798.8a5c5",
+        "type": "group",
+        "z": "4ff5da13.cce2c4",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "6bc32d33.45f9e4",
+            "9266e562.28c37",
+            "ac0dba18.7aeda",
+            "4ad64dd8.6760f4",
+            "ac9eaa0c.0f4b68",
+            "4c16c76c.27ef18",
+            "b7a108ca.6d2c28",
+            "a2de3fd8.abb698",
+            "7fc430c5.095dc8",
+            "f097e303.e44418",
+            "4d16996f.c9d578",
+            "df583c8d.cdd8e8",
+            "5ae4975e.471678",
+            "bf993581.65f898"
+        ],
+        "x": 124,
+        "y": 59,
+        "w": 1522,
+        "h": 322
+    },
+    {
+        "id": "b3fca1f0.1e5ef8",
+        "type": "group",
+        "z": "4ff5da13.cce2c4",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "50caec1c.6ad584",
+            "a526eb90.5eb89",
+            "468a613a.658ae8",
+            "66121d53.f7a264",
+            "be9595d8.2df6a8",
+            "2dd76a11.baee1e",
+            "98dd4417.bb6a8",
+            "5543cf66.c72ba8",
+            "aa852a4a.3a9728",
+            "3f2701d6.f73216",
+            "f23c2e8f.c112f",
+            "9d3857b4.a3a72",
+            "a2d0442e.c3b158",
+            "67e92151.ed84b8",
+            "deaca8d7.b5846",
+            "4f700a47.b1503c",
+            "e3a6732e.ca9c5",
+            "b84f2e00.9385c8",
+            "6d18c370.e424fc",
+            "b6935d1d.70c508",
+            "9233e59a.9662b",
+            "6b5bce5c.8f7818",
+            "151fde71.ad247a",
+            "ce77388f.a7693",
+            "5fe0925e.2b993c",
+            "48dd5be3.c049ac",
+            "18abfa8d.7a70a5",
+            "cc4c0f0b.0473a8",
+            "fbec0d31.b2b898",
+            "95c62ca4.9097f8"
+        ],
+        "x": 114,
+        "y": 2639,
+        "w": 2872,
+        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -8897,7 +8901,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToGet",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/request/submodel/submodelElements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"File\")\n    {\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = {href: selectedElements[element].selectedElement.value};\n        var msg = {payload:observation};\n        outputMsgsFileData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    } else {\n        var msg = {payload:selected_element};\n        var shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/submodel/submodelElements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        outputMsgsPropertyData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsFileData, outputMsgsConstantData, outputMsgsPropertyData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/request/submodel/submodelElements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/request/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;            \n        }\n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"File\")\n    {\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = {href: selectedElements[element].selectedElement.value};\n        var msg = {payload:observation};\n        outputMsgsFileData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    } else {\n        var msg = {payload:selected_element};\n        var shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        //\"/aasServer/shells/:aasid/aas/submodels/:submodelId/submodel/submodelElements/:id\"\n        if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/submodel/submodelElements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        }\n\n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        outputMsgsPropertyData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsFileData, outputMsgsConstantData, outputMsgsPropertyData];",
         "outputs": 4,
         "noerr": 0,
         "x": 1971.666748046875,
@@ -9688,21 +9692,6 @@
         "wires": []
     },
     {
-        "id": "fa265388.1cefa",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "x": 2190,
-        "y": 1740,
-        "wires": []
-    },
-    {
         "id": "50f38532.36990c",
         "type": "http request",
         "z": "2164c119.f88826",
@@ -9722,24 +9711,6 @@
             [
                 "4a2fa6da.9b03d8",
                 "41bb2566.3acfdc"
-            ]
-        ]
-    },
-    {
-        "id": "12258b7f.86a915",
-        "type": "unsafe-function",
-        "z": "2164c119.f88826",
-        "g": "7f3265a4.23ba94",
-        "name": "LiveDataToSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    //var msg = {payload:selectedElements[element]};\n    \n    var selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var msg = {payload:selected_element};\n    var encodedSelected_Element = encodeURIComponent(selected_element);\n    msg.url = context.global.get('namespace') + \"/aasServer/liveData/subscribe/property/\" + encodedSelected_Element;\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1980,
-        "y": 1740,
-        "wires": [
-            [
-                "50f38532.36990c",
-                "fa265388.1cefa"
             ]
         ]
     },
@@ -10285,7 +10256,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToUnSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    //var msg = {payload:selectedElements[element]};\n    \n    //var selected_element = selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    var msg = {payload:selected_element};\n    var  shellId = encodeURIComponent(selectedElements[element].aasid);\n    var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n    msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n    }\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgs = [];\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    \n    var selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    \n    var msg = {payload:selected_element};\n    var  shellId = encodeURIComponent(selectedElements[element].aasid);\n    var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n    \n    if(typeof selectedElements[element].path != \"undefined\"){\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n    } else {\n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/unsubscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;    \n    }\n    \n    msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n    }\n    outputMsgs.push(msg);\n    \n}\n\nreturn [outputMsgs];",
         "outputs": 1,
         "noerr": 0,
         "x": 1983.1873779296875,
@@ -10445,7 +10416,7 @@
         "z": "2164c119.f88826",
         "g": "7f3265a4.23ba94",
         "name": "LiveDataToSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n    var selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" +selectedElements[element].selectedElement.idShort;\n    //var selected_element = selectedElements[element].submodelId + \";\" + selectedElements[element].selectedElement.idShort;\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;\n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nvar outputMsgsLiveData = [];\nvar outputMsgsFileData = [];\nvar outputMsgsConstantData = [];\nvar outputMsgsPropertyData = [];\n\nvar uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nvar selectedElements = context.flow.get('selectedElements');\nfor(var element in selectedElements){\n     var selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    var modelType = selectedElements[element].selectedElement.modelType.name;\n    var category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        var msg = {payload:selected_element};\n        var  shellId = encodeURIComponent(selectedElements[element].aasid);\n        var encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n         if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodelElements/\" + selectedElements[element].selectedElement.idShort;    \n        }\n        \n        msg.headers = {\n            authorization: context.flow.get(\"userToken\")\n        }\n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        var observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        var msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
         "outputs": 2,
         "noerr": 0,
         "x": 1980,
@@ -21500,6 +21471,38 @@
         "wires": []
     },
     {
+        "id": "2729f358.7a9c4c",
+        "type": "unsafe-function",
+        "z": "7585249f.880c0c",
+        "name": "BuildingJsonataQuery...",
+        "func": "var ShellId = msg.req.params.aasid;\nvar manifest = context.flow.get('manifest');\n\nvar shells = manifest.assetAdministrationShells;\nmsg.shellsJsonStr = JSON.stringify(shells);\nmsg.jsonata = \"$[identification.id='\" + ShellId +\"'].asset.keys\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            [
+                "a2d5da4d.3cba8"
+            ]
+        ]
+    },
+    {
+        "id": "a2d5da4d.3cba8",
+        "type": "jsonata",
+        "z": "7585249f.880c0c",
+        "name": "jsonata",
+        "property": "shellsJsonStr",
+        "jsonata": "",
+        "jsonataOpts": "",
+        "x": 920,
+        "y": 360,
+        "wires": [
+            [
+                "9af1e8ba.14f4a8"
+            ]
+        ]
+    },
+    {
         "id": "2ee706b2.763b22",
         "type": "switch",
         "z": "c1dd96d4.47a088",
@@ -21669,7 +21672,7 @@
         "type": "unsafe-function",
         "z": "c1dd96d4.47a088",
         "name": "",
-        "func": "var variable = msg.payload;\ncontext.flow.set(\"variable\", variable);\nreturn msg;",
+        "func": "var propertyName = env.get(\"PropertyName\");\nvar Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"$parent.\" + propertyName);\ncontext.flow.set(\"variable\", variable);\n\nOutmsg.payload = variable;\nreturn Outmsg;\n",
         "outputs": 1,
         "noerr": 0,
         "x": 875,
@@ -21696,173 +21699,6 @@
             []
         ],
         "l": false
-    },
-    {
-        "id": "760d448.12effbc",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "4ff5da13.cce2c4",
-        "name": "Property 1",
-        "env": [],
-        "x": 1370,
-        "y": 520,
-        "wires": [
-            [
-                "13009382.bdf22c",
-                "bc61a4ba.e720e8"
-            ],
-            [
-                "70786a05.e58e34"
-            ],
-            [
-                "3ee76f6c.2eebe",
-                "6b42f44.7f4fa0c"
-            ]
-        ]
-    },
-    {
-        "id": "d92dc201.c46128",
-        "type": "actionflows_in",
-        "z": "4ff5da13.cce2c4",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 730,
-        "y": 500,
-        "wires": [
-            [
-                "760d448.12effbc",
-                "acb77643.946368"
-            ]
-        ]
-    },
-    {
-        "id": "fda690ac.7f99b8",
-        "type": "sub-link-output",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "alias": "",
-        "aliasType": "str",
-        "clone": false,
-        "x": 140,
-        "y": 520,
-        "wires": [
-            [
-                "5eb7b2c1.117e9c",
-                "cb876e8.ffc7a9",
-                "a47b250a.10fcc8",
-                "546c84f0.6d79bc",
-                "8d213bd3.3fa2a8",
-                "ab792b9d.5a0258",
-                "ce37b279.84b03"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "3ee76f6c.2eebe",
-        "type": "iot-datasource",
-        "z": "4ff5da13.cce2c4",
-        "name": "currentOperatingPressure",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1750,
-        "y": 580,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5eb7b2c1.117e9c",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"currentOperatingPressure\") || 4;\nOutmsg.payload = variable;\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 540,
-        "wires": [
-            [
-                "760d448.12effbc",
-                "d371d2b7.ef56e"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "13009382.bdf22c",
-        "type": "actionflows_out",
-        "z": "4ff5da13.cce2c4",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure out",
-        "links": [],
-        "x": 2020,
-        "y": 460,
-        "wires": []
-    },
-    {
-        "id": "70786a05.e58e34",
-        "type": "sub-link-input",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "6b42f44.7f4fa0c",
-        "type": "sub-link-input",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "bc61a4ba.e720e8",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1630,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "acb77643.946368",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1190,
-        "y": 460,
-        "wires": []
     },
     {
         "id": "6bc32d33.45f9e4",
@@ -22126,23 +21962,6 @@
         "l": false
     },
     {
-        "id": "d371d2b7.ef56e",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 580,
-        "wires": []
-    },
-    {
         "id": "65f952e3.108ff4",
         "type": "msg-speed",
         "z": "4ff5da13.cce2c4",
@@ -22165,7 +21984,7 @@
         "type": "unsafe-function",
         "z": "4ff5da13.cce2c4",
         "name": "stats",
-        "func": "var statsSBI = {};\nvar msgSpeed = msg.payload;\nvar msgIntervalAndFrequency = msg.intervalAndFrequency;\nstatsSBI.msgSpeed = msgSpeed;\nstatsSBI.IntervalAndFrequency = msgIntervalAndFrequency;\nstatsSBI.maxMsgs = 420;\nmsg.payload = statsSBI;\nreturn msg;",
+        "func": "var statsSBI = {};\nvar msgSpeed = msg.payload;\nvar msgIntervalAndFrequency = msg.intervalAndFrequency;\nstatsSBI.msgSpeed = msgSpeed;\nstatsSBI.IntervalAndFrequency = msgIntervalAndFrequency;\nstatsSBI.maxMsgs = context.flow.get(\"NrOfDataSources\") * 60;\nmsg.payload = statsSBI;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 1530,
@@ -22838,13 +22657,160 @@
         ]
     },
     {
+        "id": "760d448.12effbc",
+        "type": "subflow:c1dd96d4.47a088",
+        "z": "4ff5da13.cce2c4",
+        "name": "Property 1",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "currentOperatingPressure",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 580,
+        "wires": [
+            [
+                "13009382.bdf22c",
+                "bc61a4ba.e720e8"
+            ],
+            [
+                "70786a05.e58e34"
+            ],
+            [
+                "6b42f44.7f4fa0c",
+                "d7dd2509.938f6",
+                "b38966d5.942b2"
+            ]
+        ]
+    },
+    {
+        "id": "d92dc201.c46128",
+        "type": "actionflows_in",
+        "z": "4ff5da13.cce2c4",
+        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure in",
+        "priority": "50",
+        "links": [],
+        "scope": "global",
+        "x": 640,
+        "y": 560,
+        "wires": [
+            [
+                "760d448.12effbc",
+                "acb77643.946368"
+            ]
+        ]
+    },
+    {
+        "id": "fda690ac.7f99b8",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 620,
+        "wires": [
+            [
+                "760d448.12effbc"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "13009382.bdf22c",
+        "type": "actionflows_out",
+        "z": "4ff5da13.cce2c4",
+        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure out",
+        "links": [],
+        "x": 1930,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "70786a05.e58e34",
+        "type": "sub-link-input",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1600,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "6b42f44.7f4fa0c",
+        "type": "sub-link-input",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1610,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "bc61a4ba.e720e8",
+        "type": "debug",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1540,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "acb77643.946368",
+        "type": "debug",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 520,
+        "wires": []
+    },
+    {
         "id": "c12fbad1.26a438",
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
         "name": "Property 2",
-        "env": [],
-        "x": 1370,
-        "y": 840,
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "responseTime",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "2",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 900,
         "wires": [
             [
                 "87d5a06b.ee62e8",
@@ -22860,24 +22826,6 @@
         ]
     },
     {
-        "id": "cb876e8.ffc7a9",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"responseTime\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 860,
-        "wires": [
-            [
-                "c12fbad1.26a438",
-                "98769739.24db1"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "6448221.12bfa5c",
         "type": "sub-link-input",
         "z": "4ff5da13.cce2c4",
@@ -22886,8 +22834,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 840,
+        "x": 1600,
+        "y": 900,
         "wires": []
     },
     {
@@ -22899,8 +22847,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 940,
+        "x": 1610,
+        "y": 1000,
         "wires": []
     },
     {
@@ -22916,8 +22864,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1690,
-        "y": 740,
+        "x": 1600,
+        "y": 800,
         "wires": []
     },
     {
@@ -22933,25 +22881,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1080,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "98769739.24db1",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 900,
+        "x": 1020,
+        "y": 840,
         "wires": []
     },
     {
@@ -22962,8 +22893,8 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 690,
-        "y": 820,
+        "x": 600,
+        "y": 880,
         "wires": [
             [
                 "c12fbad1.26a438",
@@ -22977,8 +22908,8 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime out",
         "links": [],
-        "x": 1980,
-        "y": 800,
+        "x": 1890,
+        "y": 860,
         "wires": []
     },
     {
@@ -22989,8 +22920,8 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1720,
-        "y": 900,
+        "x": 1630,
+        "y": 960,
         "wires": [
             []
         ]
@@ -23000,9 +22931,20 @@
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
         "name": "Property 3",
-        "env": [],
-        "x": 1370,
-        "y": 1100,
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "valvePosition",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 1160,
         "wires": [
             [
                 "5be37c1a.82b4e4",
@@ -23019,24 +22961,6 @@
         ]
     },
     {
-        "id": "a47b250a.10fcc8",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"valvePosition\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 1120,
-        "wires": [
-            [
-                "8be25527.3bece8",
-                "7966d2ce.e34e7c"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "9bc9fd1d.273338",
         "type": "sub-link-input",
         "z": "4ff5da13.cce2c4",
@@ -23045,8 +22969,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 1100,
+        "x": 1600,
+        "y": 1160,
         "wires": []
     },
     {
@@ -23058,8 +22982,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 1200,
+        "x": 1610,
+        "y": 1260,
         "wires": []
     },
     {
@@ -23075,8 +22999,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1690,
-        "y": 1000,
+        "x": 1600,
+        "y": 1060,
         "wires": []
     },
     {
@@ -23092,25 +23016,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1080,
-        "y": 1040,
-        "wires": []
-    },
-    {
-        "id": "7966d2ce.e34e7c",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 1160,
+        "x": 990,
+        "y": 1100,
         "wires": []
     },
     {
@@ -23121,8 +23028,8 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 690,
-        "y": 1080,
+        "x": 600,
+        "y": 1140,
         "wires": [
             [
                 "8be25527.3bece8",
@@ -23136,8 +23043,8 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition out",
         "links": [],
-        "x": 1980,
-        "y": 1060,
+        "x": 1890,
+        "y": 1120,
         "wires": []
     },
     {
@@ -23148,8 +23055,8 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1710,
-        "y": 1160,
+        "x": 1620,
+        "y": 1220,
         "wires": [
             []
         ]
@@ -23159,9 +23066,20 @@
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
         "name": "Property 4",
-        "env": [],
-        "x": 1370,
-        "y": 1380,
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "elapsedTimeMovingAvg",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "4",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 1440,
         "wires": [
             [
                 "b89b59e1.dbd68",
@@ -23177,24 +23095,6 @@
         ]
     },
     {
-        "id": "546c84f0.6d79bc",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"elapsedTimeMovingAvg\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 1400,
-        "wires": [
-            [
-                "b81c2dbd.1c3848",
-                "aaff7d06.94315"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "10a1d9c8.a791be",
         "type": "sub-link-input",
         "z": "4ff5da13.cce2c4",
@@ -23203,8 +23103,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 1380,
+        "x": 1600,
+        "y": 1440,
         "wires": []
     },
     {
@@ -23216,8 +23116,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 1480,
+        "x": 1610,
+        "y": 1540,
         "wires": []
     },
     {
@@ -23233,8 +23133,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1690,
-        "y": 1280,
+        "x": 1600,
+        "y": 1340,
         "wires": []
     },
     {
@@ -23250,25 +23150,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1170,
-        "y": 1320,
-        "wires": []
-    },
-    {
-        "id": "aaff7d06.94315",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 1440,
+        "x": 1080,
+        "y": 1380,
         "wires": []
     },
     {
@@ -23279,8 +23162,8 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 730,
-        "y": 1360,
+        "x": 640,
+        "y": 1420,
         "wires": [
             [
                 "b0c61a5e.da0af",
@@ -23294,8 +23177,8 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg out",
         "links": [],
-        "x": 2020,
-        "y": 1340,
+        "x": 1930,
+        "y": 1400,
         "wires": []
     },
     {
@@ -23306,8 +23189,8 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1750,
-        "y": 1440,
+        "x": 1660,
+        "y": 1500,
         "wires": [
             []
         ]
@@ -23317,9 +23200,20 @@
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
         "name": "Property 5",
-        "env": [],
-        "x": 1370,
-        "y": 1640,
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "cylinderStatus",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "5",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 1700,
         "wires": [
             [
                 "6bd65f5a.ecd74",
@@ -23335,24 +23229,6 @@
         ]
     },
     {
-        "id": "8d213bd3.3fa2a8",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"cylinderStatus\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 1660,
-        "wires": [
-            [
-                "202b668d.68d56a",
-                "fb2efae.1cf6588"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "d26e769f.fa28e8",
         "type": "sub-link-input",
         "z": "4ff5da13.cce2c4",
@@ -23361,8 +23237,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 1640,
+        "x": 1600,
+        "y": 1700,
         "wires": []
     },
     {
@@ -23374,8 +23250,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 1740,
+        "x": 1610,
+        "y": 1800,
         "wires": []
     },
     {
@@ -23391,8 +23267,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1690,
-        "y": 1540,
+        "x": 1600,
+        "y": 1600,
         "wires": []
     },
     {
@@ -23408,25 +23284,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1080,
-        "y": 1580,
-        "wires": []
-    },
-    {
-        "id": "fb2efae.1cf6588",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 1700,
+        "x": 990,
+        "y": 1640,
         "wires": []
     },
     {
@@ -23437,8 +23296,8 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 690,
-        "y": 1620,
+        "x": 600,
+        "y": 1680,
         "wires": [
             [
                 "202b668d.68d56a",
@@ -23452,8 +23311,8 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus out",
         "links": [],
-        "x": 1980,
-        "y": 1600,
+        "x": 1890,
+        "y": 1660,
         "wires": []
     },
     {
@@ -23464,8 +23323,8 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1720,
-        "y": 1700,
+        "x": 1630,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -23475,9 +23334,20 @@
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
         "name": "Property 6",
-        "env": [],
-        "x": 1370,
-        "y": 1880,
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "cycle",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "6",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 1940,
         "wires": [
             [
                 "56db0733.df5fa8",
@@ -23488,27 +23358,10 @@
             ],
             [
                 "f3a8ac0c.647988",
-                "63bc6758.842d08"
+                "63bc6758.842d08",
+                "7f947dcd.218e7c"
             ]
         ]
-    },
-    {
-        "id": "ab792b9d.5a0258",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"cycle\") || 0;\nOutmsg.payload = variable;\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 1900,
-        "wires": [
-            [
-                "3d19f624.55954a",
-                "9d8f4466.fb3fb8"
-            ]
-        ],
-        "l": false
     },
     {
         "id": "cf717b87.7861c8",
@@ -23519,8 +23372,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 1880,
+        "x": 1600,
+        "y": 1940,
         "wires": []
     },
     {
@@ -23532,8 +23385,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 1980,
+        "x": 1610,
+        "y": 2040,
         "wires": []
     },
     {
@@ -23549,8 +23402,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1690,
-        "y": 1800,
+        "x": 1600,
+        "y": 1860,
         "wires": []
     },
     {
@@ -23566,25 +23419,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1080,
-        "y": 1820,
-        "wires": []
-    },
-    {
-        "id": "9d8f4466.fb3fb8",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 1940,
+        "x": 990,
+        "y": 1880,
         "wires": []
     },
     {
@@ -23595,8 +23431,8 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 670,
-        "y": 1860,
+        "x": 580,
+        "y": 1920,
         "wires": [
             [
                 "6f665c8e.0ac494",
@@ -23610,8 +23446,8 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle out",
         "links": [],
-        "x": 1950,
-        "y": 1840,
+        "x": 1860,
+        "y": 1900,
         "wires": []
     },
     {
@@ -23622,8 +23458,8 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1690,
-        "y": 1940,
+        "x": 1600,
+        "y": 2000,
         "wires": [
             []
         ]
@@ -23633,9 +23469,20 @@
         "type": "subflow:c1dd96d4.47a088",
         "z": "4ff5da13.cce2c4",
         "name": "Property 7",
-        "env": [],
-        "x": 1370,
-        "y": 2120,
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "responseTimePred",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "7",
+                "type": "str"
+            }
+        ],
+        "x": 1270,
+        "y": 2180,
         "wires": [
             [
                 "e10fede1.f5141",
@@ -23651,24 +23498,6 @@
         ]
     },
     {
-        "id": "ce37b279.84b03",
-        "type": "unsafe-function",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "func": "var Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"responseTimePred\") || [];\nvar size = variable.length;\nif(size > 0){\n    Outmsg.payload = variable[0];\n    \n} else {\n    \n    Outmsg.payload = 0;\n    \n}\n\nreturn Outmsg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 375,
-        "y": 2140,
-        "wires": [
-            [
-                "2f78fbd6.731644",
-                "9b8617fb.c42b2"
-            ]
-        ],
-        "l": false
-    },
-    {
         "id": "2effc120.395026",
         "type": "sub-link-input",
         "z": "4ff5da13.cce2c4",
@@ -23677,8 +23506,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "d2edf304.fdfa2",
-        "x": 1690,
-        "y": 2120,
+        "x": 1600,
+        "y": 2180,
         "wires": []
     },
     {
@@ -23690,8 +23519,8 @@
         "alias": "",
         "aliasType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1700,
-        "y": 2220,
+        "x": 1610,
+        "y": 2280,
         "wires": []
     },
     {
@@ -23707,8 +23536,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1690,
-        "y": 2040,
+        "x": 1600,
+        "y": 2100,
         "wires": []
     },
     {
@@ -23724,25 +23553,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1130,
-        "y": 2060,
-        "wires": []
-    },
-    {
-        "id": "9b8617fb.c42b2",
-        "type": "debug",
-        "z": "4ff5da13.cce2c4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 970,
-        "y": 2180,
+        "x": 1040,
+        "y": 2120,
         "wires": []
     },
     {
@@ -23753,8 +23565,8 @@
         "priority": "50",
         "links": [],
         "scope": "global",
-        "x": 710,
-        "y": 2100,
+        "x": 620,
+        "y": 2160,
         "wires": [
             [
                 "2f78fbd6.731644",
@@ -23768,8 +23580,8 @@
         "z": "4ff5da13.cce2c4",
         "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred out",
         "links": [],
-        "x": 2000,
-        "y": 2080,
+        "x": 1910,
+        "y": 2140,
         "wires": []
     },
     {
@@ -23780,8 +23592,8 @@
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1730,
-        "y": 2180,
+        "x": 1640,
+        "y": 2240,
         "wires": [
             []
         ]
@@ -23799,40 +23611,176 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1470,
-        "y": 1220,
+        "x": 1380,
+        "y": 1280,
         "wires": []
     },
     {
-        "id": "2729f358.7a9c4c",
-        "type": "unsafe-function",
-        "z": "7585249f.880c0c",
-        "name": "BuildingJsonataQuery...",
-        "func": "var ShellId = msg.req.params.aasid;\nvar manifest = context.flow.get('manifest');\n\nvar shells = manifest.assetAdministrationShells;\nmsg.shellsJsonStr = JSON.stringify(shells);\nmsg.jsonata = \"$[identification.id='\" + ShellId +\"'].asset.keys\";\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 670,
-        "y": 360,
+        "id": "d7dd2509.938f6",
+        "type": "debug",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1620,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b38966d5.942b2",
+        "type": "iot-datasource",
+        "z": "4ff5da13.cce2c4",
+        "name": "currentOperatingPressure",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1660,
+        "y": 640,
         "wires": [
-            [
-                "a2d5da4d.3cba8"
-            ]
+            []
         ]
     },
     {
-        "id": "a2d5da4d.3cba8",
-        "type": "jsonata",
-        "z": "7585249f.880c0c",
-        "name": "jsonata",
-        "property": "shellsJsonStr",
-        "jsonata": "",
-        "jsonataOpts": "",
-        "x": 920,
-        "y": 360,
+        "id": "7f0fcfe7.52cb48",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 940,
         "wires": [
             [
-                "9af1e8ba.14f4a8"
-            ]
+                "c12fbad1.26a438"
+            ],
+            []
         ]
+    },
+    {
+        "id": "147fe8c7.b6da67",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 1200,
+        "wires": [
+            [
+                "8be25527.3bece8"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "98f6697c.11bfc",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 1480,
+        "wires": [
+            [
+                "b81c2dbd.1c3848"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3275a386.896f4c",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 1740,
+        "wires": [
+            [
+                "202b668d.68d56a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "69a2cc29.dac6e4",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 1980,
+        "wires": [
+            [
+                "3d19f624.55954a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4e113907.e9e7b8",
+        "type": "sub-link-output",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "alias": "",
+        "aliasType": "str",
+        "clone": false,
+        "x": 350,
+        "y": 2220,
+        "wires": [
+            [
+                "2f78fbd6.731644"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "7f947dcd.218e7c",
+        "type": "debug",
+        "z": "4ff5da13.cce2c4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 2060,
+        "wires": []
     }
 ]
