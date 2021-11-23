@@ -385,7 +385,9 @@
             "5b190f606c4933fd"
         ],
         "x": 94,
-        "y": 2939
+        "y": 2939,
+        "w": 2334,
+        "h": 448.00001335144043
     },
     {
         "id": "9eaca16.128cb6",
@@ -406,7 +408,9 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179
+        "y": 2179,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "48a4f908.86ced8",
@@ -432,7 +436,9 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359
+        "y": 2359,
+        "w": 1132,
+        "h": 304.3541259765625
     },
     {
         "id": "a4c26498.4d1758",
@@ -460,7 +466,9 @@
             "171706559f354cdf"
         ],
         "x": 1574,
-        "y": 2679
+        "y": 2679,
+        "w": 912,
+        "h": 242
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -499,7 +507,9 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779
+        "y": 2779,
+        "w": 1642,
+        "h": 457
     },
     {
         "id": "7f3265a4.23ba94",
@@ -560,7 +570,9 @@
             "1e0c844d6abae7f8"
         ],
         "x": 1584,
-        "y": 1539
+        "y": 1539,
+        "w": 2222,
+        "h": 723
     },
     {
         "id": "6c18a80c.ec30a",
@@ -783,10 +795,15 @@
             "9c50cdd2.d8bbe8",
             "ef9e4b4284b6fcf7",
             "f5d81204558f97fa",
-            "ef469c86.b0f528"
+            "ef469c86.b0f528",
+            "28a6230f679f8eeb",
+            "806e01ba8dd4aa22",
+            "bdc6118ddbb26572"
         ],
         "x": 214,
-        "y": 99
+        "y": 99,
+        "w": 3452,
+        "h": 962
     },
     {
         "id": "9e0d0c62.913b48",
@@ -961,7 +978,9 @@
             "e65d6a5a.220b"
         ],
         "x": 104,
-        "y": 3499
+        "y": 3499,
+        "w": 1572,
+        "h": 642
     },
     {
         "id": "38dc6fd707e4bc33",
@@ -21127,7 +21146,8 @@
                 "b1d7bd45.436bf8"
             ],
             [
-                "a5d497d.a955b68"
+                "a5d497d.a955b68",
+                "28a6230f679f8eeb"
             ],
             [
                 "eb868983.45c2e8"
@@ -21147,13 +21167,14 @@
         "order": 1,
         "width": 10,
         "height": "20",
-        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n",
+        "format": "    <script>\n        (function(scope) {\n            scope.$watch('msg', function(msg){\n                if (msg) {\n                    var aass = msg.payload[1].assetAdministrationShells;\n                    scope.aasCounter = aass.length;\n                    var assets = msg.payload[1].assets;\n                    scope.assetCounter = assets.length;\n                    var submodels = msg.payload[1].submodels;\n                    scope.submodelsCounter = submodels.length;\n                    scope.submodelElementsCounter = 0;\n                    for(var submodel in submodels){\n                        scope.submodelElementsCounter = scope.submodelElementsCounter + submodels[submodel].submodelElements.length;\n                    }\n                    scope.conceptDescriptionsCounter = msg.payload[1].conceptDescriptions.length;\n                }\n            });\n        })(scope)\n    </script>\n        <div class=\"container\">\n            <h5><span class=\"badge badge-warning\">Asset Administration Shells: {{aasCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Assets: {{assetCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodels: {{submodelsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Submodel Elements: {{submodelElementsCounter}}</span></h5>\n            <h5><span class=\"badge badge-warning\">Concept Descriptions: {{conceptDescriptionsCounter}}</span></h5>\n        </div>\n        <div>\n            <img src=\"{{msg.qrcode}}\">\n        </div>\n",
         "storeOutMessages": false,
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2780,
-        "y": 300,
+        "className": "",
+        "x": 3300,
+        "y": 280,
         "wires": [
             []
         ]
@@ -21188,8 +21209,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2800.08349609375,
-        "y": 222.08338928222656,
+        "x": 3320.08349609375,
+        "y": 202.08338928222656,
         "wires": [
             [
                 "ed973683.3fdac8"
@@ -21211,8 +21232,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2801.3334045410156,
-        "y": 261.6667022705078,
+        "x": 3321.3334045410156,
+        "y": 241.6667022705078,
         "wires": [
             []
         ]
@@ -21226,8 +21247,8 @@
         "func": "//Retreiving Libraries from the Settings.json file\nif(msg.payload != \"init\"){\n    var selectedElements = context.flow.get('selectedElements');\n    var selectedElement = msg.payload;\n    \n    if(selectedElements.lenght == 0){\n        //selectedElements.push(selectedElement._Attribs.ID);\n        selectedElements.push(selectedElement);\n    } else {\n        var found = false;\n        for(var element in selectedElements){\n            //if(selectedElement._Attribs.ID == selectedElements[element]){\n            if(selectedElement.selectedElement.idShort == selectedElements[element].selectedElement.idShort && selectedElement.submodelId == selectedElements[element].submodelId && selectedElement.shellId == selectedElements[element].shellId){\n                selectedElements.splice(element, 1);\n                found = true;\n                break;\n            }\n        }\n        if(!found){\n            //selectedElements.push(selectedElement._Attribs.ID);\n            selectedElements.push(selectedElement);\n        }\n    }\n    context.flow.set('selectedElements', selectedElements);\n    msg.payload = selectedElements;\n    return msg;\n} else {\n    context.flow.set('selectedElements', []);\n    return msg;\n}",
         "outputs": 1,
         "noerr": 0,
-        "x": 3260,
-        "y": 500,
+        "x": 3340,
+        "y": 620,
         "wires": [
             [
                 "13eaa4a6.391393"
@@ -21245,8 +21266,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3001.58349609375,
-        "y": 222.08338928222656,
+        "x": 3521.58349609375,
+        "y": 202.08338928222656,
         "wires": []
     },
     {
@@ -21260,8 +21281,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3490,
-        "y": 500,
+        "x": 3570,
+        "y": 620,
         "wires": []
     },
     {
@@ -21288,8 +21309,8 @@
         "func": "var outMsg = {};\nif(msg.payload.length > 1){\nvar administrationShells = msg.payload[1].assetAdministrationShells;\nvar submodels = msg.payload[1].submodels;\nvar shells = [];\nfor(var shellIndex in administrationShells){\n    var element = {};\n    var shell = administrationShells[shellIndex];\n    element.shellIdShort = shell.idShort;\n    element.shellIdentifier = shell.identification.id;\n    element.submodels = [];\n    var shellSubmodels = shell.submodels;\n    for(var submodelIndex in submodels){\n        for(var shellSubmodelIndex in shellSubmodels){\n            if(submodels[submodelIndex].identification.id === shellSubmodels[shellSubmodelIndex].keys[0].value){\n                element.submodels.push(submodels[submodelIndex]);\n            }\n        }\n    }\n    shells.push(element);\n}\n//outMsg.payload = msg.payload[1].submodels;\noutMsg.payload = shells;\nreturn outMsg;\n    \n}\nelse return outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 2660,
-        "y": 500,
+        "x": 2740,
+        "y": 620,
         "wires": [
             [
                 "ad9570df.a95b4",
@@ -21313,8 +21334,8 @@
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 3040,
-        "y": 420,
+        "x": 3120,
+        "y": 540,
         "wires": [
             [
                 "57cc2b70.afb41c"
@@ -21345,8 +21366,8 @@
         "func": "var outMsg = {};\noutMsg.payload = msg.payload[1].conceptDescriptions;\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 2690,
-        "y": 420,
+        "x": 2770,
+        "y": 540,
         "wires": [
             [
                 "c37add0d.9710f",
@@ -21365,8 +21386,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3290,
-        "y": 420,
+        "x": 3370,
+        "y": 540,
         "wires": []
     },
     {
@@ -21380,8 +21401,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 2922.857177734375,
-        "y": 458.5714416503906,
+        "x": 3002.857177734375,
+        "y": 578.5714416503906,
         "wires": []
     },
     {
@@ -21439,8 +21460,8 @@
         "complete": "true",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2850,
-        "y": 620,
+        "x": 2930,
+        "y": 740,
         "wires": []
     },
     {
@@ -21454,8 +21475,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 3270,
-        "y": 560,
+        "x": 3350,
+        "y": 680,
         "wires": []
     },
     {
@@ -21806,8 +21827,8 @@
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 3050,
-        "y": 360,
+        "x": 3130,
+        "y": 480,
         "wires": [
             []
         ]
@@ -21821,8 +21842,8 @@
         "func": "msg.payload = context.global.get(\"ThumbnailFilePath\");\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 2860,
-        "y": 360,
+        "x": 2940,
+        "y": 480,
         "wires": [
             [
                 "d3060bb8.b1786"
@@ -21851,8 +21872,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 2650,
-        "y": 360,
+        "x": 2730,
+        "y": 480,
         "wires": [
             [
                 "7e3dad70.c8221c"
@@ -21874,8 +21895,8 @@
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2930,
-        "y": 520,
+        "x": 3010,
+        "y": 640,
         "wires": [
             []
         ]
@@ -21895,8 +21916,8 @@
         "fwdInMessages": false,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 2950,
-        "y": 560,
+        "x": 3030,
+        "y": 680,
         "wires": [
             [
                 "40ba0174.feea08",
@@ -22692,6 +22713,92 @@
             [
                 "27f219a6.f4617e",
                 "becf9f3.769e4e"
+            ]
+        ]
+    },
+    {
+        "id": "28a6230f679f8eeb",
+        "type": "change",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "qrcodeinput",
+                "pt": "msg",
+                "to": "REPO_LOCATION",
+                "tot": "env"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 2700,
+        "y": 300,
+        "wires": [
+            [
+                "806e01ba8dd4aa22"
+            ]
+        ]
+    },
+    {
+        "id": "806e01ba8dd4aa22",
+        "type": "qrcode-generator",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "qrtype": "text2qr",
+        "text2qrText": "",
+        "ssid": "",
+        "hiddenssid": false,
+        "wifitype": "",
+        "phonenum": "",
+        "smsphonenum": "",
+        "smstext": "",
+        "mailto": "",
+        "mailsubject": "",
+        "mailbody": "",
+        "latitude": "",
+        "longitude": "",
+        "colorlight": "#ffffff",
+        "colordark": "#000000",
+        "printstatus": false,
+        "x": 2890,
+        "y": 300,
+        "wires": [
+            [
+                "bdc6118ddbb26572"
+            ]
+        ]
+    },
+    {
+        "id": "bdc6118ddbb26572",
+        "type": "change",
+        "z": "2164c119.f88826",
+        "g": "1d9f40e2.66e59f",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "qrcode",
+                "pt": "msg",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 3060,
+        "y": 300,
+        "wires": [
+            [
+                "a5d497d.a955b68"
             ]
         ]
     }
