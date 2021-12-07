@@ -49,16 +49,16 @@
         "info": ""
     },
     {
-        "id": "698a5563c7493c21",
+        "id": "2164c119.f88826",
         "type": "tab",
-        "label": "DPDM/OperationalData",
+        "label": "AAS - UserInterface",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "2164c119.f88826",
+        "id": "812c07b789b2261d",
         "type": "tab",
-        "label": "AAS - UserInterface",
+        "label": "DPDM/OperationalData",
         "disabled": false,
         "info": ""
     },
@@ -294,6 +294,81 @@
         "env": [
             {
                 "name": "PropertyName",
+                "type": "str",
+                "value": ""
+            }
+        ],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "7c034d6721fa568d",
+        "type": "subflow",
+        "name": "Property handler (2)",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 420,
+                "y": 500,
+                "wires": [
+                    {
+                        "id": "9e326f5b4d3647e9"
+                    },
+                    {
+                        "id": "9b122336b8fb2fd5"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 1880,
+                "y": 440,
+                "wires": [
+                    {
+                        "id": "e904015738d66809",
+                        "port": 0
+                    },
+                    {
+                        "id": "c3bd99c7455ef028",
+                        "port": 0
+                    },
+                    {
+                        "id": "d90c1b87f3065515",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1880,
+                "y": 800,
+                "wires": [
+                    {
+                        "id": "712a4c6ae954aed6",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 1880,
+                "y": 860,
+                "wires": [
+                    {
+                        "id": "04098b1a46770421",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [
+            {
+                "name": "PropertyName",
+                "type": "str",
+                "value": ""
+            },
+            {
+                "name": "PropertyLink",
                 "type": "str",
                 "value": ""
             }
@@ -983,79 +1058,6 @@
         "h": 642
     },
     {
-        "id": "38dc6fd707e4bc33",
-        "type": "group",
-        "z": "698a5563c7493c21",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "2cfe74722fdbea9d",
-            "f86f060f0a7dad41",
-            "ae154db480244002",
-            "65fb8a96f64e48a0",
-            "5e32d4ab7d66bf2b",
-            "7a1e696be7735606",
-            "243a569e2e9288cb",
-            "a3534e48bcd025bb",
-            "3eab8fe7725eb3a6",
-            "042e073f73754fab",
-            "c26dcbf909d7e983",
-            "c9d9cb288932a32c",
-            "c85da3dd72b2bfbc",
-            "31e6a11f5886dfd5"
-        ],
-        "x": 124,
-        "y": 59
-    },
-    {
-        "id": "0be7188518e46192",
-        "type": "group",
-        "z": "698a5563c7493c21",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "09ce224ed9d071e9",
-            "51c42aeeecf00b1c",
-            "b39a937c8c1455aa",
-            "afbf9fd907511c18",
-            "8cd7f44c3c69c8b0",
-            "ba596ccaef820da3",
-            "d256fadc51012e34",
-            "469ca009f8365d24",
-            "d0dbf969d3afc7f5",
-            "09a8587ac93e0b3c",
-            "cbbbd9c27cf42674",
-            "e3837ec4124bc39b",
-            "9d329fdb80df1b8f",
-            "cdb830b4b71c31c0",
-            "398eb161a86e9051",
-            "47c6abf670159dec",
-            "cc7179c6f9b931f6",
-            "7ad91be9a021a39a",
-            "8ca80ef5f764b523",
-            "97b8bb479ed4f57e",
-            "f6b122c07d5075de",
-            "baabccea23320eb6",
-            "7c9033516f4dd7a6",
-            "f2d24dae191c2654",
-            "f77e0d09b0da46d3",
-            "3d2a4084678952e4",
-            "da845a3cc0e5cc22",
-            "a5725f632c0a9b7e",
-            "e14f33d210f93544",
-            "235b6951cb80c983"
-        ],
-        "x": 114,
-        "y": 2639
-    },
-    {
         "id": "b85ff5d2fdca6f85",
         "type": "group",
         "z": "f415efa5cb36c48f",
@@ -1257,6 +1259,83 @@
         "y": 3099,
         "w": 2212,
         "h": 482
+    },
+    {
+        "id": "8b26016f56f3ec31",
+        "type": "group",
+        "z": "812c07b789b2261d",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "8b660ba215d38779",
+            "f67bd57b628962d0",
+            "64297d636c302c8f",
+            "68b0b7973e45b045",
+            "6b669c60e625768d",
+            "45aa121e5fb129b8",
+            "1e05336a1499dd20",
+            "9e7ccb48c61fa5fe",
+            "63285bd3e87b09b8",
+            "9ab6f430faa86dae",
+            "5360f64532aeb576",
+            "6e6c410609401ff6",
+            "d63387edeb99c545",
+            "08c6dda6219f6383"
+        ],
+        "x": 124,
+        "y": 59,
+        "w": 1522,
+        "h": 322
+    },
+    {
+        "id": "98b472c1fdf61cd7",
+        "type": "group",
+        "z": "812c07b789b2261d",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "2b9ab774b4eebde2",
+            "11618ca0216cc646",
+            "3bf92784cf58676b",
+            "a18b73e68280c654",
+            "7427ae9fd7aa8034",
+            "dcd26f59413b72a9",
+            "7f798226878baca0",
+            "9304c2ee6c8689b2",
+            "91cfae0b0bc795ae",
+            "0b6cd0ea08fe4a1a",
+            "cca9f7e43485b298",
+            "f007a445be23af79",
+            "e4645e2e9a927edc",
+            "2ae3c78e4d6d08d0",
+            "c579faee0e78c0a3",
+            "48bd0572d0fd6bda",
+            "a4cfdc34d0227313",
+            "3e814380dfc717d3",
+            "406981d7482663c2",
+            "c60a8e9225f627db",
+            "9feb6188612c6bc1",
+            "30d7ccda1bb55b6f",
+            "76814d986dc2498d",
+            "ee4cb58708063641",
+            "876af5b7ede26433",
+            "c7bc774cb444def2",
+            "69b9bb8c13e1a1cf",
+            "cdf0b50d578d87e5",
+            "f75d3f1e3d02bf6a",
+            "13f732d6880f3561"
+        ],
+        "x": 114,
+        "y": 2639,
+        "w": 2872,
+        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -3287,6 +3366,246 @@
             []
         ],
         "l": false
+    },
+    {
+        "id": "23211b97697c774b",
+        "type": "switch",
+        "z": "7c034d6721fa568d",
+        "name": "topic",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "request",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "observe",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "unobserve",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 3,
+        "x": 710,
+        "y": 500,
+        "wires": [
+            [
+                "e904015738d66809"
+            ],
+            [
+                "c3bd99c7455ef028",
+                "8bf710bb4db2e0f0"
+            ],
+            [
+                "2b1c2d2c1b2f24e5",
+                "d90c1b87f3065515"
+            ]
+        ]
+    },
+    {
+        "id": "e904015738d66809",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "PrepareOutput",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = context.flow.get('variable') || \"\";\n\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 440,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "c3bd99c7455ef028",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "PrepareOutput",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 500,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "8bf710bb4db2e0f0",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "",
+        "func": "msg.topic = \"control\";\nmsg.payload = \"open\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 540,
+        "wires": [
+            [
+                "ba5f7e2d850c330b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ba5f7e2d850c330b",
+        "type": "gate",
+        "z": "7c034d6721fa568d",
+        "name": "",
+        "controlTopic": "control",
+        "defaultState": "closed",
+        "openCmd": "open",
+        "closeCmd": "close",
+        "toggleCmd": "toggle",
+        "defaultCmd": "default",
+        "persist": false,
+        "x": 1490,
+        "y": 800,
+        "wires": [
+            [
+                "712a4c6ae954aed6"
+            ]
+        ]
+    },
+    {
+        "id": "712a4c6ae954aed6",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n});\nvar outMsg = {};\nvar ObsObj = context.flow.get('ObsObj');\nObsObj.id = uuid;\nvar timestamp = context.flow.get(\"$parent.timestamp\");\nObsObj.timestamp = timestamp;\nObsObj.payload = context.flow.get(\"variable\");\noutMsg.payload = ObsObj;\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1635,
+        "y": 800,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "2b1c2d2c1b2f24e5",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "",
+        "func": "msg.topic = \"control\";\nmsg.payload = \"close\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 660,
+        "wires": [
+            [
+                "ba5f7e2d850c330b"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d90c1b87f3065515",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "PrepareOutput",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1175,
+        "y": 600,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "216e6556231cabc4",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "",
+        "func": "var propertyName = env.get(\"PropertyName\");\nvar Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"$parent.\" + propertyName);\ncontext.flow.set(\"variable\", variable);\n\nOutmsg.payload = variable;\nreturn Outmsg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 875,
+        "y": 800,
+        "wires": [
+            [
+                "ba5f7e2d850c330b",
+                "04098b1a46770421"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "04098b1a46770421",
+        "type": "unsafe-function",
+        "z": "7c034d6721fa568d",
+        "name": "responseTime",
+        "func": "var outMsg= {};\noutMsg.topic = \"put\";\noutMsg.payload = {\n    tstamp: context.flow.get(\"$parent.timestamp\"),\n    data: context.flow.get(\"variable\")\n};\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1075,
+        "y": 860,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "9e326f5b4d3647e9",
+        "type": "switch",
+        "z": "7c034d6721fa568d",
+        "name": "propertyLink",
+        "property": "PropertyLink",
+        "propertyType": "env",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "link",
+                "vt": "msg"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 500,
+        "wires": [
+            [
+                "23211b97697c774b"
+            ]
+        ]
+    },
+    {
+        "id": "9b122336b8fb2fd5",
+        "type": "switch",
+        "z": "7c034d6721fa568d",
+        "name": "scheduler",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "sbi scheduling data routing",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 620,
+        "y": 560,
+        "wires": [
+            [
+                "216e6556231cabc4"
+            ]
+        ]
     },
     {
         "id": "8dd7e27f.bc284",
@@ -14991,23 +15310,6 @@
         ]
     },
     {
-        "id": "a88216a5db832bc3",
-        "type": "unsafe-function",
-        "z": "92b23faeba8402de",
-        "name": "InvokeInternalDriver",
-        "func": "msg.source = context.global.get('AASIdentifier');\nmsg.staticDocs = context.global.get(\"staticDocs\");\nmsg.topic = \"request\";\nvar af = context.global.get(\"actionflows\");\nvar link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nvar action_ = af.invoke(link, msg);\naction_.then(function(msg){\n    node.send(msg);\n});\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1020,
-        "y": 200,
-        "wires": [
-            [
-                "6ca85a1845b905aa",
-                "a487cf85f5eb50b5"
-            ]
-        ]
-    },
-    {
         "id": "5cbe7688272afe82",
         "type": "comment",
         "z": "92b23faeba8402de",
@@ -15016,22 +15318,6 @@
         "x": 1340,
         "y": 159,
         "wires": []
-    },
-    {
-        "id": "5305fa85f809c370",
-        "type": "unsafe-function",
-        "z": "92b23faeba8402de",
-        "name": "InvokeInternalDriver",
-        "func": "var af = context.global.get(\"actionflows\");\nmsg.topic = \"observe\";\nvar link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nvar action_ = af.invoke(link, msg);\naction_.then(function(msg){\n    node.send(msg);\n});\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 760,
-        "y": 339,
-        "wires": [
-            [
-                "9886daea8cc40acf"
-            ]
-        ]
     },
     {
         "id": "7935eecd6cc1f862",
@@ -15101,23 +15387,6 @@
         "y": 75.85719299316406,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "864b1c08a1fcac92",
-        "type": "unsafe-function",
-        "z": "92b23faeba8402de",
-        "name": "InvokeInternalDriver",
-        "func": "var af = context.global.get(\"actionflows\");\nmsg.topic = \"unobserve\";\nvar link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nvar action_ = af.invoke(link, msg);\naction_.then(function(msg){\n    node.send(msg);\n});\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 760,
-        "y": 480,
-        "wires": [
-            [
-                "dec21473368cfcfa",
-                "f26fdac1d1e1145c"
-            ]
         ]
     },
     {
@@ -15595,8 +15864,8 @@
         "y": 200,
         "wires": [
             [
-                "a88216a5db832bc3",
-                "032b5ce99f8a0f09"
+                "032b5ce99f8a0f09",
+                "5a7fcf6ea5170a20"
             ]
         ]
     },
@@ -15622,7 +15891,7 @@
         "wires": [
             [
                 "c9073efe67935f40",
-                "5305fa85f809c370"
+                "d22adb3413ce73f0"
             ]
         ]
     },
@@ -15647,7 +15916,7 @@
         "y": 480,
         "wires": [
             [
-                "864b1c08a1fcac92"
+                "6f037794.4913b8"
             ]
         ]
     },
@@ -15745,6 +16014,107 @@
             [
                 "06ed8c4a14cad41e",
                 "a21be0ae6883dd2c"
+            ]
+        ]
+    },
+    {
+        "id": "980659bdbbc60850",
+        "type": "link call",
+        "z": "92b23faeba8402de",
+        "name": "",
+        "links": [
+            "2bda9101aced14b9"
+        ],
+        "timeout": "30",
+        "x": 940,
+        "y": 200,
+        "wires": [
+            [
+                "6ca85a1845b905aa",
+                "a487cf85f5eb50b5"
+            ]
+        ]
+    },
+    {
+        "id": "5a7fcf6ea5170a20",
+        "type": "unsafe-function",
+        "z": "92b23faeba8402de",
+        "name": "attachLink",
+        "func": "msg.source = context.global.get('AASIdentifier');\nmsg.topic = \"request\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 200,
+        "wires": [
+            [
+                "980659bdbbc60850"
+            ]
+        ]
+    },
+    {
+        "id": "d22adb3413ce73f0",
+        "type": "unsafe-function",
+        "z": "92b23faeba8402de",
+        "name": "attachLink",
+        "func": "msg.topic = \"observe\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "be01a4f767b35273"
+            ]
+        ]
+    },
+    {
+        "id": "be01a4f767b35273",
+        "type": "link call",
+        "z": "92b23faeba8402de",
+        "name": "",
+        "links": [
+            "2bda9101aced14b9"
+        ],
+        "timeout": "30",
+        "x": 760,
+        "y": 340,
+        "wires": [
+            [
+                "9886daea8cc40acf"
+            ]
+        ]
+    },
+    {
+        "id": "6f037794.4913b8",
+        "type": "unsafe-function",
+        "z": "92b23faeba8402de",
+        "name": "attachLink",
+        "func": "msg.topic = \"unobserve\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 480,
+        "wires": [
+            [
+                "ab74d8c40ce94421"
+            ]
+        ]
+    },
+    {
+        "id": "ab74d8c40ce94421",
+        "type": "link call",
+        "z": "92b23faeba8402de",
+        "name": "",
+        "links": [
+            "2bda9101aced14b9"
+        ],
+        "timeout": "30",
+        "x": 760,
+        "y": 480,
+        "wires": [
+            [
+                "f26fdac1d1e1145c",
+                "dec21473368cfcfa"
             ]
         ]
     },
@@ -15985,2101 +16355,6 @@
         "links": [],
         "x": 1735,
         "y": 360,
-        "wires": []
-    },
-    {
-        "id": "2cfe74722fdbea9d",
-        "type": "inject",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            },
-            {
-                "p": "initScheduling",
-                "v": "* * * * * * *",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 250,
-        "y": 100,
-        "wires": [
-            [
-                "f86f060f0a7dad41",
-                "65fb8a96f64e48a0",
-                "c26dcbf909d7e983",
-                "3eab8fe7725eb3a6"
-            ]
-        ]
-    },
-    {
-        "id": "f86f060f0a7dad41",
-        "type": "getflows",
-        "z": "698a5563c7493c21",
-        "d": true,
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "x": 470,
-        "y": 100,
-        "wires": [
-            [
-                "ae154db480244002"
-            ]
-        ]
-    },
-    {
-        "id": "ae154db480244002",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "d": true,
-        "g": "38dc6fd707e4bc33",
-        "name": "Initialize Driver Id",
-        "func": "var drivers = context.global.get(\"Drivers\") || [];\nvar driver = {label:\"DPDM/OperationalData\", id:msg.thisflow}\n//var connector = {label}\n    for(var index in drivers){\n        if(drivers[index] === msg.thisflow){\n        return null;\n    }\n}\ndrivers.push(driver);\ncontext.global.set(\"Drivers\", drivers);\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 750,
-        "y": 100,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "65fb8a96f64e48a0",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "Initialize Context",
-        "func": "context.flow.set(\"NrOfDataSources\", 7);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 760,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5e32d4ab7d66bf2b",
-        "type": "inject",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 230,
-        "y": 340,
-        "wires": [
-            [
-                "7a1e696be7735606"
-            ]
-        ]
-    },
-    {
-        "id": "7a1e696be7735606",
-        "type": "saveflow",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "path": "/tmp/DPDM//OperationalData",
-        "enabled": false,
-        "exporttype": "addflow",
-        "x": 600,
-        "y": 340,
-        "wires": [
-            [
-                "243a569e2e9288cb"
-            ]
-        ]
-    },
-    {
-        "id": "243a569e2e9288cb",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 870,
-        "y": 340,
-        "wires": []
-    },
-    {
-        "id": "a3534e48bcd025bb",
-        "type": "cronplus",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "outputField": "payload",
-        "timeZone": "",
-        "persistDynamic": false,
-        "commandResponseMsgOutput": "output1",
-        "outputs": 1,
-        "options": [],
-        "x": 1020,
-        "y": 240,
-        "wires": [
-            [
-                "042e073f73754fab"
-            ]
-        ]
-    },
-    {
-        "id": "3eab8fe7725eb3a6",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "Initialize Simulator",
-        "func": "context.flow.set(\"cylinderStatus\", 0);\ncontext.flow.set(\"responseTime\", 0);\ncontext.flow.set(\"valvePosition\", 0);\ncontext.flow.set(\"newCycle\", false);\ncontext.flow.set(\"cycle\", 0);\ncontext.flow.set(\"responseTimePred\", []);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 770,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "042e073f73754fab",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "topic": "configSchedule",
-        "alias": "",
-        "aliasType": "str",
-        "aliasMatchAll": false,
-        "topicType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1540,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "c26dcbf909d7e983",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.initScheduling,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 695,
-        "y": 240,
-        "wires": [
-            [
-                "a3534e48bcd025bb"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "c9d9cb288932a32c",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "",
-        "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.payload,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 695,
-        "y": 280,
-        "wires": [
-            [
-                "a3534e48bcd025bb",
-                "31e6a11f5886dfd5"
-            ]
-        ],
-        "l": false
-    },
-    {
-        "id": "8a8708072ec664fd",
-        "type": "msg-speed",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "frequency": "min",
-        "interval": 1,
-        "estimation": false,
-        "ignore": false,
-        "x": 1270,
-        "y": 2440,
-        "wires": [
-            [
-                "582f72bf0b9d07e5"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "582f72bf0b9d07e5",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "name": "stats",
-        "func": "var statsSBI = {};\nvar msgSpeed = msg.payload;\nvar msgIntervalAndFrequency = msg.intervalAndFrequency;\nstatsSBI.msgSpeed = msgSpeed;\nstatsSBI.IntervalAndFrequency = msgIntervalAndFrequency;\nstatsSBI.maxMsgs = context.flow.get(\"NrOfDataSources\") * 60;\nmsg.payload = statsSBI;\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1530,
-        "y": 2420,
-        "wires": [
-            [
-                "7a44aac98d255c5d"
-            ]
-        ]
-    },
-    {
-        "id": "7a44aac98d255c5d",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1780,
-        "y": 2420,
-        "wires": []
-    },
-    {
-        "id": "95adca39d717a013",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "metrics",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 690,
-        "y": 2440,
-        "wires": [
-            [
-                "8a8708072ec664fd"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "0d033b03aa69f9c3",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "name": "statusNotification",
-        "func": "var statusCheck  = {};\nstatusCheck.connected = true;\nstatusCheck.nrOfDataSources = context.flow.get(\"NrOfDataSources\");\nmsg.payload = {\"statusCheck\": statusCheck};\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1350,
-        "y": 2560,
-        "wires": [
-            [
-                "aae17194b6dfce46"
-            ]
-        ]
-    },
-    {
-        "id": "09ce224ed9d071e9",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"newCycle\") || false;\nvar cycle = context.flow.get(\"cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"newCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"newCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
-        "outputs": 2,
-        "noerr": 0,
-        "x": 560,
-        "y": 2880,
-        "wires": [
-            [
-                "51c42aeeecf00b1c",
-                "8cd7f44c3c69c8b0"
-            ],
-            [
-                "da845a3cc0e5cc22"
-            ]
-        ]
-    },
-    {
-        "id": "51c42aeeecf00b1c",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 850,
-        "y": 2920,
-        "wires": []
-    },
-    {
-        "id": "b39a937c8c1455aa",
-        "type": "delay",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "pauseType": "rate",
-        "timeout": "5",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "minute",
-        "randomFirst": "10",
-        "randomLast": "15",
-        "randomUnits": "seconds",
-        "drop": false,
-        "outputs": 1,
-        "x": 960,
-        "y": 2840,
-        "wires": [
-            [
-                "afbf9fd907511c18",
-                "8cd7f44c3c69c8b0"
-            ]
-        ]
-    },
-    {
-        "id": "afbf9fd907511c18",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1210,
-        "y": 2920,
-        "wires": []
-    },
-    {
-        "id": "8cd7f44c3c69c8b0",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar startCycleTs = context.flow.get(\"startCycleTs\") || 0;\nvar date = new Date();\n\n    if((cylinderStatus === 0 && valvePosition === 0) || (cylinderStatus === 1 && valvePosition === 1)){\n\n        //context.flow.set(\"timestamp\", date.getTime());\n        context.flow.set(\"startCycleTs\", date.getTime());\n        \n        if(cycle >= 40){\n            //context.flow.set(\"cycle\", cycle);\n            msg.delay = 30000;\n            msg.topic =\"@stats reset\";\n            return msg;\n        }\n        if(valvePosition === 0){\n            valvePosition = 1;\n            context.flow.set(\"responseTime\", 0);\n        } else {\n            valvePosition = 0;\n            context.flow.set(\"responseTime\", 0);\n        }\n        context.flow.set(\"valvePosition\", valvePosition);\n        /*if(cycle < 10){\n            msg.delay = 5000 + (5000*0.01*cycle);\n        } else if(cycle < 15 && cycle >= 10){\n            msg.delay = 5500 + (5000*0.02*cycle);\n        } else if (cycle < 20 && cycle >= 15){\n            msg.delay = 6500 + (5000*0.03*cycle);\n        } else if(cycle < 30 && cycle >= 20){\n            msg.delay = 7000 + (5000*0.035*cycle);\n        }else if(cycle < 40 && cycle >= 30){\n            msg.delay = 10250 + (5000*0.04*cycle);\n        }*/\n        if(cycle < 40){\n            msg.delay = 5000 + (5000*0.025*cycle);\n        }\n        \n        \n        return msg;\n    }\n\n\n//var date = new Date();\n//context.flow.set(\"timestamp\", date.getTime());\n//var currentTimeElapsed = date.getTime() - startCycleTs;\n//context.flow.set(\"responseTime\", currentTimeElapsed);\nreturn null;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1220,
-        "y": 2880,
-        "wires": [
-            [
-                "d0dbf969d3afc7f5",
-                "cbbbd9c27cf42674",
-                "97b8bb479ed4f57e"
-            ]
-        ]
-    },
-    {
-        "id": "ba596ccaef820da3",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 2050,
-        "y": 2694,
-        "wires": []
-    },
-    {
-        "id": "d256fadc51012e34",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var elapsedTimeMovingAvg = msg.result.movingAvg;\ncontext.flow.set(\"elapsedTimeMovingAvg\", elapsedTimeMovingAvg);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 2200,
-        "y": 2800,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "469ca009f8365d24",
-        "type": "Data Analysis",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "action": "realtime",
-        "outputs": 3,
-        "outliersBase": "avg",
-        "outliersStdDevs": "3",
-        "term": "15",
-        "keyProperty": "msg.topic",
-        "dataProperty": "msg.payload",
-        "dataProperties": [
-            "msg.payload[0]",
-            "msg.payload[1]"
-        ],
-        "x": 1840,
-        "y": 2754,
-        "wires": [
-            [
-                "ba596ccaef820da3",
-                "d256fadc51012e34",
-                "9d329fdb80df1b8f"
-            ],
-            [],
-            []
-        ]
-    },
-    {
-        "id": "d0dbf969d3afc7f5",
-        "type": "delay",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "pauseType": "delayv",
-        "timeout": "5",
-        "timeoutUnits": "milliseconds",
-        "rate": "1",
-        "nbRateUnits": "1",
-        "rateUnits": "second",
-        "randomFirst": "1",
-        "randomLast": "5",
-        "randomUnits": "seconds",
-        "drop": false,
-        "outputs": 1,
-        "x": 1440,
-        "y": 2880,
-        "wires": [
-            [
-                "09a8587ac93e0b3c"
-            ]
-        ]
-    },
-    {
-        "id": "09a8587ac93e0b3c",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\n\nvar timeElapsed = 0;  \nvar date = new Date();\n\nif((cylinderStatus === \"undefined\" && valvePosition === 1)){\n    context.flow.set(\"cylinderStatus\", 1);\n} else if((cylinderStatus === \"undefined\" && valvePosition === 0)){\n    context.flow.set(\"cylinderStatus\", 0);\n}\n\nif(cycle < 10 && cycle >= 0){\n    timeElapsed = msg.delay;\n} else if(cycle < 15 && cycle >= 10){\n    timeElapsed = msg.delay;\n} else if (cycle < 20 && cycle >= 15){\n    timeElapsed = msg.delay;\n} else if(cycle < 30 && cycle >= 20){\n    timeElapsed = msg.delay;\n}else if(cycle < 40 && cycle >= 30){\n    timeElapsed = msg.delay;\n} else if(cycle >= 40){\n    cycle = 0;\n    context.flow.set(\"cycle\", cycle);\n    context.flow.set(\"valvePosition\", 0);\n    context.flow.set(\"cylinderStatus\", 0);\n    context.flow.set(\"newCycle\", false);\n    context.flow.set(\"responseTime\", timeElapsed);\n\n    context.flow.set(\"timestamp\", date.getTime());\n    msg.payload = timeElapsed;\n    var msg_out_2 = {};\n    return [msg, msg_out_2];\n    \n}\n\ncontext.flow.set(\"responseTime\", timeElapsed);\n\ncontext.flow.set(\"timestamp\", date.getTime());\nmsg.payload = timeElapsed;\nmsg.topic = \"responseTimeMvgAvg\";\nreturn [msg, null];",
-        "outputs": 2,
-        "noerr": 0,
-        "x": 1620,
-        "y": 2880,
-        "wires": [
-            [
-                "469ca009f8365d24",
-                "e3837ec4124bc39b"
-            ],
-            [
-                "235b6951cb80c983"
-            ]
-        ]
-    },
-    {
-        "id": "cbbbd9c27cf42674",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1430,
-        "y": 2820,
-        "wires": []
-    },
-    {
-        "id": "e3837ec4124bc39b",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1810,
-        "y": 2680,
-        "wires": []
-    },
-    {
-        "id": "9d329fdb80df1b8f",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var msg_out = {};\nvar payload = {};\n//payload.x = msg.result.count;\npayload.x = context.flow.get(\"cycle\");\npayload.y = msg.payload;\npayload.y_out = \"\";\nmsg_out.payload = payload;\nreturn msg_out;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 2200,
-        "y": 2760,
-        "wires": [
-            [
-                "235b6951cb80c983",
-                "398eb161a86e9051"
-            ]
-        ]
-    },
-    {
-        "id": "cdb830b4b71c31c0",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 2630,
-        "y": 2820,
-        "wires": []
-    },
-    {
-        "id": "398eb161a86e9051",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 2430,
-        "y": 2800,
-        "wires": []
-    },
-    {
-        "id": "47c6abf670159dec",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var responseTimePred = [];\nfor(var k = 1; k <= 10; k++){\n    var futurePrediction = msg.function.equation[0]*Math.pow((msg.payload.x + k), 2) + msg.function.equation[1]*(msg.payload.x + k) + msg.function.equation[2];\n    msg.payload.futurePrediction = futurePrediction;\n    responseTimePred.push(futurePrediction);\n}\n//responseTimePred.pop();\n//responseTimePred.unshift(futurePrediction);\ncontext.flow.set(\"responseTimePred\", responseTimePred);\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 2720,
-        "y": 2880,
-        "wires": [
-            [
-                "cc7179c6f9b931f6"
-            ]
-        ]
-    },
-    {
-        "id": "cc7179c6f9b931f6",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 2890,
-        "y": 2820,
-        "wires": []
-    },
-    {
-        "id": "7ad91be9a021a39a",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 530,
-        "y": 2960,
-        "wires": []
-    },
-    {
-        "id": "8ca80ef5f764b523",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1830,
-        "y": 3014,
-        "wires": []
-    },
-    {
-        "id": "97b8bb479ed4f57e",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var cycle = context.flow.get(\"cycle\");\nif(cycle < 40){\n    var calculatedDelay = context.flow.get(\"calculatedDelay\") || 0;\n    msg.topic = \"control\";\n    msg.payload = ((msg.delay)/1000) - 1;\n    calculatedDelay = Math.round(((msg.delay)/1000) - 1);\n    context.flow.set(\"calculatedDelay\", calculatedDelay);\n    return msg;\n} else return null;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1440,
-        "y": 3014,
-        "wires": [
-            [
-                "a5725f632c0a9b7e"
-            ]
-        ]
-    },
-    {
-        "id": "f6b122c07d5075de",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var date = new Date();\nvar startCycle = context.flow.get(\"startCycleTs\");\ncontext.flow.set(\"responseTime\", date.getTime() - startCycle);\ncalculatedDelay = context.flow.get(\"calculatedDelay\");\nif(calculatedDelay >= msg.payload ){\n    context.flow.set(\"cylinderStatus\", \"undefined\");\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 1850,
-        "y": 3114,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "baabccea23320eb6",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "msg.topic = \"control\";\nmsg.payload = 60;\n\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 380,
-        "y": 3054,
-        "wires": [
-            [
-                "e14f33d210f93544"
-            ]
-        ]
-    },
-    {
-        "id": "7c9033516f4dd7a6",
-        "type": "unsafe-function",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "func": "var date = new Date();\ncontext.flow.set(\"timestamp\", date.getTime());\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 840,
-        "y": 3074,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f2d24dae191c2654",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1190,
-        "y": 2994,
-        "wires": []
-    },
-    {
-        "id": "f77e0d09b0da46d3",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "x": 1190,
-        "y": 3034,
-        "wires": []
-    },
-    {
-        "id": "3d2a4084678952e4",
-        "type": "cronplus",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "outputField": "payload",
-        "timeZone": "",
-        "persistDynamic": false,
-        "commandResponseMsgOutput": "output1",
-        "outputs": 1,
-        "options": [
-            {
-                "name": "schedule1",
-                "topic": "schedule1",
-                "payloadType": "default",
-                "payload": "",
-                "expressionType": "cron",
-                "expression": "0 * * * * *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            }
-        ],
-        "x": 220,
-        "y": 2960,
-        "wires": [
-            [
-                "09ce224ed9d071e9",
-                "7ad91be9a021a39a",
-                "baabccea23320eb6"
-            ]
-        ]
-    },
-    {
-        "id": "da845a3cc0e5cc22",
-        "type": "countdown",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "topic": "",
-        "payloadTimerStart": "",
-        "payloadTimerStartType": "nul",
-        "payloadTimerStop": "event",
-        "payloadTimerStopType": "msg",
-        "timer": "10",
-        "resetWhileRunning": false,
-        "setTimeToNewWhileRunning": false,
-        "startCountdownOnControlMessage": false,
-        "x": 970,
-        "y": 2974,
-        "wires": [
-            [
-                "8cd7f44c3c69c8b0",
-                "f2d24dae191c2654"
-            ],
-            [
-                "f77e0d09b0da46d3"
-            ]
-        ]
-    },
-    {
-        "id": "a5725f632c0a9b7e",
-        "type": "countdown",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "topic": "",
-        "payloadTimerStart": "",
-        "payloadTimerStartType": "nul",
-        "payloadTimerStop": "",
-        "payloadTimerStopType": "nul",
-        "timer": "10",
-        "resetWhileRunning": false,
-        "setTimeToNewWhileRunning": true,
-        "startCountdownOnControlMessage": true,
-        "x": 1630,
-        "y": 3014,
-        "wires": [
-            [],
-            [
-                "8ca80ef5f764b523",
-                "f6b122c07d5075de"
-            ]
-        ]
-    },
-    {
-        "id": "e14f33d210f93544",
-        "type": "countdown",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "topic": "",
-        "payloadTimerStart": "",
-        "payloadTimerStartType": "nul",
-        "payloadTimerStop": "",
-        "payloadTimerStopType": "nul",
-        "timer": "10",
-        "resetWhileRunning": false,
-        "setTimeToNewWhileRunning": true,
-        "startCountdownOnControlMessage": true,
-        "x": 590,
-        "y": 3054,
-        "wires": [
-            [],
-            [
-                "7c9033516f4dd7a6"
-            ]
-        ]
-    },
-    {
-        "id": "235b6951cb80c983",
-        "type": "regression",
-        "z": "698a5563c7493c21",
-        "g": "0be7188518e46192",
-        "name": "",
-        "dataSetSize": "15",
-        "regressionType": "polynomial",
-        "polynomialOrder": 2,
-        "precision": "2",
-        "xInputField": "payload.x",
-        "xInputFieldType": "msg",
-        "yInputField": "payload.y",
-        "yInputFieldType": "msg",
-        "yOutputField": "payload.y_out",
-        "yOutputFieldType": "msg",
-        "functionOutputField": "function",
-        "functionOutputFieldType": "msg",
-        "resultOnly": false,
-        "x": 2490,
-        "y": 2880,
-        "wires": [
-            [
-                "cdb830b4b71c31c0",
-                "47c6abf670159dec"
-            ]
-        ]
-    },
-    {
-        "id": "33c0171a7be36076",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 1",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "currentOperatingPressure",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 580,
-        "wires": [
-            [
-                "e7611392167ad85d",
-                "c85b23ab84d777d4"
-            ],
-            [
-                "fe0cfdde7834ac57"
-            ],
-            [
-                "92521d424f892e19",
-                "215fa2292c733185",
-                "0ad7550e5b1f9956"
-            ]
-        ]
-    },
-    {
-        "id": "6d135ce2d6e0cdf6",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 640,
-        "y": 560,
-        "wires": [
-            [
-                "33c0171a7be36076",
-                "0f89b6a759388a66"
-            ]
-        ]
-    },
-    {
-        "id": "83591a059437a5e6",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 620,
-        "wires": [
-            [
-                "33c0171a7be36076"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "e7611392167ad85d",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure out",
-        "links": [],
-        "x": 1930,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "fe0cfdde7834ac57",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "aliasMatchAll": false,
-        "topicType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1570,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "92521d424f892e19",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "c85b23ab84d777d4",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1540,
-        "y": 480,
-        "wires": []
-    },
-    {
-        "id": "0f89b6a759388a66",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1100,
-        "y": 520,
-        "wires": []
-    },
-    {
-        "id": "73796a55374cf890",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 2",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "responseTime",
-                "type": "str"
-            },
-            {
-                "name": "TEST",
-                "value": "2",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 900,
-        "wires": [
-            [
-                "1ab164ac2e8e04d3",
-                "27c514a20c7176fa"
-            ],
-            [
-                "a2f972d0329ac99d"
-            ],
-            [
-                "337dd87aab1613e0",
-                "9a6d68257d045592"
-            ]
-        ]
-    },
-    {
-        "id": "a2f972d0329ac99d",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "337dd87aab1613e0",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1000,
-        "wires": []
-    },
-    {
-        "id": "1ab164ac2e8e04d3",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 800,
-        "wires": []
-    },
-    {
-        "id": "3e1eaf8a21da4175",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1020,
-        "y": 840,
-        "wires": []
-    },
-    {
-        "id": "228a72fb2f66d671",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 600,
-        "y": 880,
-        "wires": [
-            [
-                "73796a55374cf890",
-                "3e1eaf8a21da4175"
-            ]
-        ]
-    },
-    {
-        "id": "27c514a20c7176fa",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime out",
-        "links": [],
-        "x": 1890,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "9a6d68257d045592",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "responseTime",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1630,
-        "y": 960,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "38d999c945816a8f",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 3",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "valvePosition",
-                "type": "str"
-            },
-            {
-                "name": "TEST",
-                "value": "3",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 1160,
-        "wires": [
-            [
-                "458f2d2a5e1185f2",
-                "9b49c26c6ac62706"
-            ],
-            [
-                "7320491c1e46a6a0"
-            ],
-            [
-                "bf7338fc46f98926",
-                "577028cb280fc859",
-                "3422f11cf17fbcbc"
-            ]
-        ]
-    },
-    {
-        "id": "7320491c1e46a6a0",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1160,
-        "wires": []
-    },
-    {
-        "id": "bf7338fc46f98926",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1260,
-        "wires": []
-    },
-    {
-        "id": "458f2d2a5e1185f2",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1060,
-        "wires": []
-    },
-    {
-        "id": "1bc663e90dcbb368",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 1100,
-        "wires": []
-    },
-    {
-        "id": "94a29cb666e041e1",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 600,
-        "y": 1140,
-        "wires": [
-            [
-                "38d999c945816a8f",
-                "1bc663e90dcbb368"
-            ]
-        ]
-    },
-    {
-        "id": "9b49c26c6ac62706",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition out",
-        "links": [],
-        "x": 1890,
-        "y": 1120,
-        "wires": []
-    },
-    {
-        "id": "577028cb280fc859",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "valvePosition",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1620,
-        "y": 1220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "88bf4bd8ef6f719b",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 4",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "elapsedTimeMovingAvg",
-                "type": "str"
-            },
-            {
-                "name": "TEST",
-                "value": "4",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 1440,
-        "wires": [
-            [
-                "a2e6a48d0e74193f",
-                "da9153cc9488a40c"
-            ],
-            [
-                "d35435ef60e08536"
-            ],
-            [
-                "abb2987f79267f3a",
-                "5b564de1320a9d6b"
-            ]
-        ]
-    },
-    {
-        "id": "d35435ef60e08536",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1440,
-        "wires": []
-    },
-    {
-        "id": "abb2987f79267f3a",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1540,
-        "wires": []
-    },
-    {
-        "id": "a2e6a48d0e74193f",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1340,
-        "wires": []
-    },
-    {
-        "id": "ade9ceac3cd95924",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1080,
-        "y": 1380,
-        "wires": []
-    },
-    {
-        "id": "abbafeaa7930ccb7",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 640,
-        "y": 1420,
-        "wires": [
-            [
-                "ade9ceac3cd95924",
-                "88bf4bd8ef6f719b"
-            ]
-        ]
-    },
-    {
-        "id": "da9153cc9488a40c",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg out",
-        "links": [],
-        "x": 1930,
-        "y": 1400,
-        "wires": []
-    },
-    {
-        "id": "5b564de1320a9d6b",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "elapsedTimeMovingAvg",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1660,
-        "y": 1500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "edcb108a8dcdf775",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 5",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "cylinderStatus",
-                "type": "str"
-            },
-            {
-                "name": "TEST",
-                "value": "5",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 1700,
-        "wires": [
-            [
-                "b0bd1d514b51546c",
-                "3a3d45d5602bb940"
-            ],
-            [
-                "dbad1db1e11ecac0"
-            ],
-            [
-                "bc80c47fadfe0cbe",
-                "1d9a091158149178"
-            ]
-        ]
-    },
-    {
-        "id": "dbad1db1e11ecac0",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1700,
-        "wires": []
-    },
-    {
-        "id": "bc80c47fadfe0cbe",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 1800,
-        "wires": []
-    },
-    {
-        "id": "b0bd1d514b51546c",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1600,
-        "wires": []
-    },
-    {
-        "id": "ebd6a77a130fa65e",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 1640,
-        "wires": []
-    },
-    {
-        "id": "52eb498d071d6ed1",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 600,
-        "y": 1680,
-        "wires": [
-            [
-                "edcb108a8dcdf775",
-                "ebd6a77a130fa65e"
-            ]
-        ]
-    },
-    {
-        "id": "3a3d45d5602bb940",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus out",
-        "links": [],
-        "x": 1890,
-        "y": 1660,
-        "wires": []
-    },
-    {
-        "id": "1d9a091158149178",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "cylinderStatus",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1630,
-        "y": 1760,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5126431fb08603a6",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 6",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "cycle",
-                "type": "str"
-            },
-            {
-                "name": "TEST",
-                "value": "6",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 1940,
-        "wires": [
-            [
-                "020ae6c2db42e56a",
-                "b082e869d43525e0"
-            ],
-            [
-                "11b00c551051b7ba"
-            ],
-            [
-                "5ed190f379e73ed5",
-                "17f989ae84df8489",
-                "d80228ea08e5aad9"
-            ]
-        ]
-    },
-    {
-        "id": "11b00c551051b7ba",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 1940,
-        "wires": []
-    },
-    {
-        "id": "5ed190f379e73ed5",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 2040,
-        "wires": []
-    },
-    {
-        "id": "020ae6c2db42e56a",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 1860,
-        "wires": []
-    },
-    {
-        "id": "fac3d43537e743f7",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 990,
-        "y": 1880,
-        "wires": []
-    },
-    {
-        "id": "14c678610223ef12",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 580,
-        "y": 1920,
-        "wires": [
-            [
-                "fac3d43537e743f7",
-                "5126431fb08603a6"
-            ]
-        ]
-    },
-    {
-        "id": "b082e869d43525e0",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle out",
-        "links": [],
-        "x": 1860,
-        "y": 1900,
-        "wires": []
-    },
-    {
-        "id": "17f989ae84df8489",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "cycle",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1600,
-        "y": 2000,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "0cc3c9ab8db5da00",
-        "type": "subflow:c1dd96d4.47a088",
-        "z": "698a5563c7493c21",
-        "name": "Property 7",
-        "env": [
-            {
-                "name": "PropertyName",
-                "value": "responseTimePred",
-                "type": "str"
-            },
-            {
-                "name": "TEST",
-                "value": "7",
-                "type": "str"
-            }
-        ],
-        "x": 1270,
-        "y": 2180,
-        "wires": [
-            [
-                "3e34a86386df9b62",
-                "49bc98a9c6776459"
-            ],
-            [
-                "1ae820c682fe85ee"
-            ],
-            [
-                "8ca7cc2aa7a4c203",
-                "82985433e14089a9"
-            ]
-        ]
-    },
-    {
-        "id": "1ae820c682fe85ee",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "routed",
-        "alias": "",
-        "aliasType": "str",
-        "link": "d2edf304.fdfa2",
-        "x": 1600,
-        "y": 2180,
-        "wires": []
-    },
-    {
-        "id": "8ca7cc2aa7a4c203",
-        "type": "sub-link-input",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "topic": "metrics",
-        "alias": "",
-        "aliasType": "str",
-        "link": "72ae2011.f3d7b",
-        "x": 1610,
-        "y": 2280,
-        "wires": []
-    },
-    {
-        "id": "3e34a86386df9b62",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1600,
-        "y": 2100,
-        "wires": []
-    },
-    {
-        "id": "9ea6a670177a7aa0",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1040,
-        "y": 2120,
-        "wires": []
-    },
-    {
-        "id": "c70e3cab2e83c698",
-        "type": "actionflows_in",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred in",
-        "priority": "50",
-        "links": [],
-        "scope": "global",
-        "x": 620,
-        "y": 2160,
-        "wires": [
-            [
-                "0cc3c9ab8db5da00",
-                "9ea6a670177a7aa0"
-            ]
-        ]
-    },
-    {
-        "id": "49bc98a9c6776459",
-        "type": "actionflows_out",
-        "z": "698a5563c7493c21",
-        "name": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred out",
-        "links": [],
-        "x": 1910,
-        "y": 2140,
-        "wires": []
-    },
-    {
-        "id": "82985433e14089a9",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "responseTimePred",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1640,
-        "y": 2240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3422f11cf17fbcbc",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1380,
-        "y": 1280,
-        "wires": []
-    },
-    {
-        "id": "215fa2292c733185",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1620,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "0ad7550e5b1f9956",
-        "type": "iot-datasource",
-        "z": "698a5563c7493c21",
-        "name": "currentOperatingPressure",
-        "tstampField": "",
-        "dataField": "",
-        "disableDiscover": false,
-        "x": 1660,
-        "y": 640,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1ef750ceb0f0d277",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 940,
-        "wires": [
-            [
-                "73796a55374cf890"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b2d849ef45580fc4",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1200,
-        "wires": [
-            [
-                "38d999c945816a8f"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "69666981740b18d8",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1480,
-        "wires": [
-            [
-                "88bf4bd8ef6f719b"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b3e395754f32e47e",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1740,
-        "wires": [
-            [
-                "edcb108a8dcdf775"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "b835671c3395e9c8",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 1980,
-        "wires": [
-            [
-                "5126431fb08603a6"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "5f3228c61b88ebc7",
-        "type": "sub-link-output",
-        "z": "698a5563c7493c21",
-        "inputs": 0,
-        "name": "",
-        "topic": "configSchedule",
-        "link": "72ae2011.f3d7b",
-        "priority": "0",
-        "aliasType": "str",
-        "alias": "",
-        "clone": false,
-        "x": 350,
-        "y": 2220,
-        "wires": [
-            [
-                "0cc3c9ab8db5da00"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "d80228ea08e5aad9",
-        "type": "debug",
-        "z": "698a5563c7493c21",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1460,
-        "y": 2060,
-        "wires": []
-    },
-    {
-        "id": "c85da3dd72b2bfbc",
-        "type": "link in",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "driverNewScheduling in",
-        "links": [],
-        "x": 195,
-        "y": 280,
-        "wires": [
-            [
-                "c9d9cb288932a32c"
-            ]
-        ]
-    },
-    {
-        "id": "31e6a11f5886dfd5",
-        "type": "link out",
-        "z": "698a5563c7493c21",
-        "g": "38dc6fd707e4bc33",
-        "name": "driverNewScheduling out",
-        "mode": "return",
-        "links": [],
-        "x": 1435,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "eb61eae0ede6d3ec",
-        "type": "link in",
-        "z": "698a5563c7493c21",
-        "name": "driverConnectionCheck in",
-        "links": [],
-        "x": 295,
-        "y": 2560,
-        "wires": [
-            [
-                "0d033b03aa69f9c3"
-            ]
-        ]
-    },
-    {
-        "id": "aae17194b6dfce46",
-        "type": "link out",
-        "z": "698a5563c7493c21",
-        "name": "driverConnectionCheck out",
-        "mode": "return",
-        "links": [],
-        "x": 2255,
-        "y": 2560,
         "wires": []
     },
     {
@@ -22815,6 +21090,2005 @@
             [
                 "a5d497d.a955b68"
             ]
+        ]
+    },
+    {
+        "id": "8b660ba215d38779",
+        "type": "inject",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            },
+            {
+                "p": "initScheduling",
+                "v": "* * * * * * *",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "f67bd57b628962d0",
+                "68b0b7973e45b045",
+                "5360f64532aeb576",
+                "63285bd3e87b09b8"
+            ]
+        ]
+    },
+    {
+        "id": "f67bd57b628962d0",
+        "type": "getflows",
+        "z": "812c07b789b2261d",
+        "d": true,
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "x": 470,
+        "y": 100,
+        "wires": [
+            [
+                "64297d636c302c8f"
+            ]
+        ]
+    },
+    {
+        "id": "64297d636c302c8f",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "d": true,
+        "g": "8b26016f56f3ec31",
+        "name": "Initialize Driver Id",
+        "func": "var drivers = context.global.get(\"Drivers\") || [];\nvar driver = {label:\"DPDM/OperationalData\", id:msg.thisflow}\n//var connector = {label}\n    for(var index in drivers){\n        if(drivers[index] === msg.thisflow){\n        return null;\n    }\n}\ndrivers.push(driver);\ncontext.global.set(\"Drivers\", drivers);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 750,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "68b0b7973e45b045",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "Initialize Context",
+        "func": "context.flow.set(\"NrOfDataSources\", 7);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 760,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6b669c60e625768d",
+        "type": "inject",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 230,
+        "y": 340,
+        "wires": [
+            [
+                "45aa121e5fb129b8"
+            ]
+        ]
+    },
+    {
+        "id": "45aa121e5fb129b8",
+        "type": "saveflow",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "path": "/tmp/DPDM//OperationalData",
+        "enabled": false,
+        "exporttype": "addflow",
+        "x": 600,
+        "y": 340,
+        "wires": [
+            [
+                "1e05336a1499dd20"
+            ]
+        ]
+    },
+    {
+        "id": "1e05336a1499dd20",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 870,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9e7ccb48c61fa5fe",
+        "type": "cronplus",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "outputField": "payload",
+        "timeZone": "",
+        "persistDynamic": false,
+        "commandResponseMsgOutput": "output1",
+        "outputs": 1,
+        "options": [],
+        "x": 1020,
+        "y": 240,
+        "wires": [
+            [
+                "9ab6f430faa86dae"
+            ]
+        ]
+    },
+    {
+        "id": "63285bd3e87b09b8",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "Initialize Simulator",
+        "func": "context.flow.set(\"currentOperatingPressure\", 0);\ncontext.flow.set(\"cylinderStatus\", 0);\ncontext.flow.set(\"responseTime\", 0);\ncontext.flow.set(\"valvePosition\", 0);\ncontext.flow.set(\"newCycle\", false);\ncontext.flow.set(\"cycle\", 0);\ncontext.flow.set(\"responseTimePred\", []);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 770,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ab6f430faa86dae",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "topic": "configSchedule",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1540,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "5360f64532aeb576",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.initScheduling,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 695,
+        "y": 240,
+        "wires": [
+            [
+                "9e7ccb48c61fa5fe"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6e6c410609401ff6",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "",
+        "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.payload,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 695,
+        "y": 280,
+        "wires": [
+            [
+                "9e7ccb48c61fa5fe",
+                "08c6dda6219f6383"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f0724cc9ea01bb7d",
+        "type": "msg-speed",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "frequency": "min",
+        "interval": 1,
+        "estimation": false,
+        "ignore": false,
+        "x": 1270,
+        "y": 2440,
+        "wires": [
+            [
+                "3bde93a2bc056eb0"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "3bde93a2bc056eb0",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "name": "stats",
+        "func": "var statsSBI = {};\nvar msgSpeed = msg.payload;\nvar msgIntervalAndFrequency = msg.intervalAndFrequency;\nstatsSBI.msgSpeed = msgSpeed;\nstatsSBI.IntervalAndFrequency = msgIntervalAndFrequency;\nstatsSBI.maxMsgs = context.flow.get(\"NrOfDataSources\") * 60;\nmsg.payload = statsSBI;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1530,
+        "y": 2420,
+        "wires": [
+            [
+                "acc4b21d5e43e585"
+            ]
+        ]
+    },
+    {
+        "id": "acc4b21d5e43e585",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1760,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "ea2841eb8508f24f",
+        "type": "sub-link-output",
+        "z": "812c07b789b2261d",
+        "inputs": 0,
+        "name": "",
+        "topic": "metrics",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "aliasType": "str",
+        "alias": "",
+        "clone": false,
+        "x": 690,
+        "y": 2440,
+        "wires": [
+            [
+                "f0724cc9ea01bb7d",
+                "2f6279d8a85d800a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "fb159a2ed7fadf2b",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "name": "statusNotification",
+        "func": "var statusCheck  = {};\nstatusCheck.connected = true;\nstatusCheck.nrOfDataSources = context.flow.get(\"NrOfDataSources\");\nmsg.payload = {\"statusCheck\": statusCheck};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1350,
+        "y": 2560,
+        "wires": [
+            [
+                "a8a739cd6b392513"
+            ]
+        ]
+    },
+    {
+        "id": "2b9ab774b4eebde2",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"newCycle\") || false;\nvar cycle = context.flow.get(\"cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"newCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"newCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 560,
+        "y": 2880,
+        "wires": [
+            [
+                "11618ca0216cc646",
+                "7427ae9fd7aa8034"
+            ],
+            [
+                "69b9bb8c13e1a1cf"
+            ]
+        ]
+    },
+    {
+        "id": "11618ca0216cc646",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 850,
+        "y": 2920,
+        "wires": []
+    },
+    {
+        "id": "3bf92784cf58676b",
+        "type": "delay",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "minute",
+        "randomFirst": "10",
+        "randomLast": "15",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 960,
+        "y": 2840,
+        "wires": [
+            [
+                "a18b73e68280c654",
+                "7427ae9fd7aa8034"
+            ]
+        ]
+    },
+    {
+        "id": "a18b73e68280c654",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1210,
+        "y": 2920,
+        "wires": []
+    },
+    {
+        "id": "7427ae9fd7aa8034",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar startCycleTs = context.flow.get(\"startCycleTs\") || 0;\nvar date = new Date();\n\n    if((cylinderStatus === 0 && valvePosition === 0) || (cylinderStatus === 1 && valvePosition === 1)){\n\n        //context.flow.set(\"timestamp\", date.getTime());\n        context.flow.set(\"startCycleTs\", date.getTime());\n        \n        if(cycle >= 40){\n            //context.flow.set(\"cycle\", cycle);\n            msg.delay = 30000;\n            msg.topic =\"@stats reset\";\n            return msg;\n        }\n        if(valvePosition === 0){\n            valvePosition = 1;\n            context.flow.set(\"responseTime\", 0);\n        } else {\n            valvePosition = 0;\n            context.flow.set(\"responseTime\", 0);\n        }\n        context.flow.set(\"valvePosition\", valvePosition);\n        /*if(cycle < 10){\n            msg.delay = 5000 + (5000*0.01*cycle);\n        } else if(cycle < 15 && cycle >= 10){\n            msg.delay = 5500 + (5000*0.02*cycle);\n        } else if (cycle < 20 && cycle >= 15){\n            msg.delay = 6500 + (5000*0.03*cycle);\n        } else if(cycle < 30 && cycle >= 20){\n            msg.delay = 7000 + (5000*0.035*cycle);\n        }else if(cycle < 40 && cycle >= 30){\n            msg.delay = 10250 + (5000*0.04*cycle);\n        }*/\n        if(cycle < 40){\n            msg.delay = 5000 + (5000*0.025*cycle);\n        }\n        \n        \n        return msg;\n    }\n\n\n//var date = new Date();\n//context.flow.set(\"timestamp\", date.getTime());\n//var currentTimeElapsed = date.getTime() - startCycleTs;\n//context.flow.set(\"responseTime\", currentTimeElapsed);\nreturn null;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1220,
+        "y": 2880,
+        "wires": [
+            [
+                "91cfae0b0bc795ae",
+                "cca9f7e43485b298",
+                "c60a8e9225f627db"
+            ]
+        ]
+    },
+    {
+        "id": "dcd26f59413b72a9",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 2050,
+        "y": 2694,
+        "wires": []
+    },
+    {
+        "id": "7f798226878baca0",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var elapsedTimeMovingAvg = msg.result.movingAvg;\ncontext.flow.set(\"elapsedTimeMovingAvg\", elapsedTimeMovingAvg);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2200,
+        "y": 2800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9304c2ee6c8689b2",
+        "type": "Data Analysis",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "action": "realtime",
+        "outputs": 3,
+        "outliersBase": "avg",
+        "outliersStdDevs": "3",
+        "term": "15",
+        "keyProperty": "msg.topic",
+        "dataProperty": "msg.payload",
+        "dataProperties": [
+            "msg.payload[0]",
+            "msg.payload[1]"
+        ],
+        "x": 1840,
+        "y": 2754,
+        "wires": [
+            [
+                "dcd26f59413b72a9",
+                "7f798226878baca0",
+                "e4645e2e9a927edc"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "91cfae0b0bc795ae",
+        "type": "delay",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "pauseType": "delayv",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "outputs": 1,
+        "x": 1440,
+        "y": 2880,
+        "wires": [
+            [
+                "0b6cd0ea08fe4a1a"
+            ]
+        ]
+    },
+    {
+        "id": "0b6cd0ea08fe4a1a",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\n\nvar timeElapsed = 0;  \nvar date = new Date();\n\nif((cylinderStatus === \"undefined\" && valvePosition === 1)){\n    context.flow.set(\"cylinderStatus\", 1);\n} else if((cylinderStatus === \"undefined\" && valvePosition === 0)){\n    context.flow.set(\"cylinderStatus\", 0);\n}\n\nif(cycle < 10 && cycle >= 0){\n    timeElapsed = msg.delay;\n} else if(cycle < 15 && cycle >= 10){\n    timeElapsed = msg.delay;\n} else if (cycle < 20 && cycle >= 15){\n    timeElapsed = msg.delay;\n} else if(cycle < 30 && cycle >= 20){\n    timeElapsed = msg.delay;\n}else if(cycle < 40 && cycle >= 30){\n    timeElapsed = msg.delay;\n} else if(cycle >= 40){\n    cycle = 0;\n    context.flow.set(\"cycle\", cycle);\n    context.flow.set(\"valvePosition\", 0);\n    context.flow.set(\"cylinderStatus\", 0);\n    context.flow.set(\"newCycle\", false);\n    context.flow.set(\"responseTime\", timeElapsed);\n\n    context.flow.set(\"timestamp\", date.getTime());\n    msg.payload = timeElapsed;\n    var msg_out_2 = {};\n    return [msg, msg_out_2];\n    \n}\n\ncontext.flow.set(\"responseTime\", timeElapsed);\n\ncontext.flow.set(\"timestamp\", date.getTime());\nmsg.payload = timeElapsed;\nmsg.topic = \"responseTimeMvgAvg\";\nreturn [msg, null];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 1620,
+        "y": 2880,
+        "wires": [
+            [
+                "9304c2ee6c8689b2",
+                "f007a445be23af79"
+            ],
+            [
+                "13f732d6880f3561"
+            ]
+        ]
+    },
+    {
+        "id": "cca9f7e43485b298",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1430,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "f007a445be23af79",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1810,
+        "y": 2680,
+        "wires": []
+    },
+    {
+        "id": "e4645e2e9a927edc",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var msg_out = {};\nvar payload = {};\n//payload.x = msg.result.count;\npayload.x = context.flow.get(\"cycle\");\npayload.y = msg.payload;\npayload.y_out = \"\";\nmsg_out.payload = payload;\nreturn msg_out;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2200,
+        "y": 2760,
+        "wires": [
+            [
+                "13f732d6880f3561",
+                "c579faee0e78c0a3"
+            ]
+        ]
+    },
+    {
+        "id": "2ae3c78e4d6d08d0",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 2630,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "c579faee0e78c0a3",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 2430,
+        "y": 2800,
+        "wires": []
+    },
+    {
+        "id": "48bd0572d0fd6bda",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var responseTimePred = [];\nfor(var k = 1; k <= 10; k++){\n    var futurePrediction = msg.function.equation[0]*Math.pow((msg.payload.x + k), 2) + msg.function.equation[1]*(msg.payload.x + k) + msg.function.equation[2];\n    msg.payload.futurePrediction = futurePrediction;\n    responseTimePred.push(futurePrediction);\n}\n//responseTimePred.pop();\n//responseTimePred.unshift(futurePrediction);\ncontext.flow.set(\"responseTimePred\", responseTimePred);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 2720,
+        "y": 2880,
+        "wires": [
+            [
+                "a4cfdc34d0227313"
+            ]
+        ]
+    },
+    {
+        "id": "a4cfdc34d0227313",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 2890,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "3e814380dfc717d3",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 530,
+        "y": 2960,
+        "wires": []
+    },
+    {
+        "id": "406981d7482663c2",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1830,
+        "y": 3014,
+        "wires": []
+    },
+    {
+        "id": "c60a8e9225f627db",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var cycle = context.flow.get(\"cycle\");\nif(cycle < 40){\n    var calculatedDelay = context.flow.get(\"calculatedDelay\") || 0;\n    msg.topic = \"control\";\n    msg.payload = ((msg.delay)/1000) - 1;\n    calculatedDelay = Math.round(((msg.delay)/1000) - 1);\n    context.flow.set(\"calculatedDelay\", calculatedDelay);\n    return msg;\n} else return null;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1440,
+        "y": 3014,
+        "wires": [
+            [
+                "cdf0b50d578d87e5"
+            ]
+        ]
+    },
+    {
+        "id": "9feb6188612c6bc1",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var date = new Date();\nvar startCycle = context.flow.get(\"startCycleTs\");\ncontext.flow.set(\"responseTime\", date.getTime() - startCycle);\ncalculatedDelay = context.flow.get(\"calculatedDelay\");\nif(calculatedDelay >= msg.payload ){\n    context.flow.set(\"cylinderStatus\", \"undefined\");\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1850,
+        "y": 3114,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "30d7ccda1bb55b6f",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "msg.topic = \"control\";\nmsg.payload = 60;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 3054,
+        "wires": [
+            [
+                "f75d3f1e3d02bf6a"
+            ]
+        ]
+    },
+    {
+        "id": "76814d986dc2498d",
+        "type": "unsafe-function",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "func": "var date = new Date();\ncontext.flow.set(\"timestamp\", date.getTime());\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 840,
+        "y": 3074,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ee4cb58708063641",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1190,
+        "y": 2994,
+        "wires": []
+    },
+    {
+        "id": "876af5b7ede26433",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 1190,
+        "y": 3034,
+        "wires": []
+    },
+    {
+        "id": "c7bc774cb444def2",
+        "type": "cronplus",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "outputField": "payload",
+        "timeZone": "",
+        "persistDynamic": false,
+        "commandResponseMsgOutput": "output1",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "schedule1",
+                "topic": "schedule1",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 * * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 220,
+        "y": 2960,
+        "wires": [
+            [
+                "2b9ab774b4eebde2",
+                "3e814380dfc717d3",
+                "30d7ccda1bb55b6f"
+            ]
+        ]
+    },
+    {
+        "id": "69b9bb8c13e1a1cf",
+        "type": "countdown",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "topic": "",
+        "payloadTimerStart": "",
+        "payloadTimerStartType": "nul",
+        "payloadTimerStop": "event",
+        "payloadTimerStopType": "msg",
+        "timer": "10",
+        "resetWhileRunning": false,
+        "setTimeToNewWhileRunning": false,
+        "startCountdownOnControlMessage": false,
+        "x": 970,
+        "y": 2974,
+        "wires": [
+            [
+                "7427ae9fd7aa8034",
+                "ee4cb58708063641"
+            ],
+            [
+                "876af5b7ede26433"
+            ]
+        ]
+    },
+    {
+        "id": "cdf0b50d578d87e5",
+        "type": "countdown",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "topic": "",
+        "payloadTimerStart": "",
+        "payloadTimerStartType": "nul",
+        "payloadTimerStop": "",
+        "payloadTimerStopType": "nul",
+        "timer": "10",
+        "resetWhileRunning": false,
+        "setTimeToNewWhileRunning": true,
+        "startCountdownOnControlMessage": true,
+        "x": 1630,
+        "y": 3014,
+        "wires": [
+            [],
+            [
+                "406981d7482663c2",
+                "9feb6188612c6bc1"
+            ]
+        ]
+    },
+    {
+        "id": "f75d3f1e3d02bf6a",
+        "type": "countdown",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "topic": "",
+        "payloadTimerStart": "",
+        "payloadTimerStartType": "nul",
+        "payloadTimerStop": "",
+        "payloadTimerStopType": "nul",
+        "timer": "10",
+        "resetWhileRunning": false,
+        "setTimeToNewWhileRunning": true,
+        "startCountdownOnControlMessage": true,
+        "x": 590,
+        "y": 3054,
+        "wires": [
+            [],
+            [
+                "76814d986dc2498d"
+            ]
+        ]
+    },
+    {
+        "id": "13f732d6880f3561",
+        "type": "regression",
+        "z": "812c07b789b2261d",
+        "g": "98b472c1fdf61cd7",
+        "name": "",
+        "dataSetSize": "15",
+        "regressionType": "polynomial",
+        "polynomialOrder": 2,
+        "precision": "2",
+        "xInputField": "payload.x",
+        "xInputFieldType": "msg",
+        "yInputField": "payload.y",
+        "yInputFieldType": "msg",
+        "yOutputField": "payload.y_out",
+        "yOutputFieldType": "msg",
+        "functionOutputField": "function",
+        "functionOutputFieldType": "msg",
+        "resultOnly": false,
+        "x": 2490,
+        "y": 2880,
+        "wires": [
+            [
+                "2ae3c78e4d6d08d0",
+                "48bd0572d0fd6bda"
+            ]
+        ]
+    },
+    {
+        "id": "57d4ac5819ba9ca1",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 1",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "currentOperatingPressure",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CurrentOperatingPressure",
+                "type": "str"
+            }
+        ],
+        "x": 970,
+        "y": 540,
+        "wires": [
+            [
+                "45a040c1d9def6c1",
+                "f470296120e4d9eb"
+            ],
+            [
+                "0c869768bc14814e"
+            ],
+            [
+                "4eb34fc74c5ef19b",
+                "d6bfeaaa47bdb834",
+                "982b6ac707d69b2f"
+            ]
+        ]
+    },
+    {
+        "id": "0c869768bc14814e",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1190,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "4eb34fc74c5ef19b",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "45a040c1d9def6c1",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1170,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "4e25abd6e053ec74",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 230,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "f1764e44b05912ad",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 2",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "responseTime",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTime",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "2",
+                "type": "str"
+            }
+        ],
+        "x": 970,
+        "y": 820,
+        "wires": [
+            [
+                "e0e805f1421b4bfc",
+                "a80aa0299b4cde8b"
+            ],
+            [
+                "e64bb841740fe584"
+            ],
+            [
+                "382eb6de243840a3",
+                "7babee7d6e9eec64"
+            ]
+        ]
+    },
+    {
+        "id": "e64bb841740fe584",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1210,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "382eb6de243840a3",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1220,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "e0e805f1421b4bfc",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "7babee7d6e9eec64",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "responseTime",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1240,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "100e5da2ec1d7cc9",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 3",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "valvePosition",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ValvePosition",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "x": 950,
+        "y": 1100,
+        "wires": [
+            [
+                "886b70afe4f5ef83",
+                "d38c5e1b14828bee"
+            ],
+            [
+                "3723b4528de613ff"
+            ],
+            [
+                "a580c0fa3cf4a920",
+                "8b1ca97e36cd108a",
+                "e23f857ef3aa4af8"
+            ]
+        ]
+    },
+    {
+        "id": "3723b4528de613ff",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1190,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "a580c0fa3cf4a920",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "886b70afe4f5ef83",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "8b1ca97e36cd108a",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "valvePosition",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1210,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "647e8c475f82e48b",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 4",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "elapsedTimeMovingAvg",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimeMovingAvg",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "4",
+                "type": "str"
+            }
+        ],
+        "x": 950,
+        "y": 1360,
+        "wires": [
+            [
+                "a626410afe782ef2",
+                "8150c532c62a121d"
+            ],
+            [
+                "706e644e3808b79a"
+            ],
+            [
+                "27a512f24ee2c9bb",
+                "f1aa274373ee5ed2"
+            ]
+        ]
+    },
+    {
+        "id": "706e644e3808b79a",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1190,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "27a512f24ee2c9bb",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "a626410afe782ef2",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "f1aa274373ee5ed2",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "elapsedTimeMovingAvg",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1250,
+        "y": 1460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6b3b75887c0d3cb7",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 5",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "cylinderStatus",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/CylinderStatus",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "5",
+                "type": "str"
+            }
+        ],
+        "x": 950,
+        "y": 1620,
+        "wires": [
+            [
+                "29a31bd4953a713a",
+                "e7c3a6e6eb03b07a"
+            ],
+            [
+                "8c48f91be9048cc6"
+            ],
+            [
+                "b44c8a8a8a7d249d",
+                "7d450f618dbc872e"
+            ]
+        ]
+    },
+    {
+        "id": "8c48f91be9048cc6",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1190,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "b44c8a8a8a7d249d",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1200,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "29a31bd4953a713a",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "7d450f618dbc872e",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "cylinderStatus",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1220,
+        "y": 1700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "46d3a89e10f35a4a",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 6",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "cycle",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/Cycle",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "6",
+                "type": "str"
+            }
+        ],
+        "x": 950,
+        "y": 1860,
+        "wires": [
+            [
+                "49540efc37a124c1",
+                "cfed48965c885f99"
+            ],
+            [
+                "d83fbc52a377e559"
+            ],
+            [
+                "a2238eb00bfe6e31",
+                "f7b290a318e43405",
+                "da6ef983914417da"
+            ]
+        ]
+    },
+    {
+        "id": "d83fbc52a377e559",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1210,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "a2238eb00bfe6e31",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1220,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "49540efc37a124c1",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1130,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "f7b290a318e43405",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "cycle",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1210,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "750d4b3f36354e44",
+        "type": "subflow:7c034d6721fa568d",
+        "z": "812c07b789b2261d",
+        "name": "Property 7",
+        "env": [
+            {
+                "name": "PropertyName",
+                "value": "responseTimePred",
+                "type": "str"
+            },
+            {
+                "name": "PropertyLink",
+                "value": "http://smart.festo.com/id/instance/aas/5140_0142_3091_4340/OperationalData/ResponseTimePred",
+                "type": "str"
+            },
+            {
+                "name": "TEST",
+                "value": "7",
+                "type": "str"
+            }
+        ],
+        "x": 950,
+        "y": 2140,
+        "wires": [
+            [
+                "5acf5825716ab245",
+                "8a26a96cabaddffd"
+            ],
+            [
+                "c6088dd0a16f07e5"
+            ],
+            [
+                "10aedcf3501fbffd",
+                "152ee7eeb68349df"
+            ]
+        ]
+    },
+    {
+        "id": "c6088dd0a16f07e5",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "routed",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "d2edf304.fdfa2",
+        "x": 1210,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "10aedcf3501fbffd",
+        "type": "sub-link-input",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "topic": "metrics",
+        "alias": "",
+        "aliasType": "str",
+        "aliasMatchAll": false,
+        "topicType": "str",
+        "link": "72ae2011.f3d7b",
+        "x": 1220,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "5acf5825716ab245",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "152ee7eeb68349df",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "responseTimePred",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1250,
+        "y": 2220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e23f857ef3aa4af8",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "d6bfeaaa47bdb834",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1190,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "da6ef983914417da",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1210,
+        "y": 2040,
+        "wires": []
+    },
+    {
+        "id": "d63387edeb99c545",
+        "type": "link in",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "driverNewScheduling in",
+        "links": [],
+        "x": 195,
+        "y": 280,
+        "wires": [
+            [
+                "6e6c410609401ff6"
+            ]
+        ]
+    },
+    {
+        "id": "08c6dda6219f6383",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "g": "8b26016f56f3ec31",
+        "name": "driverNewScheduling out",
+        "mode": "return",
+        "links": [],
+        "x": 1435,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "e51a34db1b3f2187",
+        "type": "link in",
+        "z": "812c07b789b2261d",
+        "name": "driverConnectionCheck in",
+        "links": [],
+        "x": 295,
+        "y": 2560,
+        "wires": [
+            [
+                "fb159a2ed7fadf2b"
+            ]
+        ]
+    },
+    {
+        "id": "a8a739cd6b392513",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "driverConnectionCheck out",
+        "mode": "return",
+        "links": [],
+        "x": 2255,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "2f6279d8a85d800a",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 950,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "2bda9101aced14b9",
+        "type": "link in",
+        "z": "812c07b789b2261d",
+        "name": "invokeInternalDriver",
+        "links": [],
+        "x": 115,
+        "y": 1160,
+        "wires": [
+            [
+                "4e25abd6e053ec74",
+                "5ac08f1ebd80a122"
+            ]
+        ]
+    },
+    {
+        "id": "8e79d21bd3ac9ae7",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "return",
+        "links": [],
+        "x": 2375,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "5ac08f1ebd80a122",
+        "type": "msg-router",
+        "z": "812c07b789b2261d",
+        "routerType": "broadcast",
+        "topicDependent": false,
+        "counterReset": false,
+        "msgKeyField": "payload",
+        "undefinedHash": false,
+        "outputsInfo": [
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            },
+            {
+                "active": true,
+                "clone": false,
+                "delay": "0",
+                "weight": "0"
+            }
+        ],
+        "name": "",
+        "delaying": "unrelated",
+        "msgControl": false,
+        "outputs": 7,
+        "x": 460,
+        "y": 1160,
+        "wires": [
+            [
+                "57d4ac5819ba9ca1"
+            ],
+            [
+                "f1764e44b05912ad"
+            ],
+            [
+                "100e5da2ec1d7cc9"
+            ],
+            [
+                "647e8c475f82e48b"
+            ],
+            [
+                "6b3b75887c0d3cb7"
+            ],
+            [
+                "46d3a89e10f35a4a"
+            ],
+            [
+                "750d4b3f36354e44"
+            ]
+        ]
+    },
+    {
+        "id": "28307dba8fbc232d",
+        "type": "sub-link-output",
+        "z": "812c07b789b2261d",
+        "inputs": 0,
+        "name": "",
+        "topic": "configSchedule",
+        "link": "72ae2011.f3d7b",
+        "priority": "0",
+        "aliasType": "str",
+        "alias": "",
+        "clone": false,
+        "x": 240,
+        "y": 1220,
+        "wires": [
+            [
+                "5ac08f1ebd80a122",
+                "e2087b41bd702887"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f470296120e4d9eb",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3b023c745c595aa3",
+        "type": "link in",
+        "z": "812c07b789b2261d",
+        "name": "router",
+        "links": [
+            "d38c5e1b14828bee",
+            "8a26a96cabaddffd",
+            "e7c3a6e6eb03b07a",
+            "a80aa0299b4cde8b",
+            "f470296120e4d9eb",
+            "cfed48965c885f99",
+            "8150c532c62a121d"
+        ],
+        "x": 2035,
+        "y": 1260,
+        "wires": [
+            [
+                "8e79d21bd3ac9ae7"
+            ]
+        ]
+    },
+    {
+        "id": "a80aa0299b4cde8b",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "d38c5e1b14828bee",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "8150c532c62a121d",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "e7c3a6e6eb03b07a",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "cfed48965c885f99",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "8a26a96cabaddffd",
+        "type": "link out",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "mode": "link",
+        "links": [
+            "3b023c745c595aa3"
+        ],
+        "x": 1555,
+        "y": 2120,
+        "wires": []
+    },
+    {
+        "id": "e2087b41bd702887",
+        "type": "debug",
+        "z": "812c07b789b2261d",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 410,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "982b6ac707d69b2f",
+        "type": "iot-datasource",
+        "z": "812c07b789b2261d",
+        "name": "currentOperatingPressure",
+        "tstampField": "",
+        "dataField": "",
+        "disableDiscover": false,
+        "x": 1250,
+        "y": 620,
+        "wires": [
+            []
         ]
     }
 ]
