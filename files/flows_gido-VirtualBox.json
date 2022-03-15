@@ -389,9 +389,7 @@
             "5b190f606c4933fd"
         ],
         "x": 94,
-        "y": 2939,
-        "w": 2334,
-        "h": 448.00001335144043
+        "y": 2939
     },
     {
         "id": "9eaca16.128cb6",
@@ -412,9 +410,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "48a4f908.86ced8",
@@ -440,9 +436,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -470,9 +464,7 @@
             "a99930336b0c92a9"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -511,9 +503,7 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "7f3265a4.23ba94",
@@ -573,9 +563,7 @@
             "1e0c844d6abae7f8"
         ],
         "x": 1584,
-        "y": 1539,
-        "w": 2222,
-        "h": 723
+        "y": 1539
     },
     {
         "id": "6c18a80c.ec30a",
@@ -817,9 +805,7 @@
             "70c749831513dc2c"
         ],
         "x": 214,
-        "y": 99,
-        "w": 3452,
-        "h": 962
+        "y": 99
     },
     {
         "id": "9e0d0c62.913b48",
@@ -985,9 +971,7 @@
             "e65d6a5a.220b"
         ],
         "x": 104,
-        "y": 3499,
-        "w": 1572,
-        "h": 642
+        "y": 3499
     },
     {
         "id": "b85ff5d2fdca6f85",
@@ -1013,9 +997,7 @@
             "e1994719bd7b4722"
         ],
         "x": 194,
-        "y": 4242,
-        "w": 2272,
-        "h": 259
+        "y": 4242
     },
     {
         "id": "d56f57bf073f180e",
@@ -1059,9 +1041,7 @@
             "dabf6f00bad223ed"
         ],
         "x": 194,
-        "y": 3539,
-        "w": 2972,
-        "h": 562
+        "y": 3539
     },
     {
         "id": "065e6699a83c4478",
@@ -15493,7 +15473,7 @@
         "type": "unsafe-function",
         "z": "92b23faeba8402de",
         "name": "checkHealthStatus",
-        "func": "var statusCheck = context.global.get(\"statusCheckSBI\");\nif(msg.payload.statusCheck != \"\" && msg.payload != \"connectionStatusCheck\"){\n    if(msg.payload.statusCheck.connected == true && msg.payload.statusCheck.nrOfDataSources > 0){\n        context.global.set(\"statusCheckSBI\", msg.payload.statusCheck);\n    }\n}\nelse {\n    statusCheck = {};\n    statusCheck.connected = false;\n    statusCheck.nrOfDatasources = 0;\n    context.global.set(\"statusCheckSBI\", statusCheck);\n}\nmsg.pyload = {\"statusCheckSBI\": statusCheck};\nreturn msg;",
+        "func": "var statusCheck = msg.payload.statusCheck;\ncontext.global.set(\"statusCheckSBI\", statusCheck);\nmsg.payload = { \"statusCheckSBI\": statusCheck };\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 1440,
@@ -21537,7 +21517,7 @@
         "z": "9cfaf8e1b235e713",
         "g": "065e6699a83c4478",
         "name": "Initialize Context",
-        "func": "context.flow.set(\"NrOfDataSources\", 7);\nreturn msg;",
+        "func": "context.flow.set(\"NrOfDataSources\", 7);\ncontext.flow.set(\"connected\", false);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 760,
@@ -21773,7 +21753,7 @@
         "type": "unsafe-function",
         "z": "9cfaf8e1b235e713",
         "name": "statusNotification",
-        "func": "var statusCheck  = {};\nstatusCheck.connected = true;\nstatusCheck.nrOfDataSources = context.flow.get(\"NrOfDataSources\");\nmsg.payload = {\"statusCheck\": statusCheck};\nreturn msg;",
+        "func": "var statusCheck  = {};\nstatusCheck.connected = context.flow.get(\"connected\");\nstatusCheck.nrOfDataSources = context.flow.get(\"NrOfDataSources\");\nmsg.payload = {\"statusCheck\": statusCheck};\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 1350,
@@ -21790,7 +21770,7 @@
         "z": "9cfaf8e1b235e713",
         "g": "1ef2f4525f814eca",
         "name": "",
-        "func": "var valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"newCycle\") || false;\nvar cycle = context.flow.get(\"cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"newCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"newCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
+        "func": "context.flow.set(\"connected\", true);\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"newCycle\") || false;\nvar cycle = context.flow.get(\"cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"newCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"newCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
         "outputs": 2,
         "noerr": 0,
         "x": 560,
