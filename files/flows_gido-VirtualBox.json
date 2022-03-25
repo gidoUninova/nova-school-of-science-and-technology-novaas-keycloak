@@ -996,9 +996,7 @@
             "e1994719bd7b4722"
         ],
         "x": 194,
-        "y": 4242,
-        "w": 2272,
-        "h": 259
+        "y": 4242
     },
     {
         "id": "d56f57bf073f180e",
@@ -1037,9 +1035,136 @@
             "dabf6f00bad223ed"
         ],
         "x": 194,
-        "y": 3539,
-        "w": 2962,
-        "h": 562
+        "y": 3539
+    },
+    {
+        "id": "2a30f2cee4cae508",
+        "type": "group",
+        "z": "2164c119.f88826",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7f398a15f8617a7d",
+            "5ef646520f1525be",
+            "ced1ec9976cc2054",
+            "1b9172a6280b1642",
+            "b0ae035e935365b8",
+            "55a41d72deae495b",
+            "cee623c1a1a441af",
+            "64f880c34d0e9bb9",
+            "65844fdc1d513c29",
+            "6c7064a1e6f2e0de",
+            "e14fe06ae748a0af",
+            "bf7f78d769e874a4",
+            "dca76d602189a421",
+            "a201605c7253e9a7",
+            "d4f7e0bb5070cfb3",
+            "394b053bd775e2f0",
+            "af1c6fc09cea760f",
+            "3cbcf9f9a15d67c3",
+            "1cfa30abc1aacc5c",
+            "e9c43e702a2bce8d",
+            "0eea9f79a1abac3c",
+            "a6626e2909486885",
+            "6891493ec37b2188",
+            "e1e67d5f301c03f9",
+            "f02e14210c241746",
+            "420d9fbfc65d9192",
+            "6dd213bfa2e4d1b0",
+            "95a4167edd965f03",
+            "bef8d9cd64b7ceca",
+            "d081f36815581cf3",
+            "5d355d9213e64876",
+            "1e06b955b4c2389a",
+            "692033c5bdfd8aa0",
+            "caefa3fcc032168c",
+            "ee062754b235cee8",
+            "c22a134df446b17f"
+        ],
+        "x": 1584,
+        "y": 1359,
+        "w": 2222,
+        "h": 802
+    },
+    {
+        "id": "21554184dd2a5f1b",
+        "type": "group",
+        "z": "52060a586e329876",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "b2323facfa2636fc",
+            "4859f5e2dab44179",
+            "b5a2352dc858432a",
+            "7944d4ee3f67abfd",
+            "203761499e59e73f",
+            "287828c89fbbd61f",
+            "dd3165bdbe8b595d",
+            "7c46803904958dae",
+            "b00ebe8333dbb608",
+            "99473b24a71905cc",
+            "0e0937bae698e6a6",
+            "809cc471b0416f4d",
+            "0fa2c47930a3e70f",
+            "5fd7e3fa0050f1d4"
+        ],
+        "x": 124,
+        "y": 59
+    },
+    {
+        "id": "bdf27e412ddf5db9",
+        "type": "group",
+        "z": "52060a586e329876",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "9544f7b36ea21874",
+            "8631aa5896e65499",
+            "127f53ae1c657d96",
+            "673d198b839893b6",
+            "6cb0a73fc9505068",
+            "d6f3595b240ede21",
+            "6d9b3a3444c83394",
+            "f1cc681339197761",
+            "4ea0ec010522b7b2",
+            "33194219ec293e29",
+            "d5c0ae82e210b476",
+            "517739d75a3ee2b0",
+            "2723951af3693b2a",
+            "289bc249b962aa68",
+            "0ed839a0f42da8eb",
+            "7bd62cfd63e4323b",
+            "41751445fb38e5ea",
+            "4e3fdbd928451552",
+            "2ceaa9b41f6276ca",
+            "56af617748d9107d",
+            "68fdbdab57f8e6df",
+            "924f38260d3ca64e",
+            "752c3ca4641337f0",
+            "b33cf9032a7e2e37",
+            "625234c8a929f3d5",
+            "10b9c8143e534dbf",
+            "d844cac9301d3030",
+            "64f24e1d0f234911",
+            "69abda8316e2559e",
+            "268bc88fb324eee0"
+        ],
+        "x": 114,
+        "y": 2899
     },
     {
         "id": "37a4080e.40ed9",
@@ -1182,138 +1307,6 @@
         "y": 3099,
         "w": 2212,
         "h": 602
-    },
-    {
-        "id": "2a30f2cee4cae508",
-        "type": "group",
-        "z": "2164c119.f88826",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "7f398a15f8617a7d",
-            "5ef646520f1525be",
-            "ced1ec9976cc2054",
-            "1b9172a6280b1642",
-            "b0ae035e935365b8",
-            "55a41d72deae495b",
-            "cee623c1a1a441af",
-            "64f880c34d0e9bb9",
-            "65844fdc1d513c29",
-            "6c7064a1e6f2e0de",
-            "e14fe06ae748a0af",
-            "bf7f78d769e874a4",
-            "dca76d602189a421",
-            "a201605c7253e9a7",
-            "d4f7e0bb5070cfb3",
-            "394b053bd775e2f0",
-            "af1c6fc09cea760f",
-            "3cbcf9f9a15d67c3",
-            "1cfa30abc1aacc5c",
-            "e9c43e702a2bce8d",
-            "0eea9f79a1abac3c",
-            "a6626e2909486885",
-            "6891493ec37b2188",
-            "e1e67d5f301c03f9",
-            "f02e14210c241746",
-            "420d9fbfc65d9192",
-            "6dd213bfa2e4d1b0",
-            "95a4167edd965f03",
-            "bef8d9cd64b7ceca",
-            "d081f36815581cf3",
-            "5d355d9213e64876",
-            "4064b289252e7de3",
-            "1e06b955b4c2389a",
-            "692033c5bdfd8aa0",
-            "caefa3fcc032168c"
-        ],
-        "x": 1584,
-        "y": 1359,
-        "w": 2222,
-        "h": 802
-    },
-    {
-        "id": "21554184dd2a5f1b",
-        "type": "group",
-        "z": "52060a586e329876",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "b2323facfa2636fc",
-            "4859f5e2dab44179",
-            "b5a2352dc858432a",
-            "7944d4ee3f67abfd",
-            "203761499e59e73f",
-            "287828c89fbbd61f",
-            "dd3165bdbe8b595d",
-            "7c46803904958dae",
-            "b00ebe8333dbb608",
-            "99473b24a71905cc",
-            "0e0937bae698e6a6",
-            "809cc471b0416f4d",
-            "0fa2c47930a3e70f",
-            "5fd7e3fa0050f1d4"
-        ],
-        "x": 124,
-        "y": 59,
-        "w": 1522,
-        "h": 322
-    },
-    {
-        "id": "bdf27e412ddf5db9",
-        "type": "group",
-        "z": "52060a586e329876",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "9544f7b36ea21874",
-            "8631aa5896e65499",
-            "127f53ae1c657d96",
-            "673d198b839893b6",
-            "6cb0a73fc9505068",
-            "d6f3595b240ede21",
-            "6d9b3a3444c83394",
-            "f1cc681339197761",
-            "4ea0ec010522b7b2",
-            "33194219ec293e29",
-            "d5c0ae82e210b476",
-            "517739d75a3ee2b0",
-            "2723951af3693b2a",
-            "289bc249b962aa68",
-            "0ed839a0f42da8eb",
-            "7bd62cfd63e4323b",
-            "41751445fb38e5ea",
-            "4e3fdbd928451552",
-            "2ceaa9b41f6276ca",
-            "56af617748d9107d",
-            "68fdbdab57f8e6df",
-            "924f38260d3ca64e",
-            "752c3ca4641337f0",
-            "b33cf9032a7e2e37",
-            "625234c8a929f3d5",
-            "10b9c8143e534dbf",
-            "d844cac9301d3030",
-            "64f24e1d0f234911",
-            "69abda8316e2559e",
-            "268bc88fb324eee0"
-        ],
-        "x": 114,
-        "y": 2899,
-        "w": 2872,
-        "h": 516
     },
     {
         "id": "de00f046.a69e6",
@@ -21777,9 +21770,7 @@
         "y": 1980,
         "wires": [
             [
-                "1b9172a6280b1642",
-                "4064b289252e7de3",
-                "95a4167edd965f03"
+                "c22a134df446b17f"
             ]
         ]
     },
@@ -21797,24 +21788,6 @@
                 "caefa3fcc032168c"
             ]
         ]
-    },
-    {
-        "id": "4064b289252e7de3",
-        "type": "debug",
-        "z": "2164c119.f88826",
-        "g": "2a30f2cee4cae508",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3170,
-        "y": 2000,
-        "wires": []
     },
     {
         "id": "1e06b955b4c2389a",
@@ -21871,7 +21844,8 @@
         "y": 1980,
         "wires": [
             [
-                "d081f36815581cf3"
+                "d081f36815581cf3",
+                "ee062754b235cee8"
             ]
         ]
     },
@@ -21889,6 +21863,40 @@
         "y": 3020,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "ee062754b235cee8",
+        "type": "sqlite",
+        "z": "2164c119.f88826",
+        "g": "2a30f2cee4cae508",
+        "mydb": "50760f2b4eafd99b",
+        "sqlquery": "fixed",
+        "sql": "select * FROM aasLogs",
+        "name": "",
+        "x": 2770,
+        "y": 1940,
+        "wires": [
+            [
+                "1b9172a6280b1642"
+            ]
+        ]
+    },
+    {
+        "id": "c22a134df446b17f",
+        "type": "unsafe-function",
+        "z": "2164c119.f88826",
+        "g": "2a30f2cee4cae508",
+        "name": "LogsProcessing",
+        "func": "//Retreiving Libraries from the Settings.json file\nif(msg.payload){\n    /*\n    //var observation = JSON.parse(msg.payload);\n    var observation = msg.payload;\n    var logs = context.flow.get('logs');\n    var copyLogs = logs.slice(Math.max(logs.length - 25, 0));\n    //for(var log in msg.payload){\n    //    logs.push(msg.payload[log]);\n    //}\n    var log = {};\n    if(typeof observation.payload.href !== \"undefined\"){\n        log.link = observation.payload.href;\n    } else{\n        log.value = observation.payload;\n    }\n    //log.time = Date.now();\n    log.time = observation.timestamp;\n    log._msgid = msg._msgid;\n    log.AASID = context.global.get('AASIdentifier');\n    log.observableReference = observation.observableReference;\n    if(copyLogs.length > 25){\n        copyLogs.pop();\n        copyLogs.push(log);\n        logs.push(log);\n    } else {\n        logs.push(log);\n    }*/\n    \n    context.flow.set('accountlog', msg.payload);\n    var outputMsg = {};\n    //msg.payload = logs;\n    //outputMsg.payload = logs;\n    outputMsg.payload = msg.payload;\n    return outputMsg;\n}\nmsg.payload = \"\";\nreturn msg; ",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 3200,
+        "y": 1980,
+        "wires": [
+            [
+                "95a4167edd965f03"
+            ]
         ]
     },
     {
