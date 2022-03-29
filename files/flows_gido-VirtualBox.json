@@ -56,7 +56,7 @@
         "info": ""
     },
     {
-        "id": "52060a586e329876",
+        "id": "80b036480194f925",
         "type": "tab",
         "label": "DPDM/OperationalData",
         "disabled": false,
@@ -235,9 +235,9 @@
         "color": "#DDAA99"
     },
     {
-        "id": "3c45d51933db664b",
+        "id": "e13aef4430294bed",
         "type": "subflow",
-        "name": "History",
+        "name": "JSON_Paths",
         "info": "",
         "category": "",
         "in": [
@@ -246,7 +246,7 @@
                 "y": 80,
                 "wires": [
                     {
-                        "id": "b632d965f8ab38c8"
+                        "id": "2354ad87fec61167"
                     }
                 ]
             }
@@ -257,7 +257,46 @@
                 "y": 80,
                 "wires": [
                     {
-                        "id": "b632d965f8ab38c8",
+                        "id": "2354ad87fec61167",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [
+            {
+                "name": "PathTo",
+                "type": "str",
+                "value": ""
+            }
+        ],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "9896f9527cc739d6",
+        "type": "subflow",
+        "name": "History",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 60,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "1bea42e73dba2955"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 340,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "1bea42e73dba2955",
                         "port": 0
                     }
                 ]
@@ -268,27 +307,29 @@
                 "name": "historyArrayName",
                 "type": "str",
                 "value": ""
+            },
+            {
+                "name": "PathTo",
+                "type": "str",
+                "value": ""
             }
         ],
         "meta": {},
         "color": "#DDAA99"
     },
     {
-        "id": "2f25d03b60209778",
+        "id": "bf72bc27b78afb15",
         "type": "subflow",
         "name": "Property handler",
         "info": "",
         "category": "",
         "in": [
             {
-                "x": 420,
-                "y": 500,
+                "x": 260,
+                "y": 520,
                 "wires": [
                     {
-                        "id": "aa8019655109e6a0"
-                    },
-                    {
-                        "id": "8e3c31745ab0e63c"
+                        "id": "256598a71b635120"
                     }
                 ]
             }
@@ -299,11 +340,11 @@
                 "y": 500,
                 "wires": [
                     {
-                        "id": "0ffa2d4ac1f9e39d",
+                        "id": "edd8e69c25c8849c",
                         "port": 0
                     },
                     {
-                        "id": "5f6547a9c813d5b5",
+                        "id": "af8bc676f3c30128",
                         "port": 0
                     }
                 ]
@@ -313,7 +354,7 @@
                 "y": 800,
                 "wires": [
                     {
-                        "id": "7a3137cf7a8de8d2",
+                        "id": "0adef7d8243a144c",
                         "port": 0
                     }
                 ]
@@ -323,7 +364,7 @@
                 "y": 860,
                 "wires": [
                     {
-                        "id": "890d1c094842d5fe",
+                        "id": "951aa71e03153153",
                         "port": 0
                     }
                 ]
@@ -434,9 +475,7 @@
             "9d9d4e513499c3ff"
         ],
         "x": 94,
-        "y": 2919,
-        "w": 2334,
-        "h": 468.00001335144043
+        "y": 2919
     },
     {
         "id": "9eaca16.128cb6",
@@ -457,9 +496,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "48a4f908.86ced8",
@@ -485,9 +522,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -515,9 +550,7 @@
             "a99930336b0c92a9"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -556,9 +589,7 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "6c18a80c.ec30a",
@@ -800,9 +831,7 @@
             "70c749831513dc2c"
         ],
         "x": 214,
-        "y": 99,
-        "w": 3452,
-        "h": 962
+        "y": 99
     },
     {
         "id": "9e0d0c62.913b48",
@@ -968,9 +997,7 @@
             "e65d6a5a.220b"
         ],
         "x": 104,
-        "y": 3499,
-        "w": 1572,
-        "h": 642
+        "y": 3499
     },
     {
         "id": "b85ff5d2fdca6f85",
@@ -1089,14 +1116,12 @@
             "c22a134df446b17f"
         ],
         "x": 1584,
-        "y": 1359,
-        "w": 2222,
-        "h": 802
+        "y": 1359
     },
     {
-        "id": "21554184dd2a5f1b",
+        "id": "3fa084242433eb1b",
         "type": "group",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "Set-up",
         "style": {
             "fill": "#e3f3d3",
@@ -1104,67 +1129,71 @@
             "label": true
         },
         "nodes": [
-            "b2323facfa2636fc",
-            "4859f5e2dab44179",
-            "b5a2352dc858432a",
-            "7944d4ee3f67abfd",
-            "203761499e59e73f",
-            "287828c89fbbd61f",
-            "dd3165bdbe8b595d",
-            "7c46803904958dae",
-            "b00ebe8333dbb608",
-            "99473b24a71905cc",
-            "0e0937bae698e6a6",
-            "809cc471b0416f4d",
-            "0fa2c47930a3e70f",
-            "5fd7e3fa0050f1d4"
+            "629bc105d3a0b648",
+            "158abe41fbb33790",
+            "b9d8111b33369b6e",
+            "d7946a48dfc7964f",
+            "6ab3f80fdfe676d0",
+            "5b645a0e4f1ed5cd",
+            "350df26e1f696d52",
+            "232e71f94053f184",
+            "07f59fac6e71f4a6",
+            "6b0036827530344d",
+            "a7d3c1922ce83bb2",
+            "479a57a42bbf8ec5",
+            "1cacca6f5ad5d8d1",
+            "b9706ef075b26ab8"
         ],
         "x": 124,
-        "y": 59
+        "y": 59,
+        "w": 1522,
+        "h": 322
     },
     {
-        "id": "bdf27e412ddf5db9",
+        "id": "c3653598f65963d0",
         "type": "group",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "Simulator",
         "style": {
             "fill": "#ffffbf",
             "label": true
         },
         "nodes": [
-            "9544f7b36ea21874",
-            "8631aa5896e65499",
-            "127f53ae1c657d96",
-            "673d198b839893b6",
-            "6cb0a73fc9505068",
-            "d6f3595b240ede21",
-            "6d9b3a3444c83394",
-            "f1cc681339197761",
-            "4ea0ec010522b7b2",
-            "33194219ec293e29",
-            "d5c0ae82e210b476",
-            "517739d75a3ee2b0",
-            "2723951af3693b2a",
-            "289bc249b962aa68",
-            "0ed839a0f42da8eb",
-            "7bd62cfd63e4323b",
-            "41751445fb38e5ea",
-            "4e3fdbd928451552",
-            "2ceaa9b41f6276ca",
-            "56af617748d9107d",
-            "68fdbdab57f8e6df",
-            "924f38260d3ca64e",
-            "752c3ca4641337f0",
-            "b33cf9032a7e2e37",
-            "625234c8a929f3d5",
-            "10b9c8143e534dbf",
-            "d844cac9301d3030",
-            "64f24e1d0f234911",
-            "69abda8316e2559e",
-            "268bc88fb324eee0"
+            "3c18b0e4dd7444d4",
+            "ee56ebf48b408522",
+            "2dbce76ddb25d905",
+            "83dfe0661ac737a4",
+            "90bf8ac249c0de54",
+            "826fc3f3d088871e",
+            "6249949d875d5b7a",
+            "294ac8e26970e4f1",
+            "893b528914172d9d",
+            "3a4e5a73caba2e23",
+            "0e555d83f020dd34",
+            "94c12db34e19e327",
+            "74b999bcc3e29dbb",
+            "af9d3f31cec77f59",
+            "8fdb31ca223aee71",
+            "7c02153d01a7ba4f",
+            "9cee10562e976801",
+            "e50c53f4d02e43f1",
+            "30d14319dafbc523",
+            "54794eb1e8d22f1c",
+            "2cc40f6512a3c761",
+            "1420556d7fa44637",
+            "a9f875132cebddbe",
+            "8916205a71914230",
+            "45c486728423ea03",
+            "09a984369495d8f0",
+            "01dbbb08cb3159b8",
+            "48db4f1bd267e33a",
+            "3dfb76585284b322",
+            "c2bdf154e06ff9d7"
         ],
         "x": 114,
-        "y": 2899
+        "y": 2899,
+        "w": 2872,
+        "h": 516
     },
     {
         "id": "37a4080e.40ed9",
@@ -3153,11 +3182,11 @@
         ]
     },
     {
-        "id": "b632d965f8ab38c8",
+        "id": "2354ad87fec61167",
         "type": "function",
-        "z": "3c45d51933db664b",
-        "name": "History",
-        "func": "// Get request timestamps\nvar start = msg.payload.start;\nvar end = (msg.payload.end - start)/1000;\n//var end = msg.payload.end;\nvar history = context.flow.get(\"$parent.\" + env.get(\"historyArrayName\"));\nif(end > history.length){\n    start = history.length;\n} else {\n    start = history.length - end;\n}\n\nvar data = [];\nfor (var ts = start; ts < history.length; ts++ )\n{   \n    var element = history[ts];\n\n    data.push( {\n        tstamp: element.tstamp,\n        data: element.data\n    } );\n}\nmsg.payload = data;\nreturn msg;",
+        "z": "e13aef4430294bed",
+        "name": "",
+        "func": "var extract = function (point, keyIndex, keysArray) {\n    if(keyIndex < keysArray.length){\n        let element = keysArray[keyIndex];\n        if (typeof point[element] !== 'object') {\n            let simpleValue = {};\n            simpleValue[element] = point[element];\n            return simpleValue\n        } else {\n            keyIndex = keyIndex + 1;\n            return extract(point[element], keyIndex, keysArray);\n            \n        }\n\n    }\n    \n}\n\nlet keys = env.get(\"PathTo\");\nlet keysArray = keys.split(\".\");\nlet point = msg.payload;\nmsg.payload.data = extract(point.data, 0, keysArray);\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
@@ -3170,9 +3199,26 @@
         ]
     },
     {
-        "id": "2db066b5b1de4794",
+        "id": "1bea42e73dba2955",
+        "type": "function",
+        "z": "9896f9527cc739d6",
+        "name": "History",
+        "func": "var extract = function (point, keyIndex, keysArray) {\n    if (keyIndex < keysArray.length) {\n        let element = keysArray[keyIndex];\n        if (typeof point[element] !== 'object') {\n            let simpleValue = {};\n            simpleValue[element] = point[element];\n            return simpleValue\n        } else {\n            keyIndex = keyIndex + 1;\n            return extract(point[element], keyIndex, keysArray);\n\n        }\n\n    }\n\n}\n\nlet keys = env.get(\"PathTo\");\nlet keysArray = keys.split(\".\");\n\n\n// Get request timestamps\nvar start = msg.payload.start;\nvar end = (msg.payload.end - start)/1000;\n//var end = msg.payload.end;\nvar history = context.flow.get(\"$parent.\" + env.get(\"historyArrayName\"));\nif(end > history.length){\n    start = history.length;\n} else {\n    start = history.length - end;\n}\n\nvar data = [];\nfor (var ts = start; ts < history.length; ts++ )\n{   \n    var element = history[ts];\n\n    data.push( {\n        tstamp: element.tstamp,\n        data: extract(element.data, 0, keysArray)\n    } );\n}\nmsg.payload = data;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 200,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3d6c359467a9921e",
         "type": "switch",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "topic",
         "property": "topic",
         "propertyType": "msg",
@@ -3191,25 +3237,25 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 710,
+        "x": 890,
         "y": 500,
         "wires": [
             [
-                "0ffa2d4ac1f9e39d",
-                "d30c93e02cf78e55"
+                "edd8e69c25c8849c",
+                "ab39426b43de2702"
             ],
             [
-                "fd8a553f857af8f6",
-                "5f6547a9c813d5b5"
+                "2fcf59ea9877d012",
+                "af8bc676f3c30128"
             ]
         ]
     },
     {
-        "id": "0ffa2d4ac1f9e39d",
+        "id": "edd8e69c25c8849c",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "PrepareOutput",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\n//observation.source = msg.source;\nobservation.direction = \"Output\";\n\nvar observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor(var key in observedKeys){\n    if(parseInt(key) < 2){\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \";\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\n\nobservation.observableReference = observableReference;\nobservation.source = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow Created\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\ncontext.flow.set('ObsObj', observation);\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\nmsg.payload = observation;\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1175,
@@ -3220,9 +3266,9 @@
         "l": false
     },
     {
-        "id": "d30c93e02cf78e55",
+        "id": "ab39426b43de2702",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "",
         "func": "msg.topic = \"control\";\nmsg.payload = \"open\";\nreturn msg;",
         "outputs": 1,
@@ -3231,15 +3277,15 @@
         "y": 540,
         "wires": [
             [
-                "09f2d498e9205500"
+                "6deff7ccc8bbce1b"
             ]
         ],
         "l": false
     },
     {
-        "id": "09f2d498e9205500",
+        "id": "6deff7ccc8bbce1b",
         "type": "gate",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "",
         "controlTopic": "control",
         "defaultState": "closed",
@@ -3252,14 +3298,14 @@
         "y": 800,
         "wires": [
             [
-                "7a3137cf7a8de8d2"
+                "0adef7d8243a144c"
             ]
         ]
     },
     {
-        "id": "7a3137cf7a8de8d2",
+        "id": "0adef7d8243a144c",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "",
         "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n});\nvar outMsg = {};\nvar ObsObj = context.flow.get('ObsObj');\nObsObj.id = uuid;\nvar timestamp = context.flow.get(\"$parent.timestamp\");\nObsObj.timestamp = timestamp;\nObsObj.payload = context.flow.get(\"variable\");\noutMsg.payload = ObsObj;\nreturn outMsg;",
         "outputs": 1,
@@ -3272,9 +3318,9 @@
         "l": false
     },
     {
-        "id": "fd8a553f857af8f6",
+        "id": "2fcf59ea9877d012",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "",
         "func": "msg.topic = \"control\";\nmsg.payload = \"close\";\nreturn msg;",
         "outputs": 1,
@@ -3283,17 +3329,17 @@
         "y": 660,
         "wires": [
             [
-                "09f2d498e9205500"
+                "6deff7ccc8bbce1b"
             ]
         ],
         "l": false
     },
     {
-        "id": "5f6547a9c813d5b5",
+        "id": "af8bc676f3c30128",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "PrepareOutput",
-        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nobservation.observableReference = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
+        "func": "var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\n\n// Create an Observation Event Object ------------------------------------\nvar observation = {};\nobservation.id = uuid;\nobservation.source = msg.source;\nobservation.direction = \"Output\";\nvar observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor (var key in observedKeys) {\n    if (parseInt(key) < 2) {\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \";\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\n\nobservation.observableReference = observableReference;\nobservation.source = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\n\nif(context.flow.get(\"timestamp\")){\n    observation.timestamp = context.flow.get(\"timestamp\");\n} else{\n    observation.timestamp = new Date().getTime();\n}\nobservation.payload = \"Data Flow removed\";\n//observation.href = msg.href;\n// END Create an Observation Object --------------------------------\n//outputMsgs.push(observation);\n\n//msg.payload = outputMsgs;\n//msg.payload = JSON.stringify(observation);\n//msg.test = JSON.parse(msg.payload);\ncontext.flow.set(\"ObsObj\", \"\");\nmsg.payload = observation;\nreturn msg;\n\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1175,
@@ -3304,9 +3350,9 @@
         "l": false
     },
     {
-        "id": "d5779618e2623fc7",
+        "id": "0181e68929d858e8",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "",
         "func": "var propertyName = env.get(\"PropertyName\");\nvar Outmsg = {};\nOutmsg.topic = msg.topic;\nvar variable = context.flow.get(\"$parent.\" + propertyName);\ncontext.flow.set(\"variable\", variable);\n\nOutmsg.payload = variable;\nreturn Outmsg;\n",
         "outputs": 1,
@@ -3315,16 +3361,16 @@
         "y": 800,
         "wires": [
             [
-                "09f2d498e9205500",
-                "890d1c094842d5fe"
+                "6deff7ccc8bbce1b",
+                "951aa71e03153153"
             ]
         ],
         "l": false
     },
     {
-        "id": "890d1c094842d5fe",
+        "id": "951aa71e03153153",
         "type": "unsafe-function",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "responseTime",
         "func": "var historyArrayName = \"$parent.\" + env.get(\"PropertyName\") + \"_hist\";\nvar outMsg= {};\noutMsg.topic = \"put\";\noutMsg.payload = {\n    link: env.get(\"PropertyLink\"),\n    tstamp: context.flow.get(\"$parent.timestamp\"),\n    data: context.flow.get(\"variable\")\n};\nlet history = context.flow.get(historyArrayName) || [];\nif (history.length >= env.get(\"HistoryLength\")){\n    history.pop();\n}\nhistory.push(outMsg.payload);\ncontext.flow.set(historyArrayName, history);\nreturn outMsg;",
         "outputs": 1,
@@ -3337,9 +3383,9 @@
         "l": false
     },
     {
-        "id": "aa8019655109e6a0",
+        "id": "bccfc4dd79be16f3",
         "type": "switch",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "propertyLink",
         "property": "PropertyLink",
         "propertyType": "env",
@@ -3353,38 +3399,61 @@
         "checkall": "true",
         "repair": false,
         "outputs": 1,
-        "x": 570,
+        "x": 750,
         "y": 500,
         "wires": [
             [
-                "2db066b5b1de4794"
+                "3d6c359467a9921e"
             ]
         ]
     },
     {
-        "id": "8e3c31745ab0e63c",
+        "id": "256598a71b635120",
         "type": "switch",
-        "z": "2f25d03b60209778",
+        "z": "bf72bc27b78afb15",
         "name": "scheduler",
         "property": "topic",
         "propertyType": "msg",
         "rules": [
             {
-                "t": "eq",
+                "t": "neq",
                 "v": "sbi scheduling data routing",
                 "vt": "str"
+            },
+            {
+                "t": "else"
             }
         ],
-        "checkall": "true",
+        "checkall": "false",
         "repair": false,
-        "outputs": 1,
-        "x": 620,
-        "y": 560,
+        "outputs": 2,
+        "x": 440,
+        "y": 520,
         "wires": [
             [
-                "d5779618e2623fc7"
+                "8a84449562e730d5"
+            ],
+            [
+                "0181e68929d858e8"
             ]
         ]
+    },
+    {
+        "id": "8a84449562e730d5",
+        "type": "unsafe-function",
+        "z": "bf72bc27b78afb15",
+        "name": "PrepareOutput",
+        "func": "var observableReference = \"\";\n\nvar observedKeys = msg.payload.observed.keys;\nfor(var key in observedKeys){\n    if(parseInt(key) < 2){\n        observableReference = observableReference + observedKeys[key].value + \"/\";\n    } else if (parseInt(key) >= 2 && parseInt(key) < (observedKeys.length - 1)) {\n        observableReference = observableReference + observedKeys[key].value + \";\";\n    } else {\n        observableReference = observableReference + observedKeys[key].value;\n    }\n}\nmsg.link = observableReference;\nreturn msg;\n\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 595,
+        "y": 500,
+        "wires": [
+            [
+                "bccfc4dd79be16f3"
+            ]
+        ],
+        "l": false
     },
     {
         "id": "8dd7e27f.bc284",
@@ -14887,7 +14956,7 @@
         "type": "unsafe-function",
         "z": "9c0ecc72f77c934a",
         "name": "ReadSubmodelElement",
-        "func": "var iterate = function(submodelElementId, collectionIds, submodelElements){\n    for(var index in submodelElements){\n        var submodelElement = submodelElements[index];\n        if(submodelElement.modelType.name !== \"SubmodelElementCollection\"){\n                if(submodelElement.idShort === submodelElementId){\n                    return submodelElement;\n                    \n                }\n            }  else {\n                for(var collIndex in collectionIds){\n                    var collectionId = collectionIds[collIndex];\n                    if(submodelElement.idShort === collectionId){\n                        collectionIds.splice(collIndex, 1);\n                        var result = iterate(submodelElementId, collectionIds, submodelElement.value);\n                        return result;\n                }\n                }\n                \n            }\n    }\n    return \"\";\n}\n\nvar submodelElementId = msg.req.params.id;\nvar submodelId = msg.req.params.submodelId;\n\nvar submodelCollectionId = [];\nvar splittedSubmodel = submodelElementId.split(\".\");\n//submodelId = splittedSubmodel[0];\n\nif(splittedSubmodel.length > 1){\n    for(var index in splittedSubmodel){\n        if(index < (splittedSubmodel.length - 1)){\n            submodelCollectionId.push(splittedSubmodel[index]);\n        } else {\n            submodelElementId = splittedSubmodel[index];\n        }\n    }\n}\n\nvar selectedSubmodels = [];\nvar selctedSubmodelElements = [];\nif(msg.jsonataStatus == \"Success\"){\n    var submodels = msg.jsonataResult;\n    for(var index1 in submodels){\n        var submodelElements = submodels[index1].submodelElements;\n        var result = iterate(submodelElementId, submodelCollectionId, submodelElements);\n        if (result != \"\"){\n            selectedSubmodels.push(submodels[index1]);\n            selctedSubmodelElements.push(result);\n        }\n    }\n    if(selectedSubmodels.length > 0){\n        var manifest = context.flow.get(\"manifest\");\n        var shells = manifest.assetAdministrationShells;\n        var ShellId = msg.req.params.aasid;\n        for(var index3 in shells){\n            if(shells[index3].identification.id === ShellId){\n                var submodelRefs = shells[index3].submodels;\n                for(var index4 in submodelRefs){\n                    var ref = submodelRefs[index4];\n                    for(var index5 in selectedSubmodels){\n                        if(ref.keys[0].value === selectedSubmodels[index5].identification.id){\n                            msg.statusCode = \"200\";\n                            msg.payload = selctedSubmodelElements[index5];\n                        }\n                    }\n                }\n            }\n        }\n    } else {\n        msg.statusCode = \"404\";\n        msg.payload = \"SubmodelElement with id:\" + submodelElementId + \" not found\";\n    }\n    \n\n} else {\n    msg.statusCode = \"404\";\n    msg.payload = \"Submodel with id:\" + submodelId + \" not found\";\n}\n\n\n\nreturn msg;",
+        "func": "var iterate = function (submodelElementId, collectionIds, submodelElements) {\n    for (var index in submodelElements) {\n        var submodelElement = submodelElements[index];\n        if (submodelElement.modelType.name !== \"SubmodelElementCollection\" || (submodelElement.modelType.name === \"SubmodelElementCollection\" && collectionIds.length < 1)) {\n            if (submodelElement.idShort === submodelElementId) {\n                return submodelElement;\n\n            }\n\n        } else {\n            for (var collIndex in collectionIds) {\n                var collectionId = collectionIds[collIndex];\n                if (submodelElement.idShort === collectionId) {\n                    collectionIds.splice(collIndex, 1);\n                    var result = iterate(submodelElementId, collectionIds, submodelElement.value);\n                    return result;\n                }\n            }\n\n        }\n    }\n    return \"\";\n}\n\nvar submodelElementId = msg.req.params.id;\nvar submodelId = msg.req.params.submodelId;\n\nvar submodelCollectionId = [];\nvar splittedSubmodel = submodelElementId.split(\".\");\n//submodelId = splittedSubmodel[0];\n\nif (splittedSubmodel.length > 1) {\n    for (var index in splittedSubmodel) {\n        // @ts-ignore\n        if (index < (splittedSubmodel.length - 1)) {\n            submodelCollectionId.push(splittedSubmodel[index]);\n        } else {\n            submodelElementId = splittedSubmodel[index];\n        }\n    }\n}\n\nvar selectedSubmodels = [];\nvar selctedSubmodelElements = [];\nif (msg.jsonataStatus == \"Success\") {\n    var submodels = msg.jsonataResult;\n    for (var index1 in submodels) {\n        var submodelElements = submodels[index1].submodelElements;\n        var result = iterate(submodelElementId, submodelCollectionId, submodelElements);\n        if (result != \"\") {\n            selectedSubmodels.push(submodels[index1]);\n            selctedSubmodelElements.push(result);\n        }\n    }\n    if (selectedSubmodels.length > 0) {\n        var manifest = context.flow.get(\"manifest\");\n        var shells = manifest.assetAdministrationShells;\n        var ShellId = msg.req.params.aasid;\n        for (var index3 in shells) {\n            if (shells[index3].identification.id === ShellId) {\n                var submodelRefs = shells[index3].submodels;\n                for (var index4 in submodelRefs) {\n                    var ref = submodelRefs[index4];\n                    for (var index5 in selectedSubmodels) {\n                        if (ref.keys[0].value === selectedSubmodels[index5].identification.id) {\n                            msg.statusCode = \"200\";\n                            msg.payload = selctedSubmodelElements[index5];\n                        }\n                    }\n                }\n            }\n        }\n    } else {\n        msg.statusCode = \"404\";\n        msg.payload = \"SubmodelElement with id:\" + submodelElementId + \" not found\";\n    }\n\n\n} else {\n    msg.statusCode = \"404\";\n    msg.payload = \"Submodel with id:\" + submodelId + \" not found\";\n}\n\n\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 1330,
@@ -15569,7 +15638,7 @@
         "type": "unsafe-function",
         "z": "9c0ecc72f77c934a",
         "name": "UpdatingSubmodelElement...",
-        "func": "let submodelElement = \"\";\nlet submodelElementId = msg.req.params.id;\nlet submodelId = msg.req.params.submodelId;\nlet persist = \"false\";\nif (msg.req.query.content == \"value\") {\n\n    msg.payload.value = msg.submodelElement[msg.submodelElementId];\n    submodelElement = msg.payload;\n\n} else {\n    submodelElement = msg.submodelElement;\n    persist = \"true\";\n}\n\nvar updateSubmodelElement = function (submodelElements, submodelElement, value) {\n\n    let updated = false;\n    for (let index in submodelElements) {\n        let element = submodelElements[index];\n        if (element.modelType.name == \"SubmodelElementCollection\") {\n            updated = updateSubmodelElement(element.value, submodelElement, value);\n            if (updated) {\n                return updated;\n            }\n        } else {\n\n            if (element.idShort == submodelElement.idShort) {\n                element.value = value;\n                return true;\n            }\n\n        }\n    }\n    return updated;\n\n}\n\nif (msg.jsonataStatus == \"Success\") {\n    let value = msg.submodelElement[msg.submodelElementId];\n    let submodelElement = msg.payload;\n    let submodel = msg.jsonataResult[0];\n    let submodelIdentifier = submodel.identification.id;\n    let manifestSubmodelToUpdate = \"\";\n    let result = false;\n    let manifest = context.flow.get(\"manifest\");\n    let manifestSubmodels = manifest.submodels;\n    for (let manifestSubmodel in manifestSubmodels) {\n        let manifestSubmodelIdentifier = manifestSubmodels[manifestSubmodel].identification.id;\n        if (submodelIdentifier == manifestSubmodelIdentifier) {\n            let manifestSubmodelElements = manifestSubmodels[manifestSubmodel].submodelElements;\n            result = updateSubmodelElement(manifestSubmodelElements, submodelElement, value);\n            if (result) {\n                context.flow.set(\"manifest\", manifest);\n                if (persist == \"true\") {\n                    return [msg, null];\n                } else {\n                    return [null, msg];\n                }\n            }\n        }\n    }\n\n    msg.statusCode = \"404\";\n    //msg.payload = \"Submodel with id:\" + submodelIdentifier + \" not found!!!\";\n    return [null, msg];\n\n} else {\n    msg.statusCode = \"404\";\n    msg.payload = \"Submodel with id:\" + submodelId + \" not found\";\n    return [null, msg];\n}\n\n\n\n",
+        "func": "let submodelElement = \"\";\nlet submodelElementId = msg.req.params.id;\nlet submodelId = msg.req.params.submodelId;\nlet persist = \"false\";\nif (msg.req.query.content == \"value\") {\n\n    msg.payload.value = msg.submodelElement[msg.submodelElementId];\n    submodelElement = msg.payload;\n\n} else {\n    submodelElement = msg.submodelElement;\n    persist = \"true\";\n}\n\nlet updateSubmodelElementValues = function (submodelElements, indexIdPath, collectionIds, value) {\n\n    if (indexIdPath < collectionIds.length) {\n\n        let idPath = collectionIds[indexIdPath];\n\n        for (let submodelElement in submodelElements) {\n\n            let submodelElementIdentifier = submodelElements[submodelElement].idShort;\n\n            let modelType = submodelElements[submodelElement].modelType.name;\n\n            if (submodelElementIdentifier === idPath && modelType === \"SubmodelElementCollection\" && indexIdPath < (collectionIds.length - 1)) {\n\n                indexIdPath = indexIdPath + 1;\n\n                return updateSubmodelElementValues(submodelElements[submodelElement].value, indexIdPath, collectionIds, value);\n\n            } else if (submodelElementIdentifier === idPath && modelType === \"SubmodelElementCollection\" && indexIdPath === (collectionIds.length - 1)) {\n\n                //msg.debug3 = \"entrei\";\n\n                let values = JSON.parse(value);\n\n                let keys = Object.keys(values);\n\n\n                for (let keyIndex in keys) {\n\n                    let selectedValue = 0;\n\n                    selectedValue = values[keys[keyIndex]];\n\n                    submodelElements[submodelElement].value[keyIndex].value = selectedValue;\n\n                }\n\n                return true;\n\n            }\n            else if (submodelElementIdentifier === idPath && modelType === \"Property\") {\n\n                submodelElements[submodelElement].value = value;\n\n                return true;\n\n            }\n\n        }\n\n    } else {\n\n        return false;\n\n    }\n\n}\n\nvar submodelCollectionId = [];\n\nif (msg.jsonataStatus == \"Success\") {\n\n    let submodelRoot = msg.jsonataResult[0];\n\n    let pathToSubmodelElement = submodelElementId;\n\n    let collectionIds = pathToSubmodelElement.split(\".\");\n\n    let value = msg.submodelElement[msg.submodelElementId];\n\n    let submodelRootIdentifier = submodelRoot.identification.id;\n\n    let result = false;\n\n    let manifest = context.flow.get(\"manifest\");\n\n    let manifestSubmodels = manifest.submodels;\n\n    for (let manifestSubmodel in manifestSubmodels) {\n\n        let manifestSubmodelIdentifier = manifestSubmodels[manifestSubmodel].identification.id;\n\n        if (submodelRootIdentifier === manifestSubmodelIdentifier) {\n\n            let manifestSubmodelElements = manifestSubmodels[manifestSubmodel].submodelElements;\n\n            //msg.debug1 = collectionIds;\n\n            //msg.debug2 = manifestSubmodelElements;\n\n            result = updateSubmodelElementValues(manifestSubmodelElements, 0, collectionIds, value);\n\n            //msg.result = result;\n\n            if (result) {\n\n                context.flow.set(\"manifest\", manifest);\n\n                if (persist == \"true\") {\n\n                    return [msg, null];\n\n                } else {\n                    //msg.parsedValue = Object.keys(JSON.parse(value));\n                    //msg.values = JSON.parse(value);\n                    return [null, msg];\n\n                }\n            } else {\n\n                msg.statusCode = \"404\";\n                //msg.payload = \"Submodel with id:\" + submodelIdentifier + \" not found!!!\";\n                return [null, msg];\n\n            }\n\n        }\n\n    }\n\n} else {\n    msg.statusCode = \"404\";\n    msg.payload = \"Submodel with id:\" + submodelId + \" not found\";\n    return [null, msg];\n}",
         "outputs": 2,
         "noerr": 0,
         "x": 1790,
@@ -15791,7 +15860,7 @@
         "type": "unsafe-function",
         "z": "92b23faeba8402de",
         "name": "UpdateSubscriptions",
-        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id + \";\" + msg.req.body;\nsubscriptions.push(subscription);\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n",
+        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id;\nsubscriptions.push(subscription);\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1280,
@@ -15851,7 +15920,7 @@
         "type": "unsafe-function",
         "z": "92b23faeba8402de",
         "name": "UpdateSubscriptions",
-        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id + \";\" + msg.req.body;\nfor(var index in subscriptions){\n    if(subscriptions[index] == subscription){\n        subscriptions.splice(index, 1);\n    }\n}\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n\n",
+        "func": "var subscriptions = context.flow.get(\"subscriptions\");\nvar subscription = msg.req.params.aasid + \";\" + msg.req.params.submodelId + \";\" + msg.req.params.id;\nfor(var index in subscriptions){\n    if(subscriptions[index] == subscription){\n        subscriptions.splice(index, 1);\n    }\n}\ncontext.flow.set(\"subscriptions\", subscriptions);\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1280,
@@ -16099,7 +16168,7 @@
         "type": "unsafe-function",
         "z": "92b23faeba8402de",
         "name": "prepare Observation",
-        "func": "//var observation = JSON.parse(msg.payload);\nvar subscriptions = context.flow.get(\"subscriptions\");\nvar outMsgs = [];\nfor (var subscription in subscriptions) {\n    var splittedSubscription = subscriptions[subscription].split(\";\");\n    if (msg.payload.observableReference.includes(splittedSubscription[0]) && msg.payload.observableReference.includes(splittedSubscription[1]) && msg.payload.observableReference.includes(splittedSubscription[2])) {\n        var observation = msg.payload;\n        observation.source = context.global.get(\"AASIdentifier\");\n        var outMsg = observation;\n        outMsg.topic = splittedSubscription[3];\n        outMsgs.push(outMsg);\n        //msg.topic = splittedSubscription[3];\n    }\n}\n//var observation = msg.payload;\n//observation.source = context.global.get(\"AASIdentifier\");\n//msg.payload = observation;\n//return msg;\nreturn [outMsgs];",
+        "func": "//var observation = JSON.parse(msg.payload);\nvar subscriptions = context.flow.get(\"subscriptions\");\nvar outMsgs = [];\nfor (var subscription in subscriptions) {\n    var splittedSubscription = subscriptions[subscription].split(\";\");\n    if (msg.payload.source.includes(splittedSubscription[0]) && msg.payload.source.includes(splittedSubscription[1]) && msg.payload.source.includes(splittedSubscription[2])) {\n        var observation = msg.payload;\n        //observation.source = context.global.get(\"AASIdentifier\");\n        var outMsg = observation;\n        outMsg.topic = splittedSubscription[3];\n        outMsgs.push(outMsg);\n        //msg.topic = splittedSubscription[3];\n    }\n}\n//var observation = msg.payload;\n//observation.source = context.global.get(\"AASIdentifier\");\n//msg.payload = observation;\n//return msg;\nreturn [outMsgs];",
         "outputs": 1,
         "noerr": 0,
         "x": 1360,
@@ -16271,7 +16340,7 @@
         "type": "unsafe-function",
         "z": "92b23faeba8402de",
         "name": "prepare Observation",
-        "func": "//var observation = JSON.parse(msg.payload);\nvar subscriptions = context.flow.get(\"subscriptions\");\nvar outMsgs = [];\nfor (var subscription in subscriptions) {\n    var splittedSubscription = subscriptions[subscription].split(\";\");\n    if (msg.payload.observableReference.includes(splittedSubscription[0]) && msg.payload.observableReference.includes(splittedSubscription[1]) && msg.payload.observableReference.includes(splittedSubscription[2])) {\n        var observation = msg.payload;\n        observation.source = context.global.get(\"AASIdentifier\");\n        var outMsg = observation;\n        outMsg.topic = splittedSubscription[3];\n        outMsgs.push(outMsg);\n        //msg.topic = splittedSubscription[3];\n    }\n}\n//var observation = msg.payload;\n//observation.source = context.global.get(\"AASIdentifier\");\n//msg.payload = observation;\n//return msg;\nreturn [outMsgs];",
+        "func": "//var observation = JSON.parse(msg.payload);\nvar subscriptions = context.flow.get(\"subscriptions\");\nvar outMsgs = [];\nfor (var subscription in subscriptions) {\n    var splittedSubscription = subscriptions[subscription].split(\";\");\n    if (msg.payload.source.includes(splittedSubscription[0]) && msg.payload.source.includes(splittedSubscription[1]) && msg.payload.source.includes(splittedSubscription[2])) {\n        var observation = msg.payload;\n        //observation.source = context.global.get(\"AASIdentifier\");\n        var outMsg = observation;\n        outMsg.topic = splittedSubscription[3];\n        outMsgs.push(outMsg);\n        //msg.topic = splittedSubscription[3];\n    }\n}\n//var observation = msg.payload;\n//observation.source = context.global.get(\"AASIdentifier\");\n//msg.payload = observation;\n//return msg;\nreturn [outMsgs];",
         "outputs": 1,
         "noerr": 0,
         "x": 1360,
@@ -16293,7 +16362,7 @@
         "wires": [
             [
                 "c9073efe67935f40",
-                "d22adb3413ce73f0"
+                "123013abcea45701"
             ]
         ]
     },
@@ -16390,10 +16459,10 @@
         "z": "92b23faeba8402de",
         "name": "",
         "links": [
-            "0fa2c47930a3e70f"
+            "1cacca6f5ad5d8d1"
         ],
         "timeout": "30",
-        "x": 1290,
+        "x": 1340,
         "y": 980,
         "wires": [
             [
@@ -16407,10 +16476,10 @@
         "z": "92b23faeba8402de",
         "name": "",
         "links": [
-            "67e8a783066f20b8"
+            "12f5ec6cf0aba115"
         ],
         "timeout": "30",
-        "x": 1220,
+        "x": 1170,
         "y": 1160,
         "wires": [
             [
@@ -16420,31 +16489,15 @@
         ]
     },
     {
-        "id": "d22adb3413ce73f0",
-        "type": "unsafe-function",
-        "z": "92b23faeba8402de",
-        "name": "attachLink",
-        "func": "msg.topic = \"observe\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 470,
-        "y": 340,
-        "wires": [
-            [
-                "be01a4f767b35273"
-            ]
-        ]
-    },
-    {
         "id": "be01a4f767b35273",
         "type": "link call",
         "z": "92b23faeba8402de",
         "name": "",
         "links": [
-            "cd4131c790df6b37"
+            "dc52fa4eba30a434"
         ],
         "timeout": "30",
-        "x": 800,
+        "x": 840,
         "y": 340,
         "wires": [
             [
@@ -16456,11 +16509,11 @@
         "id": "6f037794.4913b8",
         "type": "unsafe-function",
         "z": "92b23faeba8402de",
-        "name": "attachLink",
-        "func": "msg.topic = \"unobserve\";\nlet link = msg.req.params.aasid + \"/\" + msg.req.params.submodelId + \"/\" + msg.req.params.id;\nmsg.link = link;\nreturn msg;\n\n",
+        "name": "setTopic",
+        "func": "msg.topic = \"unobserve\";\nreturn msg;\n\n",
         "outputs": 1,
         "noerr": 0,
-        "x": 470,
+        "x": 460,
         "y": 480,
         "wires": [
             [
@@ -16474,10 +16527,10 @@
         "z": "92b23faeba8402de",
         "name": "",
         "links": [
-            "cd4131c790df6b37"
+            "dc52fa4eba30a434"
         ],
         "timeout": "30",
-        "x": 800,
+        "x": 840,
         "y": 480,
         "wires": [
             [
@@ -16559,6 +16612,22 @@
         "x": 1895,
         "y": 800,
         "wires": []
+    },
+    {
+        "id": "123013abcea45701",
+        "type": "unsafe-function",
+        "z": "92b23faeba8402de",
+        "name": "setTopic",
+        "func": "msg.topic = \"observe\";\nreturn msg;\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 460,
+        "y": 340,
+        "wires": [
+            [
+                "be01a4f767b35273"
+            ]
+        ]
     },
     {
         "id": "be9f6dc1.5b2ff",
@@ -21675,7 +21744,7 @@
         "z": "2164c119.f88826",
         "g": "2a30f2cee4cae508",
         "name": "LiveDataToSubscribe",
-        "func": "//Retreiving Libraries from the Settings.json file\nlet outputMsgsLiveData = [];\nlet outputMsgsFileData = [];\nlet outputMsgsConstantData = [];\nlet outputMsgsPropertyData = [];\n\nlet uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nlet selectedElements = context.flow.get('selectedElements');\nfor(let element in selectedElements){\n    let selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    let modelType = selectedElements[element].selectedElement.modelType.name;\n    let category = selectedElements[element].selectedElement.category;\n    if(modelType == \"Property\" && category === \"VARIABLE\")\n    {\n        let msg = {payload:selected_element};\n        let  shellId = encodeURIComponent(selectedElements[element].aasid);\n        let encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].selectedElement.idShort;    \n        }\n        \n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        let observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        let msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
+        "func": "//Retreiving Libraries from the Settings.json file\nlet outputMsgsLiveData = [];\nlet outputMsgsFileData = [];\nlet outputMsgsConstantData = [];\nlet outputMsgsPropertyData = [];\n\nlet uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {\n    let r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);\n    return v.toString(16);\n  });\nlet selectedElements = context.flow.get('selectedElements');\nfor(let element in selectedElements){\n    let selected_element = \"\";\n    if(typeof selectedElements[element].path != \"undefined\"){\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].path + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    else {\n        selected_element = selectedElements[element].aasid + \"/\" + selectedElements[element].submodelId + \"/\" + selectedElements[element].selectedElement.idShort;\n    }\n    let modelType = selectedElements[element].selectedElement.modelType.name;\n    let category = selectedElements[element].selectedElement.category;\n    if(modelType == \"BasicEvent\" && category === \"VARIABLE\")\n    {\n        let msg = {payload:selected_element};\n        let  shellId = encodeURIComponent(selectedElements[element].aasid);\n        let encodedSelected_Element = encodeURIComponent(selectedElements[element].submodelId);\n        \n        if(typeof selectedElements[element].path != \"undefined\"){\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].path + \".\" + selectedElements[element].selectedElement.idShort;\n        } else {\n            msg.url = context.global.get('namespace') + \"/aasServer/shells/\" + shellId + \"/aas/submodels/\" + encodedSelected_Element +\"/liveData/subscribe/submodel/submodel-elements/\" + selectedElements[element].selectedElement.idShort;    \n        }\n        \n        outputMsgsLiveData.push(msg);\n    } else if (modelType == \"Property\" && category === \"CONSTANT\" || modelType == \"File\"){\n        let observation = {};\n        observation.id = uuid;\n        observation.source = context.global.get(\"AASIdentifier\");\n        observation.direction = \"Output\";\n        observation.observableReference = selected_element;\n        observation.timestamp = new Date().getTime();\n        observation.payload = \"No Live Data Possible for Category: \" + category;\n        let msg = {payload:observation};\n        outputMsgsConstantData.push(msg);\n    }\n    \n}\n\nreturn [outputMsgsLiveData, outputMsgsConstantData];",
         "outputs": 2,
         "noerr": 0,
         "x": 1980,
@@ -21900,10 +21969,10 @@
         ]
     },
     {
-        "id": "b2323facfa2636fc",
+        "id": "629bc105d3a0b648",
         "type": "inject",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "props": [
             {
@@ -21930,34 +21999,34 @@
         "y": 100,
         "wires": [
             [
-                "4859f5e2dab44179",
-                "7944d4ee3f67abfd",
-                "0e0937bae698e6a6",
-                "b00ebe8333dbb608"
+                "158abe41fbb33790",
+                "d7946a48dfc7964f",
+                "a7d3c1922ce83bb2",
+                "07f59fac6e71f4a6"
             ]
         ]
     },
     {
-        "id": "4859f5e2dab44179",
+        "id": "158abe41fbb33790",
         "type": "getflows",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "d": true,
-        "g": "21554184dd2a5f1b",
+        "g": "3fa084242433eb1b",
         "name": "",
         "x": 470,
         "y": 100,
         "wires": [
             [
-                "b5a2352dc858432a"
+                "b9d8111b33369b6e"
             ]
         ]
     },
     {
-        "id": "b5a2352dc858432a",
+        "id": "b9d8111b33369b6e",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "d": true,
-        "g": "21554184dd2a5f1b",
+        "g": "3fa084242433eb1b",
         "name": "Initialize Driver Id",
         "func": "var drivers = context.global.get(\"Drivers\") || [];\nvar driver = {label:\"DPDM/OperationalData\", id:msg.thisflow}\n//var connector = {label}\n    for(var index in drivers){\n        if(drivers[index] === msg.thisflow){\n        return null;\n    }\n}\ndrivers.push(driver);\ncontext.global.set(\"Drivers\", drivers);\n\nreturn msg;",
         "outputs": 1,
@@ -21969,10 +22038,10 @@
         ]
     },
     {
-        "id": "7944d4ee3f67abfd",
+        "id": "d7946a48dfc7964f",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "Initialize Context",
         "func": "context.flow.set(\"NrOfDataSources\", 7);\ncontext.flow.set(\"connected\", false);\n\nreturn msg;",
         "outputs": 1,
@@ -21984,10 +22053,10 @@
         ]
     },
     {
-        "id": "203761499e59e73f",
+        "id": "6ab3f80fdfe676d0",
         "type": "inject",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "props": [
             {
@@ -22009,15 +22078,15 @@
         "y": 340,
         "wires": [
             [
-                "287828c89fbbd61f"
+                "5b645a0e4f1ed5cd"
             ]
         ]
     },
     {
-        "id": "287828c89fbbd61f",
+        "id": "5b645a0e4f1ed5cd",
         "type": "saveflow",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "path": "/tmp/DPDM//OperationalData",
         "enabled": false,
@@ -22026,15 +22095,15 @@
         "y": 340,
         "wires": [
             [
-                "dd3165bdbe8b595d"
+                "350df26e1f696d52"
             ]
         ]
     },
     {
-        "id": "dd3165bdbe8b595d",
+        "id": "350df26e1f696d52",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -22047,10 +22116,10 @@
         "wires": []
     },
     {
-        "id": "7c46803904958dae",
+        "id": "232e71f94053f184",
         "type": "cronplus",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "outputField": "payload",
         "timeZone": "",
@@ -22062,17 +22131,17 @@
         "y": 240,
         "wires": [
             [
-                "99473b24a71905cc"
+                "6b0036827530344d"
             ]
         ]
     },
     {
-        "id": "b00ebe8333dbb608",
+        "id": "07f59fac6e71f4a6",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "Initialize Simulator",
-        "func": "context.flow.set(\"currentOperatingPressure\", 0);\ncontext.flow.set(\"cylinderStatus\", 0);\ncontext.flow.set(\"responseTime\", 0);\ncontext.flow.set(\"valvePosition\", 0);\ncontext.flow.set(\"newCycle\", false);\ncontext.flow.set(\"cycle\", 0);\ncontext.flow.set(\"responseTimePred\", []);\nreturn msg;",
+        "func": "context.flow.set(\"CurrentOperatingPressure\", 0);\ncontext.flow.set(\"CylinderStatus\", 0);\ncontext.flow.set(\"ResponseTime\", 0);\ncontext.flow.set(\"ValvePosition\", 0);\ncontext.flow.set(\"NewCycle\", false);\ncontext.flow.set(\"Cycle\", 0);\ncontext.flow.set(\"ResponseTimePred\", []);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 770,
@@ -22082,10 +22151,10 @@
         ]
     },
     {
-        "id": "99473b24a71905cc",
+        "id": "6b0036827530344d",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "topic": "configSchedule",
         "alias": "",
@@ -22098,10 +22167,10 @@
         "wires": []
     },
     {
-        "id": "0e0937bae698e6a6",
+        "id": "a7d3c1922ce83bb2",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.initScheduling,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
         "outputs": 1,
@@ -22110,16 +22179,16 @@
         "y": 240,
         "wires": [
             [
-                "7c46803904958dae"
+                "232e71f94053f184"
             ]
         ],
         "l": false
     },
     {
-        "id": "809cc471b0416f4d",
+        "id": "479a57a42bbf8ec5",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "",
         "func": "msg.payload = [\n  {\n    \"command\": \"add\",\n    \"name\": \"sbi scheduling data routing\",\n    \"expression\": msg.payload,\n    \"expressionType\": \"cron\",\n    \"payloadType\": \"default\",\n    \"limit\": null\n  }\n];\nreturn msg;",
         "outputs": 1,
@@ -22128,16 +22197,16 @@
         "y": 280,
         "wires": [
             [
-                "7c46803904958dae",
-                "5fd7e3fa0050f1d4"
+                "232e71f94053f184",
+                "b9706ef075b26ab8"
             ]
         ],
         "l": false
     },
     {
-        "id": "6f2f91962112ef41",
+        "id": "22bcbae756450ced",
         "type": "msg-speed",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "frequency": "min",
         "interval": 1,
@@ -22147,15 +22216,15 @@
         "y": 2580,
         "wires": [
             [
-                "478bc3ad2cb4c7e5"
+                "816bcd4ad6665b40"
             ],
             []
         ]
     },
     {
-        "id": "478bc3ad2cb4c7e5",
+        "id": "816bcd4ad6665b40",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "stats",
         "func": "var statsSBI = {};\nvar msgSpeed = msg.payload;\nvar msgIntervalAndFrequency = msg.intervalAndFrequency;\nstatsSBI.msgSpeed = msgSpeed;\nstatsSBI.IntervalAndFrequency = msgIntervalAndFrequency;\nstatsSBI.maxMsgs = context.flow.get(\"NrOfDataSources\") * 60;\nmsg.payload = statsSBI;\nreturn msg;",
         "outputs": 1,
@@ -22164,14 +22233,14 @@
         "y": 2560,
         "wires": [
             [
-                "56f28c2921dcfaa8"
+                "c09c2fdc6812f53d"
             ]
         ]
     },
     {
-        "id": "56f28c2921dcfaa8",
+        "id": "c09c2fdc6812f53d",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -22184,9 +22253,9 @@
         "wires": []
     },
     {
-        "id": "6661064fe8369081",
+        "id": "52c8a3c5b0ce2b3d",
         "type": "sub-link-output",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "inputs": 0,
         "name": "",
         "topic": "metrics",
@@ -22199,16 +22268,16 @@
         "y": 2580,
         "wires": [
             [
-                "33159a4be3d53409",
-                "6f2f91962112ef41"
+                "5cc800544d27efaa",
+                "22bcbae756450ced"
             ],
             []
         ]
     },
     {
-        "id": "f27bacb00f732cdc",
+        "id": "3be09f725806723c",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "statusNotification",
         "func": "var statusCheck  = {};\nstatusCheck.connected = context.flow.get(\"connected\");\nstatusCheck.nrOfDataSources = context.flow.get(\"NrOfDataSources\");\nmsg.payload = {\"statusCheck\": statusCheck};\nreturn msg;",
         "outputs": 1,
@@ -22217,36 +22286,36 @@
         "y": 2820,
         "wires": [
             [
-                "e23b0ffbaba93d28"
+                "69b5e2137bbeb10a"
             ]
         ]
     },
     {
-        "id": "9544f7b36ea21874",
+        "id": "3c18b0e4dd7444d4",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "context.flow.set(\"connected\", true);\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"newCycle\") || false;\nvar cycle = context.flow.get(\"cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"newCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"newCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
+        "func": "context.flow.set(\"connected\", true);\nvar valvePosition = context.flow.get(\"ValvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"CylinderStatus\") || 0;\nvar newCycle = context.flow.get(\"NewCycle\") || false;\nvar cycle = context.flow.get(\"Cycle\") || 0;\nif((valvePosition === 0 && cylinderStatus === 0) && newCycle === false && cycle < 40){\n    context.flow.set(\"NewCycle\", true);\n    cycle = cycle + 1;\n    context.flow.set(\"Cycle\", cycle);\n    return [msg, null];\n} else if((valvePosition === 1 && cylinderStatus === 1) && newCycle === true && cycle < 40){\n    context.flow.set(\"NewCycle\", false);\n    cycle = cycle + 1;\n    context.flow.set(\"Cycle\", cycle);\n    return [null, msg];\n}\n\nreturn null;\n",
         "outputs": 2,
         "noerr": 0,
         "x": 560,
         "y": 3140,
         "wires": [
             [
-                "8631aa5896e65499",
-                "6cb0a73fc9505068"
+                "ee56ebf48b408522",
+                "90bf8ac249c0de54"
             ],
             [
-                "d844cac9301d3030"
+                "01dbbb08cb3159b8"
             ]
         ]
     },
     {
-        "id": "8631aa5896e65499",
+        "id": "ee56ebf48b408522",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22259,10 +22328,10 @@
         "wires": []
     },
     {
-        "id": "127f53ae1c657d96",
+        "id": "2dbce76ddb25d905",
         "type": "delay",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -22279,16 +22348,16 @@
         "y": 3100,
         "wires": [
             [
-                "673d198b839893b6",
-                "6cb0a73fc9505068"
+                "83dfe0661ac737a4",
+                "90bf8ac249c0de54"
             ]
         ]
     },
     {
-        "id": "673d198b839893b6",
+        "id": "83dfe0661ac737a4",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22301,29 +22370,29 @@
         "wires": []
     },
     {
-        "id": "6cb0a73fc9505068",
+        "id": "90bf8ac249c0de54",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\nvar startCycleTs = context.flow.get(\"startCycleTs\") || 0;\nvar date = new Date();\n\n    if((cylinderStatus === 0 && valvePosition === 0) || (cylinderStatus === 1 && valvePosition === 1)){\n\n        //context.flow.set(\"timestamp\", date.getTime());\n        context.flow.set(\"startCycleTs\", date.getTime());\n        \n        if(cycle >= 40){\n            //context.flow.set(\"cycle\", cycle);\n            msg.delay = 30000;\n            msg.topic =\"@stats reset\";\n            return msg;\n        }\n        if(valvePosition === 0){\n            valvePosition = 1;\n            context.flow.set(\"responseTime\", 0);\n        } else {\n            valvePosition = 0;\n            context.flow.set(\"responseTime\", 0);\n        }\n        context.flow.set(\"valvePosition\", valvePosition);\n        /*if(cycle < 10){\n            msg.delay = 5000 + (5000*0.01*cycle);\n        } else if(cycle < 15 && cycle >= 10){\n            msg.delay = 5500 + (5000*0.02*cycle);\n        } else if (cycle < 20 && cycle >= 15){\n            msg.delay = 6500 + (5000*0.03*cycle);\n        } else if(cycle < 30 && cycle >= 20){\n            msg.delay = 7000 + (5000*0.035*cycle);\n        }else if(cycle < 40 && cycle >= 30){\n            msg.delay = 10250 + (5000*0.04*cycle);\n        }*/\n        if(cycle < 40){\n            msg.delay = 5000 + (5000*0.025*cycle);\n        }\n        \n        \n        return msg;\n    }\n\n\n//var date = new Date();\n//context.flow.set(\"timestamp\", date.getTime());\n//var currentTimeElapsed = date.getTime() - startCycleTs;\n//context.flow.set(\"responseTime\", currentTimeElapsed);\nreturn null;",
+        "func": "var cycle = context.flow.get(\"Cycle\") || 0;\nvar valvePosition = context.flow.get(\"ValvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"CylinderStatus\") || 0;\nvar startCycleTs = context.flow.get(\"startCycleTs\") || 0;\nvar date = new Date();\n\n    if((cylinderStatus === 0 && valvePosition === 0) || (cylinderStatus === 1 && valvePosition === 1)){\n\n        //context.flow.set(\"timestamp\", date.getTime());\n        context.flow.set(\"startCycleTs\", date.getTime());\n        \n        if(cycle >= 40){\n            //context.flow.set(\"cycle\", cycle);\n            msg.delay = 30000;\n            msg.topic =\"@stats reset\";\n            return msg;\n        }\n        if(valvePosition === 0){\n            valvePosition = 1;\n            context.flow.set(\"ResponseTime\", 0);\n        } else {\n            valvePosition = 0;\n            context.flow.set(\"ResponseTime\", 0);\n        }\n        context.flow.set(\"ValvePosition\", valvePosition);\n        /*if(cycle < 10){\n            msg.delay = 5000 + (5000*0.01*cycle);\n        } else if(cycle < 15 && cycle >= 10){\n            msg.delay = 5500 + (5000*0.02*cycle);\n        } else if (cycle < 20 && cycle >= 15){\n            msg.delay = 6500 + (5000*0.03*cycle);\n        } else if(cycle < 30 && cycle >= 20){\n            msg.delay = 7000 + (5000*0.035*cycle);\n        }else if(cycle < 40 && cycle >= 30){\n            msg.delay = 10250 + (5000*0.04*cycle);\n        }*/\n        if(cycle < 40){\n            msg.delay = 5000 + (5000*0.025*cycle);\n        }\n        \n        \n        return msg;\n    }\n\n\n//var date = new Date();\n//context.flow.set(\"timestamp\", date.getTime());\n//var currentTimeElapsed = date.getTime() - startCycleTs;\n//context.flow.set(\"responseTime\", currentTimeElapsed);\nreturn null;",
         "outputs": 1,
         "noerr": 0,
         "x": 1220,
         "y": 3140,
         "wires": [
             [
-                "4ea0ec010522b7b2",
-                "d5c0ae82e210b476",
-                "56af617748d9107d"
+                "893b528914172d9d",
+                "0e555d83f020dd34",
+                "54794eb1e8d22f1c"
             ]
         ]
     },
     {
-        "id": "d6f3595b240ede21",
+        "id": "826fc3f3d088871e",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22336,12 +22405,12 @@
         "wires": []
     },
     {
-        "id": "6d9b3a3444c83394",
+        "id": "6249949d875d5b7a",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "var elapsedTimeMovingAvg = msg.result.movingAvg;\ncontext.flow.set(\"elapsedTimeMovingAvg\", elapsedTimeMovingAvg);\nreturn msg;",
+        "func": "var elapsedTimeMovingAvg = msg.result.movingAvg;\ncontext.flow.set(\"ResponseTimeMovingAvg\", elapsedTimeMovingAvg);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 2200,
@@ -22351,10 +22420,10 @@
         ]
     },
     {
-        "id": "f1cc681339197761",
+        "id": "294ac8e26970e4f1",
         "type": "Data Analysis",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "action": "realtime",
         "outputs": 3,
@@ -22371,19 +22440,19 @@
         "y": 3014,
         "wires": [
             [
-                "d6f3595b240ede21",
-                "6d9b3a3444c83394",
-                "2723951af3693b2a"
+                "826fc3f3d088871e",
+                "6249949d875d5b7a",
+                "74b999bcc3e29dbb"
             ],
             [],
             []
         ]
     },
     {
-        "id": "4ea0ec010522b7b2",
+        "id": "893b528914172d9d",
         "type": "delay",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "pauseType": "delayv",
         "timeout": "5",
@@ -22400,15 +22469,15 @@
         "y": 3140,
         "wires": [
             [
-                "33194219ec293e29"
+                "3a4e5a73caba2e23"
             ]
         ]
     },
     {
-        "id": "33194219ec293e29",
+        "id": "3a4e5a73caba2e23",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "func": "var cycle = context.flow.get(\"cycle\") || 0;\nvar valvePosition = context.flow.get(\"valvePosition\") || 0;\nvar cylinderStatus = context.flow.get(\"cylinderStatus\") || 0;\n\nvar timeElapsed = 0;  \nvar date = new Date();\n\nif((cylinderStatus === \"undefined\" && valvePosition === 1)){\n    context.flow.set(\"cylinderStatus\", 1);\n} else if((cylinderStatus === \"undefined\" && valvePosition === 0)){\n    context.flow.set(\"cylinderStatus\", 0);\n}\n\nif(cycle < 10 && cycle >= 0){\n    timeElapsed = msg.delay;\n} else if(cycle < 15 && cycle >= 10){\n    timeElapsed = msg.delay;\n} else if (cycle < 20 && cycle >= 15){\n    timeElapsed = msg.delay;\n} else if(cycle < 30 && cycle >= 20){\n    timeElapsed = msg.delay;\n}else if(cycle < 40 && cycle >= 30){\n    timeElapsed = msg.delay;\n} else if(cycle >= 40){\n    cycle = 0;\n    context.flow.set(\"cycle\", cycle);\n    context.flow.set(\"valvePosition\", 0);\n    context.flow.set(\"cylinderStatus\", 0);\n    context.flow.set(\"newCycle\", false);\n    context.flow.set(\"responseTime\", timeElapsed);\n\n    context.flow.set(\"timestamp\", date.getTime());\n    msg.payload = timeElapsed;\n    var msg_out_2 = {};\n    return [msg, msg_out_2];\n    \n}\n\ncontext.flow.set(\"responseTime\", timeElapsed);\n\ncontext.flow.set(\"timestamp\", date.getTime());\nmsg.payload = timeElapsed;\nmsg.topic = \"responseTimeMvgAvg\";\nreturn [msg, null];",
         "outputs": 2,
@@ -22417,19 +22486,19 @@
         "y": 3140,
         "wires": [
             [
-                "f1cc681339197761",
-                "517739d75a3ee2b0"
+                "294ac8e26970e4f1",
+                "94c12db34e19e327"
             ],
             [
-                "268bc88fb324eee0"
+                "c2bdf154e06ff9d7"
             ]
         ]
     },
     {
-        "id": "d5c0ae82e210b476",
+        "id": "0e555d83f020dd34",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22442,10 +22511,10 @@
         "wires": []
     },
     {
-        "id": "517739d75a3ee2b0",
+        "id": "94c12db34e19e327",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22458,28 +22527,28 @@
         "wires": []
     },
     {
-        "id": "2723951af3693b2a",
+        "id": "74b999bcc3e29dbb",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "var msg_out = {};\nvar payload = {};\n//payload.x = msg.result.count;\npayload.x = context.flow.get(\"cycle\");\npayload.y = msg.payload;\npayload.y_out = \"\";\nmsg_out.payload = payload;\nreturn msg_out;",
+        "func": "var msg_out = {};\nvar payload = {};\n//payload.x = msg.result.count;\npayload.x = context.flow.get(\"Cycle\");\npayload.y = msg.payload;\npayload.y_out = \"\";\nmsg_out.payload = payload;\nreturn msg_out;",
         "outputs": 1,
         "noerr": 0,
         "x": 2200,
         "y": 3020,
         "wires": [
             [
-                "268bc88fb324eee0",
-                "0ed839a0f42da8eb"
+                "c2bdf154e06ff9d7",
+                "8fdb31ca223aee71"
             ]
         ]
     },
     {
-        "id": "289bc249b962aa68",
+        "id": "af9d3f31cec77f59",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22492,10 +22561,10 @@
         "wires": []
     },
     {
-        "id": "0ed839a0f42da8eb",
+        "id": "8fdb31ca223aee71",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22508,27 +22577,27 @@
         "wires": []
     },
     {
-        "id": "7bd62cfd63e4323b",
+        "id": "7c02153d01a7ba4f",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "var responseTimePred = [];\nfor(var k = 1; k <= 10; k++){\n    var futurePrediction = msg.function.equation[0]*Math.pow((msg.payload.x + k), 2) + msg.function.equation[1]*(msg.payload.x + k) + msg.function.equation[2];\n    msg.payload.futurePrediction = futurePrediction;\n    responseTimePred.push(futurePrediction);\n}\n//responseTimePred.pop();\n//responseTimePred.unshift(futurePrediction);\ncontext.flow.set(\"responseTimePred\", responseTimePred);\nreturn msg;",
+        "func": "var responseTimePred = [];\nfor(var k = 1; k <= 10; k++){\n    var futurePrediction = msg.function.equation[0]*Math.pow((msg.payload.x + k), 2) + msg.function.equation[1]*(msg.payload.x + k) + msg.function.equation[2];\n    msg.payload.futurePrediction = futurePrediction;\n    responseTimePred.push(futurePrediction);\n}\n//responseTimePred.pop();\n//responseTimePred.unshift(futurePrediction);\ncontext.flow.set(\"ResponseTimePred\", responseTimePred);\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 2720,
         "y": 3140,
         "wires": [
             [
-                "41751445fb38e5ea"
+                "9cee10562e976801"
             ]
         ]
     },
     {
-        "id": "41751445fb38e5ea",
+        "id": "9cee10562e976801",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22541,10 +22610,10 @@
         "wires": []
     },
     {
-        "id": "4e3fdbd928451552",
+        "id": "e50c53f4d02e43f1",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22557,10 +22626,10 @@
         "wires": []
     },
     {
-        "id": "2ceaa9b41f6276ca",
+        "id": "30d14319dafbc523",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22575,29 +22644,29 @@
         "wires": []
     },
     {
-        "id": "56af617748d9107d",
+        "id": "54794eb1e8d22f1c",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "var cycle = context.flow.get(\"cycle\");\nif(cycle < 40){\n    var calculatedDelay = context.flow.get(\"calculatedDelay\") || 0;\n    msg.topic = \"control\";\n    msg.payload = ((msg.delay)/1000) - 1;\n    calculatedDelay = Math.round(((msg.delay)/1000) - 1);\n    context.flow.set(\"calculatedDelay\", calculatedDelay);\n    return msg;\n} else return null;\n",
+        "func": "var cycle = context.flow.get(\"Cycle\");\nif(cycle < 40){\n    var calculatedDelay = context.flow.get(\"calculatedDelay\") || 0;\n    msg.topic = \"control\";\n    msg.payload = ((msg.delay)/1000) - 1;\n    calculatedDelay = Math.round(((msg.delay)/1000) - 1);\n    context.flow.set(\"calculatedDelay\", calculatedDelay);\n    return msg;\n} else return null;\n",
         "outputs": 1,
         "noerr": 0,
         "x": 1440,
         "y": 3274,
         "wires": [
             [
-                "64f24e1d0f234911"
+                "48db4f1bd267e33a"
             ]
         ]
     },
     {
-        "id": "68fdbdab57f8e6df",
+        "id": "2cc40f6512a3c761",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
-        "func": "var date = new Date();\nvar startCycle = context.flow.get(\"startCycleTs\");\ncontext.flow.set(\"responseTime\", date.getTime() - startCycle);\ncalculatedDelay = context.flow.get(\"calculatedDelay\");\nif(calculatedDelay >= msg.payload ){\n    context.flow.set(\"cylinderStatus\", \"undefined\");\n}\nreturn msg;",
+        "func": "var date = new Date();\nvar startCycle = context.flow.get(\"startCycleTs\");\ncontext.flow.set(\"ResponseTime\", date.getTime() - startCycle);\nlet calculatedDelay = context.flow.get(\"calculatedDelay\");\nif(calculatedDelay >= msg.payload ){\n    context.flow.set(\"CylinderStatus\", \"undefined\");\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 1850,
@@ -22607,10 +22676,10 @@
         ]
     },
     {
-        "id": "924f38260d3ca64e",
+        "id": "1420556d7fa44637",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "func": "msg.topic = \"control\";\nmsg.payload = 60;\n\nreturn msg;",
         "outputs": 1,
@@ -22619,15 +22688,15 @@
         "y": 3314,
         "wires": [
             [
-                "69abda8316e2559e"
+                "3dfb76585284b322"
             ]
         ]
     },
     {
-        "id": "752c3ca4641337f0",
+        "id": "a9f875132cebddbe",
         "type": "unsafe-function",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "func": "var date = new Date();\ncontext.flow.set(\"timestamp\", date.getTime());\nreturn msg;",
         "outputs": 1,
@@ -22639,10 +22708,10 @@
         ]
     },
     {
-        "id": "b33cf9032a7e2e37",
+        "id": "8916205a71914230",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22655,10 +22724,10 @@
         "wires": []
     },
     {
-        "id": "625234c8a929f3d5",
+        "id": "45c486728423ea03",
         "type": "debug",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22671,10 +22740,10 @@
         "wires": []
     },
     {
-        "id": "10b9c8143e534dbf",
+        "id": "09a984369495d8f0",
         "type": "cronplus",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "outputField": "payload",
         "timeZone": "",
@@ -22699,17 +22768,17 @@
         "y": 3220,
         "wires": [
             [
-                "9544f7b36ea21874",
-                "4e3fdbd928451552",
-                "924f38260d3ca64e"
+                "3c18b0e4dd7444d4",
+                "e50c53f4d02e43f1",
+                "1420556d7fa44637"
             ]
         ]
     },
     {
-        "id": "d844cac9301d3030",
+        "id": "01dbbb08cb3159b8",
         "type": "countdown",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "topic": "",
         "payloadTimerStart": "",
@@ -22724,19 +22793,19 @@
         "y": 3234,
         "wires": [
             [
-                "6cb0a73fc9505068",
-                "b33cf9032a7e2e37"
+                "90bf8ac249c0de54",
+                "8916205a71914230"
             ],
             [
-                "625234c8a929f3d5"
+                "45c486728423ea03"
             ]
         ]
     },
     {
-        "id": "64f24e1d0f234911",
+        "id": "48db4f1bd267e33a",
         "type": "countdown",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "topic": "",
         "payloadTimerStart": "",
@@ -22752,16 +22821,16 @@
         "wires": [
             [],
             [
-                "2ceaa9b41f6276ca",
-                "68fdbdab57f8e6df"
+                "30d14319dafbc523",
+                "2cc40f6512a3c761"
             ]
         ]
     },
     {
-        "id": "69abda8316e2559e",
+        "id": "3dfb76585284b322",
         "type": "countdown",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "topic": "",
         "payloadTimerStart": "",
@@ -22777,15 +22846,15 @@
         "wires": [
             [],
             [
-                "752c3ca4641337f0"
+                "a9f875132cebddbe"
             ]
         ]
     },
     {
-        "id": "268bc88fb324eee0",
+        "id": "c2bdf154e06ff9d7",
         "type": "regression",
-        "z": "52060a586e329876",
-        "g": "bdf27e412ddf5db9",
+        "z": "80b036480194f925",
+        "g": "c3653598f65963d0",
         "name": "",
         "dataSetSize": "15",
         "regressionType": "polynomial",
@@ -22804,20 +22873,20 @@
         "y": 3140,
         "wires": [
             [
-                "289bc249b962aa68",
-                "7bd62cfd63e4323b"
+                "af9d3f31cec77f59",
+                "7c02153d01a7ba4f"
             ]
         ]
     },
     {
-        "id": "f778452a95bf4271",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "2e7adb6235e7abfd",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 1",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "currentOperatingPressure",
+                "value": "CurrentOperatingPressure",
                 "type": "str"
             },
             {
@@ -22835,21 +22904,21 @@
         "y": 540,
         "wires": [
             [
-                "0962965f7412e146",
-                "d17d5bd470b11ace"
+                "e67c64f66dd94e11",
+                "f2800798c3f72788"
             ],
             [
-                "11dabb7efc49833b"
+                "201e501a78b3205b"
             ],
             [
-                "ff6b62c517afcf63"
+                "d7c0bd9f334acd4d"
             ]
         ]
     },
     {
-        "id": "11dabb7efc49833b",
+        "id": "201e501a78b3205b",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -22862,9 +22931,9 @@
         "wires": []
     },
     {
-        "id": "5db6df13d0132f98",
+        "id": "4bd946626fe8c6f5",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -22872,14 +22941,14 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1440,
-        "y": 640,
+        "x": 1500,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "0962965f7412e146",
+        "id": "e67c64f66dd94e11",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22894,9 +22963,9 @@
         "wires": []
     },
     {
-        "id": "19bcfc9626aa18e6",
+        "id": "a6d1081c3e72a7cf",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -22911,14 +22980,14 @@
         "wires": []
     },
     {
-        "id": "9678b856682c4a81",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "cc090c0786cd1f6a",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 2",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "responseTime",
+                "value": "ResponseTime",
                 "type": "str"
             },
             {
@@ -22941,21 +23010,21 @@
         "y": 820,
         "wires": [
             [
-                "0b5545865a0e23de",
-                "654ee4f7bcb62ba7"
+                "9e32461144bbefbf",
+                "facf9420ee178ad5"
             ],
             [
-                "4c71e32a08df71bf"
+                "cb6842a76c62bd4e"
             ],
             [
-                "1d16d50eb5d68b2c"
+                "13b401cbf6067a92"
             ]
         ]
     },
     {
-        "id": "4c71e32a08df71bf",
+        "id": "cb6842a76c62bd4e",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -22968,9 +23037,9 @@
         "wires": []
     },
     {
-        "id": "0b5545865a0e23de",
+        "id": "9e32461144bbefbf",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -22985,30 +23054,30 @@
         "wires": []
     },
     {
-        "id": "41df29609eaa48d5",
+        "id": "174b8461fb592790",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "responseTime",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
         "x": 1720,
-        "y": 860,
+        "y": 980,
         "wires": [
             [
-                "129d7d993f16a478"
+                "a60db1c3eef0f0c2"
             ]
         ]
     },
     {
-        "id": "7718e9f767eaa4d4",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "43d7c21f58203e1d",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 3",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "valvePosition",
+                "value": "ValvePosition",
                 "type": "str"
             },
             {
@@ -23031,21 +23100,21 @@
         "y": 1100,
         "wires": [
             [
-                "477f0aaf7205104d",
-                "aad2184c45743c81"
+                "28f37706d6e50335",
+                "51d5ad102fc613df"
             ],
             [
-                "0c8ac27a58f1c8ec"
+                "9c352bdd75a8177a"
             ],
             [
-                "c540e4848c6fa31c"
+                "657135f880ddc256"
             ]
         ]
     },
     {
-        "id": "0c8ac27a58f1c8ec",
+        "id": "9c352bdd75a8177a",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -23058,9 +23127,9 @@
         "wires": []
     },
     {
-        "id": "bc1cf1c7a64d11d9",
+        "id": "65b09c28a19efb87",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -23068,14 +23137,14 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1420,
-        "y": 1180,
+        "x": 1480,
+        "y": 1140,
         "wires": []
     },
     {
-        "id": "477f0aaf7205104d",
+        "id": "28f37706d6e50335",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23090,30 +23159,30 @@
         "wires": []
     },
     {
-        "id": "20cafd733e193ddc",
+        "id": "042105f74a96eefc",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "valvePosition",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
         "x": 1710,
-        "y": 1140,
+        "y": 1260,
         "wires": [
             [
-                "ffca48d68f569f96"
+                "32f98277041d4725"
             ]
         ]
     },
     {
-        "id": "723a99a17f137392",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "dbfa01ef78ded097",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 4",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "elapsedTimeMovingAvg",
+                "value": "ResponseTimeMovingAvg",
                 "type": "str"
             },
             {
@@ -23136,21 +23205,21 @@
         "y": 1360,
         "wires": [
             [
-                "c573c43b029db685",
-                "ef2adc96fffaf228"
+                "b3db3c3142a79a5e",
+                "37e25c20b710bf49"
             ],
             [
-                "d26a1b95061959cc"
+                "615204a0a606f94a"
             ],
             [
-                "b9a7116aae0b208b"
+                "062dfe81a0252301"
             ]
         ]
     },
     {
-        "id": "d26a1b95061959cc",
+        "id": "615204a0a606f94a",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -23163,9 +23232,9 @@
         "wires": []
     },
     {
-        "id": "c4e0a8b597bd604a",
+        "id": "97701ecf7a066457",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -23173,14 +23242,14 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1380,
-        "y": 1460,
+        "x": 1460,
+        "y": 1420,
         "wires": []
     },
     {
-        "id": "c573c43b029db685",
+        "id": "b3db3c3142a79a5e",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23195,30 +23264,30 @@
         "wires": []
     },
     {
-        "id": "54821a3497787fa8",
+        "id": "279ca895ce012bfb",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "elapsedTimeMovingAvg",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1750,
-        "y": 1400,
+        "x": 1730,
+        "y": 1540,
         "wires": [
             [
-                "c9981e6e9f3110f6"
+                "0a9765c381e13153"
             ]
         ]
     },
     {
-        "id": "b9ea969b78ce2088",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "5d9173051934715b",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 5",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "cylinderStatus",
+                "value": "CylinderStatus",
                 "type": "str"
             },
             {
@@ -23238,24 +23307,24 @@
             }
         ],
         "x": 950,
-        "y": 1620,
+        "y": 1680,
         "wires": [
             [
-                "af6246cc02d56178",
-                "ad3f51d2ef492395"
+                "375182a0c83a60ed",
+                "26557dde39412894"
             ],
             [
-                "7e9d814636759d4f"
+                "4f5a5f8c63896289"
             ],
             [
-                "61cd64c72702966b"
+                "6a2f9da1921664b7"
             ]
         ]
     },
     {
-        "id": "7e9d814636759d4f",
+        "id": "4f5a5f8c63896289",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -23264,13 +23333,13 @@
         "topicType": "str",
         "link": "d2edf304.fdfa2",
         "x": 1190,
-        "y": 1640,
+        "y": 1700,
         "wires": []
     },
     {
-        "id": "d18722f69634d001",
+        "id": "daf38f3c6cb6919e",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -23283,9 +23352,9 @@
         "wires": []
     },
     {
-        "id": "af6246cc02d56178",
+        "id": "375182a0c83a60ed",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23296,34 +23365,34 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1130,
-        "y": 1580,
+        "y": 1640,
         "wires": []
     },
     {
-        "id": "d0e42b6afb9d788d",
+        "id": "19f8e5b5f085dac4",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "cylinderStatus",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
         "x": 1720,
-        "y": 1640,
+        "y": 1820,
         "wires": [
             [
-                "6a72aac6c40f6414"
+                "82f47d26ab1f77e8"
             ]
         ]
     },
     {
-        "id": "58da6d5eb69986a3",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "4156fef68049b631",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 6",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "cycle",
+                "value": "Cycle",
                 "type": "str"
             },
             {
@@ -23343,24 +23412,24 @@
             }
         ],
         "x": 950,
-        "y": 1860,
+        "y": 1920,
         "wires": [
             [
-                "fc523736be3b9b25",
-                "de3f0021af64b2b5"
+                "0d53bf80a9600c30",
+                "09dcc3eb03094f22"
             ],
             [
-                "8a2c9dcf89a36a11"
+                "8fe80a3544fe1993"
             ],
             [
-                "e2d54e3779ec978a"
+                "db835b4afa22198b"
             ]
         ]
     },
     {
-        "id": "8a2c9dcf89a36a11",
+        "id": "8fe80a3544fe1993",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -23369,13 +23438,13 @@
         "topicType": "str",
         "link": "d2edf304.fdfa2",
         "x": 1210,
-        "y": 1880,
+        "y": 1940,
         "wires": []
     },
     {
-        "id": "a7d07d21387cb0e2",
+        "id": "671da66e81ba29c2",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -23383,14 +23452,14 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1420,
+        "x": 1480,
         "y": 1940,
         "wires": []
     },
     {
-        "id": "fc523736be3b9b25",
+        "id": "0d53bf80a9600c30",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23401,34 +23470,34 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1130,
-        "y": 1820,
+        "y": 1880,
         "wires": []
     },
     {
-        "id": "d01c27c89538ee26",
+        "id": "8cd464ee3bc38ba2",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "cycle",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
-        "x": 1690,
-        "y": 1880,
+        "x": 1730,
+        "y": 2060,
         "wires": [
             [
-                "7e5cec392ad67165"
+                "7ddadb2c66d91dc9"
             ]
         ]
     },
     {
-        "id": "831ba3bbc32eb004",
-        "type": "subflow:2f25d03b60209778",
-        "z": "52060a586e329876",
+        "id": "2ce926690223bb73",
+        "type": "subflow:bf72bc27b78afb15",
+        "z": "80b036480194f925",
         "name": "Property 7",
         "env": [
             {
                 "name": "PropertyName",
-                "value": "responseTimePred",
+                "value": "ResponseTimePred",
                 "type": "str"
             },
             {
@@ -23448,24 +23517,24 @@
             }
         ],
         "x": 950,
-        "y": 2140,
+        "y": 2200,
         "wires": [
             [
-                "5163584d68c84b4e",
-                "3027cbbd11f5f7fb"
+                "aa4eee460803de14",
+                "0cbad5e85455b31e"
             ],
             [
-                "6f37db65b04c886d"
+                "fed08d259afe77fd"
             ],
             [
-                "bbebd9181a48bf81"
+                "61a0cd72ded64cfd"
             ]
         ]
     },
     {
-        "id": "6f37db65b04c886d",
+        "id": "fed08d259afe77fd",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "routed",
         "alias": "",
@@ -23474,13 +23543,13 @@
         "topicType": "str",
         "link": "d2edf304.fdfa2",
         "x": 1210,
-        "y": 2160,
+        "y": 2220,
         "wires": []
     },
     {
-        "id": "ea9261a0fce4e55e",
+        "id": "a246f16cbc69484b",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -23488,14 +23557,14 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1420,
+        "x": 1500,
         "y": 2220,
         "wires": []
     },
     {
-        "id": "5163584d68c84b4e",
+        "id": "aa4eee460803de14",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23506,45 +23575,45 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1110,
-        "y": 2100,
+        "y": 2160,
         "wires": []
     },
     {
-        "id": "2f518ad8b74ebd18",
+        "id": "6a8625a3411bf719",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "responseTimePred",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
         "x": 1730,
-        "y": 2160,
+        "y": 2340,
         "wires": [
             [
-                "ef8854e813121f33"
+                "77042c298f6ddebd"
             ]
         ]
     },
     {
-        "id": "0fa2c47930a3e70f",
+        "id": "1cacca6f5ad5d8d1",
         "type": "link in",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "driverNewScheduling in",
         "links": [],
         "x": 195,
         "y": 280,
         "wires": [
             [
-                "809cc471b0416f4d"
+                "479a57a42bbf8ec5"
             ]
         ]
     },
     {
-        "id": "5fd7e3fa0050f1d4",
+        "id": "b9706ef075b26ab8",
         "type": "link out",
-        "z": "52060a586e329876",
-        "g": "21554184dd2a5f1b",
+        "z": "80b036480194f925",
+        "g": "3fa084242433eb1b",
         "name": "driverNewScheduling out",
         "mode": "return",
         "links": [],
@@ -23553,23 +23622,23 @@
         "wires": []
     },
     {
-        "id": "67e8a783066f20b8",
+        "id": "12f5ec6cf0aba115",
         "type": "link in",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "driverConnectionCheck in",
         "links": [],
         "x": 295,
         "y": 2820,
         "wires": [
             [
-                "f27bacb00f732cdc"
+                "3be09f725806723c"
             ]
         ]
     },
     {
-        "id": "e23b0ffbaba93d28",
+        "id": "69b5e2137bbeb10a",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "driverConnectionCheck out",
         "mode": "return",
         "links": [],
@@ -23578,9 +23647,9 @@
         "wires": []
     },
     {
-        "id": "33159a4be3d53409",
+        "id": "5cc800544d27efaa",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23595,24 +23664,24 @@
         "wires": []
     },
     {
-        "id": "cd4131c790df6b37",
+        "id": "dc52fa4eba30a434",
         "type": "link in",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "invokeInternalDriver",
         "links": [],
         "x": 115,
         "y": 1160,
         "wires": [
             [
-                "19bcfc9626aa18e6",
-                "c000a0b3a8baad63"
+                "a6d1081c3e72a7cf",
+                "c8fa3ddcc95c0f9c"
             ]
         ]
     },
     {
-        "id": "ed845891515bf214",
+        "id": "176590bf3196df9f",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "return",
         "links": [],
@@ -23621,9 +23690,9 @@
         "wires": []
     },
     {
-        "id": "c000a0b3a8baad63",
+        "id": "c8fa3ddcc95c0f9c",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -23677,36 +23746,36 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 7,
-        "x": 460,
+        "x": 550,
         "y": 1160,
         "wires": [
             [
-                "f778452a95bf4271"
+                "2e7adb6235e7abfd"
             ],
             [
-                "9678b856682c4a81"
+                "cc090c0786cd1f6a"
             ],
             [
-                "7718e9f767eaa4d4"
+                "43d7c21f58203e1d"
             ],
             [
-                "723a99a17f137392"
+                "dbfa01ef78ded097"
             ],
             [
-                "b9ea969b78ce2088"
+                "5d9173051934715b"
             ],
             [
-                "58da6d5eb69986a3"
+                "4156fef68049b631"
             ],
             [
-                "831ba3bbc32eb004"
+                "2ce926690223bb73"
             ]
         ]
     },
     {
-        "id": "b969652757a2351d",
+        "id": "20001e4212b52c89",
         "type": "sub-link-output",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "inputs": 0,
         "name": "",
         "topic": "configSchedule",
@@ -23715,133 +23784,133 @@
         "aliasType": "str",
         "alias": "",
         "clone": false,
-        "x": 240,
+        "x": 180,
         "y": 1220,
         "wires": [
             [
-                "c000a0b3a8baad63",
-                "65b9bbce47802734"
+                "c8fa3ddcc95c0f9c",
+                "4519abe240199ff2"
             ],
             []
         ]
     },
     {
-        "id": "d17d5bd470b11ace",
+        "id": "f2800798c3f72788",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
         "y": 540,
         "wires": []
     },
     {
-        "id": "c663f41cf8689ba4",
+        "id": "28c9ce7e6010ed9c",
         "type": "link in",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "router",
         "links": [
-            "aad2184c45743c81",
-            "3027cbbd11f5f7fb",
-            "ad3f51d2ef492395",
-            "654ee4f7bcb62ba7",
-            "d17d5bd470b11ace",
-            "de3f0021af64b2b5",
-            "ef2adc96fffaf228"
+            "51d5ad102fc613df",
+            "0cbad5e85455b31e",
+            "26557dde39412894",
+            "facf9420ee178ad5",
+            "f2800798c3f72788",
+            "09dcc3eb03094f22",
+            "37e25c20b710bf49"
         ],
         "x": 2035,
         "y": 1260,
         "wires": [
             [
-                "ed845891515bf214"
+                "176590bf3196df9f"
             ]
         ]
     },
     {
-        "id": "654ee4f7bcb62ba7",
+        "id": "facf9420ee178ad5",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
         "y": 820,
         "wires": []
     },
     {
-        "id": "aad2184c45743c81",
+        "id": "51d5ad102fc613df",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
         "y": 1100,
         "wires": []
     },
     {
-        "id": "ef2adc96fffaf228",
+        "id": "37e25c20b710bf49",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
         "y": 1360,
         "wires": []
     },
     {
-        "id": "ad3f51d2ef492395",
+        "id": "26557dde39412894",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
-        "y": 1600,
+        "y": 1660,
         "wires": []
     },
     {
-        "id": "de3f0021af64b2b5",
+        "id": "09dcc3eb03094f22",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
-        "y": 1840,
+        "y": 1900,
         "wires": []
     },
     {
-        "id": "3027cbbd11f5f7fb",
+        "id": "0cbad5e85455b31e",
         "type": "link out",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "mode": "link",
         "links": [
-            "c663f41cf8689ba4"
+            "28c9ce7e6010ed9c"
         ],
         "x": 1555,
-        "y": 2120,
+        "y": 2180,
         "wires": []
     },
     {
-        "id": "65b9bbce47802734",
+        "id": "4519abe240199ff2",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": false,
         "tosidebar": true,
@@ -23851,31 +23920,31 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 410,
-        "y": 1280,
+        "x": 350,
+        "y": 1340,
         "wires": []
     },
     {
-        "id": "aef7b3ef3f0db0c0",
+        "id": "2ebb99414878bf13",
         "type": "iot-datasource",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "currentOperatingPressure",
         "tstampField": "",
         "dataField": "",
         "disableDiscover": false,
         "x": 1750,
-        "y": 600,
+        "y": 720,
         "wires": [
             [
-                "44e370780231f659",
-                "0bfc172e3e4a55ac"
+                "1e6be93934f5d990",
+                "6b29b26b9db4744a"
             ]
         ]
     },
     {
-        "id": "ff6b62c517afcf63",
+        "id": "d7c0bd9f334acd4d",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -23909,20 +23978,20 @@
         "y": 640,
         "wires": [
             [
-                "aef7b3ef3f0db0c0"
+                "4bd946626fe8c6f5"
             ],
             [
-                "5db6df13d0132f98"
+                "3210fccaaa6fb11a"
             ],
             [
-                "fff2c8539936e09e"
+                "22a9f04e1a3716ab"
             ]
         ]
     },
     {
-        "id": "fff2c8539936e09e",
+        "id": "8bedb122d77a7ce6",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -23930,14 +23999,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1450,
-        "y": 700,
+        "x": 1550,
+        "y": 660,
         "wires": []
     },
     {
-        "id": "1d16d50eb5d68b2c",
+        "id": "13b401cbf6067a92",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -23971,20 +24040,20 @@
         "y": 900,
         "wires": [
             [
-                "41df29609eaa48d5"
+                "f0439684561c8044"
             ],
             [
-                "98021a1d4d1d512d"
+                "c129bd3c4b844a6c"
             ],
             [
-                "630f191a6f222bd9"
+                "66c27a7125a15ece"
             ]
         ]
     },
     {
-        "id": "98021a1d4d1d512d",
+        "id": "f0439684561c8044",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "metrics",
         "alias": "",
@@ -23992,14 +24061,14 @@
         "aliasMatchAll": false,
         "topicType": "str",
         "link": "72ae2011.f3d7b",
-        "x": 1420,
-        "y": 900,
+        "x": 1480,
+        "y": 860,
         "wires": []
     },
     {
-        "id": "630f191a6f222bd9",
+        "id": "a7025d930d9d147e",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -24007,14 +24076,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1430,
-        "y": 960,
+        "x": 1550,
+        "y": 920,
         "wires": []
     },
     {
-        "id": "c540e4848c6fa31c",
+        "id": "657135f880ddc256",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -24048,20 +24117,20 @@
         "y": 1180,
         "wires": [
             [
-                "20cafd733e193ddc"
+                "65b09c28a19efb87"
             ],
             [
-                "bc1cf1c7a64d11d9"
+                "0d8f0e9e4c89e98f"
             ],
             [
-                "e1c3d670bf815034"
+                "eafd820b0a052fae"
             ]
         ]
     },
     {
-        "id": "e1c3d670bf815034",
+        "id": "e955a1e5bc808b38",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -24069,14 +24138,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1430,
-        "y": 1240,
+        "x": 1550,
+        "y": 1200,
         "wires": []
     },
     {
-        "id": "b9a7116aae0b208b",
+        "id": "062dfe81a0252301",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -24110,20 +24179,20 @@
         "y": 1460,
         "wires": [
             [
-                "54821a3497787fa8"
+                "97701ecf7a066457"
             ],
             [
-                "c4e0a8b597bd604a"
+                "bb60e5acbb5d48b1"
             ],
             [
-                "44b1504e6ae0a53d"
+                "5e71ac1674d8aecd"
             ]
         ]
     },
     {
-        "id": "44b1504e6ae0a53d",
+        "id": "2d821a94456f7207",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -24131,14 +24200,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1390,
-        "y": 1520,
+        "x": 1550,
+        "y": 1480,
         "wires": []
     },
     {
-        "id": "61cd64c72702966b",
+        "id": "6a2f9da1921664b7",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -24169,23 +24238,23 @@
         "msgControl": false,
         "outputs": 3,
         "x": 1210,
-        "y": 1700,
+        "y": 1760,
         "wires": [
             [
-                "d0e42b6afb9d788d"
+                "daf38f3c6cb6919e"
             ],
             [
-                "d18722f69634d001"
+                "af3673a2e2be83e4"
             ],
             [
-                "48819250d70b3438"
+                "d18f572d64fe12fa"
             ]
         ]
     },
     {
-        "id": "48819250d70b3438",
+        "id": "668d15120f2f7669",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -24193,14 +24262,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1490,
+        "x": 1550,
         "y": 1760,
         "wires": []
     },
     {
-        "id": "e2d54e3779ec978a",
+        "id": "db835b4afa22198b",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -24231,23 +24300,23 @@
         "msgControl": false,
         "outputs": 3,
         "x": 1230,
-        "y": 1940,
+        "y": 2000,
         "wires": [
             [
-                "d01c27c89538ee26"
+                "671da66e81ba29c2"
             ],
             [
-                "a7d07d21387cb0e2"
+                "d592f2aff29d1cf5"
             ],
             [
-                "7e46e9f59e0dd4db"
+                "babc8c4f539b0378"
             ]
         ]
     },
     {
-        "id": "7e46e9f59e0dd4db",
+        "id": "d2333630e6952e04",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -24255,14 +24324,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1430,
+        "x": 1550,
         "y": 2000,
         "wires": []
     },
     {
-        "id": "bbebd9181a48bf81",
+        "id": "61a0cd72ded64cfd",
         "type": "msg-router",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "routerType": "broadcast",
         "topicDependent": false,
         "counterReset": false,
@@ -24293,23 +24362,23 @@
         "msgControl": false,
         "outputs": 3,
         "x": 1230,
-        "y": 2220,
+        "y": 2280,
         "wires": [
             [
-                "2f518ad8b74ebd18"
+                "a246f16cbc69484b"
             ],
             [
-                "ea9261a0fce4e55e"
+                "b4f838fdd34ee396"
             ],
             [
-                "9be3dff96b8edba8"
+                "405a4847d959c73c"
             ]
         ]
     },
     {
-        "id": "9be3dff96b8edba8",
+        "id": "7ebd9065a0c67970",
         "type": "sub-link-input",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "topic": "updateValue",
         "alias": "",
@@ -24317,14 +24386,14 @@
         "aliasMatchAll": false,
         "topicType": "string",
         "link": "d2edf304.fdfa2",
-        "x": 1430,
+        "x": 1550,
         "y": 2280,
         "wires": []
     },
     {
-        "id": "9dce4edb47a1d3b2",
+        "id": "65c875f718bdfa86",
         "type": "function",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "func": "\nreturn msg;",
         "outputs": 1,
@@ -24339,9 +24408,9 @@
         ]
     },
     {
-        "id": "44e370780231f659",
+        "id": "1e6be93934f5d990",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -24351,14 +24420,14 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 2170,
-        "y": 560,
+        "x": 1990,
+        "y": 720,
         "wires": []
     },
     {
-        "id": "3e281d4810962418",
+        "id": "b90ce2e914e5e6ba",
         "type": "debug",
-        "z": "52060a586e329876",
+        "z": "80b036480194f925",
         "name": "",
         "active": true,
         "tosidebar": true,
@@ -24369,147 +24438,437 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 2010,
-        "y": 740,
+        "y": 780,
         "wires": []
     },
     {
-        "id": "0bfc172e3e4a55ac",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "6b29b26b9db4744a",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
                 "name": "historyArrayName",
-                "value": "currentOperatingPressure_hist",
+                "value": "CurrentOperatingPressure_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "CurrentOperatingPressure",
                 "type": "str"
             }
         ],
         "x": 1720,
-        "y": 660,
+        "y": 780,
         "wires": [
             [
-                "aef7b3ef3f0db0c0",
-                "3e281d4810962418"
+                "2ebb99414878bf13",
+                "b90ce2e914e5e6ba"
             ]
         ]
     },
     {
-        "id": "129d7d993f16a478",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "a60db1c3eef0f0c2",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
                 "name": "historyArrayName",
-                "value": "responseTime_hist",
+                "value": "ResponseTime_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "ResponseTime",
                 "type": "str"
             }
         ],
         "x": 1720,
-        "y": 920,
+        "y": 1040,
         "wires": [
             [
-                "41df29609eaa48d5"
+                "174b8461fb592790"
             ]
         ]
     },
     {
-        "id": "ffca48d68f569f96",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "32f98277041d4725",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
                 "name": "historyArrayName",
-                "value": "valvePosition_hist",
+                "value": "ValvePosition_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "ValvePosition",
                 "type": "str"
             }
         ],
         "x": 1720,
-        "y": 1200,
+        "y": 1320,
         "wires": [
             [
-                "20cafd733e193ddc"
+                "042105f74a96eefc"
             ]
         ]
     },
     {
-        "id": "c9981e6e9f3110f6",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "0a9765c381e13153",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
                 "name": "historyArrayName",
-                "value": "elapsedTimeMovingAvg_hist",
+                "value": "ResponseTimeMovingAvg_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "ResponseTimeMovingAvg",
+                "type": "str"
+            }
+        ],
+        "x": 1720,
+        "y": 1600,
+        "wires": [
+            [
+                "279ca895ce012bfb"
+            ]
+        ]
+    },
+    {
+        "id": "82f47d26ab1f77e8",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "historyArrayName",
+                "value": "CylinderStatus_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "CylinderStatus",
+                "type": "str"
+            }
+        ],
+        "x": 1720,
+        "y": 1880,
+        "wires": [
+            [
+                "19f8e5b5f085dac4"
+            ]
+        ]
+    },
+    {
+        "id": "7ddadb2c66d91dc9",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "historyArrayName",
+                "value": "Cycle_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "Cycle",
                 "type": "str"
             }
         ],
         "x": 1740,
-        "y": 1460,
+        "y": 2120,
         "wires": [
             [
-                "54821a3497787fa8"
+                "8cd464ee3bc38ba2"
             ]
         ]
     },
     {
-        "id": "6a72aac6c40f6414",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "77042c298f6ddebd",
+        "type": "subflow:9896f9527cc739d6",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
                 "name": "historyArrayName",
-                "value": "cylinderStatus_hist",
+                "value": "ResponseTimePred_hist",
+                "type": "str"
+            },
+            {
+                "name": "PathTo",
+                "value": "ResponseTimePred",
                 "type": "str"
             }
         ],
         "x": 1720,
-        "y": 1700,
+        "y": 2400,
         "wires": [
             [
-                "d0e42b6afb9d788d"
+                "6a8625a3411bf719"
             ]
         ]
     },
     {
-        "id": "7e5cec392ad67165",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "22a9f04e1a3716ab",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
-                "name": "historyArrayName",
-                "value": "cycle_hist",
+                "name": "PathTo",
+                "value": "CurrentOperatingPressure",
                 "type": "str"
             }
         ],
-        "x": 1700,
-        "y": 1940,
+        "x": 1510,
+        "y": 720,
         "wires": [
             [
-                "d01c27c89538ee26"
+                "2ebb99414878bf13"
             ]
         ]
     },
     {
-        "id": "ef8854e813121f33",
-        "type": "subflow:3c45d51933db664b",
-        "z": "52060a586e329876",
+        "id": "66c27a7125a15ece",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
         "name": "",
         "env": [
             {
-                "name": "historyArrayName",
-                "value": "responseTimePred_hist",
+                "name": "PathTo",
+                "value": "ResponseTime",
                 "type": "str"
             }
         ],
-        "x": 1720,
-        "y": 2220,
+        "x": 1490,
+        "y": 980,
         "wires": [
             [
-                "2f518ad8b74ebd18"
+                "174b8461fb592790"
+            ]
+        ]
+    },
+    {
+        "id": "eafd820b0a052fae",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "PathTo",
+                "value": "ValvePosition",
+                "type": "str"
+            }
+        ],
+        "x": 1490,
+        "y": 1260,
+        "wires": [
+            [
+                "042105f74a96eefc"
+            ]
+        ]
+    },
+    {
+        "id": "5e71ac1674d8aecd",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "PathTo",
+                "value": "ResponseTimeMovingAvg",
+                "type": "str"
+            }
+        ],
+        "x": 1470,
+        "y": 1540,
+        "wires": [
+            [
+                "279ca895ce012bfb"
+            ]
+        ]
+    },
+    {
+        "id": "d18f572d64fe12fa",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "PathTo",
+                "value": "CylinderStatus",
+                "type": "str"
+            }
+        ],
+        "x": 1490,
+        "y": 1820,
+        "wires": [
+            [
+                "19f8e5b5f085dac4"
+            ]
+        ]
+    },
+    {
+        "id": "babc8c4f539b0378",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "PathTo",
+                "value": "Cycle",
+                "type": "str"
+            }
+        ],
+        "x": 1490,
+        "y": 2060,
+        "wires": [
+            [
+                "8cd464ee3bc38ba2"
+            ]
+        ]
+    },
+    {
+        "id": "405a4847d959c73c",
+        "type": "subflow:e13aef4430294bed",
+        "z": "80b036480194f925",
+        "name": "",
+        "env": [
+            {
+                "name": "PathTo",
+                "value": "ResponseTimePred",
+                "type": "str"
+            }
+        ],
+        "x": 1510,
+        "y": 2340,
+        "wires": [
+            [
+                "6a8625a3411bf719"
+            ]
+        ]
+    },
+    {
+        "id": "3210fccaaa6fb11a",
+        "type": "json",
+        "z": "80b036480194f925",
+        "name": "",
+        "property": "payload.data",
+        "action": "",
+        "pretty": false,
+        "x": 1410,
+        "y": 660,
+        "wires": [
+            [
+                "8bedb122d77a7ce6"
+            ]
+        ]
+    },
+    {
+        "id": "c129bd3c4b844a6c",
+        "type": "json",
+        "z": "80b036480194f925",
+        "name": "",
+        "property": "payload.data",
+        "action": "",
+        "pretty": false,
+        "x": 1410,
+        "y": 920,
+        "wires": [
+            [
+                "a7025d930d9d147e"
+            ]
+        ]
+    },
+    {
+        "id": "0d8f0e9e4c89e98f",
+        "type": "json",
+        "z": "80b036480194f925",
+        "name": "",
+        "property": "payload.data",
+        "action": "",
+        "pretty": false,
+        "x": 1410,
+        "y": 1200,
+        "wires": [
+            [
+                "e955a1e5bc808b38"
+            ]
+        ]
+    },
+    {
+        "id": "bb60e5acbb5d48b1",
+        "type": "json",
+        "z": "80b036480194f925",
+        "name": "",
+        "property": "payload.data",
+        "action": "",
+        "pretty": false,
+        "x": 1410,
+        "y": 1480,
+        "wires": [
+            [
+                "2d821a94456f7207"
+            ]
+        ]
+    },
+    {
+        "id": "d592f2aff29d1cf5",
+        "type": "json",
+        "z": "80b036480194f925",
+        "name": "",
+        "property": "payload.data",
+        "action": "",
+        "pretty": false,
+        "x": 1410,
+        "y": 2000,
+        "wires": [
+            [
+                "d2333630e6952e04"
+            ]
+        ]
+    },
+    {
+        "id": "b4f838fdd34ee396",
+        "type": "json",
+        "z": "80b036480194f925",
+        "name": "",
+        "property": "payload.data",
+        "action": "",
+        "pretty": false,
+        "x": 1410,
+        "y": 2280,
+        "wires": [
+            [
+                "7ebd9065a0c67970"
+            ]
+        ]
+    },
+    {
+        "id": "af3673a2e2be83e4",
+        "type": "function",
+        "z": "80b036480194f925",
+        "name": "",
+        "func": "msg.payload.data = JSON.stringify(msg.payload.data);\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 1760,
+        "wires": [
+            [
+                "668d15120f2f7669"
             ]
         ]
     }
