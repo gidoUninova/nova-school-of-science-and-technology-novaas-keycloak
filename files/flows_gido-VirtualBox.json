@@ -409,7 +409,7 @@
             "43be3c31.fa03f4"
         ],
         "x": 114,
-        "y": 4559,
+        "y": 4639,
         "w": 1932,
         "h": 182
     },
@@ -475,7 +475,9 @@
             "9d9d4e513499c3ff"
         ],
         "x": 94,
-        "y": 2919
+        "y": 2919,
+        "w": 2334,
+        "h": 468.00001335144043
     },
     {
         "id": "9eaca16.128cb6",
@@ -496,7 +498,9 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179
+        "y": 2179,
+        "w": 652,
+        "h": 82
     },
     {
         "id": "48a4f908.86ced8",
@@ -522,7 +526,9 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359
+        "y": 2359,
+        "w": 1132,
+        "h": 304.3541259765625
     },
     {
         "id": "a4c26498.4d1758",
@@ -550,7 +556,9 @@
             "a99930336b0c92a9"
         ],
         "x": 1574,
-        "y": 2679
+        "y": 2679,
+        "w": 912,
+        "h": 242
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -589,7 +597,9 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779
+        "y": 2779,
+        "w": 1642,
+        "h": 457
     },
     {
         "id": "6c18a80c.ec30a",
@@ -740,7 +750,7 @@
         "x": 121,
         "y": 1459,
         "w": 2271,
-        "h": 2268
+        "h": 2408
     },
     {
         "id": "1d9f40e2.66e59f",
@@ -831,7 +841,9 @@
             "70c749831513dc2c"
         ],
         "x": 214,
-        "y": 99
+        "y": 99,
+        "w": 3452,
+        "h": 962
     },
     {
         "id": "9e0d0c62.913b48",
@@ -861,7 +873,7 @@
             "360dec5ddd2bd11b"
         ],
         "x": 114,
-        "y": 4299,
+        "y": 4399,
         "w": 2512,
         "h": 202
     },
@@ -950,7 +962,7 @@
             "73c3652ac2a9986d"
         ],
         "x": 114,
-        "y": 3759,
+        "y": 3879,
         "w": 2392,
         "h": 502
     },
@@ -997,7 +1009,9 @@
             "e65d6a5a.220b"
         ],
         "x": 104,
-        "y": 3499
+        "y": 3499,
+        "w": 1572,
+        "h": 642
     },
     {
         "id": "b85ff5d2fdca6f85",
@@ -1023,7 +1037,9 @@
             "e1994719bd7b4722"
         ],
         "x": 194,
-        "y": 4242
+        "y": 4242,
+        "w": 2272,
+        "h": 259
     },
     {
         "id": "d56f57bf073f180e",
@@ -1062,7 +1078,9 @@
             "dabf6f00bad223ed"
         ],
         "x": 194,
-        "y": 3539
+        "y": 3539,
+        "w": 2962,
+        "h": 562
     },
     {
         "id": "2a30f2cee4cae508",
@@ -1116,7 +1134,9 @@
             "c22a134df446b17f"
         ],
         "x": 1584,
-        "y": 1359
+        "y": 1359,
+        "w": 2222,
+        "h": 802
     },
     {
         "id": "3fa084242433eb1b",
@@ -1145,7 +1165,9 @@
             "b9706ef075b26ab8"
         ],
         "x": 124,
-        "y": 59
+        "y": 59,
+        "w": 1522,
+        "h": 322
     },
     {
         "id": "c3653598f65963d0",
@@ -1189,7 +1211,9 @@
             "c2bdf154e06ff9d7"
         ],
         "x": 114,
-        "y": 2899
+        "y": 2899,
+        "w": 2872,
+        "h": 516
     },
     {
         "id": "37a4080e.40ed9",
@@ -1262,12 +1286,18 @@
             "8877b550e2c00515",
             "e93422875c7c917a",
             "7912b6b8665075c8",
-            "b5c61584b9a4d748"
+            "b5c61584b9a4d748",
+            "6eacc652836b3dc0",
+            "6d3036b06b81fa90",
+            "a523dff81a3d0bbe",
+            "b5e53c0f4971fc7a",
+            "28772c3327728b02",
+            "b5515009921577d8"
         ],
         "x": 147,
         "y": 2376,
         "w": 2219,
-        "h": 705
+        "h": 845
     },
     {
         "id": "c358a7e7.e264e",
@@ -1329,7 +1359,7 @@
             "923ffc0345be1e2b"
         ],
         "x": 154,
-        "y": 3099,
+        "y": 3239,
         "w": 2212,
         "h": 602
     },
@@ -3260,7 +3290,7 @@
         "name": "External Interface - Health Check",
         "info": "",
         "x": 270,
-        "y": 4600,
+        "y": 4680,
         "wires": []
     },
     {
@@ -3274,7 +3304,7 @@
         "upload": false,
         "swaggerDoc": "d61f3cdd.7e8e5",
         "x": 270,
-        "y": 4660,
+        "y": 4740,
         "wires": [
             [
                 "17d166e7.5b6559"
@@ -3306,7 +3336,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 540,
-        "y": 4660,
+        "y": 4740,
         "wires": [
             [
                 "98293416.fa8198"
@@ -3322,7 +3352,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1970,
-        "y": 4660,
+        "y": 4740,
         "wires": []
     },
     {
@@ -3333,7 +3363,7 @@
         "name": "",
         "env": [],
         "x": 1950,
-        "y": 4700,
+        "y": 4780,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -3348,7 +3378,7 @@
             "4453c69c3cb0f56a"
         ],
         "x": 995,
-        "y": 4660,
+        "y": 4740,
         "wires": []
     },
     {
@@ -3361,7 +3391,7 @@
             "e82c6228add581f9"
         ],
         "x": 1415,
-        "y": 4660,
+        "y": 4740,
         "wires": [
             [
                 "ebf8a1.a3dd076",
@@ -4751,7 +4781,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2270,
-        "y": 2880,
+        "y": 3020,
         "wires": []
     },
     {
@@ -4763,7 +4793,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2270,
-        "y": 3000,
+        "y": 3140,
         "wires": []
     },
     {
@@ -4796,7 +4826,7 @@
         "g": "37a4080e.40ed9",
         "name": "",
         "x": 2250,
-        "y": 2920,
+        "y": 3060,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -4807,7 +4837,7 @@
         "g": "37a4080e.40ed9",
         "name": "",
         "x": 2250,
-        "y": 3040,
+        "y": 3180,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -4855,10 +4885,10 @@
         "name": "9_Out",
         "mode": "link",
         "links": [
-            "dfc2457d14734dba"
+            "587742d762266c6d"
         ],
         "x": 1535,
-        "y": 2880,
+        "y": 3020,
         "wires": []
     },
     {
@@ -4868,10 +4898,10 @@
         "g": "37a4080e.40ed9",
         "name": "9_In",
         "links": [
-            "87583a6df882d994"
+            "c4787cf0c3e052bb"
         ],
         "x": 1735,
-        "y": 2880,
+        "y": 3020,
         "wires": [
             [
                 "2520a136.899d6e",
@@ -4890,7 +4920,7 @@
             "dd78947c10d185c9"
         ],
         "x": 1535,
-        "y": 3000,
+        "y": 3140,
         "wires": []
     },
     {
@@ -4903,7 +4933,7 @@
             "587be79558e3e030"
         ],
         "x": 1735,
-        "y": 3000,
+        "y": 3140,
         "wires": [
             [
                 "ca6f3523.f2b588",
@@ -4972,7 +5002,7 @@
         "name": "External Interface - Data - Operations on Properties",
         "info": "",
         "x": 370,
-        "y": 3140,
+        "y": 3280,
         "wires": []
     },
     {
@@ -4986,7 +5016,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 520,
-        "y": 3220,
+        "y": 3360,
         "wires": [
             [
                 "73b0d61c.3c5ca8"
@@ -5002,7 +5032,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2290,
-        "y": 3260,
+        "y": 3400,
         "wires": []
     },
     {
@@ -5016,7 +5046,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 520,
-        "y": 3340,
+        "y": 3480,
         "wires": [
             [
                 "876d418.03db2c"
@@ -5032,7 +5062,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2290,
-        "y": 3380,
+        "y": 3520,
         "wires": []
     },
     {
@@ -5046,7 +5076,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 510,
-        "y": 3580,
+        "y": 3720,
         "wires": [
             [
                 "9cbf611c.48b76"
@@ -5062,7 +5092,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2290,
-        "y": 3620,
+        "y": 3760,
         "wires": []
     },
     {
@@ -5072,7 +5102,7 @@
         "g": "c358a7e7.e264e",
         "name": "",
         "x": 2260,
-        "y": 3300,
+        "y": 3440,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -5084,7 +5114,7 @@
         "name": "",
         "env": [],
         "x": 2260,
-        "y": 3420,
+        "y": 3560,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -5095,7 +5125,7 @@
         "g": "c358a7e7.e264e",
         "name": "",
         "x": 2260,
-        "y": 3660,
+        "y": 3800,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -5110,7 +5140,7 @@
             "49fdf2b46ec75338"
         ],
         "x": 1695,
-        "y": 3260,
+        "y": 3400,
         "wires": []
     },
     {
@@ -5123,7 +5153,7 @@
             "c09468690038b481"
         ],
         "x": 1875,
-        "y": 3260,
+        "y": 3400,
         "wires": [
             [
                 "9a24dda.82e0e2",
@@ -5141,7 +5171,7 @@
             "cea3973997ec6b07"
         ],
         "x": 1875,
-        "y": 3380,
+        "y": 3520,
         "wires": [
             [
                 "8b05bd82.8d5c3",
@@ -5160,7 +5190,7 @@
             "bc3403fe8115720d"
         ],
         "x": 1695,
-        "y": 3380,
+        "y": 3520,
         "wires": []
     },
     {
@@ -5173,7 +5203,7 @@
             "af95caf412605a5d"
         ],
         "x": 1875,
-        "y": 3620,
+        "y": 3760,
         "wires": [
             [
                 "f6804404.570008",
@@ -5192,7 +5222,7 @@
             "35f564a951c41d1e"
         ],
         "x": 1695,
-        "y": 3620,
+        "y": 3760,
         "wires": []
     },
     {
@@ -5621,7 +5651,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "b62cd952.177cc8",
-        "x": 320,
+        "x": 300,
         "y": 2480,
         "wires": [
             [
@@ -5740,7 +5770,7 @@
         "method": "get",
         "upload": false,
         "swaggerDoc": "40e0e792.156ad8",
-        "x": 360,
+        "x": 340,
         "y": 2600,
         "wires": [
             [
@@ -5786,7 +5816,7 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 670,
+        "x": 690,
         "y": 2700,
         "wires": [
             [
@@ -5817,11 +5847,11 @@
         "z": "c7caf96e.a31f98",
         "g": "37a4080e.40ed9",
         "name": "",
-        "url": "/aasServer/shells/:aasid/aas/submodels/:id",
+        "url": "/aasServer/shells/:aasid/aas/submodels/:id/submodel",
         "method": "get",
         "upload": false,
         "swaggerDoc": "822bf506.7ffad",
-        "x": 380,
+        "x": 390,
         "y": 2700,
         "wires": [
             [
@@ -5919,8 +5949,8 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 650,
-        "y": 2820,
+        "x": 690,
+        "y": 2960,
         "wires": [
             [
                 "db0a1878cfd3b36f"
@@ -5937,7 +5967,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1290,
-        "y": 2800,
+        "y": 2940,
         "wires": [
             [
                 "2ba34b7e.d39f0c"
@@ -5970,8 +6000,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1010,
-        "y": 2820,
+        "x": 1030,
+        "y": 2960,
         "wires": [
             [
                 "712f2a7f.2f2cc4"
@@ -5993,7 +6023,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1570,
-        "y": 2820,
+        "y": 2960,
         "wires": []
     },
     {
@@ -6002,12 +6032,12 @@
         "z": "c7caf96e.a31f98",
         "g": "37a4080e.40ed9",
         "name": "",
-        "url": "/aasServer/shells/:aasid/aas/submodels/:id",
+        "url": "/aasServer/shells/:aasid/aas/submodels/:id/submodel",
         "method": "put",
         "upload": false,
         "swaggerDoc": "",
-        "x": 380,
-        "y": 2820,
+        "x": 390,
+        "y": 2960,
         "wires": [
             [
                 "7634d591.ced0a4"
@@ -6038,8 +6068,8 @@
         "dropdown_HowManyMessages": "single",
         "dropdownObjOrVal": "value",
         "outputs": 1,
-        "x": 690,
-        "y": 2940,
+        "x": 710,
+        "y": 3080,
         "wires": [
             [
                 "5e28d3d6e7fcee4b"
@@ -6056,7 +6086,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1290,
-        "y": 2920,
+        "y": 3060,
         "wires": [
             [
                 "de785470.82c5b"
@@ -6089,8 +6119,8 @@
         "checkall": "true",
         "repair": false,
         "outputs": 3,
-        "x": 1010,
-        "y": 2940,
+        "x": 1030,
+        "y": 3080,
         "wires": [
             [
                 "f2597aa.1d7ae88"
@@ -6112,7 +6142,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1570,
-        "y": 2940,
+        "y": 3080,
         "wires": []
     },
     {
@@ -6121,12 +6151,12 @@
         "z": "c7caf96e.a31f98",
         "g": "37a4080e.40ed9",
         "name": "",
-        "url": "/aasServer/shells/:aasid/aas/submodels/:id",
+        "url": "/aasServer/shells/:aasid/aas/submodels/:id/submodel",
         "method": "delete",
         "upload": false,
         "swaggerDoc": "",
-        "x": 390,
-        "y": 2940,
+        "x": 400,
+        "y": 3080,
         "wires": [
             [
                 "a165d74f.1c5bb"
@@ -6158,7 +6188,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 930,
-        "y": 3220,
+        "y": 3360,
         "wires": [
             [
                 "a1969e7feaeb046c"
@@ -6175,7 +6205,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1490,
-        "y": 3200,
+        "y": 3340,
         "wires": [
             [
                 "539e5110.1ef598"
@@ -6209,7 +6239,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1250,
-        "y": 3220,
+        "y": 3360,
         "wires": [
             [
                 "b3ea9713.385ab8"
@@ -6231,7 +6261,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1730,
-        "y": 3220,
+        "y": 3360,
         "wires": []
     },
     {
@@ -6259,7 +6289,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 930,
-        "y": 3340,
+        "y": 3480,
         "wires": [
             [
                 "b51e21c2b025c41f"
@@ -6276,7 +6306,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1490,
-        "y": 3320,
+        "y": 3460,
         "wires": [
             [
                 "cd71006d.5e021"
@@ -6310,7 +6340,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1250,
-        "y": 3340,
+        "y": 3480,
         "wires": [
             [
                 "e1532702.4731d"
@@ -6332,7 +6362,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1730,
-        "y": 3340,
+        "y": 3480,
         "wires": []
     },
     {
@@ -6360,7 +6390,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 934,
-        "y": 3580,
+        "y": 3720,
         "wires": [
             [
                 "6c7ffe936d1b3a82"
@@ -6377,7 +6407,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1490,
-        "y": 3557,
+        "y": 3697,
         "wires": [
             [
                 "9359dad8.bb01a"
@@ -6411,7 +6441,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1250,
-        "y": 3577,
+        "y": 3717,
         "wires": [
             [
                 "50d5b873.cdac08"
@@ -6433,7 +6463,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1730,
-        "y": 3580,
+        "y": 3720,
         "wires": []
     },
     {
@@ -6617,7 +6647,7 @@
         "name": "External Interface - FileData - Request File",
         "info": "",
         "x": 300,
-        "y": 4340,
+        "y": 4440,
         "wires": []
     },
     {
@@ -6631,7 +6661,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 250,
-        "y": 4440,
+        "y": 4540,
         "wires": [
             [
                 "165ed216.5f840e"
@@ -6649,7 +6679,7 @@
             "909e2111c3a9f268"
         ],
         "x": 1875,
-        "y": 4396,
+        "y": 4496,
         "wires": []
     },
     {
@@ -6662,7 +6692,7 @@
             "39c425339983c56d"
         ],
         "x": 2195,
-        "y": 4396,
+        "y": 4496,
         "wires": [
             [
                 "6764e5e4.add904",
@@ -6679,7 +6709,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2550,
-        "y": 4396,
+        "y": 4496,
         "wires": []
     },
     {
@@ -6690,7 +6720,7 @@
         "name": "",
         "env": [],
         "x": 2510,
-        "y": 4456,
+        "y": 4556,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -6719,7 +6749,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 450,
-        "y": 4436,
+        "y": 4536,
         "wires": [
             [
                 "577c5207.33743c"
@@ -6753,7 +6783,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1050,
-        "y": 4440,
+        "y": 4540,
         "wires": [
             [
                 "5e3479cb.dad398"
@@ -6776,7 +6806,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1330,
-        "y": 4376,
+        "y": 4476,
         "wires": [
             [
                 "4e6a55e7.3950c4"
@@ -6792,7 +6822,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1590,
-        "y": 4376,
+        "y": 4476,
         "wires": []
     },
     {
@@ -6819,7 +6849,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1450,
-        "y": 4460,
+        "y": 4560,
         "wires": [
             [
                 "4e6a55e7.3950c4"
@@ -6841,7 +6871,7 @@
         "initialize": "",
         "finalize": "",
         "x": 2330,
-        "y": 4396,
+        "y": 4496,
         "wires": [
             [
                 "4de1edb.3e19014"
@@ -6868,7 +6898,7 @@
         "repair": false,
         "outputs": 2,
         "x": 590,
-        "y": 4436,
+        "y": 4536,
         "wires": [
             [
                 "305810cf.42f6c"
@@ -6890,7 +6920,7 @@
         "initialize": "",
         "finalize": "",
         "x": 720,
-        "y": 4376,
+        "y": 4476,
         "wires": [
             [
                 "eb276c3207ba11fa"
@@ -7148,7 +7178,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 540,
-        "y": 3880,
+        "y": 4000,
         "wires": [
             [
                 "8a618a8d.e62888"
@@ -7166,7 +7196,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 530,
-        "y": 4020,
+        "y": 4140,
         "wires": [
             [
                 "6365223b.355cac"
@@ -7182,7 +7212,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2430,
-        "y": 4060,
+        "y": 4180,
         "wires": []
     },
     {
@@ -7194,7 +7224,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2430,
-        "y": 3940,
+        "y": 4060,
         "wires": []
     },
     {
@@ -7204,7 +7234,7 @@
         "g": "66d3f26a.c296b4",
         "name": "",
         "x": 2401,
-        "y": 3980,
+        "y": 4100,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -7216,7 +7246,7 @@
         "name": "",
         "env": [],
         "x": 2403,
-        "y": 4100,
+        "y": 4220,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -7231,7 +7261,7 @@
             "036f573e2e9b4183"
         ],
         "x": 1895,
-        "y": 3940,
+        "y": 4060,
         "wires": []
     },
     {
@@ -7244,7 +7274,7 @@
             "b5e82d6c2f67da44"
         ],
         "x": 2135,
-        "y": 3940,
+        "y": 4060,
         "wires": [
             [
                 "f679f510.e6f448",
@@ -7262,7 +7292,7 @@
             "e72c15b993724d44"
         ],
         "x": 2135,
-        "y": 4060,
+        "y": 4180,
         "wires": [
             [
                 "63547b46.f4c064",
@@ -7281,7 +7311,7 @@
             "e13dc00a62dd4477"
         ],
         "x": 1895,
-        "y": 4060,
+        "y": 4180,
         "wires": []
     },
     {
@@ -7292,7 +7322,7 @@
         "name": "External Interface - LiveData - Request Properties",
         "info": "",
         "x": 370,
-        "y": 3800,
+        "y": 3920,
         "wires": []
     },
     {
@@ -7306,7 +7336,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 280,
-        "y": 4140,
+        "y": 4260,
         "wires": [
             [
                 "e08da917.d8f298"
@@ -7322,7 +7352,7 @@
         "statusCode": "",
         "headers": {},
         "x": 2430,
-        "y": 4180,
+        "y": 4300,
         "wires": []
     },
     {
@@ -7333,7 +7363,7 @@
         "name": "",
         "env": [],
         "x": 2410,
-        "y": 4220,
+        "y": 4340,
         "wires": [],
         "icon": "node-red-contrib-viseo-log/log.svg"
     },
@@ -7348,7 +7378,7 @@
             "f1dda0e0acb0d3aa"
         ],
         "x": 1875,
-        "y": 4180,
+        "y": 4300,
         "wires": []
     },
     {
@@ -7361,7 +7391,7 @@
             "f53807a57083ee3a"
         ],
         "x": 2135,
-        "y": 4180,
+        "y": 4300,
         "wires": [
             [
                 "184a6b3e.d382f5",
@@ -7378,7 +7408,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1930,
-        "y": 3900,
+        "y": 4020,
         "wires": []
     },
     {
@@ -7391,7 +7421,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1670,
-        "y": 3869,
+        "y": 3989,
         "wires": [
             [
                 "cfca74c7.b132b"
@@ -7423,7 +7453,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 1030,
-        "y": 3880,
+        "y": 4000,
         "wires": [
             [
                 "82c84fc4ae533332"
@@ -7455,7 +7485,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 1010,
-        "y": 4020,
+        "y": 4140,
         "wires": [
             [
                 "59daa494066fadf7"
@@ -7472,7 +7502,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1690,
-        "y": 4000,
+        "y": 4120,
         "wires": [
             [
                 "7126ac75.9556b4"
@@ -7488,7 +7518,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1930,
-        "y": 4009,
+        "y": 4129,
         "wires": []
     },
     {
@@ -7501,7 +7531,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1670,
-        "y": 4120,
+        "y": 4240,
         "wires": [
             [
                 "f25207a6.2f6878"
@@ -7535,7 +7565,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1430,
-        "y": 4140,
+        "y": 4260,
         "wires": [
             [
                 "500ad330.b7d6b4"
@@ -7573,7 +7603,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 1010,
-        "y": 4140,
+        "y": 4260,
         "wires": [
             [
                 "b60fe97da951714e"
@@ -7589,7 +7619,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1910,
-        "y": 4129,
+        "y": 4249,
         "wires": []
     },
     {
@@ -7956,7 +7986,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1410,
-        "y": 2840,
+        "y": 2980,
         "wires": [
             [
                 "2ba34b7e.d39f0c"
@@ -7990,7 +8020,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1410,
-        "y": 2960,
+        "y": 3100,
         "wires": [
             [
                 "de785470.82c5b"
@@ -8024,7 +8054,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1570,
-        "y": 3260,
+        "y": 3400,
         "wires": [
             [
                 "539e5110.1ef598"
@@ -8058,7 +8088,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1570,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             [
                 "cd71006d.5e021"
@@ -8092,7 +8122,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1570,
-        "y": 3600,
+        "y": 3740,
         "wires": [
             [
                 "9359dad8.bb01a"
@@ -8126,7 +8156,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1770,
-        "y": 4060,
+        "y": 4180,
         "wires": [
             [
                 "7126ac75.9556b4"
@@ -8160,7 +8190,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1770,
-        "y": 4160,
+        "y": 4280,
         "wires": [
             [
                 "f25207a6.2f6878"
@@ -8202,7 +8232,7 @@
         "repair": false,
         "outputs": 4,
         "x": 1430,
-        "y": 3889,
+        "y": 4009,
         "wires": [
             [
                 "ffb2df3a.e5c088"
@@ -8242,7 +8272,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1750,
-        "y": 3920,
+        "y": 4040,
         "wires": [
             [
                 "cfca74c7.b132b"
@@ -8284,7 +8314,7 @@
         "repair": false,
         "outputs": 4,
         "x": 1430,
-        "y": 4029,
+        "y": 4149,
         "wires": [
             [
                 "317b8add.0a862e"
@@ -8312,7 +8342,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({text:\"check req params\"});",
         "finalize": "",
         "x": 1315,
-        "y": 3880,
+        "y": 4000,
         "wires": [
             [
                 "822a3485.6454a"
@@ -8332,7 +8362,7 @@
         "initialize": "// Code added here will be run once\n// whenever the node is started.\nnode.status({text:\"check req params\"});",
         "finalize": "",
         "x": 1315,
-        "y": 4020,
+        "y": 4140,
         "wires": [
             [
                 "691102d8.2e4ccc"
@@ -8551,7 +8581,7 @@
             "5801760d2dab07fc"
         ],
         "timeout": "30",
-        "x": 840,
+        "x": 860,
         "y": 2700,
         "wires": [
             [
@@ -8569,8 +8599,8 @@
             "5801760d2dab07fc"
         ],
         "timeout": "30",
-        "x": 840,
-        "y": 2820,
+        "x": 860,
+        "y": 2960,
         "wires": [
             [
                 "80ddd535.92f168"
@@ -8587,8 +8617,8 @@
             "5801760d2dab07fc"
         ],
         "timeout": "30",
-        "x": 860,
-        "y": 2940,
+        "x": 880,
+        "y": 3080,
         "wires": [
             [
                 "4d1c9a11.497c04"
@@ -8606,7 +8636,7 @@
         ],
         "timeout": "30",
         "x": 1100,
-        "y": 3220,
+        "y": 3360,
         "wires": [
             [
                 "d0dcfd84.fa36a"
@@ -8624,7 +8654,7 @@
         ],
         "timeout": "30",
         "x": 1100,
-        "y": 3340,
+        "y": 3480,
         "wires": [
             [
                 "98bc07c7.2b47c"
@@ -8642,7 +8672,7 @@
         ],
         "timeout": "30",
         "x": 1100,
-        "y": 3580,
+        "y": 3720,
         "wires": [
             [
                 "98e3a79d.ae8a58"
@@ -8660,7 +8690,7 @@
         ],
         "timeout": "30",
         "x": 1200,
-        "y": 3880,
+        "y": 4000,
         "wires": [
             [
                 "3fb52f54.6765f"
@@ -8678,7 +8708,7 @@
         ],
         "timeout": "30",
         "x": 1200,
-        "y": 4020,
+        "y": 4140,
         "wires": [
             [
                 "9ebd49db.dcf8a8"
@@ -8696,7 +8726,7 @@
         ],
         "timeout": "30",
         "x": 1200,
-        "y": 4140,
+        "y": 4260,
         "wires": [
             [
                 "8c6633ec.aa98"
@@ -8714,7 +8744,7 @@
         ],
         "timeout": "30",
         "x": 900,
-        "y": 4440,
+        "y": 4540,
         "wires": [
             [
                 "7f57e4a0.47375c"
@@ -8876,7 +8906,7 @@
         ],
         "timeout": "30",
         "x": 1220,
-        "y": 2840,
+        "y": 2980,
         "wires": [
             [
                 "7b6789df.b592a8"
@@ -8894,7 +8924,7 @@
         ],
         "timeout": "30",
         "x": 1220,
-        "y": 2960,
+        "y": 3100,
         "wires": [
             [
                 "5972e175.abd018"
@@ -8912,7 +8942,7 @@
         ],
         "timeout": "30",
         "x": 1420,
-        "y": 3260,
+        "y": 3400,
         "wires": [
             [
                 "cce764f4.a4ddc8"
@@ -8930,7 +8960,7 @@
         ],
         "timeout": "30",
         "x": 1420,
-        "y": 3360,
+        "y": 3500,
         "wires": [
             [
                 "fd6d81a6.b3f8d8"
@@ -8948,7 +8978,7 @@
         ],
         "timeout": "30",
         "x": 1420,
-        "y": 3600,
+        "y": 3740,
         "wires": [
             [
                 "b8a009e2.87f68"
@@ -8966,7 +8996,7 @@
         ],
         "timeout": "30",
         "x": 1600,
-        "y": 3920,
+        "y": 4040,
         "wires": [
             [
                 "e6ffd72c.9d6e5"
@@ -8984,7 +9014,7 @@
         ],
         "timeout": "30",
         "x": 1600,
-        "y": 4060,
+        "y": 4180,
         "wires": [
             [
                 "44b5fdcb.b49084"
@@ -9002,7 +9032,7 @@
         ],
         "timeout": "30",
         "x": 1600,
-        "y": 4160,
+        "y": 4280,
         "wires": [
             [
                 "a84572c.caab99"
@@ -9020,7 +9050,7 @@
         ],
         "timeout": "30",
         "x": 1260,
-        "y": 4460,
+        "y": 4560,
         "wires": [
             [
                 "d8850bdc.71f698"
@@ -9039,7 +9069,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 910,
-        "y": 3440,
+        "y": 3580,
         "wires": []
     },
     {
@@ -9053,7 +9083,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 520,
-        "y": 3480,
+        "y": 3620,
         "wires": [
             [
                 "5f9c19ddaffca140",
@@ -9097,7 +9127,7 @@
         "dropdownObjOrVal": "value",
         "outputs": 1,
         "x": 930,
-        "y": 3480,
+        "y": 3620,
         "wires": [
             [
                 "828604507255f1c3"
@@ -9142,7 +9172,7 @@
             "77dc61431f9fc54d"
         ],
         "x": 1695,
-        "y": 3520,
+        "y": 3660,
         "wires": []
     },
     {
@@ -9156,7 +9186,7 @@
         ],
         "timeout": "30",
         "x": 1100,
-        "y": 3480,
+        "y": 3620,
         "wires": [
             [
                 "e11051798721b310"
@@ -9190,7 +9220,7 @@
         "repair": false,
         "outputs": 3,
         "x": 1250,
-        "y": 3480,
+        "y": 3620,
         "wires": [
             [
                 "2f6e0dd8d3a9d534"
@@ -9213,7 +9243,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1490,
-        "y": 3460,
+        "y": 3600,
         "wires": [
             [
                 "d88d1f52a2427ba4"
@@ -9229,7 +9259,7 @@
         "statusCode": "",
         "headers": {},
         "x": 1730,
-        "y": 3460,
+        "y": 3600,
         "wires": []
     },
     {
@@ -9243,7 +9273,7 @@
         ],
         "timeout": "30",
         "x": 1420,
-        "y": 3500,
+        "y": 3640,
         "wires": [
             [
                 "923ffc0345be1e2b"
@@ -9274,13 +9304,251 @@
         "repair": false,
         "outputs": 2,
         "x": 1590,
-        "y": 3500,
+        "y": 3640,
         "wires": [
             [
                 "d88d1f52a2427ba4"
             ],
             [
                 "f117413afc52cadf"
+            ]
+        ]
+    },
+    {
+        "id": "6eacc652836b3dc0",
+        "type": "http in",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "name": "",
+        "url": "/aasServer/shells/:aasid/aas/submodels",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 350,
+        "y": 2820,
+        "wires": [
+            [
+                "f23001b5133952f5"
+            ]
+        ]
+    },
+    {
+        "id": "f23001b5133952f5",
+        "type": "set-defaults",
+        "z": "c7caf96e.a31f98",
+        "name": "set-startTime",
+        "rules": [
+            {
+                "p": "startTime",
+                "pt": "msg",
+                "to": "",
+                "tot": "date"
+            }
+        ],
+        "chbox_DoOutputToMessage": true,
+        "chbox_SetCurrentToMsg": false,
+        "howSend": {
+            "text": "payload",
+            "type": "msg",
+            "modifiedValue": "payload"
+        },
+        "dropdown_HowManyMessages": "single",
+        "dropdownObjOrVal": "value",
+        "outputs": 1,
+        "x": 690,
+        "y": 2820,
+        "wires": [
+            [
+                "4c5a8a5bebcf1e71"
+            ]
+        ]
+    },
+    {
+        "id": "4c5a8a5bebcf1e71",
+        "type": "link call",
+        "z": "c7caf96e.a31f98",
+        "name": "",
+        "links": [
+            "5801760d2dab07fc"
+        ],
+        "timeout": "30",
+        "x": 860,
+        "y": 2820,
+        "wires": [
+            [
+                "ed0f3a5376b67f86"
+            ]
+        ]
+    },
+    {
+        "id": "ed0f3a5376b67f86",
+        "type": "switch",
+        "z": "c7caf96e.a31f98",
+        "name": "",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "401",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "403",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 1030,
+        "y": 2820,
+        "wires": [
+            [
+                "6d3036b06b81fa90"
+            ],
+            [
+                "6d3036b06b81fa90"
+            ],
+            [
+                "a523dff81a3d0bbe"
+            ]
+        ]
+    },
+    {
+        "id": "6d3036b06b81fa90",
+        "type": "unsafe-function",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "name": "process message statusCode 401/403",
+        "func": "msg.payload = msg.error;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 1290,
+        "y": 2800,
+        "wires": [
+            [
+                "28772c3327728b02"
+            ]
+        ]
+    },
+    {
+        "id": "a523dff81a3d0bbe",
+        "type": "link call",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "name": "",
+        "links": [
+            "4f93699f68dc2488"
+        ],
+        "timeout": "30",
+        "x": 1220,
+        "y": 2840,
+        "wires": [
+            [
+                "b5e53c0f4971fc7a"
+            ]
+        ]
+    },
+    {
+        "id": "b5e53c0f4971fc7a",
+        "type": "switch",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "name": "",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "403",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 2,
+        "x": 1410,
+        "y": 2840,
+        "wires": [
+            [
+                "28772c3327728b02"
+            ],
+            [
+                "b5515009921577d8"
+            ]
+        ]
+    },
+    {
+        "id": "28772c3327728b02",
+        "type": "http response",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1570,
+        "y": 2820,
+        "wires": []
+    },
+    {
+        "id": "b5515009921577d8",
+        "type": "link out",
+        "z": "c7caf96e.a31f98",
+        "g": "37a4080e.40ed9",
+        "name": "24_Out",
+        "mode": "link",
+        "links": [
+            "dfc2457d14734dba"
+        ],
+        "x": 1545,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "0be76e625a95cc33",
+        "type": "http response",
+        "z": "c7caf96e.a31f98",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 2270,
+        "y": 2860,
+        "wires": []
+    },
+    {
+        "id": "d0cf58733196963a",
+        "type": "subflow:56cb7422.e3d28c",
+        "z": "c7caf96e.a31f98",
+        "name": "",
+        "x": 2250,
+        "y": 2900,
+        "wires": [],
+        "icon": "node-red-contrib-viseo-log/log.svg"
+    },
+    {
+        "id": "1c99d6ff046d9f48",
+        "type": "link in",
+        "z": "c7caf96e.a31f98",
+        "name": "24_In",
+        "links": [
+            "87583a6df882d994"
+        ],
+        "x": 1735,
+        "y": 2860,
+        "wires": [
+            [
+                "0be76e625a95cc33",
+                "d0cf58733196963a"
             ]
         ]
     },
@@ -10108,8 +10376,8 @@
         "z": "f415efa5cb36c48f",
         "name": "9_Out",
         "links": [
-            "87522ab0.ac1188",
-            "74e66928.59585"
+            "74e66928.59585",
+            "1c99d6ff046d9f48"
         ],
         "x": 3135,
         "y": 1860,
@@ -10121,8 +10389,8 @@
         "z": "f415efa5cb36c48f",
         "name": "9_In",
         "links": [
-            "cb3ea6e9.72b438",
-            "786ee408.b667c4"
+            "786ee408.b667c4",
+            "b5515009921577d8"
         ],
         "x": 235,
         "y": 1880,
@@ -10273,7 +10541,8 @@
         "name": "11_Out",
         "links": [
             "d932c8d.cf79c38",
-            "51031ae7.2a3aa4"
+            "51031ae7.2a3aa4",
+            "87522ab0.ac1188"
         ],
         "x": 3135,
         "y": 2238,
@@ -10286,7 +10555,8 @@
         "name": "11_In",
         "links": [
             "d50a98f1.b0b938",
-            "1e00e0ac.7b7297"
+            "1e00e0ac.7b7297",
+            "cb3ea6e9.72b438"
         ],
         "x": 235,
         "y": 2258,
@@ -13640,7 +13910,7 @@
         "type": "unsafe-function",
         "z": "9c0ecc72f77c934a",
         "name": "BuildingJsonataQuery...",
-        "func": "var ShellId = msg.req.params.aasid;\nvar manifest = context.flow.get('manifest');\n\nvar shells = manifest.assetAdministrationShells;\nmsg.shellsJsonStr = JSON.stringify(shells);\nmsg.jsonata = \"$[identification.id='\" + ShellId +\"].submodels.keys\";\nreturn msg;",
+        "func": "var ShellId = msg.req.params.aasid;\nvar submodel = msg.payload;\nvar manifest = context.flow.get('manifest');\n\nvar shells = manifest.assetAdministrationShells;\nmsg.shellsJsonStr = JSON.stringify(shells);\nmsg.jsonata = \"$[identification.id='\" + ShellId + \"'].submodels.keys[value='\" + submodel.identification.id + \"']\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 710,
@@ -14248,11 +14518,11 @@
         "id": "d65567ff4f57cdd2",
         "type": "unsafe-function",
         "z": "9c0ecc72f77c934a",
-        "name": "Add/Update Submodel",
-        "func": "var submodel = msg.payload;\nvar submodelId = msg.req.param.id;\nif(msg.jsonataStatus == \"Success\"){\n    \n    var keys = msg.jsonataResult;\n    var manifest = context.flow.get(\"manifest\");\n    var submodels = manifest.submodels;\n    for(var index1 in keys){\n        var key = keys[index1];\n        for(var index2 in submodels){\n            var submodel = submodels[index2];\n            if(submodel.identification.id === key.value){\n                if(submodel.idShort === submodelId){\n                    submodels[index2] = submodel;\n                    msg.statusCode = \"200\";\n                    context.flow.set(\"manifest\", manifest);\n                    return msg;\n                }\n            }\n        }\n    }\n} else {\n    msg.statusCode = \"201\";\n    var manifest = context.flow.get(\"manifest\");\n    manifest.submodels.push(msg.payload);\n    var shells = manifest.assetAdministrationShells;\n    for(var element in shells){\n        if(shells[element].identification.id == shellId){\n            var submodelRef = {};\n            var keys = [];\n            var ref = {};\n            ref.type = \"Submodel\";\n            ref.local = true;\n            ref.value = submodel.identification.id;\n            ref.index = 0;\n            ref.idType = submodel.identification.idType;\n            keys.push(ref);\n            submodelRef.keys = keys;\n            context.flow.set(\"manifest\", manifest);\n        }\n    }\n}\n\nreturn msg;",
+        "name": "Add Submodel",
+        "func": "var submodel = msg.payload;\nvar submodelId = msg.req.param.id;\nvar shellId = msg.req.params.aasid;\nif (msg.jsonataStatus == \"Success\") {\n\n    /*var keys = msg.jsonataResult;\n    var manifest = context.flow.get(\"manifest\");\n    var submodels = manifest.submodels;\n    for(var index1 in keys){\n        var key = keys[index1];\n        for(var index2 in submodels){\n            var submodel = submodels[index2];\n            if(submodel.identification.id === key.value){\n                if(submodel.idShort === submodelId){\n                    submodels[index2] = submodel;\n                    msg.statusCode = \"200\";\n                    context.flow.set(\"manifest\", manifest);\n                    return msg;\n                }\n            }\n        }\n    }*/\n    msg.statusCode = \"409\";\n    msg.payload = \"Error! submodel already exists!\";\n    return msg;\n} else {\n    msg.statusCode = \"201\";\n    var manifest = context.flow.get(\"manifest\");\n    manifest.submodels.push(msg.payload);\n    var shells = manifest.assetAdministrationShells;\n    for (var element in shells) {\n        if (shells[element].identification.id == shellId) {\n            var submodelRef = {};\n            // @ts-ignore\n            var keys = [];\n            var ref = {};\n            ref.type = \"Submodel\";\n            ref.local = true;\n            ref.value = submodel.identification.id;\n            ref.index = 0;\n            ref.idType = submodel.identification.idType;\n            keys.push(ref);\n            submodelRef.keys = keys;\n            shells[element].submodels.push(submodelRef);\n            context.flow.set(\"manifest\", manifest);\n        }\n    }\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1160,
+        "x": 1130,
         "y": 720,
         "wires": [
             [
