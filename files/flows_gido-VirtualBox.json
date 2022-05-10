@@ -475,9 +475,7 @@
             "9d9d4e513499c3ff"
         ],
         "x": 94,
-        "y": 2919,
-        "w": 2334,
-        "h": 468.00001335144043
+        "y": 2919
     },
     {
         "id": "9eaca16.128cb6",
@@ -498,9 +496,7 @@
             "726ded99.bd5cac"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "48a4f908.86ced8",
@@ -526,9 +522,7 @@
             "f826e42f.85708"
         ],
         "x": 1584,
-        "y": 2359,
-        "w": 1132,
-        "h": 304.3541259765625
+        "y": 2359
     },
     {
         "id": "a4c26498.4d1758",
@@ -556,9 +550,7 @@
             "a99930336b0c92a9"
         ],
         "x": 1574,
-        "y": 2679,
-        "w": 912,
-        "h": 242
+        "y": 2679
     },
     {
         "id": "cffb33fa.8a9ae",
@@ -597,9 +589,7 @@
             "759da6d1.42e42"
         ],
         "x": 2504,
-        "y": 2779,
-        "w": 1642,
-        "h": 457
+        "y": 2779
     },
     {
         "id": "6c18a80c.ec30a",
@@ -841,9 +831,7 @@
             "70c749831513dc2c"
         ],
         "x": 214,
-        "y": 99,
-        "w": 3452,
-        "h": 962
+        "y": 99
     },
     {
         "id": "9e0d0c62.913b48",
@@ -1009,9 +997,7 @@
             "e65d6a5a.220b"
         ],
         "x": 104,
-        "y": 3499,
-        "w": 1572,
-        "h": 642
+        "y": 3499
     },
     {
         "id": "b85ff5d2fdca6f85",
@@ -1134,9 +1120,7 @@
             "c22a134df446b17f"
         ],
         "x": 1584,
-        "y": 1359,
-        "w": 2222,
-        "h": 802
+        "y": 1359
     },
     {
         "id": "3fa084242433eb1b",
@@ -1165,9 +1149,7 @@
             "b9706ef075b26ab8"
         ],
         "x": 124,
-        "y": 59,
-        "w": 1522,
-        "h": 322
+        "y": 59
     },
     {
         "id": "c3653598f65963d0",
@@ -1211,9 +1193,7 @@
             "c2bdf154e06ff9d7"
         ],
         "x": 114,
-        "y": 2899,
-        "w": 2872,
-        "h": 516
+        "y": 2899
     },
     {
         "id": "37a4080e.40ed9",
@@ -3786,11 +3766,12 @@
         "method": "POST",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "http://keycloak:8080/auth/realms/industry40_edge/protocol/openid-connect/token",
+        "url": "",
         "tls": "",
         "persist": false,
         "proxy": "",
         "authType": "",
+        "senderr": false,
         "x": 840,
         "y": 552,
         "wires": [
@@ -3806,7 +3787,7 @@
         "z": "c7caf96e.a31f98",
         "g": "6c18a80c.ec30a",
         "name": "Extract session parameters for login",
-        "func": "msg.headers = {};\nmsg.headers[\"content-type\"] = \"application/x-www-form-urlencoded\";\nreturn msg;",
+        "func": "msg.headers = {};\nmsg.headers[\"content-type\"] = \"application/x-www-form-urlencoded\";\nmsg.url = context.global.get(\"authenticationServerEndpoint\") + \"/auth/realms/industry40_edge/protocol/openid-connect/token\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 600,
@@ -6571,11 +6552,12 @@
         "method": "POST",
         "ret": "obj",
         "paytoqs": "ignore",
-        "url": "http://keycloak:8080/auth/realms/industry40_edge/protocol/openid-connect/logout",
+        "url": "",
         "tls": "",
         "persist": false,
         "proxy": "",
         "authType": "",
+        "senderr": false,
         "x": 850,
         "y": 692,
         "wires": [
@@ -6591,7 +6573,7 @@
         "z": "c7caf96e.a31f98",
         "g": "6c18a80c.ec30a",
         "name": "Extract session parameters for logout",
-        "func": "msg.headers = {};\nmsg.headers[\"content-type\"] = \"application/x-www-form-urlencoded\";\nreturn msg;",
+        "func": "msg.headers = {};\nmsg.headers[\"content-type\"] = \"application/x-www-form-urlencoded\";\nmsg.url = context.global.get(\"authenticationServerEndpoint\") + \"/auth/realms/industry40_edge/protocol/openid-connect/logout\";\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 590,
@@ -12850,11 +12832,12 @@
         "type": "function",
         "z": "f415efa5cb36c48f",
         "name": "",
-        "func": "if(msg.statusCode == \"200\"){\n    var submodel = msg.payload;\n    var submodelElements = submodel.submodelElements;\n    msg.url = \"\";\n    for(var element in submodelElements){\n        if(submodelElements[element].idShort == \"authenticationServer\") {\n            var values = submodelElements[element].value;\n            for(var valueElement in values){\n                if(values[valueElement].idShort == \"serverDiscoveryDocument\"){\n                    msg.url = values[valueElement].value;\n                    context.global.set(submodel.idShort, submodel);\n                } else if(values[valueElement].idShort == \"authenticationServerClient\"){\n                    context.global.set(values[valueElement].idShort, values[valueElement].value);\n                }\n            }\n            if(msg.url != \"\"){\n                return msg;\n            }\n        }\n    }\n    msg.statusCode = 400;\n    msg.payload = \"Error, serverDiscoveryDocument element does not exist\";\n}\nreturn msg;",
+        "func": "if (msg.statusCode == \"200\") {\n    var submodel = msg.payload;\n    var submodelElements = submodel.submodelElements;\n    msg.url = \"\";\n    for (var element in submodelElements) {\n        if (submodelElements[element].idShort == \"authenticationServer\") {\n            var values = submodelElements[element].value;\n            for (var valueElement in values) {\n                if (values[valueElement].idShort == \"endpoint\") {\n                    context.global.set(\"authenticationServerEndpoint\", values[valueElement].value);\n                } else if (values[valueElement].idShort == \"serverDiscoveryDocument\") {\n                    msg.url = values[valueElement].value;\n                    context.global.set(submodel.idShort, submodel);\n                } else if (values[valueElement].idShort == \"authenticationServerClient\") {\n                    context.global.set(values[valueElement].idShort, values[valueElement].value);\n                }\n            }\n            if (msg.url != \"\") {\n                return msg;\n            }\n        }\n    }\n    msg.statusCode = 400;\n    msg.payload = \"Error, serverDiscoveryDocument element does not exist\";\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 1680,
         "y": 3020,
         "wires": [
