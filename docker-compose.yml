@@ -7,6 +7,7 @@ services:
         command: keycloak:8080
     keycloak:
         image: "jboss/keycloak:latest"
+        container_name: keycloak
         environment:
             - "KEYCLOAK_USER=${KEYCLOAK_USER}"
             - "KEYCLOAK_PASSWORD=${KEYCLOAK_PASSWORD}"
@@ -18,6 +19,7 @@ services:
     novaas:
         build: .
         image: "registry.gitlab.com/novaas/catalog/nova-school-of-science-and-technology/novaas-keycloak:latest"
+        container_name: novaas
         environment:
             - "PORT_FORWARDING=${PORT_FORWARDING}" 
             - "HOST=${HOST}"
