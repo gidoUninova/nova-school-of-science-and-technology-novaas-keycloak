@@ -327,9 +327,7 @@
             "dbc2fc614c6fa3c5"
         ],
         "x": 94,
-        "y": 2919,
-        "w": 2334,
-        "h": 468.00001335144043
+        "y": 2919
     },
     {
         "id": "b3c7716f3c5ea656",
@@ -350,9 +348,7 @@
             "c672ab55b8db74ae"
         ],
         "x": 94,
-        "y": 2179,
-        "w": 652,
-        "h": 82
+        "y": 2179
     },
     {
         "id": "606b287e669294f4",
@@ -392,9 +388,7 @@
             "b371980e536eb0d9"
         ],
         "x": 2504,
-        "y": 2759,
-        "w": 1642,
-        "h": 477
+        "y": 2759
     },
     {
         "id": "8b7195dfeff10c3b",
@@ -593,9 +587,7 @@
             "f72ad0fd50ef67af"
         ],
         "x": 214,
-        "y": 99,
-        "w": 3452,
-        "h": 922
+        "y": 99
     },
     {
         "id": "0fac75980c58fbdb",
@@ -672,9 +664,7 @@
             "3d1ac4f99574f59a"
         ],
         "x": 104,
-        "y": 3499,
-        "w": 1572,
-        "h": 642
+        "y": 3499
     },
     {
         "id": "1b283c783c77a415",
@@ -700,7 +690,9 @@
             "324a3bc1307cdce1"
         ],
         "x": 194,
-        "y": 4242
+        "y": 4242,
+        "w": 2272,
+        "h": 259
     },
     {
         "id": "abdf379e4293a040",
@@ -724,7 +716,9 @@
             "482403047fcf00cd"
         ],
         "x": 194,
-        "y": 3539
+        "y": 3539,
+        "w": 2962,
+        "h": 562
     },
     {
         "id": "d628f78d05bad169",
@@ -765,9 +759,7 @@
             "9f3fef0da6e620f0"
         ],
         "x": 1814,
-        "y": 1359,
-        "w": 1992,
-        "h": 362
+        "y": 1359
     },
     {
         "id": "3072da72b5bc07c8",
@@ -827,6 +819,70 @@
         "y": 139,
         "w": 1952,
         "h": 202
+    },
+    {
+        "id": "aa58e5d8d810c216",
+        "type": "group",
+        "z": "1b34dd2392e70f28",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "9ba130dab2c35f4a",
+            "b66a7cd618523697",
+            "4807bb24be8fdd35",
+            "1022525b20ebc80c",
+            "6bc8692589698e4e"
+        ],
+        "x": 134,
+        "y": 59
+    },
+    {
+        "id": "f70042849219912e",
+        "type": "group",
+        "z": "1b34dd2392e70f28",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "0495c54e4a42e88d",
+            "9f1b2c1fddb56b21",
+            "a9b44075eac2654a",
+            "2156e858c357a84a",
+            "637d5a699d0d8537",
+            "53a3dba8b5b31034",
+            "de876458e5ee4757",
+            "a14689fbcbf5d1ca",
+            "039aa1c149845af7",
+            "7fc3b5edf551e358",
+            "e90b1501abaa5754",
+            "a6f5da1d3029aec2",
+            "eeec8892730ecb24",
+            "c2c3bbb9a9474abd",
+            "c8654494cab22081",
+            "f69a90c1551b2070",
+            "9bf2937120ef67bd",
+            "a6c403091b443b0c",
+            "eeb80fe9cff6a359",
+            "9abe0fd670c76497",
+            "de89b1cca328c659",
+            "5180a7d4f1bf4fa4",
+            "cdbd60c259d8d0b6",
+            "dc2a65f84610e41a",
+            "6107a5a6c62f1d7b",
+            "9730e3221d41e001",
+            "a875e93ae204d0c1",
+            "368a147680be5838",
+            "b746d7bc440b58bd",
+            "ff5af7a243cbdf73"
+        ],
+        "x": 14,
+        "y": 2299
     },
     {
         "id": "1f0558daa8aaf256",
@@ -977,74 +1033,6 @@
         "h": 602
     },
     {
-        "id": "aa58e5d8d810c216",
-        "type": "group",
-        "z": "1b34dd2392e70f28",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "9ba130dab2c35f4a",
-            "b66a7cd618523697",
-            "4807bb24be8fdd35",
-            "1022525b20ebc80c",
-            "6bc8692589698e4e"
-        ],
-        "x": 134,
-        "y": 59,
-        "w": 1312,
-        "h": 182
-    },
-    {
-        "id": "f70042849219912e",
-        "type": "group",
-        "z": "1b34dd2392e70f28",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "0495c54e4a42e88d",
-            "9f1b2c1fddb56b21",
-            "a9b44075eac2654a",
-            "2156e858c357a84a",
-            "637d5a699d0d8537",
-            "53a3dba8b5b31034",
-            "de876458e5ee4757",
-            "a14689fbcbf5d1ca",
-            "039aa1c149845af7",
-            "7fc3b5edf551e358",
-            "e90b1501abaa5754",
-            "a6f5da1d3029aec2",
-            "eeec8892730ecb24",
-            "c2c3bbb9a9474abd",
-            "c8654494cab22081",
-            "f69a90c1551b2070",
-            "9bf2937120ef67bd",
-            "a6c403091b443b0c",
-            "eeb80fe9cff6a359",
-            "9abe0fd670c76497",
-            "de89b1cca328c659",
-            "5180a7d4f1bf4fa4",
-            "cdbd60c259d8d0b6",
-            "dc2a65f84610e41a",
-            "6107a5a6c62f1d7b",
-            "9730e3221d41e001",
-            "a875e93ae204d0c1",
-            "368a147680be5838",
-            "b746d7bc440b58bd",
-            "ff5af7a243cbdf73"
-        ],
-        "x": 14,
-        "y": 2299,
-        "w": 2872,
-        "h": 516
-    },
-    {
         "id": "054e56708ace311f",
         "type": "junction",
         "z": "292bbc7d396b4fee",
@@ -1077,6 +1065,78 @@
         "wires": [
             [
                 "168dca91931fa2d1"
+            ]
+        ]
+    },
+    {
+        "id": "bf8d1775bedc9126",
+        "type": "junction",
+        "z": "75985a5477ba24aa",
+        "x": 1520,
+        "y": 1280,
+        "wires": [
+            [
+                "0cf42e9cc5365c9d"
+            ]
+        ]
+    },
+    {
+        "id": "0cf42e9cc5365c9d",
+        "type": "junction",
+        "z": "75985a5477ba24aa",
+        "x": 1580,
+        "y": 1340,
+        "wires": [
+            [
+                "718506d0a62e49a5"
+            ]
+        ]
+    },
+    {
+        "id": "4f66f53de68a468a",
+        "type": "junction",
+        "z": "75985a5477ba24aa",
+        "x": 1560,
+        "y": 1540,
+        "wires": [
+            [
+                "32e4c48636bc81e8"
+            ]
+        ]
+    },
+    {
+        "id": "32e4c48636bc81e8",
+        "type": "junction",
+        "z": "75985a5477ba24aa",
+        "x": 1620,
+        "y": 1580,
+        "wires": [
+            [
+                "64f4b5e338cef46a"
+            ]
+        ]
+    },
+    {
+        "id": "d2fa44933ad7f7bc",
+        "type": "junction",
+        "z": "75985a5477ba24aa",
+        "x": 1520,
+        "y": 1800,
+        "wires": [
+            [
+                "273b7e8259322a05"
+            ]
+        ]
+    },
+    {
+        "id": "273b7e8259322a05",
+        "type": "junction",
+        "z": "75985a5477ba24aa",
+        "x": 1620,
+        "y": 1840,
+        "wires": [
+            [
+                "97a246f7b044cc91"
             ]
         ]
     },
@@ -3069,11 +3129,11 @@
         "z": "eed7db33cbb15160",
         "g": "8a144fdf9bad252a",
         "name": "",
-        "url": "/aasServer/shells/:id",
+        "url": "/aasServer/shells/:aasid/aas",
         "method": "get",
         "upload": false,
         "swaggerDoc": "f63412d5902e8a10",
-        "x": 270,
+        "x": 290,
         "y": 2200,
         "wires": [
             [
@@ -7654,7 +7714,7 @@
         "repair": false,
         "outputs": 2,
         "x": 1630,
-        "y": 1465,
+        "y": 1480,
         "wires": [
             [
                 "ed546a28497e9667"
@@ -7672,8 +7732,8 @@
         "func": "var errors = [];\nmsg.payload = {};\nvar NOVAAS_Overall_St = context.global.get(\"NOVAAS_Overall_St\");\nif((NOVAAS_Overall_St === false))\n   {\n        errors.push(\"Asset Administration Shell not configured\");\n       \n   } \n \nmsg.payload.errors = errors;\n    \n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 1370,
-        "y": 1465,
+        "x": 910,
+        "y": 1480,
         "wires": [
             [
                 "746b85d4832cdbf9",
@@ -7690,7 +7750,7 @@
         "outputs": 1,
         "noerr": 0,
         "x": 1890,
-        "y": 1425,
+        "y": 1440,
         "wires": [
             [
                 "bdbbee562ff96f15"
@@ -7722,7 +7782,7 @@
             "ed86c127fdb0e6c2"
         ],
         "x": 235,
-        "y": 1465,
+        "y": 1480,
         "wires": [
             [
                 "bb30e76f08b1953a"
@@ -7738,7 +7798,7 @@
             "5a819a8542636e72"
         ],
         "x": 3135,
-        "y": 1465,
+        "y": 1480,
         "wires": []
     },
     {
@@ -7751,8 +7811,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1650,
-        "y": 1540,
+        "x": 990,
+        "y": 1560,
         "wires": []
     },
     {
@@ -7796,8 +7856,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1750,
-        "y": 1720,
+        "x": 990,
+        "y": 1820,
         "wires": []
     },
     {
@@ -7810,7 +7870,7 @@
             "e2acf77b.dc7f68"
         ],
         "x": 3135,
-        "y": 1760,
+        "y": 1840,
         "wires": []
     },
     {
@@ -7824,7 +7884,7 @@
             "b86733db2b8aa6e2"
         ],
         "x": 235,
-        "y": 1760,
+        "y": 1840,
         "wires": [
             [
                 "308927235d0f0a02"
@@ -7841,8 +7901,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1630,
-        "y": 1820,
+        "x": 1650,
+        "y": 2000,
         "wires": []
     },
     {
@@ -7873,7 +7933,7 @@
         "msgControl": false,
         "outputs": 2,
         "x": 2030,
-        "y": 1880,
+        "y": 2040,
         "wires": [
             [
                 "b9042793cb5e0e4f"
@@ -7893,7 +7953,7 @@
             "706a1d39def16eda"
         ],
         "x": 3135,
-        "y": 1860,
+        "y": 2040,
         "wires": []
     },
     {
@@ -7906,7 +7966,7 @@
             "d5284e9b625c20c7"
         ],
         "x": 235,
-        "y": 1880,
+        "y": 2040,
         "wires": [
             [
                 "488d6f0c6c5ebe8e"
@@ -7924,7 +7984,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 1670,
-        "y": 2040,
+        "y": 2080,
         "wires": []
     },
     {
@@ -7955,7 +8015,7 @@
         "msgControl": false,
         "outputs": 2,
         "x": 2030,
-        "y": 2080,
+        "y": 2120,
         "wires": [
             [
                 "63ed4fad3a0e3106"
@@ -7975,7 +8035,7 @@
             "d5e2a42c.8dffb8"
         ],
         "x": 3135,
-        "y": 2060,
+        "y": 2120,
         "wires": []
     },
     {
@@ -7988,7 +8048,7 @@
             "b636e41a.e74f28"
         ],
         "x": 235,
-        "y": 2080,
+        "y": 2120,
         "wires": [
             [
                 "99ee85a5c0325339"
@@ -8006,7 +8066,7 @@
         "tostatus": false,
         "complete": "true",
         "x": 1670,
-        "y": 2160,
+        "y": 2200,
         "wires": []
     },
     {
@@ -8378,8 +8438,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1585.5833740234375,
-        "y": 1419.7291259765625,
+        "x": 1230,
+        "y": 1440,
         "wires": []
     },
     {
@@ -8588,8 +8648,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1670,
-        "y": 1280,
+        "x": 950,
+        "y": 1300,
         "wires": []
     },
     {
@@ -8617,7 +8677,7 @@
             "0fb6ffc99bc3c418"
         ],
         "x": 3135,
-        "y": 1320,
+        "y": 1340,
         "wires": []
     },
     {
@@ -8630,8 +8690,8 @@
         "console": false,
         "tostatus": false,
         "complete": "true",
-        "x": 1730,
-        "y": 1620,
+        "x": 1710,
+        "y": 1720,
         "wires": []
     },
     {
@@ -8643,8 +8703,8 @@
             "727480a5.4236c",
             "2a49545b9d945e4b"
         ],
-        "x": 235,
-        "y": 1660,
+        "x": 225,
+        "y": 1740,
         "wires": [
             [
                 "e2178b52617b3c0a"
@@ -8660,7 +8720,7 @@
             "f291d1d876934273"
         ],
         "x": 3135,
-        "y": 1660,
+        "y": 1740,
         "wires": []
     },
     {
@@ -9134,7 +9194,7 @@
             "25b6bff18045b93f"
         ],
         "x": 2320,
-        "y": 1900,
+        "y": 2060,
         "wires": [],
         "l": true
     },
@@ -9147,7 +9207,7 @@
             "25b6bff18045b93f"
         ],
         "x": 2340,
-        "y": 2100,
+        "y": 2140,
         "wires": [],
         "l": true
     },
@@ -9298,12 +9358,12 @@
             "2c06f0799c94d6b9"
         ],
         "timeout": "30",
-        "x": 1480,
+        "x": 790,
         "y": 1320,
         "wires": [
             [
                 "cf4b0c21006b2d20",
-                "718506d0a62e49a5"
+                "7540b688d1ccfbd8"
             ]
         ]
     },
@@ -9316,12 +9376,12 @@
             "3eb3764a0a0f9847"
         ],
         "timeout": "30",
-        "x": 1500,
+        "x": 830,
         "y": 1580,
         "wires": [
             [
                 "ea5cfefea6c6744a",
-                "64f4b5e338cef46a"
+                "d57f58bc77ffcb8b"
             ]
         ]
     },
@@ -9335,7 +9395,7 @@
         ],
         "timeout": "30",
         "x": 1520,
-        "y": 1660,
+        "y": 1740,
         "wires": [
             [
                 "8cfda92b812c5445",
@@ -9352,12 +9412,12 @@
             "384ba421ea747453"
         ],
         "timeout": "30",
-        "x": 1500,
-        "y": 1760,
+        "x": 830,
+        "y": 1840,
         "wires": [
             [
                 "75e632516ba69656",
-                "97a246f7b044cc91"
+                "de98fa9db5e7edf4"
             ]
         ]
     },
@@ -9371,7 +9431,7 @@
         ],
         "timeout": "30",
         "x": 1520,
-        "y": 2080,
+        "y": 2120,
         "wires": [
             [
                 "07cceddfb643f00f",
@@ -9391,7 +9451,7 @@
         "finalize": "",
         "libs": [],
         "x": 1000,
-        "y": 1880,
+        "y": 2040,
         "wires": [
             [
                 "fc1d0032aa9b948e"
@@ -9411,7 +9471,7 @@
         ],
         "timeout": "30",
         "x": 1480,
-        "y": 1860,
+        "y": 2020,
         "wires": [
             [
                 "e9eb5cfc22d54872",
@@ -10169,7 +10229,7 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 2,
-        "x": 1850,
+        "x": 2350,
         "y": 1140,
         "wires": [
             [
@@ -10191,7 +10251,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2120,
+        "x": 2620,
         "y": 1160,
         "wires": [
             [
@@ -10207,7 +10267,7 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2470,
+        "x": 2950,
         "y": 1160,
         "wires": [
             []
@@ -10240,7 +10300,7 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 2,
-        "x": 1850,
+        "x": 2350,
         "y": 1220,
         "wires": [
             [
@@ -10262,7 +10322,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2100,
+        "x": 2600,
         "y": 1260,
         "wires": [
             [
@@ -10278,7 +10338,7 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2450,
+        "x": 2950,
         "y": 1260,
         "wires": [
             []
@@ -10311,8 +10371,8 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 2,
-        "x": 1850,
-        "y": 1320,
+        "x": 2350,
+        "y": 1340,
         "wires": [
             [
                 "694498192c48fe2e"
@@ -10333,8 +10393,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2100,
-        "y": 1340,
+        "x": 2600,
+        "y": 1360,
         "wires": [
             [
                 "9c83c90aef3a5c39"
@@ -10349,8 +10409,8 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2450,
-        "y": 1340,
+        "x": 2950,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -10382,7 +10442,7 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 2,
-        "x": 1870,
+        "x": 2350,
         "y": 1580,
         "wires": [
             [
@@ -10404,7 +10464,7 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2140,
+        "x": 2620,
         "y": 1600,
         "wires": [
             [
@@ -10420,7 +10480,7 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2490,
+        "x": 2950,
         "y": 1600,
         "wires": [
             []
@@ -10453,8 +10513,8 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 2,
-        "x": 1870,
-        "y": 1660,
+        "x": 2350,
+        "y": 1740,
         "wires": [
             [
                 "2af11f1b5219d380"
@@ -10475,8 +10535,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2140,
-        "y": 1680,
+        "x": 2620,
+        "y": 1760,
         "wires": [
             [
                 "c2f72c7e407e1c04"
@@ -10491,8 +10551,8 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2490,
-        "y": 1680,
+        "x": 2950,
+        "y": 1760,
         "wires": [
             []
         ]
@@ -10524,8 +10584,8 @@
         "delaying": "unrelated",
         "msgControl": false,
         "outputs": 2,
-        "x": 1870,
-        "y": 1760,
+        "x": 2350,
+        "y": 1840,
         "wires": [
             [
                 "7b50cd644155c5fd"
@@ -10546,8 +10606,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 2140,
-        "y": 1780,
+        "x": 2600,
+        "y": 1860,
         "wires": [
             [
                 "c4da2433b5a13ebf"
@@ -10562,8 +10622,8 @@
         "sqlquery": "msg.topic",
         "sql": "",
         "name": "",
-        "x": 2490,
-        "y": 1780,
+        "x": 2950,
+        "y": 1860,
         "wires": [
             []
         ]
@@ -10930,6 +10990,394 @@
         "x": 1340,
         "y": 880,
         "wires": []
+    },
+    {
+        "id": "7540b688d1ccfbd8",
+        "type": "switch",
+        "z": "75985a5477ba24aa",
+        "name": "",
+        "property": "req.query.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Normal",
+                "vt": "str"
+            },
+            {
+                "t": "istype",
+                "v": "undefined",
+                "vt": "undefined"
+            },
+            {
+                "t": "eq",
+                "v": "Trimmed",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Reference",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 5,
+        "x": 1130,
+        "y": 1320,
+        "wires": [
+            [
+                "bf8d1775bedc9126"
+            ],
+            [
+                "bf8d1775bedc9126"
+            ],
+            [
+                "87bce6429de98178"
+            ],
+            [
+                "2d2b37ca7cbfdbc1"
+            ],
+            [
+                "76be2c591d65fa6f"
+            ]
+        ]
+    },
+    {
+        "id": "87bce6429de98178",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Creating Trimmed Shells",
+        "func": "let shell = msg.payload;\nlet trimmedShell = {};\ntrimmedShell.hasDataSpecification = shell.hasDataSpecification;\ntrimmedShell.derivedFrom = shell.derivedFrom;\ntrimmedShell.conceptDictionaries = shell.conceptDictionaries;\ntrimmedShell.identification = shell.identification;\ntrimmedShell.administration = shell.administration;\ntrimmedShell.idShort = shell.idShort;\ntrimmedShell.modelType = shell.modelType;\n\nmsg.payload = trimmedShell;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 1320,
+        "wires": [
+            [
+                "0cf42e9cc5365c9d"
+            ]
+        ]
+    },
+    {
+        "id": "2d2b37ca7cbfdbc1",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Creating Reference to Shells",
+        "func": "let shell = msg.payload;\nlet referenceShell = {};\nreferenceShell.idShort = shell.idShort;\n    \nmsg.payload = referenceShell;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 1360,
+        "wires": [
+            [
+                "0cf42e9cc5365c9d"
+            ]
+        ]
+    },
+    {
+        "id": "76be2c591d65fa6f",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Bad Request",
+        "func": "msg.statusCode = 400;\nmsg.payload = \"Bad Request\";\nmsg.headers = {};\nmsg.headers['content-type'] = 'text/plain';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1390,
+        "y": 1400,
+        "wires": [
+            [
+                "0cf42e9cc5365c9d"
+            ]
+        ]
+    },
+    {
+        "id": "d57f58bc77ffcb8b",
+        "type": "switch",
+        "z": "75985a5477ba24aa",
+        "name": "",
+        "property": "req.query.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Normal",
+                "vt": "str"
+            },
+            {
+                "t": "istype",
+                "v": "undefined",
+                "vt": "undefined"
+            },
+            {
+                "t": "eq",
+                "v": "Trimmed",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Reference",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Value",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 6,
+        "x": 1130,
+        "y": 1580,
+        "wires": [
+            [
+                "4f66f53de68a468a"
+            ],
+            [
+                "4f66f53de68a468a"
+            ],
+            [
+                "da901f7ac6c9bcfb"
+            ],
+            [
+                "56f89495c40f9077"
+            ],
+            [
+                "764d3739e6d35d5f"
+            ],
+            [
+                "406069fe371c496c"
+            ]
+        ]
+    },
+    {
+        "id": "da901f7ac6c9bcfb",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Creating Trimmed Submodels",
+        "func": "let submodels = msg.payload;\nlet trimmedSubmodels = [];\nfor(let index = 0; index < submodels.length; index++){\n    let submodel = submodels[index];\n    let trimmedSubmodel = {};\n    trimmedSubmodel.semanticId = submodel.semanticId;\n    trimmedSubmodel.qualifiers = submodel.qualifiers;\n    trimmedSubmodel.hasDataSpecification = submodel.hasDataSpecification;\n    trimmedSubmodel.identification = submodel.identification;\n    trimmedSubmodel.idShort = submodel.idShort;\n    trimmedSubmodel.modelType = submodel.modelType;\n    trimmedSubmodels.push(trimmedSubmodel);\n}\n\nmsg.payload = trimmedSubmodels;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1410,
+        "y": 1580,
+        "wires": [
+            [
+                "32e4c48636bc81e8"
+            ]
+        ]
+    },
+    {
+        "id": "56f89495c40f9077",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Creating Reference to Submodels",
+        "func": "let submodels = msg.payload;\nlet referenceSubmodels = [];\nfor(let index = 0; index < submodels.length; index++){\n    let submodel = submodels[index];\n    let referenceSubmodel = {};\n    referenceSubmodel.idShort = submodel.idShort;\n    referenceSubmodels.push(referenceSubmodel)\n}\n\nmsg.payload = referenceSubmodels;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 1620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "764d3739e6d35d5f",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Not yet Supported",
+        "func": "msg.payload = \"Not yet Supported\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 1660,
+        "wires": [
+            [
+                "32e4c48636bc81e8"
+            ]
+        ]
+    },
+    {
+        "id": "406069fe371c496c",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Bad Request",
+        "func": "msg.statusCode = 400;\nmsg.payload = \"Bad Request\";\nmsg.headers = {};\nmsg.headers['content-type'] = 'text/plain';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1450,
+        "y": 1700,
+        "wires": [
+            [
+                "32e4c48636bc81e8"
+            ]
+        ]
+    },
+    {
+        "id": "de98fa9db5e7edf4",
+        "type": "switch",
+        "z": "75985a5477ba24aa",
+        "name": "",
+        "property": "req.query.content",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "Normal",
+                "vt": "str"
+            },
+            {
+                "t": "istype",
+                "v": "undefined",
+                "vt": "undefined"
+            },
+            {
+                "t": "eq",
+                "v": "Trimmed",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Reference",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "Value",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 6,
+        "x": 1130,
+        "y": 1840,
+        "wires": [
+            [
+                "d2fa44933ad7f7bc"
+            ],
+            [
+                "d2fa44933ad7f7bc"
+            ],
+            [
+                "e28fcc33c52a273f"
+            ],
+            [
+                "eaf8e273f0c5a16d"
+            ],
+            [
+                "c1c22f4c94942222"
+            ],
+            [
+                "078534f3f21e5749"
+            ]
+        ]
+    },
+    {
+        "id": "e28fcc33c52a273f",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Creating Trimmed Submodel",
+        "func": "let submodel = msg.payload;\nlet trimmedSubmodel = {};\n\ntrimmedSubmodel.semanticId = submodel.semanticId;\ntrimmedSubmodel.qualifiers = submodel.qualifiers;\ntrimmedSubmodel.hasDataSpecification = submodel.hasDataSpecification;\ntrimmedSubmodel.identification = submodel.identification;\ntrimmedSubmodel.idShort = submodel.idShort;\ntrimmedSubmodel.modelType = submodel.modelType;\n\nmsg.payload = trimmedSubmodel;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 1840,
+        "wires": [
+            [
+                "273b7e8259322a05"
+            ]
+        ]
+    },
+    {
+        "id": "eaf8e273f0c5a16d",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Creating Reference to Submodel",
+        "func": "let submodel = msg.payload;\nlet referenceSubmodel = {};\nreferenceSubmodel.idShort = submodel.idShort;\n    \nmsg.payload = referenceSubmodel;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 1880,
+        "wires": [
+            [
+                "273b7e8259322a05"
+            ]
+        ]
+    },
+    {
+        "id": "c1c22f4c94942222",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Not yet Supported",
+        "func": "msg.payload = \"Not yet Supported\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 1920,
+        "wires": [
+            [
+                "273b7e8259322a05"
+            ]
+        ]
+    },
+    {
+        "id": "078534f3f21e5749",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "Bad Request",
+        "func": "msg.statusCode = 400;\nmsg.payload = \"Bad Request\";\nmsg.headers = {};\nmsg.headers['content-type'] = 'text/plain';\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 1960,
+        "wires": [
+            [
+                "273b7e8259322a05"
+            ]
+        ]
     },
     {
         "id": "96d9a0104dd7f277",
@@ -11394,7 +11842,7 @@
         "type": "unsafe-function",
         "z": "1f8fca6e95b1a2a9",
         "name": "Add Submodel",
-        "func": "var submodel = msg.payload;\nvar submodelId = msg.req.param.id;\nvar shellId = msg.req.params.aasid;\nif (msg.jsonataStatus == \"Success\") {\n\n    /*var keys = msg.jsonataResult;\n    var manifest = context.flow.get(\"manifest\");\n    var submodels = manifest.submodels;\n    for(var index1 in keys){\n        var key = keys[index1];\n        for(var index2 of submodels){\n            var submodel = submodels[index2];\n            if(submodel.identification.id === key.value){\n                if(submodel.idShort === submodelId){\n                    submodels[index2] = submodel;\n                    msg.statusCode = \"200\";\n                    context.flow.set(\"manifest\", manifest);\n                    return msg;\n                }\n            }\n        }\n    }*/\n    msg.statusCode = \"409\";\n    msg.payload = \"Error! submodel already exists!\";\n    return msg;\n} else {\n    msg.statusCode = \"201\";\n    var manifest = context.flow.get(\"manifest\");\n    manifest.submodels.push(msg.payload);\n    var shells = manifest.assetAdministrationShells;\n    for (var element = 0; element < shells.length; element++) {\n        if (shells[element].identification.id == shellId) {\n            var submodelRef = {};\n            // @ts-ignore\n            var keys = [];\n            var ref = {};\n            ref.type = \"Submodel\";\n            ref.local = true;\n            ref.value = submodel.identification.id;\n            ref.index = 0;\n            ref.idType = submodel.identification.idType;\n            keys.push(ref);\n            submodelRef.keys = keys;\n            shells[element].submodels.push(submodelRef);\n            context.flow.set(\"manifest\", manifest);\n        }\n    }\n}\n\nreturn msg;",
+        "func": "var submodel = msg.payload;\nvar shellId = msg.req.params.aasid;\nif (msg.jsonataStatus == \"Success\") {\n    msg.statusCode = \"409\";\n    msg.payload = \"Error! submodel already exists!\";\n    return msg;\n} else {\n    // Verify IdShort\n    let manifest = context.flow.get(\"manifest\");\n    let submodels = manifest.submodels;\n    for (let index1 = 0; index1 < submodels.length; index1++) {\n        var submodelElement = submodels[index1];\n        if (submodel.idShort == submodelElement.idShort) {\n            msg.statusCode = \"409\";\n            msg.payload = \"Error! submodel with idShort: \" + submodel.idShort + \" already exists!\";\n            return msg;\n        }\n    }\n    // Add Submodel after IdShort Verification\n    msg.statusCode = \"201\";\n    //var manifest = context.flow.get(\"manifest\");\n    manifest.submodels.push(msg.payload);\n    var shells = manifest.assetAdministrationShells;\n    for (var element = 0; element < shells.length; element++) {\n        if (shells[element].identification.id == shellId) {\n            var submodelRef = {};\n            // @ts-ignore\n            var keys = [];\n            var ref = {};\n            ref.type = \"Submodel\";\n            ref.local = true;\n            ref.value = submodel.identification.id;\n            ref.index = 0;\n            ref.idType = submodel.identification.idType;\n            keys.push(ref);\n            submodelRef.keys = keys;\n            shells[element].submodels.push(submodelRef);\n            context.flow.set(\"manifest\", manifest);\n        }\n    }\n}\n\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "x": 1130,
@@ -11687,7 +12135,7 @@
         "type": "unsafe-function",
         "z": "1f8fca6e95b1a2a9",
         "name": "BuildingJsonataQuery...",
-        "func": "var ShellId = msg.req.params.id;\nvar manifest = context.flow.get('manifest');\n\nvar shells = manifest.assetAdministrationShells;\nmsg.shellsJsonStr = JSON.stringify(shells);\nmsg.jsonata = \"$[identification.id='\" + ShellId +\"']\";\nreturn msg;\n",
+        "func": "var ShellId = msg.req.params.aasid;\nvar manifest = context.flow.get('manifest');\n\nvar shells = manifest.assetAdministrationShells;\nmsg.shellsJsonStr = JSON.stringify(shells);\nmsg.jsonata = \"$[identification.id='\" + ShellId +\"']\";\nreturn msg;\n",
         "outputs": 1,
         "noerr": 0,
         "x": 650,
