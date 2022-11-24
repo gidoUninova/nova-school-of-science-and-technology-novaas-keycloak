@@ -73,7 +73,7 @@
         "color": "#DDAA99"
     },
     {
-        "id": "3278ae17c903dee0",
+        "id": "b1c764f174c1fb3e",
         "type": "subflow",
         "name": "JSON_Paths",
         "info": "",
@@ -1919,7 +1919,7 @@
     {
         "id": "2b689b9ff58390f7",
         "type": "function",
-        "z": "3278ae17c903dee0",
+        "z": "b1c764f174c1fb3e",
         "name": "",
         "func": "var extract = function (point, keyIndex, keysArray) {\n    let element = \"\";\n    if(keyIndex < keysArray.length){\n        element = keysArray[keyIndex];\n        if (typeof point[element] !== 'object') {\n            let simpleValue = {};\n            simpleValue[element] = point[element];\n            return simpleValue\n        } else {\n            keyIndex = keyIndex + 1;\n            return extract(point[element], keyIndex, keysArray);\n            \n        }\n    }\n    return point;\n    \n}\n\nlet keys = env.get(\"PathTo\");\nlet keysArray = keys.split(\".\");\nlet point = msg.payload;\nmsg.payload.data = extract(point.data, 0, keysArray);\n\nreturn msg;",
         "outputs": 1,
