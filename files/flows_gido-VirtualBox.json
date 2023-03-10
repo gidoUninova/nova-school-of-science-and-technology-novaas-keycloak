@@ -700,9 +700,7 @@
             "324a3bc1307cdce1"
         ],
         "x": 194,
-        "y": 4242,
-        "w": 2272,
-        "h": 259
+        "y": 4242
     },
     {
         "id": "abdf379e4293a040",
@@ -726,9 +724,7 @@
             "482403047fcf00cd"
         ],
         "x": 194,
-        "y": 3539,
-        "w": 2962,
-        "h": 562
+        "y": 3539
     },
     {
         "id": "d628f78d05bad169",
@@ -1661,12 +1657,6 @@
         "willTopic": "",
         "willQos": "0",
         "willPayload": ""
-    },
-    {
-        "id": "0908267e4fcb25d5",
-        "type": "sqlitedb",
-        "db": "/app/.node-red/db/inNOVAASdb.db",
-        "mode": "RW"
     },
     {
         "id": "50760f2b4eafd99b",
@@ -10034,7 +10024,7 @@
         "name": "newLogin in",
         "links": [],
         "x": 815,
-        "y": 3440,
+        "y": 3300,
         "wires": [
             [
                 "da656586e4e26932",
@@ -10050,7 +10040,7 @@
         "mode": "return",
         "links": [],
         "x": 2785,
-        "y": 3440,
+        "y": 3300,
         "wires": []
     },
     {
@@ -10065,7 +10055,7 @@
         "finalize": "",
         "libs": [],
         "x": 1460,
-        "y": 3440,
+        "y": 3300,
         "wires": [
             [
                 "03087db4fabfcc8a",
@@ -10082,7 +10072,7 @@
         "sql": "",
         "name": "",
         "x": 1810,
-        "y": 3440,
+        "y": 3300,
         "wires": [
             [
                 "f173ca082217def1"
@@ -10103,7 +10093,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1690,
-        "y": 3380,
+        "y": 3240,
         "wires": []
     },
     {
@@ -10120,7 +10110,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1329.7222900390625,
-        "y": 3388.0556640625,
+        "y": 3248.0556640625,
         "wires": []
     },
     {
@@ -11646,6 +11636,236 @@
                 "8371ecdd85eac3f8"
             ]
         ]
+    },
+    {
+        "id": "15e77fdb6f5ba133",
+        "type": "inject",
+        "z": "75985a5477ba24aa",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 830,
+        "y": 3440,
+        "wires": [
+            [
+                "f823dc7f6b29ac78"
+            ]
+        ]
+    },
+    {
+        "id": "f823dc7f6b29ac78",
+        "type": "exec",
+        "z": "75985a5477ba24aa",
+        "command": "tail -f ./logfile.txt",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "true",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 1260,
+        "y": 3440,
+        "wires": [
+            [
+                "6fc59e78e64564b0",
+                "6d5e23d932baeb73"
+            ],
+            [
+                "9d65de1d1f516130"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "9d65de1d1f516130",
+        "type": "debug",
+        "z": "75985a5477ba24aa",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1580,
+        "y": 3460,
+        "wires": []
+    },
+    {
+        "id": "6fc59e78e64564b0",
+        "type": "debug",
+        "z": "75985a5477ba24aa",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 3400,
+        "wires": []
+    },
+    {
+        "id": "d3f01c41c9a534a7",
+        "type": "debug",
+        "z": "75985a5477ba24aa",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2320,
+        "y": 3380,
+        "wires": []
+    },
+    {
+        "id": "6d5e23d932baeb73",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "get Events",
+        "func": "var outputMsgs = [];\nlet events = msg.payload.trim().split(\"\\n\");\nfor (var e in events) {\n    outputMsgs.push({ payload: events[e] });\n}\nreturn [outputMsgs];",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 3420,
+        "wires": [
+            [
+                "066181d359f943c7"
+            ]
+        ]
+    },
+    {
+        "id": "066181d359f943c7",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "get comms.auth",
+        "func": "let event = msg.payload;\nif(event.includes(\"comms.auth\")){\n    return msg;\n} else return null;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1760,
+        "y": 3420,
+        "wires": [
+            [
+                "0968f3f08288f133"
+            ]
+        ]
+    },
+    {
+        "id": "0968f3f08288f133",
+        "type": "json",
+        "z": "75985a5477ba24aa",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1930,
+        "y": 3420,
+        "wires": [
+            [
+                "afe5646656054e6b"
+            ]
+        ]
+    },
+    {
+        "id": "afe5646656054e6b",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "process Log",
+        "func": "let lastAuditLog = context.flow.get(\"lastAuditLog\");\nif(typeof lastAuditLog == \"undefined\"){\n    context.flow.set(\"lastAuditLog\", msg.payload);\n    return msg;\n} else {\n    if(lastAuditLog.event.timestamp != msg.payload.event.timestamp){\n        context.flow.set(\"lastAuditLog\", msg.payload);\n        return msg;\n    } else return null;\n}\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2090,
+        "y": 3420,
+        "wires": [
+            [
+                "d3f01c41c9a534a7",
+                "2fd0332425941bca"
+            ]
+        ]
+    },
+    {
+        "id": "2fd0332425941bca",
+        "type": "function",
+        "z": "75985a5477ba24aa",
+        "name": "prepare INSERT Statement",
+        "func": "// Process msg payload\n\nlet logEvent = {};\nlogEvent.source = context.global.get('AASIdentifier');\nlogEvent.timestamp = msg.payload.event.timestamp;\nlogEvent.payload = msg.payload.event.user.username;\n\nmsg.topic = \"INSERT INTO accountLogs (accessAt, username) VALUES ($accessAt, $username)\";\nmsg.payload = [logEvent.timestamp, logEvent.payload];\n\nreturn msg;\n",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2340,
+        "y": 3420,
+        "wires": [
+            [
+                "408467fa2308a4f0",
+                "bb0a33346d86364c"
+            ]
+        ]
+    },
+    {
+        "id": "408467fa2308a4f0",
+        "type": "sqlite",
+        "z": "75985a5477ba24aa",
+        "mydb": "50760f2b4eafd99b",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 2650,
+        "y": 3420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb0a33346d86364c",
+        "type": "debug",
+        "z": "75985a5477ba24aa",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2560,
+        "y": 3380,
+        "wires": []
     },
     {
         "id": "96d9a0104dd7f277",
@@ -18940,7 +19160,7 @@
         "type": "sqlite",
         "z": "0230170315d4730f",
         "g": "d628f78d05bad169",
-        "mydb": "0908267e4fcb25d5",
+        "mydb": "50760f2b4eafd99b",
         "sqlquery": "fixed",
         "sql": "select * FROM accountLogs",
         "name": "",
@@ -18972,7 +19192,7 @@
         "type": "sqlite",
         "z": "0230170315d4730f",
         "g": "d628f78d05bad169",
-        "mydb": "0908267e4fcb25d5",
+        "mydb": "50760f2b4eafd99b",
         "sqlquery": "fixed",
         "sql": "delete FROM accountLogs",
         "name": "",
@@ -18987,7 +19207,7 @@
         "type": "sqlite",
         "z": "0230170315d4730f",
         "g": "d628f78d05bad169",
-        "mydb": "0908267e4fcb25d5",
+        "mydb": "50760f2b4eafd99b",
         "sqlquery": "fixed",
         "sql": "delete FROM aasLogs",
         "name": "",
