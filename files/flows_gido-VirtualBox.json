@@ -51,7 +51,7 @@
     {
         "id": "1543d308b342690a",
         "type": "tab",
-        "label": "FlexDash empty flow",
+        "label": "FlexDash stats",
         "disabled": false,
         "info": "",
         "env": []
@@ -383,26 +383,16 @@
             "a3867140af6afc02",
             "1971fadea59f0442",
             "e501b3750d4e2f42",
-            "b79d50cf2c6228a7",
-            "3ae9939893c199d8",
-            "a103cf452912c5fb",
             "c2a7a61d08f8866d",
-            "57bbabc1b0611adf",
             "87a8e64a3b9dc58d",
-            "47aad47decd2aa0b",
-            "3cf0c4551aae3c23",
-            "8814fbd025713ba9",
-            "da875153be997615",
-            "eda7af0da4a932d8",
-            "1ad6f9307625de6d",
-            "063a77116d3802ea",
             "6bac237bbe74ce9a",
-            "b371980e536eb0d9"
+            "b371980e536eb0d9",
+            "80c663f39db9cfe8"
         ],
         "x": 2504,
         "y": 2759,
-        "w": 1642,
-        "h": 477
+        "w": 1502,
+        "h": 322
     },
     {
         "id": "8b7195dfeff10c3b",
@@ -564,15 +554,6 @@
             "d2afd4df8de4249a",
             "1e248f73cf21d587",
             "adfd2bae1a683ff9",
-            "0c8818c588788156",
-            "7fabd8961af21415",
-            "b71b0abe0c84fe22",
-            "c43af6195c04dd63",
-            "6a5847ade8f38435",
-            "cbfe4edbe6e338b5",
-            "1ffe490c1a96b685",
-            "65018e33592ea9a2",
-            "cdfe419ae4f2daf5",
             "16a56ea8e636930d",
             "daf407e065429a74",
             "376dc86131e0cb65",
@@ -581,7 +562,6 @@
             "a07f5e53390d9519",
             "5b6c3d0d2747e38b",
             "25b6bff18045b93f",
-            "831fbce5bb893554",
             "3af25fa94b644a9b",
             "b57a07f4b7ac6f89",
             "e4ed5870d7cd16d1",
@@ -603,7 +583,7 @@
         "x": 214,
         "y": 99,
         "w": 3452,
-        "h": 922
+        "h": 762
     },
     {
         "id": "0fac75980c58fbdb",
@@ -837,6 +817,76 @@
         "h": 202
     },
     {
+        "id": "6aa9beecbf5f8d23",
+        "type": "group",
+        "z": "128ab3134a54f6b4",
+        "name": "Set-up",
+        "style": {
+            "fill": "#e3f3d3",
+            "fill-opacity": "0.4",
+            "label": true
+        },
+        "nodes": [
+            "5c3897124d1d95c0",
+            "41d553602c61b3d5",
+            "4be0576d4487e1ca",
+            "1103084ec6579d65",
+            "d57f305ac53e4d3f",
+            "f8b354e5d9771dda",
+            "41d1269376597f69"
+        ],
+        "x": 134,
+        "y": 59,
+        "w": 1232,
+        "h": 182
+    },
+    {
+        "id": "b3fca1f0.1e5ef8",
+        "type": "group",
+        "z": "128ab3134a54f6b4",
+        "name": "Simulator",
+        "style": {
+            "fill": "#ffffbf",
+            "label": true
+        },
+        "nodes": [
+            "50caec1c.6ad584",
+            "a526eb90.5eb89",
+            "468a613a.658ae8",
+            "66121d53.f7a264",
+            "be9595d8.2df6a8",
+            "2dd76a11.baee1e",
+            "98dd4417.bb6a8",
+            "5543cf66.c72ba8",
+            "aa852a4a.3a9728",
+            "3f2701d6.f73216",
+            "f23c2e8f.c112f",
+            "9d3857b4.a3a72",
+            "a2d0442e.c3b158",
+            "67e92151.ed84b8",
+            "deaca8d7.b5846",
+            "4f700a47.b1503c",
+            "e3a6732e.ca9c5",
+            "b84f2e00.9385c8",
+            "6d18c370.e424fc",
+            "b6935d1d.70c508",
+            "9233e59a.9662b",
+            "6b5bce5c.8f7818",
+            "151fde71.ad247a",
+            "ce77388f.a7693",
+            "5fe0925e.2b993c",
+            "48dd5be3.c049ac",
+            "18abfa8d.7a70a5",
+            "cc4c0f0b.0473a8",
+            "fbec0d31.b2b898",
+            "95c62ca4.9097f8"
+        ],
+        "x": 14,
+        "y": 2299,
+        "w": 2872,
+        "h": 516
+    },
+    {
         "id": "1f0558daa8aaf256",
         "type": "group",
         "z": "eed7db33cbb15160",
@@ -983,76 +1033,6 @@
         "y": 3239,
         "w": 2212,
         "h": 602
-    },
-    {
-        "id": "6aa9beecbf5f8d23",
-        "type": "group",
-        "z": "128ab3134a54f6b4",
-        "name": "Set-up",
-        "style": {
-            "fill": "#e3f3d3",
-            "fill-opacity": "0.4",
-            "label": true
-        },
-        "nodes": [
-            "5c3897124d1d95c0",
-            "41d553602c61b3d5",
-            "4be0576d4487e1ca",
-            "1103084ec6579d65",
-            "d57f305ac53e4d3f",
-            "f8b354e5d9771dda",
-            "41d1269376597f69"
-        ],
-        "x": 134,
-        "y": 59,
-        "w": 1232,
-        "h": 182
-    },
-    {
-        "id": "b3fca1f0.1e5ef8",
-        "type": "group",
-        "z": "128ab3134a54f6b4",
-        "name": "Simulator",
-        "style": {
-            "fill": "#ffffbf",
-            "label": true
-        },
-        "nodes": [
-            "50caec1c.6ad584",
-            "a526eb90.5eb89",
-            "468a613a.658ae8",
-            "66121d53.f7a264",
-            "be9595d8.2df6a8",
-            "2dd76a11.baee1e",
-            "98dd4417.bb6a8",
-            "5543cf66.c72ba8",
-            "aa852a4a.3a9728",
-            "3f2701d6.f73216",
-            "f23c2e8f.c112f",
-            "9d3857b4.a3a72",
-            "a2d0442e.c3b158",
-            "67e92151.ed84b8",
-            "deaca8d7.b5846",
-            "4f700a47.b1503c",
-            "e3a6732e.ca9c5",
-            "b84f2e00.9385c8",
-            "6d18c370.e424fc",
-            "b6935d1d.70c508",
-            "9233e59a.9662b",
-            "6b5bce5c.8f7818",
-            "151fde71.ad247a",
-            "ce77388f.a7693",
-            "5fe0925e.2b993c",
-            "48dd5be3.c049ac",
-            "18abfa8d.7a70a5",
-            "cc4c0f0b.0473a8",
-            "fbec0d31.b2b898",
-            "95c62ca4.9097f8"
-        ],
-        "x": 14,
-        "y": 2299,
-        "w": 2872,
-        "h": 516
     },
     {
         "id": "054e56708ace311f",
@@ -1329,16 +1309,6 @@
         "hidden": false
     },
     {
-        "id": "76f4488e.b66968",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "7511afda.577af",
-        "order": 4,
-        "disp": true,
-        "width": "5",
-        "collapse": false
-    },
-    {
         "id": "cb7ccff3.2c214",
         "type": "ui_tab",
         "name": "Logs",
@@ -1489,16 +1459,6 @@
         "hidden": false
     },
     {
-        "id": "d8770726.1a10d",
-        "type": "ui_group",
-        "name": "Routed Message Stats",
-        "tab": "777bc51a.c31cac",
-        "order": 3,
-        "disp": true,
-        "width": "15",
-        "collapse": false
-    },
-    {
         "id": "a1ac21b4.e86f9",
         "type": "ui_tab",
         "name": "Dash",
@@ -1537,87 +1497,6 @@
         "width": "34",
         "collapse": false,
         "className": ""
-    },
-    {
-        "id": "952e8c04.ed2bb8",
-        "type": "ui_group",
-        "name": "Retrieved Messages",
-        "tab": "777bc51a.c31cac",
-        "order": 2,
-        "disp": true,
-        "width": "15",
-        "collapse": false
-    },
-    {
-        "id": "b6f3261d.3a0a2",
-        "type": "ui_group",
-        "name": "Commands",
-        "tab": "777bc51a.c31cac",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": true
-    },
-    {
-        "id": "f9f1bdc8.0e017",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "e61c2c82.e7e9f",
-        "order": 4,
-        "disp": true,
-        "width": "5",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "4534a6d5.677c78",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "31cac02.f941f4",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
-    },
-    {
-        "id": "4944a8dc.cb1658",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "d1259efc.6308f8",
-        "order": 3,
-        "disp": true,
-        "width": "5",
-        "collapse": false
-    },
-    {
-        "id": "a9cc6929.51b4",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "cb7ccff3.2c214",
-        "order": 4,
-        "disp": true,
-        "width": "5",
-        "collapse": false
-    },
-    {
-        "id": "1e8a2f3d.54af89",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "777bc51a.c31cac",
-        "order": 4,
-        "disp": true,
-        "width": "5",
-        "collapse": false
-    },
-    {
-        "id": "c8188165.80a358",
-        "type": "ui_group",
-        "name": "Health",
-        "tab": "a1ac21b4.e86f9",
-        "order": 2,
-        "disp": true,
-        "width": "6",
-        "collapse": false
     },
     {
         "id": "7dcd4079.256cf",
@@ -1877,27 +1756,88 @@
         "useCredentials": false
     },
     {
-        "id": "69c2e3f5798c3475",
+        "id": "0b0e3dd0fa6e9ae6",
+        "type": "flexdash dashboard",
+        "port": 80,
+        "ioOpts": "{}",
+        "path": "/flexdash",
+        "redServer": true,
+        "saveConfig": true,
+        "allOrigins": false,
+        "name": "FlexDash",
+        "fd_children": ",ace5f0e8a8666233"
+    },
+    {
+        "id": "ef647bf71bb867a7",
         "type": "flexdash container",
-        "name": "Demo grid",
-        "title": "",
+        "name": "Overall Status",
+        "title": "Overall Status",
         "kind": "StdGrid",
-        "fd_children": ",97e34cb72c2f36bd",
-        "tab": "fef6c0f6d48841d6",
+        "fd_children": ",97e34cb72c2f36bd,b7b1a215ed15c556,903334f637326ef0",
+        "tab": "ace5f0e8a8666233",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "268989bc4b3b4aed",
+        "type": "flexdash container",
+        "name": "Southbound Stats",
+        "title": "Southbound Stats",
+        "kind": "StdGrid",
+        "fd_children": ",5c30c48e1a2467ea,f510d056f722a72f",
+        "tab": "ace5f0e8a8666233",
         "min_cols": "1",
-        "max_cols": "6",
+        "max_cols": "20",
         "parent": "",
         "solid": false,
         "cols": "1",
         "rows": "1"
     },
     {
-        "id": "fef6c0f6d48841d6",
+        "id": "8d5a1fac7723db1f",
+        "type": "flexdash container",
+        "name": "Northbound Stats",
+        "title": "Northbound Stats",
+        "kind": "StdGrid",
+        "fd_children": ",cdadfa37404a50cd,34d16fd5e694be53,52e1531e0d56bb1a",
+        "tab": "ace5f0e8a8666233",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "3ecc3bf90d60cd53",
+        "type": "flexdash container",
+        "name": "Active Subscriptions",
+        "title": "Active Subscriptions",
+        "kind": "StdGrid",
+        "fd_children": ",43c94c0e40120042",
+        "tab": "ace5f0e8a8666233",
+        "min_cols": 1,
+        "max_cols": 20,
+        "unicast": "ignore",
+        "parent": "",
+        "solid": false,
+        "cols": 1,
+        "rows": 1
+    },
+    {
+        "id": "ace5f0e8a8666233",
         "type": "flexdash tab",
-        "name": "Demo",
-        "icon": "mdi-view-dashboard",
-        "fd_children": ",69c2e3f5798c3475",
-        "fd": "e8f5aea52ab49500"
+        "name": "stats",
+        "icon": "mdi-list-status",
+        "title": "",
+        "fd_children": ",ef647bf71bb867a7,268989bc4b3b4aed,8d5a1fac7723db1f,3ecc3bf90d60cd53",
+        "fd": "0b0e3dd0fa6e9ae6"
     },
     {
         "id": "d56e5f93.f422c",
@@ -13878,7 +13818,7 @@
         "type": "unsafe-function",
         "z": "1f8fca6e95b1a2a9",
         "name": "UpdatingSubmodelElement...",
-        "func": "let submodelElement = \"\";\nlet submodelElementId = msg.req.params.id;\nlet submodelId = msg.req.params.submodelId;\nlet persist = \"false\";\nif (msg.req.query.content == \"value\") {\n\n    msg.payload.value = msg.submodelElement[msg.submodelElementId];\n    submodelElement = msg.payload;\n\n} else {\n    submodelElement = msg.submodelElement;\n    persist = \"true\";\n}\n\n\nlet updateSubmodelElementValues = function (submodelElements, indexIdPath, collectionIds, value) {\n\n    if (indexIdPath < collectionIds.length) {\n\n        let idPath = collectionIds[indexIdPath];\n\n        for (let submodelElement = 0; submodelElement < submodelElements.length; submodelElement++) {\n\n            let submodelElementIdentifier = submodelElements[submodelElement].idShort;\n\n            let modelType = submodelElements[submodelElement].modelType.name;\n\n            if (submodelElementIdentifier === idPath && modelType === \"SubmodelElementCollection\" && indexIdPath < (collectionIds.length - 1)) {\n\n                indexIdPath = indexIdPath + 1;\n\n                return updateSubmodelElementValues(submodelElements[submodelElement].value, indexIdPath, collectionIds, value);\n\n            } else if (submodelElementIdentifier === idPath && modelType === \"SubmodelElementCollection\" && indexIdPath === (collectionIds.length - 1)) {\n\n                let values = JSON.parse(value);\n\n                let keys = Object.keys(values);\n\n                for (let keyIndex = 0; keyIndex < keys.length; keyIndex++) {\n\n                    let selectedValue = 0;\n\n                    selectedValue = values[keys[keyIndex]];\n                    //msg.debug15 = selectedValue;\n                    if (typeof selectedValue != 'object') {\n                        for (let valuesIndex = 0; valuesIndex < submodelElements[submodelElement].value.length; valuesIndex++) {\n                            if (submodelElements[submodelElement].value[valuesIndex].idShort == keys[keyIndex]) {\n                                submodelElements[submodelElement].value[valuesIndex].value = selectedValue;\n                                break;\n                            }\n                        }\n                    }\n\n\n                }\n\n                return true;\n\n            }\n            else if (submodelElementIdentifier === idPath && modelType === \"Property\") {\n                //msg.debug11 = \"Entrei \" + submodelElements[submodelElement].idShort + \" and \" + idPath + \" \" + value;\n\n                submodelElements[submodelElement].value = value;\n                return true;\n\n            }\n\n        }\n\n    } else {\n\n        return false;\n\n    }\n\n}\n\nvar submodelCollectionId = [];\n\nlet manifest = context.flow.get(\"manifest\");\nif (msg.jsonataStatus == \"Success\") {\n\n    let submodelRoot = msg.jsonataResult[0];\n\n    let pathsToSubmodelElements = msg.pathsToUpdate;\n\n    let submodelRootIdentifier = submodelRoot.identification.id;\n\n    let manifestSubmodels = manifest.submodels;\n\n    let manifestSubmodelElements = {};\n\n    let stratingJsonDecomposition = msg.submodelElementId.split(\".\");\n\n    for (let manifestSubmodel = 0; manifestSubmodel < manifestSubmodels.length; manifestSubmodel++) {\n\n        let manifestSubmodelIdentifier = manifestSubmodels[manifestSubmodel].identification.id;\n\n        if (submodelRootIdentifier === manifestSubmodelIdentifier) {\n\n            manifestSubmodelElements = manifestSubmodels[manifestSubmodel].submodelElements;\n\n        }\n\n    }\n\n    for (let pathIndex = 0; pathIndex < pathsToSubmodelElements.length; pathIndex++) {\n\n        let collectionIds = pathsToSubmodelElements[pathIndex].split(\".\");\n        msg.collectionIds = collectionIds;\n        let value = msg.submodelElement[msg.submodelElementId];\n        //msg.getValue1 = value;\n        let jsonObjectValue = {};\n\n        let processedValue = {};\n\n        if (collectionIds.length > 1) {\n            jsonObjectValue = JSON.parse(value);\n            let decomposeJsonObj = jsonObjectValue;\n            for (let index = stratingJsonDecomposition.length; index < collectionIds.length; index++) {\n                decomposeJsonObj = decomposeJsonObj[collectionIds[index]];\n            }\n            if (typeof decomposeJsonObj === \"string\") {\n                processedValue = JSON.stringify(decomposeJsonObj.replace(/^\"|\"$/g, ''));\n            } else {\n                processedValue = decomposeJsonObj;\n            }\n\n            //msg.stringified = decomposeJsonObj;\n\n        } else {\n            if (typeof value == \"object\") {\n                jsonObjectValue = JSON.parse(value);\n            } else {\n                processedValue = value;\n            }\n\n        }\n        ///msg.getValue2 = processedValue;\n        //msg.getValue3 = value;\n        updateSubmodelElementValues(manifestSubmodelElements, 0, collectionIds, processedValue);\n\n    }\n    context.flow.set(\"manifest\", manifest);\n\n    if (persist == \"true\") {\n\n        return [msg, null];\n\n    } else {\n\n        return [null, msg];\n    }\n\n} else {\n    msg.statusCode = \"404\";\n    msg.payload = \"Submodel with id:\" + submodelId + \" not found\";\n    return [null, msg];\n}",
+        "func": "let submodelElement = \"\";\nlet submodelElementId = msg.req.params.id;\nlet submodelId = msg.req.params.submodelId;\nlet persist = \"false\";\nif (msg.req.query.content == \"value\") {\n\n    msg.payload.value = msg.submodelElement[msg.submodelElementId];\n    submodelElement = msg.payload;\n\n} else {\n    submodelElement = msg.submodelElement;\n    persist = \"true\";\n}\n\n\nlet updateSubmodelElementValues = function (submodelElements, indexIdPath, collectionIds, value) {\n\n    if (indexIdPath < collectionIds.length) {\n\n        let idPath = collectionIds[indexIdPath];\n\n        for (let submodelElement = 0; submodelElement < submodelElements.length; submodelElement++) {\n\n            let submodelElementIdentifier = submodelElements[submodelElement].idShort;\n\n            let modelType = submodelElements[submodelElement].modelType.name;\n\n            if (submodelElementIdentifier === idPath && modelType === \"SubmodelElementCollection\" && indexIdPath < (collectionIds.length - 1)) {\n\n                indexIdPath = indexIdPath + 1;\n\n                return updateSubmodelElementValues(submodelElements[submodelElement].value, indexIdPath, collectionIds, value);\n\n            } else if (submodelElementIdentifier === idPath && modelType === \"SubmodelElementCollection\" && indexIdPath === (collectionIds.length - 1)) {\n\n                let values = value;\n\n                let keys = Object.keys(values);\n\n                for (let keyIndex = 0; keyIndex < keys.length; keyIndex++) {\n\n                    let selectedValue = 0;\n\n                    selectedValue = values[keys[keyIndex]];\n                    //msg.debug15 = selectedValue;\n                    //return msg;\n                    if (typeof selectedValue != 'object') {\n                        for (let valuesIndex = 0; valuesIndex < submodelElements[submodelElement].value.length; valuesIndex++) {\n                            if (submodelElements[submodelElement].value[valuesIndex].idShort == keys[keyIndex]) {\n                                submodelElements[submodelElement].value[valuesIndex].value = selectedValue;\n                                break;\n                            }\n                        }\n                    }\n\n\n                }\n\n                return true;\n\n            }\n            else if (submodelElementIdentifier === idPath && modelType === \"Property\") {\n                //msg.debug11 = \"Entrei \" + submodelElements[submodelElement].idShort + \" and \" + idPath + \" \" + value;\n\n                submodelElements[submodelElement].value = value;\n                return true;\n\n            }\n\n        }\n\n    } else {\n\n        return false;\n\n    }\n\n}\n\nvar submodelCollectionId = [];\n\nlet manifest = context.flow.get(\"manifest\");\nif (msg.jsonataStatus == \"Success\") {\n\n    let submodelRoot = msg.jsonataResult[0];\n\n    let pathsToSubmodelElements = msg.pathsToUpdate;\n\n    let submodelRootIdentifier = submodelRoot.identification.id;\n\n    let manifestSubmodels = manifest.submodels;\n\n    let manifestSubmodelElements = {};\n\n    let stratingJsonDecomposition = msg.submodelElementId.split(\".\");\n\n    for (let manifestSubmodel = 0; manifestSubmodel < manifestSubmodels.length; manifestSubmodel++) {\n\n        let manifestSubmodelIdentifier = manifestSubmodels[manifestSubmodel].identification.id;\n\n        if (submodelRootIdentifier === manifestSubmodelIdentifier) {\n\n            manifestSubmodelElements = manifestSubmodels[manifestSubmodel].submodelElements;\n\n        }\n\n    }\n\n    for (let pathIndex = 0; pathIndex < pathsToSubmodelElements.length; pathIndex++) {\n\n        let collectionIds = pathsToSubmodelElements[pathIndex].split(\".\");\n        msg.collectionIds = collectionIds;\n        let value = msg.submodelElement[msg.submodelElementId];\n        //msg.getValue1 = value;\n        let jsonObjectValue = {};\n\n        let processedValue = {};\n\n        if (collectionIds.length > 1) {\n            jsonObjectValue = JSON.parse(value);\n            let decomposeJsonObj = jsonObjectValue;\n            for (let index = stratingJsonDecomposition.length; index < collectionIds.length; index++) {\n                decomposeJsonObj = decomposeJsonObj[collectionIds[index]];\n            }\n            if (typeof decomposeJsonObj === \"string\") {\n                processedValue = JSON.stringify(decomposeJsonObj.replace(/^\"|\"$/g, ''));\n            } else {\n                processedValue = decomposeJsonObj;\n            }\n\n            //msg.stringified = decomposeJsonObj;\n\n        } else {\n            if (typeof value == \"object\") {\n                jsonObjectValue = JSON.parse(value);\n            } else {\n                processedValue = value;\n            }\n\n        }\n        ///msg.getValue2 = processedValue;\n        //msg.getValue3 = value;\n        updateSubmodelElementValues(manifestSubmodelElements, 0, collectionIds, processedValue);\n\n    }\n    context.flow.set(\"manifest\", manifest);\n\n    if (persist == \"true\") {\n\n        return [msg, null];\n\n    } else {\n\n        return [null, msg];\n    }\n\n} else {\n    msg.statusCode = \"404\";\n    msg.payload = \"Submodel with id:\" + submodelId + \" not found\";\n    return [null, msg];\n}",
         "outputs": 2,
         "noerr": 0,
         "x": 2090,
@@ -16051,105 +15991,9 @@
         "y": 3040,
         "wires": [
             [
-                "da875153be997615",
                 "62b8b84973fbeca9"
             ]
         ]
-    },
-    {
-        "id": "b79d50cf2c6228a7",
-        "type": "unsafe-function",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "checkStats",
-        "func": "var statsNBI = context.global.get(\"statsNBI\") || 0;\nvar statsSBI = context.global.get(\"statsSBI\") || 0;\nvar msg1 = {};\nvar msg2 = {};\nvar msg3 = {};\n\nif(statsNBI === 0){\n    msg1 = {topic:\"Msg per minute\", payload:0, ui_control:{min:0,max:statsSBI.maxMsgs}};\n    msg2 = {topic:\"Msg per minute\", payload:0};\n} else {\n    msg1 = {topic:\"Msg per \" + statsNBI.IntervalAndFrequency, payload:statsNBI.msgSpeed, ui_control:{min:0,max:statsSBI.maxMsgs}};\n    msg2 = {topic:\"Msg per \" + statsNBI.msgSizeIntervalAndFrequency, payload:statsNBI.msgSize};\n}\n\nif(statsSBI === 0){\n    msg3 = {topic:\"Msg per minute\", payload:0};\n} else {\n    msg3 = {topic:\"Msg per \" + statsSBI.IntervalAndFrequency, payload:statsSBI.msgSpeed, ui_control:{min:0,max:statsSBI.maxMsgs}};\n}\n\nreturn [msg1, msg2, msg3];",
-        "outputs": 3,
-        "noerr": 0,
-        "x": 3210,
-        "y": 3040,
-        "wires": [
-            [
-                "3ae9939893c199d8",
-                "a103cf452912c5fb"
-            ],
-            [
-                "063a77116d3802ea"
-            ],
-            [
-                "8814fbd025713ba9",
-                "3cf0c4551aae3c23"
-            ]
-        ]
-    },
-    {
-        "id": "3ae9939893c199d8",
-        "type": "ui_chart",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "group": "d8770726.1a10d",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "Nr of Msg over time chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "",
-        "removeOlder": "5",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 4010,
-        "y": 3040,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a103cf452912c5fb",
-        "type": "ui_gauge",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "group": "d8770726.1a10d",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "{{topic}}",
-        "label": "nr of msgs",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "2000",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 3940,
-        "y": 3080,
-        "wires": []
     },
     {
         "id": "c2a7a61d08f8866d",
@@ -16170,67 +16014,21 @@
         "wires": []
     },
     {
-        "id": "57bbabc1b0611adf",
-        "type": "ui_gauge",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "group": "d8770726.1a10d",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "Current Nr of Active Subscriptions",
-        "label": "nr of subscriptions",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "30",
-        "colors": [
-            "#00b500",
-            "#e6e600",
-            "#ca3838"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 3970,
-        "y": 2880,
-        "wires": []
-    },
-    {
         "id": "87a8e64a3b9dc58d",
         "type": "unsafe-function",
         "z": "0230170315d4730f",
         "g": "606b287e669294f4",
         "name": "connectionsNr",
-        "func": "var outMsg = {};\noutMsg.payload = msg.payload.length;\nreturn outMsg;",
+        "func": "var outMsg = {};\noutMsg.payload = {};\noutMsg.payload.data = msg.payload.length;\noutMsg.payload.link = \"activeSubscriptions\";\nreturn outMsg;",
         "outputs": 1,
         "noerr": 0,
         "x": 3670,
         "y": 2880,
         "wires": [
             [
-                "57bbabc1b0611adf",
-                "47aad47decd2aa0b"
+                "80c663f39db9cfe8"
             ]
         ]
-    },
-    {
-        "id": "47aad47decd2aa0b",
-        "type": "debug",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 3850,
-        "y": 2920,
-        "wires": []
     },
     {
         "id": "d18fbdced84929cc",
@@ -16260,163 +16058,6 @@
         "y": 3180,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "3cf0c4551aae3c23",
-        "type": "ui_gauge",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "group": "952e8c04.ed2bb8",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "gtype": "gage",
-        "title": "{{topic}}",
-        "label": "nr of msgs",
-        "format": "{{value}}",
-        "min": 0,
-        "max": "2000",
-        "colors": [
-            "#00b500",
-            "#00b500",
-            "#00b500"
-        ],
-        "seg1": "",
-        "seg2": "",
-        "x": 3940,
-        "y": 3158,
-        "wires": []
-    },
-    {
-        "id": "8814fbd025713ba9",
-        "type": "ui_chart",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "group": "952e8c04.ed2bb8",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "Nr of Msg over time chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "",
-        "removeOlder": "5",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 4000,
-        "y": 3195,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "da875153be997615",
-        "type": "ui_switch",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "Enable",
-        "label": "Show Stats",
-        "tooltip": "",
-        "group": "b6f3261d.3a0a2",
-        "order": 2,
-        "width": "2",
-        "height": "17",
-        "passthru": true,
-        "decouple": "false",
-        "topic": "",
-        "style": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 2770,
-        "y": 3040,
-        "wires": [
-            [
-                "eda7af0da4a932d8"
-            ]
-        ]
-    },
-    {
-        "id": "eda7af0da4a932d8",
-        "type": "switch",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "property": "payload",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "true"
-            },
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 2,
-        "x": 2970,
-        "y": 3040,
-        "wires": [
-            [
-                "b79d50cf2c6228a7"
-            ],
-            [
-                "1ad6f9307625de6d"
-            ]
-        ]
-    },
-    {
-        "id": "1ad6f9307625de6d",
-        "type": "unsafe-function",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "checkStats",
-        "func": "var statsSBI = context.global.get(\"statsSBI\");\nvar msg1 = {topic:\"Msg per minute\", payload:0, ui_control:{min:0,max:statsSBI.maxMsgs}};\nvar msg2 = {topic:\"Msg Size per minute\", payload:0};\nvar msg3 = {topic:\"Msg per minute\", payload:0};\n\nreturn [msg1, msg2, msg3];",
-        "outputs": 3,
-        "noerr": 0,
-        "x": 3210,
-        "y": 3100,
-        "wires": [
-            [
-                "3ae9939893c199d8",
-                "a103cf452912c5fb"
-            ],
-            [
-                "063a77116d3802ea"
-            ],
-            [
-                "3cf0c4551aae3c23",
-                "8814fbd025713ba9"
-            ]
         ]
     },
     {
@@ -16471,49 +16112,6 @@
                 "d18fbdced84929cc",
                 "0b25481eec6d9f68"
             ]
-        ]
-    },
-    {
-        "id": "063a77116d3802ea",
-        "type": "ui_chart",
-        "z": "0230170315d4730f",
-        "g": "606b287e669294f4",
-        "name": "",
-        "group": "d8770726.1a10d",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "label": "Msg Size over time chart",
-        "chartType": "line",
-        "legend": "false",
-        "xformat": "HH:mm:ss",
-        "interpolate": "linear",
-        "nodata": "",
-        "dot": false,
-        "ymin": "0",
-        "ymax": "",
-        "removeOlder": "5",
-        "removeOlderPoints": "",
-        "removeOlderUnit": "60",
-        "cutout": 0,
-        "useOneColor": false,
-        "useUTC": false,
-        "colors": [
-            "#1f77b4",
-            "#aec7e8",
-            "#ff7f0e",
-            "#2ca02c",
-            "#98df8a",
-            "#d62728",
-            "#ff9896",
-            "#9467bd",
-            "#c5b0d5"
-        ],
-        "outputs": 1,
-        "x": 4001,
-        "y": 3120,
-        "wires": [
-            []
         ]
     },
     {
@@ -17604,271 +17202,6 @@
         "wires": []
     },
     {
-        "id": "0c8818c588788156",
-        "type": "debug",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "name": "",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 770,
-        "y": 700,
-        "wires": []
-    },
-    {
-        "id": "7fabd8961af21415",
-        "type": "unsafe-function",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "name": "retrieve NOVAAS Health",
-        "func": "if(msg.payload === \"ok\"){\n    msg.payload = true;\n} else if(msg.payload === \"not_ok\"){\n    msg.payload = false;\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 830,
-        "y": 740,
-        "wires": [
-            [
-                "b71b0abe0c84fe22",
-                "c43af6195c04dd63",
-                "6a5847ade8f38435",
-                "cbfe4edbe6e338b5",
-                "1ffe490c1a96b685",
-                "65018e33592ea9a2",
-                "cdfe419ae4f2daf5"
-            ]
-        ]
-    },
-    {
-        "id": "b71b0abe0c84fe22",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "76f4488e.b66968",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 740,
-        "wires": []
-    },
-    {
-        "id": "c43af6195c04dd63",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "f9f1bdc8.0e017",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 780,
-        "wires": []
-    },
-    {
-        "id": "6a5847ade8f38435",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "4534a6d5.677c78",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 820,
-        "wires": []
-    },
-    {
-        "id": "cbfe4edbe6e338b5",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "4944a8dc.cb1658",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "1ffe490c1a96b685",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "a9cc6929.51b4",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 900,
-        "wires": []
-    },
-    {
-        "id": "65018e33592ea9a2",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "1e8a2f3d.54af89",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 940,
-        "wires": []
-    },
-    {
-        "id": "cdfe419ae4f2daf5",
-        "type": "ui_led",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "order": 1,
-        "group": "c8188165.80a358",
-        "width": "5",
-        "height": "2",
-        "label": "",
-        "labelPlacement": "right",
-        "labelAlignment": "right",
-        "colorForValue": [
-            {
-                "color": "#ff0000",
-                "value": "false",
-                "valueType": "bool"
-            },
-            {
-                "color": "#008000",
-                "value": "true",
-                "valueType": "bool"
-            }
-        ],
-        "allowColorForValueInMessage": false,
-        "shape": "circle",
-        "showGlow": true,
-        "name": "",
-        "x": 1130,
-        "y": 980,
-        "wires": []
-    },
-    {
         "id": "16a56ea8e636930d",
         "type": "ui_template",
         "z": "0230170315d4730f",
@@ -18614,25 +17947,6 @@
                 "e85e5428c54d4dee",
                 "2abc01a9c1b4fb12",
                 "4eab4b3ff75820c3"
-            ]
-        ],
-        "l": true
-    },
-    {
-        "id": "831fbce5bb893554",
-        "type": "link in",
-        "z": "0230170315d4730f",
-        "g": "589602158480967a",
-        "name": "NOVAAS_Status_UI_In",
-        "links": [
-            "92efeed3ca645aa5"
-        ],
-        "x": 580,
-        "y": 740,
-        "wires": [
-            [
-                "7fabd8961af21415",
-                "0c8818c588788156"
             ]
         ],
         "l": true
@@ -19591,6 +18905,23 @@
         "wires": []
     },
     {
+        "id": "80c663f39db9cfe8",
+        "type": "link call",
+        "z": "0230170315d4730f",
+        "g": "606b287e669294f4",
+        "name": "",
+        "links": [
+            "8cb87649afd62fd8"
+        ],
+        "linkType": "static",
+        "timeout": "30",
+        "x": 3860,
+        "y": 2880,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "2aac71d34da0af1c",
         "type": "inject",
         "z": "1543d308b342690a",
@@ -19626,7 +18957,8 @@
         "wires": [
             [
                 "7897e5f9d24d31a3",
-                "535fefea3045516a"
+                "535fefea3045516a",
+                "f92ed2c964753a48"
             ]
         ]
     },
@@ -19659,25 +18991,250 @@
         "wires": []
     },
     {
+        "id": "f92ed2c964753a48",
+        "type": "switch",
+        "z": "1543d308b342690a",
+        "name": "",
+        "property": "payload.link",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "activeSubscriptions",
+                "vt": "str"
+            }
+        ],
+        "checkall": "false",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 480,
+        "wires": [
+            [
+                "dd785b1b24fb2af7"
+            ]
+        ]
+    },
+    {
+        "id": "644472c8576bb7d4",
+        "type": "function",
+        "z": "1543d308b342690a",
+        "name": "stats",
+        "func": "function isObjEmpty(obj) {\n    return Object.keys(obj).length === 0;\n}\n\nlet statsNBI = context.global.get(\"statsNBI\") || {};\nlet statsSBI = context.global.get(\"statsSBI\") || {};\n\nlet outStatsSBI_msgSpeed = {};\nlet outStatsSBI_msgsOverTime = {};\n\nif (isObjEmpty(statsSBI) || msg.enable == \"OFF\"){\n    outStatsSBI_msgSpeed.payload = 0;\n    outStatsSBI_msgSpeed.max = statsSBI.maxMsgs;\n    outStatsSBI_msgSpeed.title = statsSBI.IntervalAndFrequency;\n\n    outStatsSBI_msgsOverTime.payload = [];\n    //outStatsSBI_msgsOverTime.payload[0] = 0;\n    //outStatsSBI_msgsOverTime.payload[1] = 0;\n    outStatsSBI_msgsOverTime.payload = 0;\n    outStatsSBI_msgsOverTime.title = \"msgs/1 min\";\n\n} else {\n    outStatsSBI_msgSpeed.payload = statsSBI.msgSpeed;\n    outStatsSBI_msgSpeed.max = statsSBI.maxMsgs;\n    outStatsSBI_msgSpeed.title = statsSBI.IntervalAndFrequency;\n\n    //outStatsSBI_msgsOverTime.payload = [];\n    //outStatsSBI_msgsOverTime.payload[0] = Math.floor(Date.now() / 1000);\n    //outStatsSBI_msgsOverTime.payload[1] = statsSBI.msgSpeed;\n    outStatsSBI_msgsOverTime.payload = statsSBI.msgSpeed;\n    outStatsSBI_msgsOverTime.title = \"msgs/1 min\";\n\n}\n\nlet outStatsNBI_msgSpeed = {};\nlet outStatsNBI_msgsOverTime = {};\noutStatsNBI_msgsOverTime.payload = [];\nlet outStatsNBI_msgsSizeOverTime = {};\noutStatsNBI_msgsSizeOverTime.payload = [];\nif (isObjEmpty(statsNBI) || msg.enable == \"OFF\"){\n    outStatsNBI_msgSpeed.payload = 0;\n    outStatsNBI_msgSpeed.max = statsSBI.maxMsgs;\n    outStatsNBI_msgSpeed.title = statsSBI.IntervalAndFrequency;\n\n    //outStatsNBI_msgsOverTime.payload[0] = 0;\n    //outStatsNBI_msgsOverTime.payload[1] = 0;\n    outStatsNBI_msgsOverTime.payload = 0;\n    outStatsNBI_msgsOverTime.title = statsNBI.IntervalAndFrequency;\n\n    //outStatsNBI_msgsSizeOverTime.payload[0] = 0;\n    //outStatsNBI_msgsSizeOverTime.payload[1] = 0;\n    outStatsNBI_msgsSizeOverTime.payload = 0;\n    outStatsNBI_msgsSizeOverTime.title = statsNBI.IntervalAndFrequency;\n\n} else {\n    outStatsNBI_msgSpeed.payload = statsNBI.msgSpeed;\n    outStatsNBI_msgSpeed.max = statsSBI.maxMsgs;\n    outStatsNBI_msgSpeed.title = statsNBI.IntervalAndFrequency;\n    \n    //outStatsNBI_msgsOverTime.payload[0] = Math.floor(Date.now() / 1000);\n    //outStatsNBI_msgsOverTime.payload[1] = statsNBI.msgSpeed;\n    outStatsNBI_msgsOverTime.payload = statsNBI.msgSpeed;\n    outStatsNBI_msgsOverTime.title = statsNBI.IntervalAndFrequency;\n\n    //outStatsNBI_msgsSizeOverTime.payload[0] = Math.floor(Date.now() / 1000);\n    //outStatsNBI_msgsSizeOverTime.payload[1] = statsNBI.msgSize;\n    outStatsNBI_msgsSizeOverTime.payload = statsNBI.msgSize;\n    outStatsNBI_msgsSizeOverTime.title = statsNBI.msgSizeIntervalAndFrequency;\n    \n}\n\nreturn [outStatsSBI_msgSpeed, outStatsSBI_msgsOverTime, outStatsNBI_msgSpeed, outStatsNBI_msgsOverTime, outStatsNBI_msgsSizeOverTime];",
+        "outputs": 5,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 1000,
+        "wires": [
+            [
+                "5c30c48e1a2467ea"
+            ],
+            [
+                "f510d056f722a72f"
+            ],
+            [
+                "cdadfa37404a50cd"
+            ],
+            [
+                "34d16fd5e694be53"
+            ],
+            [
+                "52e1531e0d56bb1a"
+            ]
+        ]
+    },
+    {
+        "id": "1d76854dfbb20b18",
+        "type": "function",
+        "z": "1543d308b342690a",
+        "name": "check status",
+        "func": "function isObjEmpty(obj) {\n    return Object.keys(obj).length === 0;\n}\n\nlet status = context.global.get(\"statusCheckSBI\") || {};\nlet outMsg = {};\nif (isObjEmpty(status) || !status.connected){\n    outMsg.payload = \"NOT CONNECTED\";\n} else if (status.connected){\n    outMsg.payload = \"CONNECTED\";\n}\n\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 820,
+        "wires": [
+            [
+                "b7b1a215ed15c556",
+                "57e6356658c22f0d"
+            ]
+        ]
+    },
+    {
+        "id": "57e6356658c22f0d",
+        "type": "debug",
+        "z": "1543d308b342690a",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 620,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "dd785b1b24fb2af7",
+        "type": "function",
+        "z": "1543d308b342690a",
+        "name": "check subscriptions",
+        "func": "function isObjEmpty(obj) {\n    return Object.keys(obj).length === 0;\n}\n\nlet status = context.global.get(\"statusCheckSBI\") || {};\nlet outMsg = {};\nif (isObjEmpty(status)){\n    outMsg.payload = 0;\n    outMsg.max = 0;\n    return outMsg;\n} else {\n    outMsg.payload = msg.payload.data;\n    outMsg.max = status.nrOfDataSources;\n}\n\nreturn outMsg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 760,
+        "wires": [
+            [
+                "43c94c0e40120042"
+            ]
+        ]
+    },
+    {
+        "id": "1ab0b9bfc07caea0",
+        "type": "inject",
+        "z": "1543d308b342690a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 820,
+        "wires": [
+            [
+                "1d76854dfbb20b18",
+                "45d86a2225614c0a"
+            ]
+        ]
+    },
+    {
+        "id": "3b5c7f53a41bb6dc",
+        "type": "change",
+        "z": "1543d308b342690a",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "enable",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1280,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fa84b4dea4c39af6",
+        "type": "debug",
+        "z": "1543d308b342690a",
+        "name": "on/off switch",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1270,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "1e6c7a273cda476c",
+        "type": "function",
+        "z": "1543d308b342690a",
+        "name": " ",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1095,
+        "y": 1080,
+        "wires": [
+            [
+                "903334f637326ef0"
+            ]
+        ],
+        "icon": "node-red/arrow-in.svg",
+        "l": false
+    },
+    {
+        "id": "45d86a2225614c0a",
+        "type": "function",
+        "z": "1543d308b342690a",
+        "name": "",
+        "func": "let enable = flow.get('enable')\nif (enable == \"ON\") {\n    return msg\n} else {\n    msg.enable = \"OFF\";\n    return msg;\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 1000,
+        "wires": [
+            [
+                "644472c8576bb7d4"
+            ]
+        ]
+    },
+    {
         "id": "97e34cb72c2f36bd",
         "type": "fd-date-time",
         "z": "1543d308b342690a",
-        "fd_container": "69c2e3f5798c3475",
+        "fd_container": "ef647bf71bb867a7",
         "fd_cols": "2",
         "fd_rows": 1,
         "fd_array": false,
         "fd_array_max": 10,
         "name": "",
         "title": "Flow started at",
+        "popup_info": "",
         "value": "",
         "color": "",
         "start_mode": 0,
         "zoom": 100,
-        "low_threshold": "",
+        "low_threshold": null,
         "low_color": "blue",
-        "high_threshold": "",
+        "high_threshold": null,
         "high_color": "pink",
-        "chip": "false",
+        "chip": false,
         "units": [
             "now",
             "sec",
@@ -19689,6 +19246,221 @@
         ],
         "x": 300,
         "y": 120,
+        "wires": []
+    },
+    {
+        "id": "f510d056f722a72f",
+        "type": "fd-spark-line",
+        "z": "1543d308b342690a",
+        "fd_container": "268989bc4b3b4aed",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "",
+        "title": "Spark Line",
+        "popup_info": "",
+        "value": 0,
+        "color": "blue",
+        "fill_color": "",
+        "text_color": "",
+        "show_value": true,
+        "unit": "",
+        "x": 580,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "34d16fd5e694be53",
+        "type": "fd-spark-line",
+        "z": "1543d308b342690a",
+        "fd_container": "8d5a1fac7723db1f",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "",
+        "title": "Spark Line",
+        "popup_info": "",
+        "value": 0,
+        "color": "blue",
+        "fill_color": "",
+        "text_color": "",
+        "show_value": true,
+        "unit": "",
+        "x": 580,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "52e1531e0d56bb1a",
+        "type": "fd-spark-line",
+        "z": "1543d308b342690a",
+        "fd_container": "8d5a1fac7723db1f",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": 10,
+        "name": "",
+        "title": "Spark Line",
+        "popup_info": "",
+        "value": 0,
+        "color": "blue",
+        "fill_color": "",
+        "text_color": "",
+        "show_value": true,
+        "unit": "",
+        "x": 580,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "903334f637326ef0",
+        "type": "fd-toggle",
+        "z": "1543d308b342690a",
+        "fd_container": "ef647bf71bb867a7",
+        "fd_cols": "2",
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": 10,
+        "fd_output_topic": "",
+        "fd_loopback": false,
+        "name": "on/off",
+        "title": "Run stats",
+        "popup_info": "",
+        "value": "",
+        "enabled": true,
+        "color": "",
+        "on_value": "ON",
+        "off_value": "OFF",
+        "show_value": true,
+        "x": 1090,
+        "y": 1040,
+        "wires": [
+            [
+                "3b5c7f53a41bb6dc",
+                "fa84b4dea4c39af6",
+                "1e6c7a273cda476c"
+            ]
+        ]
+    },
+    {
+        "id": "5c30c48e1a2467ea",
+        "type": "fd-gauge",
+        "z": "1543d308b342690a",
+        "fd_container": "268989bc4b3b4aed",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": "1",
+        "name": "",
+        "title": "",
+        "popup_info": "",
+        "value": null,
+        "unit": "msgs",
+        "arc": 180,
+        "min": 0,
+        "max": null,
+        "color": "light-green-accent-3",
+        "low_color": "",
+        "high_color": "",
+        "low_threshold": null,
+        "high_threshold": null,
+        "base_color": "grey-darken-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 570,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "cdadfa37404a50cd",
+        "type": "fd-gauge",
+        "z": "1543d308b342690a",
+        "fd_container": "8d5a1fac7723db1f",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": "1",
+        "name": "",
+        "title": "",
+        "popup_info": "",
+        "value": null,
+        "unit": "msgs",
+        "arc": 180,
+        "min": 0,
+        "max": null,
+        "color": "light-green-accent-3",
+        "low_color": "",
+        "high_color": "",
+        "low_threshold": null,
+        "high_threshold": null,
+        "base_color": "grey-darken-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 570,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "43c94c0e40120042",
+        "type": "fd-gauge",
+        "z": "1543d308b342690a",
+        "fd_container": "3ecc3bf90d60cd53",
+        "fd_cols": "3",
+        "fd_rows": "3",
+        "fd_array": false,
+        "fd_array_max": "1",
+        "name": "",
+        "title": "Nr of subscriptions",
+        "popup_info": "",
+        "value": null,
+        "unit": "",
+        "arc": 180,
+        "min": 0,
+        "max": null,
+        "color": "light-green-accent-3",
+        "low_color": "",
+        "high_color": "",
+        "low_threshold": null,
+        "high_threshold": null,
+        "base_color": "grey-darken-3",
+        "needle_color": "white",
+        "radius": 70,
+        "stretch": false,
+        "x": 770,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "b7b1a215ed15c556",
+        "type": "fd-stat",
+        "z": "1543d308b342690a",
+        "fd_container": "ef647bf71bb867a7",
+        "fd_cols": "2",
+        "fd_rows": 1,
+        "fd_array": false,
+        "fd_array_max": "1",
+        "name": "Status",
+        "title": "Status",
+        "popup_info": "",
+        "unit": "",
+        "value": "",
+        "color": "transparent",
+        "low_color": "red-accent-3",
+        "high_color": "light-green-accent-3",
+        "low_threshold": null,
+        "high_threshold": null,
+        "low_regexp": "NOT CONNECTED",
+        "high_regexp": "CONNECTED",
+        "chip": false,
+        "iso_prefix": false,
+        "precision": null,
+        "zoom": null,
+        "x": 770,
+        "y": 820,
         "wires": []
     },
     {
